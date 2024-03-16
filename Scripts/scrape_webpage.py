@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 def scrape_webpage():
     # Send a GET request to the webpage
     response = requests.get('https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash')
-
+    
     # Parse the HTML content of the page with BeautifulSoup
     soup = BeautifulSoup(response.text, 'html.parser')
 
