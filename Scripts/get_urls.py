@@ -1,6 +1,5 @@
 import requests
 from bs4 import BeautifulSoup
-import os
 
 def main():
     url = "https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash"
@@ -35,8 +34,7 @@ def main():
         categorized_urls[category].append((name, url))
 
     # 将分类后的链接写入文件
-    output_file = os.getenv("OUTPUT_FILE")
-    with open(output_file, "w") as f:
+    with open("All_Urls.list", "w") as f:
         for category, urls in categorized_urls.items():
             f.write(f"{category}:\n")
             for name, url in urls:
