@@ -11,8 +11,6 @@ def scrape_webpage():
     # Find all tables in the webpage
     tables = soup.find_all('table')
 
-
-
     # Open the output file
     with open('Urls/All_Urls.list', 'w') as f:
         # Iterate over each table
@@ -31,48 +29,10 @@ def scrape_webpage():
                 for link in links:
                     # Remove the slashes and quotes from the link URL
                     url = link["href"].replace("\\", "").replace("\"", "")
-                    # Write the link text and URL to the file
-                    f.write(f'{link.text}: {url}\n')
-
-    
-
-    # # Open the output file
-    # with open('Urls/All_Urls.list', 'w') as f:
-    #     # Iterate over each table
-    #     for table in tables:
-    #         # Find the table header and write it to the file
-    #         header = table.find('thead').find('tr').find('th').text
-    #         f.write(f'\\n{header}\\n')
-
-    #         # Find all rows in the table body
-    #         rows = table.find('tbody').find_all('tr')
-    #         # Iterate over each row
-    #         for row in rows:
-    #             # Find all links in the row
-    #             links = row.find_all('a')
-    #             # Iterate over each link
-    #             for link in links:
-    #                 # Write the link text and URL to the file
-    #                 f.write(f'{link.text}: {link["href"]}\\n')
-
-    # Open the output file
-    with open('Urls/All_Urls_No_Name.list', 'w') as f:
-        # Iterate over each table
-        for table in tables:
-            # Find the table header and write it to the file
-            header = table.find('thead').find('tr').find('th').text
-            f.write(f'\\n{header}\\n')
-
-            # Find all rows in the table body
-            rows = table.find('tbody').find_all('tr')
-            # Iterate over each row
-            for row in rows:
-                # Find all links in the row
-                links = row.find_all('a')
-                # Iterate over each link
-                for link in links:
-                    # Write the link text and URL to the file
-                    f.write(f'{link.text}: {link["href"]}\\n')
+                    # Apply formatting to the URL
+                    formatted_url = url.replace("https://github.com", "https://raw.githubusercontent.com").replace("/tree", "") + ".list"
+                    # Write the link text and formatted URL to the file
+                    f.write(f'{link.text}\n{formatted_url}\n')
 
 if __name__ == "__main__":
     scrape_webpage()
