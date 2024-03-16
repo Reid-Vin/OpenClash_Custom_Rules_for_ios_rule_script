@@ -25,3 +25,16 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.COMMON_TOKEN }}
           OUTPUT_FILE: ${{ github.workspace }}/Urls/All_Urls.list
+
+      - name: Copy file to destination
+        run: cp ${{ github.workspace }}/Urls/All_Urls.list ${{ github.workspace }}/Clash/Ruleset/All_Urls.list
+
+      - name: Push changes
+        uses: EndBug/add-and-commit@v9.1.4
+        with:
+          author_name: Reid_Vin
+          author_email: reid_vin@outlook.com
+          message: Automatic diversion rules update
+          add: "./Clash/Ruleset/All_Urls.list"
+        env:
+          GITHUB_TOKEN: ${{ secrets.COMMON_TOKEN }}
