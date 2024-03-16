@@ -32,15 +32,15 @@ def main():
     for category, name, url in all_urls:
         if category not in categorized_urls:
             categorized_urls[category] = []
-        categorized_urls[category].append(f"{name}: {url}")
+        categorized_urls[category].append((name, url))
 
     # 将分类后的链接写入文件
     output_file = os.getenv("OUTPUT_FILE")
     with open(output_file, "w") as f:
         for category, urls in categorized_urls.items():
             f.write(f"{category}:\n")
-            for url in urls:
-                f.write(f"    {url}\n")
+            for name, url in urls:
+                f.write(f"    {name}: {url}\n")
 
 if __name__ == "__main__":
     main()
