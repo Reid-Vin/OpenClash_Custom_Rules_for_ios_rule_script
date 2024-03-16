@@ -32,6 +32,6 @@ jobs:
           author_name: Reid_Vin
           author_email: reid_vin@outlook.com
           message: Automatic diversion rules update
-          add: "/Urls/All_Urls.list"
+          add: "./Urls/All_Urls.list"
         env:
           GITHUB_TOKEN: ${{ secrets.COMMON_TOKEN }}
