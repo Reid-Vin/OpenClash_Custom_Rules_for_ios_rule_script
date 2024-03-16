@@ -21,7 +21,7 @@ jobs:
       - name: Download and process diversion rules
         run: |
           # 将上游分流 URL 字符串分割成数组
-          IFS=$'\n' read -d '' -r -a URLS <<< "DIVERSION_RULES_LIST_URLS"
+          IFS=$'\n' read -d '' -r -a URLS <<< "$DIVERSION_RULES_LIST_URLS"
 
           # 初始化一个空字符串来存储合并的规则
           merged_rules=""
@@ -39,7 +39,7 @@ jobs:
           done
 
           # 将解释说明和合并的规则写入最终的文件
-          echo -e "$ILLUSTRATE\n$merged_rules" > /Clash/Ruleset/$FILENAME$.list
+          echo -e "$ILLUSTRATE\n$merged_rules" > /Clash/Ruleset/$FILENAME.list
 
           echo "合并完成》》》"
       - name: Push changes
@@ -48,6 +48,6 @@ jobs:
           author_name: Reid_Vin
           author_email: reid_vin@outlook.com
           message: Automatic diversion rules update
-          add: '/Clash/Ruleset/merged_rules.txt'
+          add: '/Clash/Ruleset/$FILENAME.list'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
