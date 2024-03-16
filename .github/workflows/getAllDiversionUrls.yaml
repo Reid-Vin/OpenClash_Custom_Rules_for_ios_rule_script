@@ -22,7 +22,7 @@ jobs:
           pip install requests beautifulsoup4
 
       - name: Scrape webpage and generate data
-        run: python ./Scripts/filter_all_url.py
+        run: python ./Scripts/scrape_webpage.py
 
       - name: Push changes
         uses: EndBug/add-and-commit@v9.1.4
