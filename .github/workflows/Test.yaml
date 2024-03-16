@@ -1,4 +1,4 @@
-name: Update Diversion Rules
+name: Test
 
 on:
   schedule:
