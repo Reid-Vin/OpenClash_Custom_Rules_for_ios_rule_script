@@ -1,792 +1,1560 @@
 
 📵Advertising
-去广告精简版: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingLite
-去广告: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Advertising
-去广告测试版: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest
-直连: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Direct
-知乎广告拦截: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ZhihuAds
-AdvertisingMiTV: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingMiTV
+去广告精简版
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingLite.list
+去广告
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Advertising.list
+去广告测试版
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingTest.list
+直连
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Direct.list
+知乎广告拦截
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ZhihuAds.list
+AdvertisingMiTV
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingMiTV.list
 
 🌏Global
-YouTube: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/YouTube
-Google: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Google
-GoogleDrive: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/GoogleDrive
-YouTubeMusic: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/YouTubeMusic
-GitHub: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/GitHub
-OneDrive: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/OneDrive
-Microsoft: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Microsoft
-AppStore: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AppStore
-iCloud: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/iCloud
-TestFlight: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/TestFlight
-FitnessPlus: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/FitnessPlus
-AppleMail: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AppleMail
-AppleMusic: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AppleMusic
-AppleNews: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AppleNews
-AppleTV: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AppleTV
-Siri: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Siri
-Apple: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Apple
-Global: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Global
-Proxy: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Proxy
-GlobalMedia: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/GlobalMedia
-Speedtest: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Speedtest
-Telegram: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Telegram
-PotatoChat: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/PotatoChat
-KakaoTalk: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/KakaoTalk
-Line: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Line
-Netflix: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Netflix
-百度网盘国际版: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Dubox
-TikTok: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/TikTok
-Disney: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Disney
-Twitter: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Twitter
-Cloudflare: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Cloudflare
-Facebook: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Facebook
-Spotify: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Spotify
-维基: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Wikipedia
-Discord: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Discord
-Mail: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Mail
-PayPal: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/PayPal
-Spark: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Spark
-Sony: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Sony
-LastPass: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/LastPass
-BBC: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/BBC
-Amazon: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Amazon
-Instagram: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Instagram
-Whatsapp: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Whatsapp
-TeamViewer: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/TeamViewer
-AsianMedia: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AsianMedia
-Bahamut: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Bahamut
-Adobe: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Adobe
-AFP: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AFP
-ATTWatchTV: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ATTWatchTV
-AbemaTV: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AbemaTV
-All4: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/All4
-AmazonPrimeVideo: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AmazonPrimeVideo
-Americasvoice: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Americasvoice
-AppleDaily: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AppleDaily
-BoXun: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/BoXun
-CBS: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/CBS
-CNN: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/CNN
-CableTV: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/CableTV
-DAZN: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/DAZN
-Dailymotion: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Dailymotion
-Deezer: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Deezer
-EncoreTVB: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/EncoreTVB
-Fox: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Fox
-HBO: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/HBO
-HWTV: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/HWTV
-Huffpost: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Huffpost
-Hulu: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Hulu
-ITV: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ITV
-JOOX: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/JOOX
-Japonx: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Japonx
-KKBOX: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/KKBOX
-Kantv: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Kantv
-LiTV: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/LiTV
-LineTV: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/LineTV
-LondonReal: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/LondonReal
-MOOV: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/MOOV
-MeWatch: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/MeWatch
-My5: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/My5
-NYPost: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/NYPost
-NYTimes: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/NYTimes
-Nikkei: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Nikkei
-PBS: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/PBS
-Pandora: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Pandora
-PandoraTV: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/PandoraTV
-Qobuz: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Qobuz
-RTHK: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/RTHK
-SkyGO: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/SkyGO
-SoundCloud: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/SoundCloud
-TIDAL: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/TIDAL
-TVB: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/TVB
-TaiWanGood: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/TaiWanGood
-VOA: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/VOA
-VidolTV: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/VidolTV
-Viki: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Viki
-Vimeo: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Vimeo
-ViuTV: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ViuTV
-Voxmedia: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Voxmedia
-WeTV: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/WeTV
-ZeeTV: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ZeeTV
-friDay: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/friDay
-iTalkBB: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/iTalkBB
-AppleProxy: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AppleProxy
-Clubhouse: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Clubhouse
-ClubhouseIP: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ClubhouseIP
-9News: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/9News
-9to5: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/9to5
-AOL: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AOL
-Acer: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Acer
-Adidas: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Adidas
-Akamai: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Akamai
-Apkpure: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Apkpure
-Atlassian: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Atlassian
-BMW: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/BMW
-Bestbuy: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Bestbuy
-Bloomberg: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Bloomberg
-Blued: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Blued
-BrightCove: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/BrightCove
-Buypass: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Buypass
-CHT: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/CHT
-Canon: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Canon
-Cisco: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Cisco
-Comodo: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Comodo
-DMM: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/DMM
-Dailymail: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Dailymail
-Dell: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Dell
-DigiCert: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/DigiCert
-Disqus: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Disqus
-Docker: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Docker
-Dropbox: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Dropbox
-DtDNS: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/DtDNS
-Duckduckgo: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Duckduckgo
-DynDNS: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/DynDNS
-Dynu: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Dynu
-Emojipedia: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Emojipedia
-Espn: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Espn
-FlipBoard: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/FlipBoard
-Gettyimages: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Gettyimages
-Gigabyte: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Gigabyte
-GitBook: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/GitBook
-GitLab: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/GitLab
-Globalsign: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/GlobalSign
-Gucci: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Gucci
-HKBN: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/HKBN
-HKedcity: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/HKedcity
-HP: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/HP
-Heroku: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Heroku
-IBM: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/IBM
-IMDB: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/IMDB
-Identrust: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Identrust
-Imgur: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Imgur
-Intel: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Intel
-Jetbrains: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Jetbrains
-Jfrog: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Jfrog
-Jquery: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Jquery
-Jsdelivr: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Jsdelivr
-Jwplayer: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Jwplayer
-LG: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/LG
-LastFM: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/LastFM
-LivePerson: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/LivePerson
-Logitech: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Logitech
-MEGA: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/MEGA
-Mailru: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Mailru
-Manorama: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Manorama
-McDonalds: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/McDonalds
-Mozilla: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Mozilla
-Naver: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Naver
-Nike: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Nike
-Notion: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Notion
-Nvidia: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Nvidia
-Opera: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Opera
-Oracle: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Oracle
-Oreilly: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Oreilly
-PCCW: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/PCCW
-Picsee: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Picsee
-Pinterest: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Pinterest
-Pixiv: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Pixiv
-Pixnet: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Pixnet
-Protonmail: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Protonmail
-Qualcomm: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Qualcomm
-Rakuten: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Rakuten
-Rarbg: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Rarbg
-Razer: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Razer
-Reddit: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Reddit
-Samsung: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Samsung
-Sectigo: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Sectigo
-Shopee: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Shopee
-Shopify: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Shopify
-Slack: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Slack
-Sling: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Sling
-SmarTone: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/SmarTone
-Snap: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Snap
-SourceForge: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/SourceForge
-Stackexchange: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Stackexchange
-Starbucks: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Starbucks
-SublimeText: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/SublimeText
-ThomsonReuters: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ThomsonReuters
-Tumblr: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Tumblr
-Twitch: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Twitch
-VISA: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/VISA
-VK: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/VK
-Vercel: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Vercel
-Verisign: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Verisign
-Verizon: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Verizon
-WIX: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/WIX
-Westerndigital: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Westerndigital
-Wikimedia: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Wikimedia
-Wordpress: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Wordpress
-Yandex: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Yandex
-Zee: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Zee
-Zendesk: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Zendesk
-Zoho: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Zoho
-eBay: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/eBay
-Intercom: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Intercom
-Limelight: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Limelight
-Python: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Python
-Unity: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Unity
-Cryptocurrency: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Cryptocurrency
-TelegramNL: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/TelegramNL
-TelegramSG: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/TelegramSG
-TelegramUS: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/TelegramUS
-PChome Online 網路家庭: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/PChomeTW
-MOMO購物網: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/MOMOShop
-PChome: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/PChome
-ProxyLite: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ProxyLite
-Synology: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Synology
-Dood: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Dood
-Tesla: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Tesla
-Embl: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Embl
-HashiCorp: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/HashiCorp
-Scaleflex: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Scaleflex
-CWSeed: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/CWSeed
-EHGallery: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/EHGallery
-FuboTV: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/FuboTV
-NBC: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/NBC
-Faronics: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Faronics
-Salesforce: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Salesforce
-Ubuntu: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Ubuntu
-iQIYIIntl: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/iQIYIIntl
-谷歌推送: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/GoogleFCM
-QuickConnect: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/QuickConnect
-HamiVideo: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/HamiVideo
-Emby: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Emby
-PikPak: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/PikPak
-Cake: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Cake
-AmazonIP: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AmazonIP
-币安交易所: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Binance
-GoogleEarth: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/GoogleEarth
-TeraBox: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/TeraBox
-BritboxUK: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/BritboxUK
-DigitalOcean: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/DigitalOcean
-宜家: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/IKEA
-RemoteDesktop: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/RemoteDesktop
-VikACG: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/VikACG
-GlobalScholar: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/GlobalScholar
-Npmjs: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Npmjs
-Sharethis: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Sharethis
-Contentful: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Contentful
-Hkgolden: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Hkgolden
-Tmdb: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Tmdb
-Entrust: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Entrust
-Haveibeenpwned: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Haveibeenpwned
-Cnet: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Cnet
-Reabble: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Reabble
-ChemeQuations: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChemeQuations
-Movefree: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Movefree
-Linguee: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Linguee
-Figma: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Figma
-TrustWave: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/TrustWave
-Pubmatic: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Pubmatic
-SlideShare: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/SlideShare
-Flurry: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Flurry
-Collabora: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Collabora
-CyberTrust: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/CyberTrust
-Patreon: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Patreon
-Addthis: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Addthis
-FreeCodeCamp: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/FreeCodeCamp
-Arphic: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Arphic
-1337x: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/1337x
-4chan: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/4chan
-OpenAI: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/OpenAI
-留园网: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/6park
-Accuweather: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Accuweather
-Actalis: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Actalis
-NaSDDNS: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/NaSDDNS
-NivodTV: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/NivodTV
-Olevod: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Olevod
-Claude: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Claude
-ChinaDNS: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaDNS
-Crypto: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Crypto
-MIUIPrivacy: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/MIUIPrivacy
-AdColony: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdColony
-AddToAny: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AddToAny
-AdobeActivation: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdobeActivation
-Aerogard: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Aerogard
-Afdian: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Afdian
-AirWick: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AirWick
-ALJazeera: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ALJazeera
-AmazonTrust: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AmazonTrust
-AMD: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AMD
-AMP: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AMP
-Anaconda: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Anaconda
-AnandTech: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AnandTech
-Android: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Android
-Anime: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Anime
-Anonv: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Anonv
-Anthropic: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Anthropic
-APKCombo: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/APKCombo
-AppLovin: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AppLovin
-Threads: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Threads
-Duolingo: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Duolingo
-Civitai: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Civitai
-LinkedIn: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/LinkedIn
-OKX: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/OKX
-TruthSocial: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/TruthSocial
-Zoom: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Zoom
-Zalo: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Zalo
-Gemini: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Gemini
+YouTube
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube.list
+Google
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google.list
+GoogleDrive
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GoogleDrive.list
+YouTubeMusic
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTubeMusic.list
+GitHub
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GitHub.list
+OneDrive
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OneDrive.list
+Microsoft
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft.list
+AppStore
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppStore.list
+iCloud
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/iCloud.list
+TestFlight
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TestFlight.list
+FitnessPlus
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/FitnessPlus.list
+AppleMail
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleMail.list
+AppleMusic
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleMusic.list
+AppleNews
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleNews.list
+AppleTV
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleTV.list
+Siri
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Siri.list
+Apple
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple.list
+Global
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Global.list
+Proxy
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Proxy.list
+GlobalMedia
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia.list
+Speedtest
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Speedtest.list
+Telegram
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram.list
+PotatoChat
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PotatoChat.list
+KakaoTalk
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/KakaoTalk.list
+Line
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Line.list
+Netflix
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix.list
+百度网盘国际版
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Dubox.list
+TikTok
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok.list
+Disney
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Disney.list
+Twitter
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Twitter.list
+Cloudflare
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Cloudflare.list
+Facebook
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Facebook.list
+Spotify
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify.list
+维基
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Wikipedia.list
+Discord
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Discord.list
+Mail
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Mail.list
+PayPal
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PayPal.list
+Spark
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spark.list
+Sony
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Sony.list
+LastPass
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/LastPass.list
+BBC
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BBC.list
+Amazon
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Amazon.list
+Instagram
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Instagram.list
+Whatsapp
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Whatsapp.list
+TeamViewer
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TeamViewer.list
+AsianMedia
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AsianMedia.list
+Bahamut
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Bahamut.list
+Adobe
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Adobe.list
+AFP
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AFP.list
+ATTWatchTV
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ATTWatchTV.list
+AbemaTV
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AbemaTV.list
+All4
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/All4.list
+AmazonPrimeVideo
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AmazonPrimeVideo.list
+Americasvoice
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Americasvoice.list
+AppleDaily
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleDaily.list
+BoXun
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BoXun.list
+CBS
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/CBS.list
+CNN
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/CNN.list
+CableTV
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/CableTV.list
+DAZN
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DAZN.list
+Dailymotion
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Dailymotion.list
+Deezer
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Deezer.list
+EncoreTVB
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/EncoreTVB.list
+Fox
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Fox.list
+HBO
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HBO.list
+HWTV
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HWTV.list
+Huffpost
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Huffpost.list
+Hulu
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Hulu.list
+ITV
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ITV.list
+JOOX
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/JOOX.list
+Japonx
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Japonx.list
+KKBOX
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/KKBOX.list
+Kantv
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Kantv.list
+LiTV
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/LiTV.list
+LineTV
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/LineTV.list
+LondonReal
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/LondonReal.list
+MOOV
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/MOOV.list
+MeWatch
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/MeWatch.list
+My5
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/My5.list
+NYPost
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/NYPost.list
+NYTimes
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/NYTimes.list
+Nikkei
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Nikkei.list
+PBS
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PBS.list
+Pandora
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Pandora.list
+PandoraTV
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PandoraTV.list
+Qobuz
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Qobuz.list
+RTHK
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/RTHK.list
+SkyGO
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/SkyGO.list
+SoundCloud
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/SoundCloud.list
+TIDAL
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TIDAL.list
+TVB
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TVB.list
+TaiWanGood
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TaiWanGood.list
+VOA
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/VOA.list
+VidolTV
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/VidolTV.list
+Viki
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Viki.list
+Vimeo
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Vimeo.list
+ViuTV
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ViuTV.list
+Voxmedia
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Voxmedia.list
+WeTV
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/WeTV.list
+ZeeTV
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ZeeTV.list
+friDay
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/friDay.list
+iTalkBB
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/iTalkBB.list
+AppleProxy
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleProxy.list
+Clubhouse
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Clubhouse.list
+ClubhouseIP
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ClubhouseIP.list
+9News
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/9News.list
+9to5
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/9to5.list
+AOL
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AOL.list
+Acer
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Acer.list
+Adidas
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Adidas.list
+Akamai
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Akamai.list
+Apkpure
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apkpure.list
+Atlassian
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Atlassian.list
+BMW
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BMW.list
+Bestbuy
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Bestbuy.list
+Bloomberg
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Bloomberg.list
+Blued
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Blued.list
+BrightCove
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BrightCove.list
+Buypass
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Buypass.list
+CHT
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/CHT.list
+Canon
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Canon.list
+Cisco
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Cisco.list
+Comodo
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Comodo.list
+DMM
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DMM.list
+Dailymail
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Dailymail.list
+Dell
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Dell.list
+DigiCert
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DigiCert.list
+Disqus
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Disqus.list
+Docker
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Docker.list
+Dropbox
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Dropbox.list
+DtDNS
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DtDNS.list
+Duckduckgo
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Duckduckgo.list
+DynDNS
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DynDNS.list
+Dynu
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Dynu.list
+Emojipedia
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Emojipedia.list
+Espn
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Espn.list
+FlipBoard
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/FlipBoard.list
+Gettyimages
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Gettyimages.list
+Gigabyte
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Gigabyte.list
+GitBook
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GitBook.list
+GitLab
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GitLab.list
+Globalsign
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalSign.list
+Gucci
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Gucci.list
+HKBN
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HKBN.list
+HKedcity
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HKedcity.list
+HP
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HP.list
+Heroku
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Heroku.list
+IBM
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/IBM.list
+IMDB
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/IMDB.list
+Identrust
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Identrust.list
+Imgur
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Imgur.list
+Intel
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Intel.list
+Jetbrains
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Jetbrains.list
+Jfrog
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Jfrog.list
+Jquery
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Jquery.list
+Jsdelivr
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Jsdelivr.list
+Jwplayer
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Jwplayer.list
+LG
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/LG.list
+LastFM
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/LastFM.list
+LivePerson
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/LivePerson.list
+Logitech
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Logitech.list
+MEGA
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/MEGA.list
+Mailru
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Mailru.list
+Manorama
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Manorama.list
+McDonalds
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/McDonalds.list
+Mozilla
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Mozilla.list
+Naver
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Naver.list
+Nike
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Nike.list
+Notion
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Notion.list
+Nvidia
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Nvidia.list
+Opera
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Opera.list
+Oracle
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Oracle.list
+Oreilly
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Oreilly.list
+PCCW
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PCCW.list
+Picsee
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Picsee.list
+Pinterest
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Pinterest.list
+Pixiv
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Pixiv.list
+Pixnet
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Pixnet.list
+Protonmail
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Protonmail.list
+Qualcomm
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Qualcomm.list
+Rakuten
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Rakuten.list
+Rarbg
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Rarbg.list
+Razer
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Razer.list
+Reddit
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Reddit.list
+Samsung
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Samsung.list
+Sectigo
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Sectigo.list
+Shopee
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Shopee.list
+Shopify
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Shopify.list
+Slack
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Slack.list
+Sling
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Sling.list
+SmarTone
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/SmarTone.list
+Snap
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Snap.list
+SourceForge
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/SourceForge.list
+Stackexchange
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Stackexchange.list
+Starbucks
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Starbucks.list
+SublimeText
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/SublimeText.list
+ThomsonReuters
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ThomsonReuters.list
+Tumblr
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Tumblr.list
+Twitch
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Twitch.list
+VISA
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/VISA.list
+VK
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/VK.list
+Vercel
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Vercel.list
+Verisign
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Verisign.list
+Verizon
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Verizon.list
+WIX
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/WIX.list
+Westerndigital
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Westerndigital.list
+Wikimedia
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Wikimedia.list
+Wordpress
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Wordpress.list
+Yandex
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Yandex.list
+Zee
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zee.list
+Zendesk
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zendesk.list
+Zoho
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zoho.list
+eBay
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/eBay.list
+Intercom
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Intercom.list
+Limelight
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Limelight.list
+Python
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Python.list
+Unity
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Unity.list
+Cryptocurrency
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Cryptocurrency.list
+TelegramNL
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TelegramNL.list
+TelegramSG
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TelegramSG.list
+TelegramUS
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TelegramUS.list
+PChome Online 網路家庭
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PChomeTW.list
+MOMO購物網
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/MOMOShop.list
+PChome
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PChome.list
+ProxyLite
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ProxyLite.list
+Synology
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Synology.list
+Dood
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Dood.list
+Tesla
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Tesla.list
+Embl
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Embl.list
+HashiCorp
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HashiCorp.list
+Scaleflex
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Scaleflex.list
+CWSeed
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/CWSeed.list
+EHGallery
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/EHGallery.list
+FuboTV
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/FuboTV.list
+NBC
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/NBC.list
+Faronics
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Faronics.list
+Salesforce
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Salesforce.list
+Ubuntu
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Ubuntu.list
+iQIYIIntl
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/iQIYIIntl.list
+谷歌推送
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GoogleFCM.list
+QuickConnect
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/QuickConnect.list
+HamiVideo
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HamiVideo.list
+Emby
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Emby.list
+PikPak
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PikPak.list
+Cake
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Cake.list
+AmazonIP
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AmazonIP.list
+币安交易所
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Binance.list
+GoogleEarth
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GoogleEarth.list
+TeraBox
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TeraBox.list
+BritboxUK
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BritboxUK.list
+DigitalOcean
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DigitalOcean.list
+宜家
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/IKEA.list
+RemoteDesktop
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/RemoteDesktop.list
+VikACG
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/VikACG.list
+GlobalScholar
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalScholar.list
+Npmjs
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Npmjs.list
+Sharethis
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Sharethis.list
+Contentful
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Contentful.list
+Hkgolden
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Hkgolden.list
+Tmdb
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Tmdb.list
+Entrust
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Entrust.list
+Haveibeenpwned
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Haveibeenpwned.list
+Cnet
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Cnet.list
+Reabble
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Reabble.list
+ChemeQuations
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChemeQuations.list
+Movefree
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Movefree.list
+Linguee
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Linguee.list
+Figma
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Figma.list
+TrustWave
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TrustWave.list
+Pubmatic
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Pubmatic.list
+SlideShare
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/SlideShare.list
+Flurry
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Flurry.list
+Collabora
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Collabora.list
+CyberTrust
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/CyberTrust.list
+Patreon
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Patreon.list
+Addthis
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Addthis.list
+FreeCodeCamp
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/FreeCodeCamp.list
+Arphic
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Arphic.list
+1337x
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/1337x.list
+4chan
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/4chan.list
+OpenAI
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OpenAI.list
+留园网
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/6park.list
+Accuweather
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Accuweather.list
+Actalis
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Actalis.list
+NaSDDNS
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/NaSDDNS.list
+NivodTV
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/NivodTV.list
+Olevod
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Olevod.list
+Claude
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Claude.list
+ChinaDNS
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaDNS.list
+Crypto
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Crypto.list
+MIUIPrivacy
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/MIUIPrivacy.list
+AdColony
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdColony.list
+AddToAny
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AddToAny.list
+AdobeActivation
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdobeActivation.list
+Aerogard
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Aerogard.list
+Afdian
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Afdian.list
+AirWick
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AirWick.list
+ALJazeera
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ALJazeera.list
+AmazonTrust
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AmazonTrust.list
+AMD
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AMD.list
+AMP
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AMP.list
+Anaconda
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Anaconda.list
+AnandTech
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AnandTech.list
+Android
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Android.list
+Anime
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Anime.list
+Anonv
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Anonv.list
+Anthropic
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Anthropic.list
+APKCombo
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/APKCombo.list
+AppLovin
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppLovin.list
+Threads
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Threads.list
+Duolingo
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Duolingo.list
+Civitai
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Civitai.list
+LinkedIn
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/LinkedIn.list
+OKX
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OKX.list
+TruthSocial
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TruthSocial.list
+Zoom
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zoom.list
+Zalo
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zalo.list
+Gemini
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Gemini.list
 
 🌏GlobalMedia
-YouTube: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/YouTube
-YouTubeMusic: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/YouTubeMusic
-AppleMusic: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AppleMusic
-AppleTV: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AppleTV
-GlobalMedia: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/GlobalMedia
-Netflix: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Netflix
-TikTok: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/TikTok
-Disney: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Disney
-Spotify: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Spotify
-Niconico: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Niconico
-BBC: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/BBC
-AsianMedia: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AsianMedia
-Bahamut: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Bahamut
-Hulu: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Hulu
-PandoraTV: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/PandoraTV
-TVB: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/TVB
-HBO(香港): https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/HBOHK
-HBO(美国): https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/HBOUSA
-HuluJP: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/HuluJP
-HuluUSA: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/HuluUSA
-FOX NOW: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/FOXNOW
-FOXPlus: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/FOXPlus
-KKTV: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/KKTV
-NaverTV: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/NaverTV
-NowE: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/NowE
-ParamountPlus: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ParamountPlus
-PrimeVideo: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/PrimeVideo
-TVer: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/TVer
-myTVSUPER: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/myTVSUPER
-HBOAsia: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/HBOAsia
-BiliBiliIntl: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/BiliBiliIntl
-DiscoveryPlus: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/DiscoveryPlus
-Overcast: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Overcast
-Peacock: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Peacock
-Emby: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Emby
-Cake: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Cake
-BritboxUK: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/BritboxUK
-HKOpenTV: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/HKOpenTV
-Abema: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Abema
-Acplay: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Acplay
-UKMedia: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/UKMedia
-USMedia: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/USMedia
+YouTube
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube.list
+YouTubeMusic
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTubeMusic.list
+AppleMusic
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleMusic.list
+AppleTV
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleTV.list
+GlobalMedia
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia.list
+Netflix
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix.list
+TikTok
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok.list
+Disney
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Disney.list
+Spotify
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify.list
+Niconico
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Niconico.list
+BBC
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BBC.list
+AsianMedia
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AsianMedia.list
+Bahamut
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Bahamut.list
+Hulu
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Hulu.list
+PandoraTV
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PandoraTV.list
+TVB
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TVB.list
+HBO(香港)
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HBOHK.list
+HBO(美国)
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HBOUSA.list
+HuluJP
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HuluJP.list
+HuluUSA
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HuluUSA.list
+FOX NOW
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/FOXNOW.list
+FOXPlus
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/FOXPlus.list
+KKTV
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/KKTV.list
+NaverTV
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/NaverTV.list
+NowE
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/NowE.list
+ParamountPlus
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ParamountPlus.list
+PrimeVideo
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PrimeVideo.list
+TVer
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TVer.list
+myTVSUPER
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/myTVSUPER.list
+HBOAsia
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HBOAsia.list
+BiliBiliIntl
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BiliBiliIntl.list
+DiscoveryPlus
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DiscoveryPlus.list
+Overcast
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Overcast.list
+Peacock
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Peacock.list
+Emby
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Emby.list
+Cake
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Cake.list
+BritboxUK
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BritboxUK.list
+HKOpenTV
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HKOpenTV.list
+Abema
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Abema.list
+Acplay
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Acplay.list
+UKMedia
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/UKMedia.list
+USMedia
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/USMedia.list
 
 🇨🇳Mainland
-BiliBili: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/BiliBili
-滴滴出行: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/DiDi
-美图: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/MeiTu
-拼多多: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Pinduoduo
-新浪: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Sina
-百度: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Baidu
-奇虎360: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/360
-4399: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/4399
-唯品会: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/VipShop
-小米: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/XiaoMi
-微博: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Weibo
-字节跳动: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ByteDance
-China: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/China
-ChinaTest: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaTest
-ChinaIPs: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaIPs
-ChinaIPs: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaIPs
-CCTV: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/CCTV
-迅雷: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Xunlei
-华为: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Huawei
-ChinaMedia: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaMedia
-网易: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/NetEase
-网易云音乐: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/NetEaseMusic
-优酷: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Youku
-腾讯视频: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/TencentVideo
-爱奇艺: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/iQIYI
-斗鱼: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Douyu
-喜马拉雅: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Himalaya
-阿里巴巴: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Alibaba
-115: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/115
-12306: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/12306
-17173: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/17173
-178: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/178
-一起作业: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/17zuoye
-36氪: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/36kr
-前程无忧: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/51Job
-56网: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/56
-58同城: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/58TongCheng
-农业银行: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ABC
-声网: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Agora
-支付宝: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AliPay
-安天科技: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AnTianKeJi
-安居客: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Anjuke
-中国银行: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/BOC
-交通银行: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/BOCOM
-百分点: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/BaiFenDian
-暴风影音: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/BaoFengYingYin
-边锋网络: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/BianFeng
-Bootcss: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Bootcss
-中国科学院文献情报中心: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/CAS
-建设银行: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/CCB
-光大银行: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/CEB
-广发银行: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/CGB
-CIBN互联网电视: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/CIBN
-创客匠人: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/CKJR
-招商银行: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/CMB
-中国知网: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/CNKI
-中国互联网络信息中心: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/CNNIC
-CSDN: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/CSDN
-AcFun: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AcFun
-菜鸟裹裹: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/CaiNiao
-财新传媒: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/CaiXinChuanMei
-Camera360: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Camera360
-中国移动: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaMobile
-中国新闻网: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaNews
-中国电信: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaTelecom
-中国联通: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaUnicom
-创客贴: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChuangKeTie
-纯游: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChunYou
-红马传媒(大麦网): https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/DaMai
-蛋蛋赞: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/DanDanZan
-弹弹Play: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Dandanplay
-当当: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/DangDang
-得到: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Dedao
-深度科技: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Deepin
-第四范式: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/DiSiFanShi
-点测网科: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/DianCeWangKe
-钉钉: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/DingTalk
-丁香园: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/DingXiangYuan
-多盟: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Domob
-豆瓣: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/DouBan
-东方财富: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/EastMoney
-饿了么: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Eleme
-饭否科技: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/FanFou
-飞猪: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/FeiZhu
-凤凰网: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/FengHuangWang
-凤侠网络: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/FengXiaWangLuo
-飞傲: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Fiio
-风行网: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Funshion
-六间房: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/6JianFang
-高德: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/GaoDe
-硅谷动力: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/GuiGuDongLi
-海南航空: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/HaiNanHangKong
-汉仪: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/HanYi
-盒马: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/HeMa
-海贝音乐: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/HibyMusic
-虎牙: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/HuYa
-华数TV: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/HuaShuTV
-欢聚时代: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/HuanJu
-湖南TV: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/HunanTV
-虎扑: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Hupu
-中国工商银行: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ICBC
-极光推送: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/JiGuangTuiSong
-坚果云: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/JianGuoYun
-简书: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/JianShu
-晋江文学: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/JinJiangWenXue
-京东: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/JingDong
-掘金: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/JueJin
-Keep: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Keep
-金史密斯: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/KingSmith
-金山软件: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Kingsoft
-口袋时尚: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/KouDaiShiShang
-酷6: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Ku6
-库客音乐: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/KuKeMusic
-快递100: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/KuaiDi100
-快手: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/KuaiShou
-旷视: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/KuangShi
-酷狗/酷我: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/KugouKuwo
-蓝奏云: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/LanZouYun
-乐居: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/LeJu
-乐视: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/LeTV
-联想: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Lenovo
-鲁大师: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/LuDaShi
-绿米联创: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/LvMiLianChuang
-猫云: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Maocloud
-美团: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/MeiTuan
-魅族: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/MeiZu
-米物: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/MiWu
-咪咕: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Migu
-明略昭辉: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/MingLueZhaoHui
-蘑菇街: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Mogujie
-墨迹天气: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Mojitianqi
-新流云: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/NGAA
-OPPO: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/OPPO
-OnePlus: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/OnePlus
-欧朋浏览器: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/OuPeng
-PPTV: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/PPTV
-中国邮政储蓄银行: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/PSBC
-平安: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/PingAn
-七牛云: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/QiNiuYun
-青云QingCloud: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/QingCloud
-软媒: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/RuanMei
-顺丰速运: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/SFExpress
-什么值得买: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/SMZDM
-上海聚效: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ShangHaiJuXiao
-山灵音响: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Shanling
-神马: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ShenMa
-识农智能科技: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ShiNongZhiKe
-搜狐: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Sohu
-搜房: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/SouFang
-苏宁: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/SuNing
-随视传媒: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/SuiShiChuanMei
-TCL: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/TCL
-泰康: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/TaiKang
-太合音乐: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/TaiheMusic
-Teambition: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Teambition
-天天看看: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/TianTianKanKan
-天威诚信: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/TianWeiChengXin
-天涯社区: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/TianYaForum
-老虎证券: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/TigerFintech
-同程: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/TongCheng
-有妖气: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/U17
-UC: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/UC
-优刻得: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/UCloud
-又拍云: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/UPYun
-中国银联: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/UnionPay
-凡客: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Vancl
-Vivo: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Vivo
-完美世界: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/WanMeiShiJie
-网宿科技: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/WangSuKeJi
-网心科技: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/WangXinKeJi
-问卷星: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/WenJuanXing
-WiFi万能钥匙: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/WiFiMaster
-虾米音乐: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/XiamiMusic
-闲鱼: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/XianYu
-小狗科技: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/XiaoGouKeJi
-小源科技: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/XiaoYuanKeJi
-携程: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/XieCheng
-学而思: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/XueErSi
-雪球: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/XueQiu
-人人影视: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/YYeTs
-易车: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/YiChe
-一下科技: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/YiXiaKeJi
-易直播: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/YiZhiBo
-游梦创想: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/YouMengChuangXiang
-有赞: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/YouZan
-猿辅导: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/YuanFuDao
-云帆加速: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/YunFanJiaSu
-国家工程研究中心: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ZDNS
-掌阅: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ZhangYue
-智云众: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ZhiYunZhong
-中国石化: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ZhongGuoShiHua
-中维世纪: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ZhongWeiShiJi
-中元易尚: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ZhongYuanYiShang
-转转: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ZhuanZhuan
-乐播投屏: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Hpplay
-科大讯飞: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/iFlytek
-爱范儿: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ifanr
-白山耘科技: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/BaiShanYunKeJi
-帝联网络: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/DiLianWangLuo
-脸萌: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/LianMeng
-微至云动: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/WeiZhiYunDong
-8btc: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/8btc
-ChinaIPsBGP: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaIPsBGP
-城通网盘: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChengTongWangPan
-国内网站/IP合集: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaMax
-多玩: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/DuoWan
-玩咖欢聚: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/WanKaHuanJu
-知音漫客: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ZhiYinManKe
-ChinaNoMedia: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaNoMedia
-微信: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/WeChat
-微信: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/WeChat
-世纪超星: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ShiJiChaoXing
-ChinaIPsTest: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaIPs/ChinaIPsTest
-QuickConnect: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/QuickConnect
-我来: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/WoLai
-知乎: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Zhihu
-NGA: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/NGA
-抖音: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/DouYin
-小红书: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/XiaoHongShu
-GovernmentCN: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/GovCN
-MOO音乐: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/MOOMusic
-思杰马克丁软件: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Marketing
-TapTap: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/TapTap
-中兴通讯: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ZhongXingTongXun
-吉利: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Geely
-国内域名合集: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaMaxNoIP
-百度贴吧: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/BaiDuTieBa
-方正电子: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/FangZhengDianZi
-良品铺子: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/BeStore
-ChinaMaxNoMedia: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaMaxNoMedia
-战旗: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/zhanqi
-Wteam: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Wteam
-Gitee: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Gitee
-Wanfang: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Wanfang
-W3schools: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/W3schools
-Picacg: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Picacg
-XingKongWuXian: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/XingKongWuXian
-Qyyjt: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Qyyjt
-Coolapk: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Coolapk
-3dm: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/3dm
-3Type: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/3Type
-4Paradigm: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/4Paradigm
-BesTV: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/BesTV
-中国教育电视台: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/CETV
-SMG: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/SMG
-爱企查: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AiQiCha
-中国国航: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AirChina
-aiXcoder: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/aiXcoder
-游侠网: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Ali213
-安兔兔: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Antutu
-Apifox: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Apifox
-AmazonCN: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AmazonCN
-Stripe: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Stripe
+BiliBili
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BiliBili.list
+滴滴出行
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DiDi.list
+美图
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/MeiTu.list
+拼多多
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Pinduoduo.list
+新浪
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Sina.list
+百度
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Baidu.list
+奇虎360
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/360.list
+4399
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/4399.list
+唯品会
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/VipShop.list
+小米
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/XiaoMi.list
+微博
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Weibo.list
+字节跳动
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ByteDance.list
+China
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/China.list
+ChinaTest
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaTest.list
+ChinaIPs
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaIPs.list
+ChinaIPs
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaIPs.list
+CCTV
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/CCTV.list
+迅雷
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Xunlei.list
+华为
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Huawei.list
+ChinaMedia
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMedia.list
+网易
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/NetEase.list
+网易云音乐
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/NetEaseMusic.list
+优酷
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Youku.list
+腾讯视频
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TencentVideo.list
+爱奇艺
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/iQIYI.list
+斗鱼
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Douyu.list
+喜马拉雅
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Himalaya.list
+阿里巴巴
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Alibaba.list
+115
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/115.list
+12306
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/12306.list
+17173
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/17173.list
+178
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/178.list
+一起作业
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/17zuoye.list
+36氪
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/36kr.list
+前程无忧
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/51Job.list
+56网
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/56.list
+58同城
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/58TongCheng.list
+农业银行
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ABC.list
+声网
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Agora.list
+支付宝
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AliPay.list
+安天科技
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AnTianKeJi.list
+安居客
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Anjuke.list
+中国银行
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BOC.list
+交通银行
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BOCOM.list
+百分点
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BaiFenDian.list
+暴风影音
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BaoFengYingYin.list
+边锋网络
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BianFeng.list
+Bootcss
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Bootcss.list
+中国科学院文献情报中心
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/CAS.list
+建设银行
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/CCB.list
+光大银行
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/CEB.list
+广发银行
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/CGB.list
+CIBN互联网电视
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/CIBN.list
+创客匠人
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/CKJR.list
+招商银行
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/CMB.list
+中国知网
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/CNKI.list
+中国互联网络信息中心
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/CNNIC.list
+CSDN
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/CSDN.list
+AcFun
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AcFun.list
+菜鸟裹裹
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/CaiNiao.list
+财新传媒
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/CaiXinChuanMei.list
+Camera360
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Camera360.list
+中国移动
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMobile.list
+中国新闻网
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaNews.list
+中国电信
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaTelecom.list
+中国联通
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaUnicom.list
+创客贴
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChuangKeTie.list
+纯游
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChunYou.list
+红马传媒(大麦网)
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DaMai.list
+蛋蛋赞
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DanDanZan.list
+弹弹Play
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Dandanplay.list
+当当
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DangDang.list
+得到
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Dedao.list
+深度科技
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Deepin.list
+第四范式
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DiSiFanShi.list
+点测网科
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DianCeWangKe.list
+钉钉
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DingTalk.list
+丁香园
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DingXiangYuan.list
+多盟
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Domob.list
+豆瓣
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DouBan.list
+东方财富
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/EastMoney.list
+饿了么
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Eleme.list
+饭否科技
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/FanFou.list
+飞猪
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/FeiZhu.list
+凤凰网
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/FengHuangWang.list
+凤侠网络
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/FengXiaWangLuo.list
+飞傲
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Fiio.list
+风行网
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Funshion.list
+六间房
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/6JianFang.list
+高德
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GaoDe.list
+硅谷动力
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GuiGuDongLi.list
+海南航空
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HaiNanHangKong.list
+汉仪
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HanYi.list
+盒马
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HeMa.list
+海贝音乐
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HibyMusic.list
+虎牙
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HuYa.list
+华数TV
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HuaShuTV.list
+欢聚时代
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HuanJu.list
+湖南TV
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HunanTV.list
+虎扑
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Hupu.list
+中国工商银行
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ICBC.list
+极光推送
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/JiGuangTuiSong.list
+坚果云
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/JianGuoYun.list
+简书
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/JianShu.list
+晋江文学
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/JinJiangWenXue.list
+京东
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/JingDong.list
+掘金
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/JueJin.list
+Keep
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Keep.list
+金史密斯
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/KingSmith.list
+金山软件
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Kingsoft.list
+口袋时尚
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/KouDaiShiShang.list
+酷6
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Ku6.list
+库客音乐
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/KuKeMusic.list
+快递100
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/KuaiDi100.list
+快手
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/KuaiShou.list
+旷视
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/KuangShi.list
+酷狗/酷我
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/KugouKuwo.list
+蓝奏云
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/LanZouYun.list
+乐居
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/LeJu.list
+乐视
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/LeTV.list
+联想
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Lenovo.list
+鲁大师
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/LuDaShi.list
+绿米联创
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/LvMiLianChuang.list
+猫云
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Maocloud.list
+美团
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/MeiTuan.list
+魅族
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/MeiZu.list
+米物
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/MiWu.list
+咪咕
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Migu.list
+明略昭辉
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/MingLueZhaoHui.list
+蘑菇街
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Mogujie.list
+墨迹天气
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Mojitianqi.list
+新流云
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/NGAA.list
+OPPO
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OPPO.list
+OnePlus
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OnePlus.list
+欧朋浏览器
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OuPeng.list
+PPTV
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PPTV.list
+中国邮政储蓄银行
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PSBC.list
+平安
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PingAn.list
+七牛云
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/QiNiuYun.list
+青云QingCloud
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/QingCloud.list
+软媒
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/RuanMei.list
+顺丰速运
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/SFExpress.list
+什么值得买
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/SMZDM.list
+上海聚效
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ShangHaiJuXiao.list
+山灵音响
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Shanling.list
+神马
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ShenMa.list
+识农智能科技
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ShiNongZhiKe.list
+搜狐
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Sohu.list
+搜房
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/SouFang.list
+苏宁
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/SuNing.list
+随视传媒
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/SuiShiChuanMei.list
+TCL
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TCL.list
+泰康
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TaiKang.list
+太合音乐
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TaiheMusic.list
+Teambition
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Teambition.list
+天天看看
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TianTianKanKan.list
+天威诚信
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TianWeiChengXin.list
+天涯社区
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TianYaForum.list
+老虎证券
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TigerFintech.list
+同程
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TongCheng.list
+有妖气
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/U17.list
+UC
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/UC.list
+优刻得
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/UCloud.list
+又拍云
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/UPYun.list
+中国银联
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/UnionPay.list
+凡客
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Vancl.list
+Vivo
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Vivo.list
+完美世界
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/WanMeiShiJie.list
+网宿科技
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/WangSuKeJi.list
+网心科技
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/WangXinKeJi.list
+问卷星
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/WenJuanXing.list
+WiFi万能钥匙
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/WiFiMaster.list
+虾米音乐
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/XiamiMusic.list
+闲鱼
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/XianYu.list
+小狗科技
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/XiaoGouKeJi.list
+小源科技
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/XiaoYuanKeJi.list
+携程
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/XieCheng.list
+学而思
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/XueErSi.list
+雪球
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/XueQiu.list
+人人影视
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YYeTs.list
+易车
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YiChe.list
+一下科技
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YiXiaKeJi.list
+易直播
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YiZhiBo.list
+游梦创想
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouMengChuangXiang.list
+有赞
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouZan.list
+猿辅导
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YuanFuDao.list
+云帆加速
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YunFanJiaSu.list
+国家工程研究中心
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ZDNS.list
+掌阅
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ZhangYue.list
+智云众
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ZhiYunZhong.list
+中国石化
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ZhongGuoShiHua.list
+中维世纪
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ZhongWeiShiJi.list
+中元易尚
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ZhongYuanYiShang.list
+转转
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ZhuanZhuan.list
+乐播投屏
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Hpplay.list
+科大讯飞
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/iFlytek.list
+爱范儿
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ifanr.list
+白山耘科技
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BaiShanYunKeJi.list
+帝联网络
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DiLianWangLuo.list
+脸萌
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/LianMeng.list
+微至云动
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/WeiZhiYunDong.list
+8btc
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/8btc.list
+ChinaIPsBGP
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaIPsBGP.list
+城通网盘
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChengTongWangPan.list
+国内网站/IP合集
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax.list
+多玩
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DuoWan.list
+玩咖欢聚
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/WanKaHuanJu.list
+知音漫客
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ZhiYinManKe.list
+ChinaNoMedia
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaNoMedia.list
+微信
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/WeChat.list
+微信
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/WeChat.list
+世纪超星
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ShiJiChaoXing.list
+ChinaIPsTest
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaIPs/ChinaIPsTest.list
+QuickConnect
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/QuickConnect.list
+我来
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/WoLai.list
+知乎
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zhihu.list
+NGA
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/NGA.list
+抖音
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DouYin.list
+小红书
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/XiaoHongShu.list
+GovernmentCN
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GovCN.list
+MOO音乐
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/MOOMusic.list
+思杰马克丁软件
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Marketing.list
+TapTap
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TapTap.list
+中兴通讯
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ZhongXingTongXun.list
+吉利
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Geely.list
+国内域名合集
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMaxNoIP.list
+百度贴吧
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BaiDuTieBa.list
+方正电子
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/FangZhengDianZi.list
+良品铺子
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BeStore.list
+ChinaMaxNoMedia
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMaxNoMedia.list
+战旗
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/zhanqi.list
+Wteam
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Wteam.list
+Gitee
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Gitee.list
+Wanfang
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Wanfang.list
+W3schools
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/W3schools.list
+Picacg
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Picacg.list
+XingKongWuXian
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/XingKongWuXian.list
+Qyyjt
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Qyyjt.list
+Coolapk
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Coolapk.list
+3dm
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/3dm.list
+3Type
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/3Type.list
+4Paradigm
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/4Paradigm.list
+BesTV
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BesTV.list
+中国教育电视台
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/CETV.list
+SMG
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/SMG.list
+爱企查
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AiQiCha.list
+中国国航
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AirChina.list
+aiXcoder
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/aiXcoder.list
+游侠网
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Ali213.list
+安兔兔
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Antutu.list
+Apifox
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apifox.list
+AmazonCN
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AmazonCN.list
+Stripe
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Stripe.list
 
 🇨🇳MainlandMedia
-BiliBili: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/BiliBili
-CCTV: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/CCTV
-ChinaMedia: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaMedia
-网易云音乐: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/NetEaseMusic
-优酷: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Youku
-腾讯视频: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/TencentVideo
-爱奇艺: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/iQIYI
-斗鱼: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Douyu
-喜马拉雅: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Himalaya
-国内网站/IP合集: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaMax
-抖音: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/DouYin
-MOO音乐: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/MOOMusic
-战旗: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/zhanqi
-51nod: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/51nod
+BiliBili
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BiliBili.list
+CCTV
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/CCTV.list
+ChinaMedia
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMedia.list
+网易云音乐
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/NetEaseMusic.list
+优酷
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Youku.list
+腾讯视频
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TencentVideo.list
+爱奇艺
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/iQIYI.list
+斗鱼
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Douyu.list
+喜马拉雅
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Himalaya.list
+国内网站/IP合集
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax.list
+抖音
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DouYin.list
+MOO音乐
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/MOOMusic.list
+战旗
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/zhanqi.list
+51nod
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/51nod.list
 
 📺Media
-YouTube: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/YouTube
-YouTubeMusic: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/YouTubeMusic
-AppleMusic: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AppleMusic
-AppleTV: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AppleTV
-GlobalMedia: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/GlobalMedia
-Spotify: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Spotify
-BBC: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/BBC
-AsianMedia: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AsianMedia
-Bahamut: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Bahamut
-TVB: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/TVB
-BiliBili: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/BiliBili
-CCTV: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/CCTV
-腾讯: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Tencent
-ChinaMedia: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ChinaMedia
-网易云音乐: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/NetEaseMusic
-腾讯视频: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/TencentVideo
-爱奇艺: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/iQIYI
-喜马拉雅: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Himalaya
-HBO(香港): https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/HBOHK
-HBO(美国): https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/HBOUSA
-HuluJP: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/HuluJP
-HuluUSA: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/HuluUSA
-抖音: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/DouYin
-MOO音乐: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/MOOMusic
-IPTV其他: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/IPTVOther
-IPTV大陆: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/IPTVMainland
+YouTube
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube.list
+YouTubeMusic
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTubeMusic.list
+AppleMusic
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleMusic.list
+AppleTV
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleTV.list
+GlobalMedia
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GlobalMedia.list
+Spotify
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify.list
+BBC
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BBC.list
+AsianMedia
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AsianMedia.list
+Bahamut
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Bahamut.list
+TVB
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TVB.list
+BiliBili
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BiliBili.list
+CCTV
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/CCTV.list
+腾讯
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Tencent.list
+ChinaMedia
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMedia.list
+网易云音乐
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/NetEaseMusic.list
+腾讯视频
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TencentVideo.list
+爱奇艺
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/iQIYI.list
+喜马拉雅
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Himalaya.list
+HBO(香港)
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HBOHK.list
+HBO(美国)
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HBOUSA.list
+HuluJP
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HuluJP.list
+HuluUSA
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HuluUSA.list
+抖音
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DouYin.list
+MOO音乐
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/MOOMusic.list
+IPTV其他
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/IPTVOther.list
+IPTV大陆
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/IPTVMainland.list
 
 🎮Game
-游戏: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Game
-暴雪娱乐: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Blizzard
-Steam: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Steam
-Rockstar: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Rockstar
-PlayStation: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/PlayStation
-Epic: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Epic
-SteamCN: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/SteamCN
-WildRift: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/WildRift
-Supercell: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Supercell
-EA: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/EA
-Garena: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Garena
-Gog: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Gog
-Nintendo: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Nintendo
-OP: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/OP
-Purikonejp: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Purikonejp
-Riot: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Riot
-UBI: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/UBI
-Xbox: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Xbox
-Sony: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Sony
-Battle: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Battle
-Classic: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Classic
-DiabloIII: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/DiabloIII
-Hearthstone: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Hearthstone
-HeroesoftheStorm: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/HeroesoftheStorm
-Overwatch: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Overwatch
-StarCraftII: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/StarCraftII
-WorldofWarcraft: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/WorldofWarcraft
-Origin: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Origin
-雀魂: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Majsoul
-米哈游HoYoverse: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/HoYoverse
-刺客教条 起源: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Game/Assassin'sCreed-Origins
-刺客教条 奥德赛: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Game/Assassin'sCreed-Odyssey
-NGA: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/NGA
-GameDownload: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Game/GameDownload
-腾讯英雄联盟手游: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Game/TencentLoLMobile
-Roblox: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Game/Roblox
-GameDownloadCN: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Game/GameDownloadCN
-Ubisoft: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Ubisoft
-2KGames: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/2KGames
-胜利女神: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Game/Nikke
+游戏
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game.list
+暴雪娱乐
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Blizzard.list
+Steam
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Steam.list
+Rockstar
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Rockstar.list
+PlayStation
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PlayStation.list
+Epic
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Epic.list
+SteamCN
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/SteamCN.list
+WildRift
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/WildRift.list
+Supercell
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Supercell.list
+EA
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/EA.list
+Garena
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Garena.list
+Gog
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Gog.list
+Nintendo
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Nintendo.list
+OP
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OP.list
+Purikonejp
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Purikonejp.list
+Riot
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Riot.list
+UBI
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/UBI.list
+Xbox
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Xbox.list
+Sony
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Sony.list
+Battle
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Battle.list
+Classic
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Classic.list
+DiabloIII
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DiabloIII.list
+Hearthstone
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Hearthstone.list
+HeroesoftheStorm
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HeroesoftheStorm.list
+Overwatch
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Overwatch.list
+StarCraftII
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/StarCraftII.list
+WorldofWarcraft
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/WorldofWarcraft.list
+Origin
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Origin.list
+雀魂
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Majsoul.list
+米哈游HoYoverse
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HoYoverse.list
+刺客教条 起源
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/Assassin'sCreed-Origins.list
+刺客教条 奥德赛
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/Assassin'sCreed-Odyssey.list
+NGA
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/NGA.list
+GameDownload
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/GameDownload.list
+腾讯英雄联盟手游
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/TencentLoLMobile.list
+Roblox
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/Roblox.list
+GameDownloadCN
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/GameDownloadCN.list
+Ubisoft
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Ubisoft.list
+2KGames
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/2KGames.list
+胜利女神
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/Nikke.list
 
 🍎Apple
-AppStore: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AppStore
-iCloud: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/iCloud
-TestFlight: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/TestFlight
-FitnessPlus: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/FitnessPlus
-AppleMail: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AppleMail
-AppleMusic: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AppleMusic
-AppleNews: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AppleNews
-AppleTV: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AppleTV
-iOS系统升级: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/SystemOTA
-Siri: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Siri
-查找: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/FindMy
-Apple: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Apple
-AppleProxy: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AppleProxy
-iCloudPrivateRelay: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/iCloudPrivateRelay
-AppleDev: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AppleDev
-AppleFirmware: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AppleFirmware
-AppleHardware: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AppleHardware
-AppleMedia: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AppleMedia
-Beats: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Beats
-AppleID: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AppleID
+AppStore
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppStore.list
+iCloud
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/iCloud.list
+TestFlight
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TestFlight.list
+FitnessPlus
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/FitnessPlus.list
+AppleMail
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleMail.list
+AppleMusic
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleMusic.list
+AppleNews
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleNews.list
+AppleTV
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleTV.list
+iOS系统升级
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/SystemOTA.list
+Siri
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Siri.list
+查找
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/FindMy.list
+Apple
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple.list
+AppleProxy
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleProxy.list
+iCloudPrivateRelay
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/iCloudPrivateRelay.list
+AppleDev
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleDev.list
+AppleFirmware
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleFirmware.list
+AppleHardware
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleHardware.list
+AppleMedia
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleMedia.list
+Beats
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Beats.list
+AppleID
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleID.list
 
 🗄️Microsoft
-GitHub: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/GitHub
-OneDrive: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/OneDrive
-Microsoft: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Microsoft
-Teams: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Teams
-MicrosoftEdge: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/MicrosoftEdge
-必应: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Bing
-Copilot: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Copilot
+GitHub
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GitHub.list
+OneDrive
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OneDrive.list
+Microsoft
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft.list
+Teams
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Teams.list
+MicrosoftEdge
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/MicrosoftEdge.list
+必应
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Bing.list
+Copilot
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Copilot.list
 
 📟Google
-Google: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Google
-GoogleDrive: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/GoogleDrive
-YouTubeMusic: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/YouTubeMusic
-GoogleSearch: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/GoogleSearch
-GoogleVoice: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/GoogleVoice
-Chromecast: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Chromecast
-谷歌推送: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/GoogleFCM
-BardAI: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/BardAI
-Gemini: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Gemini
+Google
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google.list
+GoogleDrive
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GoogleDrive.list
+YouTubeMusic
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTubeMusic.list
+GoogleSearch
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GoogleSearch.list
+GoogleVoice
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GoogleVoice.list
+Chromecast
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Chromecast.list
+谷歌推送
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GoogleFCM.list
+BardAI
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BardAI.list
+Gemini
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Gemini.list
 
 🚫Reject
-去广告精简版: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingLite
-去广告: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Advertising
-去广告测试版: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdvertisingTest
-反劫持: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Hijacking
-隐私保护: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Privacy
-知乎广告拦截: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/ZhihuAds
-AdGuardSDNSFilter: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdGuardSDNSFilter
-EasyPrivacy: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/EasyPrivacy
-BlockHttpDNS: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/BlockHttpDNS
+去广告精简版
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingLite.list
+去广告
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Advertising.list
+去广告测试版
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingTest.list
+反劫持
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Hijacking.list
+隐私保护
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Privacy.list
+知乎广告拦截
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ZhihuAds.list
+AdGuardSDNSFilter
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdGuardSDNSFilter.list
+EasyPrivacy
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/EasyPrivacy.list
+BlockHttpDNS
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BlockHttpDNS.list
 
 🖥️Other
-Developer: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Developer
-Scholar: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Scholar
-Download: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Download
-本地局域网地址: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Lan
-PT下载: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/PrivateTracker
-AdGuardS DNS Filter Direct: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/AdGuardSDNSFilter/Direct
-DNS: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/DNS
-NTPService: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/NTPService
-360云计算: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Cloud/360Cloud
-百度云计算: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Cloud/BaiduCloud
-华为云计算: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Cloud/HuaweiCloud
-京东云计算: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Cloud/JingDongCloud
-金山云计算: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Cloud/KingsoftCloud
-网易云计算: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Cloud/NeteaseCloud
-腾讯云计算: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Cloud/TencentCloud
-HiNet: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Cloud/HiNet
-国内云计算: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Cloud/CloudCN
-全球云计算: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Cloud/CloudGlobal
-AmazonCloud: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Cloud/AmazonCloud
-AkamaiCloud: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Cloud/AkamaiCloud
-Linux: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Linux
-Atomdata: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/Atomdata
-STUN: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/STUN
-微信输入法: https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash/WeType
+Developer
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Developer.list
+Scholar
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Scholar.list
+Download
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Download.list
+本地局域网地址
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Lan.list
+PT下载
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PrivateTracker.list
+AdGuardS DNS Filter Direct
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdGuardSDNSFilter/Direct.list
+DNS
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DNS.list
+NTPService
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/NTPService.list
+360云计算
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Cloud/360Cloud.list
+百度云计算
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Cloud/BaiduCloud.list
+华为云计算
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Cloud/HuaweiCloud.list
+京东云计算
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Cloud/JingDongCloud.list
+金山云计算
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Cloud/KingsoftCloud.list
+网易云计算
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Cloud/NeteaseCloud.list
+腾讯云计算
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Cloud/TencentCloud.list
+HiNet
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Cloud/HiNet.list
+国内云计算
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Cloud/CloudCN.list
+全球云计算
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Cloud/CloudGlobal.list
+AmazonCloud
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Cloud/AmazonCloud.list
+AkamaiCloud
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Cloud/AkamaiCloud.list
+Linux
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Linux.list
+Atomdata
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Atomdata.list
+STUN
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/STUN.list
+微信输入法
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/WeType.list
