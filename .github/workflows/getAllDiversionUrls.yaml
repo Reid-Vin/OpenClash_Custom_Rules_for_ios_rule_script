@@ -24,7 +24,8 @@ jobs:
       - name: Scrape webpage and generate data
         run: python ./Scripts/Filter_All_Url.py
 
-      - uses: EndBug/add-and-commit@v9.1.4
+      - name: Push changes
+        uses: EndBug/add-and-commit@v9.1.4
         with:
           author_name: Reid_Vin
           author_email: reid_vin@outlook.com
