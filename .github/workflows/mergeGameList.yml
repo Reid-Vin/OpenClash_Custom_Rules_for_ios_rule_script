@@ -20,7 +20,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Download and process diversion rules
         run: |
           merged_rules=""
@@ -41,19 +41,18 @@ jobs:
             rm list.txt
           done
 
-          update_time=$(date +"%Y-%m-%d %H:%M:%S")
+          update_time=$(TZ='Asia/Shanghai' date +"%Y-%m-%d %H:%M:%S")
           echo "$ILLUSTRATE" > "./Clash/Ruleset/$FILENAME.list"
           echo "$DESCRIPTION" >> "./Clash/Ruleset/$FILENAME.list"
           echo "$RULES_SOURCE" >> "./Clash/Ruleset/$FILENAME.list"
           echo "# 更新：$update_time" >> "./Clash/Ruleset/$FILENAME.list"
           echo "# 数量：$rules_count" >> "./Clash/Ruleset/$FILENAME.list"
           echo "$AUTHOR" >> "./Clash/Ruleset/$FILENAME.list"
-          echo >> "./Clash/Ruleset/$FILENAME.list"
           echo "$merged_rules" >> "./Clash/Ruleset/$FILENAME.list"
 
           echo "合并完成》》》"
       - name: Push changes
-        uses: EndBug/add-and-commit@v9.1.3
+        uses: EndBug/add-and-commit@v9.1.4
         with:
           author_name: Reid_Vin
           author_email: reid_vin@outlook.com
