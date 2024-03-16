@@ -1,0 +1,53 @@
+name: Update Diversion Rules
+
+on:
+  schedule:
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+
+env:
+  DIVERSION_RULES_LIST_URLS: |
+    https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/SteamCN/SteamCN.list
+    https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HoYoverse/HoYoverse.list
+    https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/TencentLoLMobile/TencentLoLMobile.list
+  ILLUSTRATE: "分流规则基于ios_rule_script大佬的规则合并而来，感谢大佬和其他贡献者的无私奉献"
+  FILENAME: "ChinaGame"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Download and process diversion rules
+        run: |
+          # 将上游分流 URL 字符串分割成数组
+          IFS=$'\n' read -d '' -r -a URLS <<< "DIVERSION_RULES_LIST_URLS"
+
+          # 初始化一个空字符串来存储合并的规则
+          merged_rules=""
+
+          # 遍历 URL 数组
+          for url in "${URLS[@]}"; do
+            echo "Downloading diversion rules from $url..."
+            curl -s $url -o list.txt
+
+            echo "Processing diversion rules..."
+            rules=$(grep -v '^#' list.txt)
+            merged_rules+="$rules\n"
+
+            rm list.txt
+          done
+
+          # 将解释说明和合并的规则写入最终的文件
+          echo -e "$ILLUSTRATE\n$merged_rules" > /Clash/Ruleset/$FILENAME$.list
+
+          echo "合并完成》》》"
+      - name: Push changes
+        uses: EndBug/add-and-commit@v9.1.3
+        with:
+          author_name: Reid_Vin
+          author_email: reid_vin@outlook.com
+          message: Automatic diversion rules update
+          add: '/Clash/Ruleset/merged_rules.txt'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
