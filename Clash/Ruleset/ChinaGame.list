@@ -1,11 +1,11 @@
 # 分流规则基于ios_rule_script大佬的规则合并而来，感谢大佬和其他贡献者的无私奉献
-# 自定义的openclash_ad三合一广告过滤列表
+# 国内游戏分流规则合集
 # 基于以下分流规则合并：
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/SteamCN/SteamCN.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HoYoverse/HoYoverse.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/TencentLoLMobile/TencentLoLMobile.list
-# 更新：2024-03-17 01:19:09
-# 数量：28条
+# 更新时间：2024-03-17 01:24:39
+# 规则总数：28条
 # 作者：Reid_Vin_Action
 
 DOMAIN,csgo.wmsj.cn
