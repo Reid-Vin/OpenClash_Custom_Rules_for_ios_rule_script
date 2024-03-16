@@ -27,6 +27,27 @@ def scrape_webpage():
                 links = row.find_all('a')
                 # Iterate over each link
                 for link in links:
+                    # Remove the slashes and quotes from the link URL
+                    url = link["href"].replace("\\", "").replace("\"", "")
+                    # Write the link text and URL to the file
+                    f.write(f'{link.text}: {url}\n')
+
+    # Open the output file
+    with open('Urls/All_Urls_No_Name.list', 'w') as f:
+        # Iterate over each table
+        for table in tables:
+            # Find the table header and write it to the file
+            header = table.find('thead').find('tr').find('th').text
+            f.write(f'\n{header}\n')
+
+            # Find all rows in the table body
+            rows = table.find('tbody').find_all('tr')
+            # Iterate over each row
+            for row in rows:
+                # Find all links in the row
+                links = row.find_all('a')
+                # Iterate over each link
+                for link in links:
                     # Replace "github.com" with "raw.githubusercontent.com"
                     url = link["href"].replace("github.com", "raw.githubusercontent.com")
                     # Remove "/tree" from the URL
