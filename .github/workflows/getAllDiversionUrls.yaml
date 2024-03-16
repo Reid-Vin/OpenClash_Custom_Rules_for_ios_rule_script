@@ -20,11 +20,8 @@ jobs:
       - name: Install dependencies
         run: pip install beautifulsoup4 requests
 
-      - name: Change directory to script location
-        run: cd Scripts
-
       - name: Run Python script
-        run: python get_urls.py
+        run: python Scripts/get_urls.py
         env:
           GITHUB_TOKEN: ${{ secrets.COMMON_TOKEN }}
           OUTPUT_FILE: ${{ github.workspace }}/Urls/All_Urls.list
