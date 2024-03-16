@@ -31,8 +31,10 @@ def scrape_webpage():
                     url = link["href"].replace("github.com", "raw.githubusercontent.com")
                     # Remove "/tree" from the URL
                     url = url.replace("/tree", "")
-                    # Add ".list" to the end of the URL
-                    url = url + ".list"
+                    # Get the name of the file
+                    file_name = url.split('/')[-1]
+                    # Add the file name and ".list" to the end of the URL
+                    url = url + "/" + file_name + "/" + file_name + ".list"
                     # Write the URL to the file
                     f.write(f'{url}\n')
 
