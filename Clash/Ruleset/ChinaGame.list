@@ -1,10 +1,9 @@
 # 分流规则基于ios_rule_script大佬的规则合并而来，感谢大佬和其他贡献者的无私奉献
 # 自定义的openclash_ad三合一广告过滤列表
 # 基于以下分流规则合并：
-# 更新：2024-03-16 16:28:33
+# 更新：2024-03-17 00:39:16
 # 数量：28
 # 作者：Reid_Vin_Action
-
 
 DOMAIN,csgo.wmsj.cn
 DOMAIN,dl.steam.clngaa.com
