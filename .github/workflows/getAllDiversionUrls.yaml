@@ -18,19 +18,20 @@ jobs:
           python-version: '3.x'
 
       - name: Install dependencies
-        run: pip install beautifulsoup4 requests
+        run: |
+          pip install beautifulsoup4 requests
+          ls -R  # Output directory structure for debugging
 
       - name: Run Python script
         run: python Scripts/get_urls.py
 
       - name: List generated files
-        run: ls -R
+        run: ls -R  # Output directory structure for debugging
 
       - name: Move file to Urls directory
-        run: mv All_Urls.list Urls/
-
-      - name: List files in Urls directory
-        run: ls -R Urls/
+        run: |
+          mv All_Urls.list Urls/
+          ls -R Urls/  # Output directory structure for debugging
 
       - name: Push changes
         uses: EndBug/add-and-commit@v9.1.4
