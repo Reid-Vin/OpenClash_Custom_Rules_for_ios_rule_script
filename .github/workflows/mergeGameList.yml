@@ -27,7 +27,11 @@ jobs:
           rules_count=0
           temp_url=""
           for url in $DIVERSION_RULES_LIST_URLS; do
-            temp_url="$temp_url"$'\n'"# $url"
+            if [ -z "$temp_url" ]; then
+              temp_url="# $url"
+            else
+              temp_url="$temp_url"$'\n'"# $url"
+            fi
             echo "Downloading diversion rules from $url..."
             curl -s $url -o list.txt
 
