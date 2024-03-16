@@ -1,4 +1,4 @@
-name: Merge CN Game List
+name: Merge CN Game List test
 
 on:
   schedule:
