@@ -1,4 +1,4 @@
-name: Test
+name: test
 
 on:
   schedule:
@@ -36,11 +36,11 @@ jobs:
 
           echo "合并完成》》》"
       - name: Push changes
-        uses: EndBug/add-and-commit@v9.1.3
+        uses: EndBug/add-and-commit@v15
         with:
           author_name: Reid_Vin
           author_email: reid_vin@outlook.com
           message: Automatic diversion rules update
-          add: "./Clash/Ruleset/${FILENAME}.list"
+          add: "./Clash/Ruleset/$FILENAME.list"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
