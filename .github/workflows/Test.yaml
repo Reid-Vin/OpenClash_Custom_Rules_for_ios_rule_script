@@ -38,9 +38,9 @@ jobs:
       - name: Push changes
         uses: EndBug/add-and-commit@v9.1.3
         with:
-          author_name: Reid_Vin
-          author_email: reid_vin@outlook.com
+          author_name: YourNameHere
+          author_email: your.email@example.com
           message: Automatic diversion rules update
           add: "./Clash/Ruleset/${{ env.FILENAME }}.list"
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.YOUR_PERSONAL_ACCESS_TOKEN }}
