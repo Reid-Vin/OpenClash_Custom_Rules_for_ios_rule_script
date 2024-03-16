@@ -10,8 +10,8 @@ env:
     https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/SteamCN/SteamCN.list
     https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HoYoverse/HoYoverse.list
     https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/TencentLoLMobile/TencentLoLMobile.list
-  ILLUSTRATE: 分流规则基于ios_rule_script大佬的规则合并而来，感谢大佬和其他贡献者的无私奉献
-  FILENAME: ChinaGame
+  ILLUSTRATE: "分流规则基于ios_rule_script大佬的规则合并而来，感谢大佬和其他贡献者的无私奉献"
+  FILENAME: "ChinaGame"
 
 jobs:
   build:
@@ -28,12 +28,12 @@ jobs:
 
             echo "Processing diversion rules..."
             rules=$(grep -v '^#' list.txt)
-            merged_rules+="$rules\n"
+            merged_rules="$merged_rules"$'\n'"$rules"
 
             rm list.txt
           done
 
-          echo -e "$ILLUSTRATE\n$merged_rules" > ./Clash/Ruleset/$FILENAME.list
+          printf "%s\n%s\n" "$ILLUSTRATE" "$merged_rules" > "./Clash/Ruleset/${FILENAME}.list"
 
           echo "合并完成》》》"
       - name: Push changes
@@ -42,6 +42,6 @@ jobs:
           author_name: Reid_Vin
           author_email: reid_vin@outlook.com
           message: Automatic diversion rules update
-          add: './Clash/Ruleset/$FILENAME.list'
+          add: "./Clash/Ruleset/${FILENAME}.list"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
