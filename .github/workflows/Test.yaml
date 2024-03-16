@@ -32,7 +32,7 @@ jobs:
             rm list.txt
           done
 
-          printf "%s\n%s\n" "$ILLUSTRATE" "$merged_rules" > "./Clash/Ruleset/$FILENAME.list"
+          printf "%s\n%s\n" "$ILLUSTRATE" "$merged_rules" > "./Clash/Ruleset/${{ env.FILENAME }}.list"
 
           echo "合并完成》》》"
       - name: Push changes
@@ -41,6 +41,6 @@ jobs:
           author_name: Reid_Vin
           author_email: reid_vin@outlook.com
           message: Automatic diversion rules update
-          add: ./Clash/Ruleset/$FILENAME.list
+          add: "./Clash/Ruleset/${{ env.FILENAME }}.list"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
