@@ -39,7 +39,7 @@ jobs:
           done
 
           # 将解释说明和合并的规则写入最终的文件
-          echo -e "$ILLUSTRATE\n$merged_rules" > /Clash/Ruleset/$FILENAME.list
+          echo -e "$ILLUSTRATE\n$merged_rules" > ./Clash/Ruleset/$FILENAME.list
 
           echo "合并完成》》》"
       - name: Push changes
@@ -48,6 +48,6 @@ jobs:
           author_name: Reid_Vin
           author_email: reid_vin@outlook.com
           message: Automatic diversion rules update
-          add: '/Clash/Ruleset/$FILENAME.list'
+          add: './Clash/Ruleset/$FILENAME.list'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
