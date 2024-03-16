@@ -44,7 +44,6 @@ jobs:
           echo "$ILLUSTRATE" > "./Clash/Ruleset/$FILENAME.list"
           echo "$DESCRIPTION" >> "./Clash/Ruleset/$FILENAME.list"
           echo "$RULES_SOURCE" >> "./Clash/Ruleset/$FILENAME.list"
-          cat "./Clash/Ruleset/$FILENAME.list" >> "./Clash/Ruleset/$FILENAME.list"  # 将 URL 添加到文件中
           echo "# 更新：$update_time" >> "./Clash/Ruleset/$FILENAME.list"
           echo "# 数量：$rules_count条" >> "./Clash/Ruleset/$FILENAME.list"
           echo "$AUTHOR" >> "./Clash/Ruleset/$FILENAME.list"
