@@ -23,8 +23,14 @@ jobs:
       - name: Run Python script
         run: python Scripts/get_urls.py
 
+      - name: List generated files
+        run: ls -R
+
       - name: Move file to Urls directory
         run: mv All_Urls.list Urls/
+
+      - name: List files in Urls directory
+        run: ls -R Urls/
 
       - name: Push changes
         uses: EndBug/add-and-commit@v9.1.4
@@ -32,6 +38,6 @@ jobs:
           author_name: Reid_Vin
           author_email: reid_vin@outlook.com
           message: Automatic diversion rules update
-          add: "./Urls/All_Urls.list"
+          add: "Urls/All_Urls.list"
         env:
           GITHUB_TOKEN: ${{ secrets.COMMON_TOKEN }}
