@@ -15,6 +15,10 @@ def scrape_webpage():
     with open('Urls/All_Urls.list', 'w') as f:
         # Iterate over each table
         for table in tables:
+            # Find the table header and write it to the file
+            header = table.find('thead').find('tr').find('th').text
+            f.write(f'\n{header}\n')
+
             # Find all rows in the table body
             rows = table.find('tbody').find_all('tr')
             # Iterate over each row
@@ -23,12 +27,14 @@ def scrape_webpage():
                 links = row.find_all('a')
                 # Iterate over each link
                 for link in links:
-                    # Remove the slashes and quotes from the link URL
-                    url = link["href"].replace("\\", "").replace("\"", "")
-                    # Generate the full URL
-                    full_url = f"https://raw.githubusercontent.com{url}"
-                    # Write the full URL to the file
-                    f.write(f'{full_url}\n')
+                    # Replace "github.com" with "raw.githubusercontent.com"
+                    url = link["href"].replace("github.com", "raw.githubusercontent.com")
+                    # Remove "/tree" from the URL
+                    url = url.replace("/tree", "")
+                    # Add ".list" to the end of the URL
+                    url = url + ".list"
+                    # Write the URL to the file
+                    f.write(f'{url}\n')
 
 if __name__ == "__main__":
     scrape_webpage()
