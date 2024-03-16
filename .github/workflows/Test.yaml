@@ -1,5 +1,4 @@
-name: Update Diversion Rules
-
+name: Update
 on:
   schedule:
     - cron: '0 2 * * *'
