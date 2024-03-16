@@ -1,4 +1,4 @@
-name: Update
+name: Merge CN Game List
 
 on:
   schedule:
@@ -10,17 +10,21 @@ env:
     https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/SteamCN/SteamCN.list
     https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HoYoverse/HoYoverse.list
     https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/TencentLoLMobile/TencentLoLMobile.list
-  ILLUSTRATE: "分流规则基于ios_rule_script大佬的规则合并而来，感谢大佬和其他贡献者的无私奉献"
+  ILLUSTRATE: "# 分流规则基于ios_rule_script大佬的规则合并而来，感谢大佬和其他贡献者的无私奉献"
+  DESCRIPTION: "# 自定义的openclash_ad三合一广告过滤列表"
+  RULES_SOURCE: "# 基于以下分流规则合并："
+  AUTHOR: "# 作者：Reid_Vin_Action"
   FILENAME: "ChinaGame"
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Download and process diversion rules
         run: |
           merged_rules=""
+          rules_count=0
           for url in $DIVERSION_RULES_LIST_URLS; do
             echo "Downloading diversion rules from $url..."
             curl -s $url -o list.txt
@@ -28,15 +32,26 @@ jobs:
             echo "Processing diversion rules..."
             rules=$(grep -v '^#' list.txt)
             merged_rules="$merged_rules"$'\n'"$rules"
+            current_rules_count=$(grep -c '^[^#[:space:]]' list.txt)
+            rules_count=$((rules_count + current_rules_count))
 
+            echo "$RULES_SOURCE" > "./Clash/Ruleset/$FILENAME.list"
+            echo "$RULES_SOURCE $url" >> "./Clash/Ruleset/$FILENAME.list"  # 添加注释
             rm list.txt
           done
 
-          printf "%s\n%s\n" "$ILLUSTRATE" "$merged_rules" > "./Clash/Ruleset/${{ env.FILENAME }}.list"
+          update_time=$(TZ='Asia/Shanghai' date +"%Y-%m-%d %H:%M:%S")
+          echo "$ILLUSTRATE" > "./Clash/Ruleset/$FILENAME.list"
+          echo "$DESCRIPTION" >> "./Clash/Ruleset/$FILENAME.list"
+          echo "$RULES_SOURCE" >> "./Clash/Ruleset/$FILENAME.list"
+          echo "# 更新：$update_time" >> "./Clash/Ruleset/$FILENAME.list"
+          echo "# 数量：$rules_count条" >> "./Clash/Ruleset/$FILENAME.list"  # 添加“条”字
+          echo "$AUTHOR" >> "./Clash/Ruleset/$FILENAME.list"
+          echo "$merged_rules" >> "./Clash/Ruleset/$FILENAME.list"
 
           echo "合并完成》》》"
       - name: Push changes
-        uses: EndBug/add-and-commit@v9.1.3
+        uses: EndBug/add-and-commit@v9.1.4
         with:
           author_name: Reid_Vin
           author_email: reid_vin@outlook.com
