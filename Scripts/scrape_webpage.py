@@ -12,12 +12,13 @@ def scrape_webpage():
     tables = soup.find_all('table')
 
     # Open the output file
-    with open('Urls/All_Urls.md', 'w', encoding='utf-8') as f:
+    with open('Urls/All_Urls.md', 'w', encoding='utf-8') as f_md, open('Urls/All_Urls.list', 'w', encoding='utf-8') as f_list:
         # Iterate over each table
         for table in tables:
-            # Find the table header and write it to the file
+            # Find the table header and write it to the files
             header = table.find('thead').find('tr').find('th').text
-            f.write(f'## 分流类型：{header}\\n')
+            f_md.write(f'## 分流类型：{header}\\n')
+            f_list.write(f'{header}\\n\\n')
 
             # Find all rows in the table body
             rows = table.find('tbody').find_all('tr')
@@ -27,9 +28,11 @@ def scrape_webpage():
                 links = row.find_all('a')
                 # Iterate over each link
                 for link in links:
-                    # Write the link text and URL to the file
-                    f.write(f'- {link.text}\\n')
-            f.write('\\n')
+                    # Write the link text and URL to the files
+                    f_md.write(f'- {link.text}\\n')
+                    f_list.write(f'{link.text}: {link["href"]}\\n')
+            f_md.write('\\n')
+            f_list.write('\\n\\n')
 
 if __name__ == "__main__":
     scrape_webpage()
