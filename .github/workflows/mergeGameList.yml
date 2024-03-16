@@ -1,4 +1,4 @@
-name: Update Diversion Rules
+name: Merge CN Game List
 
 on:
   schedule:
@@ -10,7 +10,10 @@ env:
     https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/SteamCN/SteamCN.list
     https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HoYoverse/HoYoverse.list
     https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Game/TencentLoLMobile/TencentLoLMobile.list
-  ILLUSTRATE: "分流规则基于ios_rule_script大佬的规则合并而来，感谢大佬和其他贡献者的无私奉献"
+  ILLUSTRATE: "# 分流规则基于ios_rule_script大佬的规则合并而来，感谢大佬和其他贡献者的无私奉献"
+  DESCRIPTION: "# 自定义的openclash_ad三合一广告过滤列表"
+  RULES_SOURCE: "# 基于以下分流规则合并："
+  AUTHOR: "# 作者：Reid_Vin_Action"
   FILENAME: "ChinaGame"
 
 jobs:
@@ -20,20 +23,33 @@ jobs:
       - uses: actions/checkout@v2
       - name: Download and process diversion rules
         run: |
-          IFS=$'\n' read -d '' -r -a URLS <<< "$DIVERSION_RULES_LIST_URLS"
           merged_rules=""
-          for url in "${URLS[@]}"; do
+          rules_count=0
+          for url in $DIVERSION_RULES_LIST_URLS; do
             echo "Downloading diversion rules from $url..."
             curl -s $url -o list.txt
 
             echo "Processing diversion rules..."
             rules=$(grep -v '^#' list.txt)
             merged_rules="$merged_rules"$'\n'"$rules"
+            current_rules_count=$(grep -c '^[^#[:space:]]' list.txt)
+            rules_count=$((rules_count + current_rules_count))
 
+            echo "$RULES_SOURCE" > "./Clash/Ruleset/$FILENAME.list"
+            echo "$url" >> "./Clash/Ruleset/$FILENAME.list"
+            
             rm list.txt
           done
 
-          printf "%s\n%s\n" "$ILLUSTRATE" "$merged_rules" > "./Clash/Ruleset/${FILENAME}.list"
+          update_time=$(date +"%Y-%m-%d %H:%M:%S")
+          echo "$ILLUSTRATE" > "./Clash/Ruleset/$FILENAME.list"
+          echo "$DESCRIPTION" >> "./Clash/Ruleset/$FILENAME.list"
+          echo "$RULES_SOURCE" >> "./Clash/Ruleset/$FILENAME.list"
+          echo "# 更新：$update_time" >> "./Clash/Ruleset/$FILENAME.list"
+          echo "# 数量：$rules_count" >> "./Clash/Ruleset/$FILENAME.list"
+          echo "$AUTHOR" >> "./Clash/Ruleset/$FILENAME.list"
+          echo >> "./Clash/Ruleset/$FILENAME.list"
+          echo "$merged_rules" >> "./Clash/Ruleset/$FILENAME.list"
 
           echo "合并完成》》》"
       - name: Push changes
@@ -42,6 +58,6 @@ jobs:
           author_name: Reid_Vin
           author_email: reid_vin@outlook.com
           message: Automatic diversion rules update
-          add: "./Clash/Ruleset/${FILENAME}.list"
+          add: "./Clash/Ruleset/${{ env.FILENAME }}.list"
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.COMMON_TOKEN }}
