@@ -27,8 +27,10 @@ def scrape_webpage():
                 links = row.find_all('a')
                 # Iterate over each link
                 for link in links:
+                    # Remove the slashes and quotes from the link URL
+                    url = link["href"].replace("\\", "").replace("\"", "")
                     # Write the link text and URL to the file
-                    f.write(f'{link.text}: {link["href"]}\n')
+                    f.write(f'{link.text}: {url}\n')
 
 if __name__ == "__main__":
     scrape_webpage()
