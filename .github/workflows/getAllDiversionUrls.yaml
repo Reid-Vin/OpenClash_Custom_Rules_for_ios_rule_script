@@ -2,7 +2,7 @@ name: get-All-Diversion-Urls
 
 on:
   schedule:
-    - cron: '0 2 * * *'
+    - cron: '0 1 * * 0' # 每周日凌晨1点钟执行
   workflow_dispatch:
 
 jobs:
@@ -22,7 +22,7 @@ jobs:
           pip install requests beautifulsoup4
 
       - name: Scrape webpage and generate data
-        run: python ./Scripts/scrape_webpage.py
+        run: python ./Scripts/Filter_All_Url.py
 
       - uses: EndBug/add-and-commit@v9.1.4
         with:
