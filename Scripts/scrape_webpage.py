@@ -17,7 +17,7 @@ def scrape_webpage():
         for table in tables:
             # Find the table header and write it to the file
             header = table.find('thead').find('tr').find('th').text
-            f.write(f'\\n{header}\\n')
+            f.write(f'分流类型：{header}\\n')
 
             # Find all rows in the table body
             rows = table.find('tbody').find_all('tr')
@@ -28,7 +28,8 @@ def scrape_webpage():
                 # Iterate over each link
                 for link in links:
                     # Write the link text and URL to the file
-                    f.write(f'{link.text}: {link["href"]}\\n')
+                    f.write(f'    {link.text}：{link["href"]}\\n')
+            f.write('\\n')
 
 if __name__ == "__main__":
     scrape_webpage()
