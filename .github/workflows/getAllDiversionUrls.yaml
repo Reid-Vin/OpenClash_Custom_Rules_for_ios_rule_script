@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      
+
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
@@ -20,14 +20,17 @@ jobs:
       - name: Install dependencies
         run: pip install beautifulsoup4 requests
 
+      - name: Change directory to script location
+        run: cd Scripts
+
       - name: Run Python script
-        run: python Scripts/get_urls.py
+        run: python get_urls.py
         env:
           GITHUB_TOKEN: ${{ secrets.COMMON_TOKEN }}
           OUTPUT_FILE: ${{ github.workspace }}/Urls/All_Urls.list
 
       - name: Copy file to destination
-        run: cp ${{ github.workspace }}/Urls/All_Urls.list ${{ github.workspace }}/Clash/Ruleset/All_Urls.list
+        run: cp ${{ github.workspace }}/Urls/All_Urls.list ${{ github.workspace }}/Urls/All_Urls.list
 
       - name: Push changes
         uses: EndBug/add-and-commit@v9.1.4
@@ -35,6 +38,6 @@ jobs:
           author_name: Reid_Vin
           author_email: reid_vin@outlook.com
           message: Automatic diversion rules update
-          add: "./Clash/Ruleset/All_Urls.list"
+          add: "./Urls/All_Urls.list"
         env:
           GITHUB_TOKEN: ${{ secrets.COMMON_TOKEN }}
