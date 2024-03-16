@@ -22,3 +22,6 @@ for table in tables:
             if link:
                 href = link.get('href')
                 print(href)
+
+# 添加一些调试输出
+print("网页爬取完成！")
