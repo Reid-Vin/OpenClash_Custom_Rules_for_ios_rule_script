@@ -1,40 +1,37 @@
-name: Generate-Urls-List
+name: Scrape and Push Table Data
 
 on:
-  push:
-    branches:
-      - main  # Change this to your default branch if it's not main
+  schedule:
+    - cron: '0 2 * * 0'  # 每周日凌晨2点执行
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - name: Checkout Repository
+        uses: actions/checkout@v2
 
-      - name: Set up Python
+      - name: Setup Python
         uses: actions/setup-python@v2
         with:
           python-version: '3.x'
 
-      - name: Install dependencies
+      - name: Install Dependencies
         run: |
-          python -m pip install --upgrade pip
           pip install beautifulsoup4 requests
 
-      - name: Run Python script to generate URLs list
-        run: python Scripts/generate_urls.py
+      - name: Scrape Table Data
+        run: python scrape_table.py  # 替换为你的Python脚本文件名
 
-      - name: Move generated file to Urls directory
+      - name: Commit Changes
         run: |
-          mkdir -p Urls
-          mv All_Urls.list Urls/
-
-      - name: Commit and push changes
-        run: |
-          git config --global user.email "actions@github.com"
-          git config --global user.name "GitHub Actions"
-          git add Urls/All_Urls.list
-          git commit -m "Add generated URLs list"
-          git push
+          git config --local user.email "reid_vin@outlook.com"
+          git config --local user.name "Reid_Vin"
+          git add .
+          git commit -m "Automatic update - $(date +'%Y-%m-%d %H:%M:%S')"
+      
+      - name: Push Changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.COMMON_TOKEN }}
