@@ -24,11 +24,15 @@ jobs:
       - name: Scrape Table Data
         run: python scrape_table.py  # 替换为你的Python脚本文件名
 
+      - name: Check Changes
+        run: git status
+
       - name: Commit Changes
         run: |
           git config --local user.email "reid_vin@outlook.com"
           git config --local user.name "Reid_Vin"
           git add .
+          git status
           git commit -m "Automatic update - $(date +'%Y-%m-%d %H:%M:%S')"
       
       - name: Push Changes
