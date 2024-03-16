@@ -29,10 +29,10 @@ def scrape_webpage():
                 for link in links:
                     # Remove the slashes and quotes from the link URL
                     url = link["href"].replace("\\", "").replace("\"", "")
-                    # Apply formatting to the URL
-                    formatted_url = url.replace("https://github.com", "https://raw.githubusercontent.com").replace("/tree", "") + ".list"
-                    # Write the link text and formatted URL to the file
-                    f.write(f'{link.text}\n{formatted_url}\n')
+                    # Generate the full URL
+                    full_url = f"https://raw.githubusercontent.com{url}/" + link.text + ".list"
+                    # Write the full URL to the file
+                    f.write(f'{full_url}\n')
 
 if __name__ == "__main__":
     scrape_webpage()
