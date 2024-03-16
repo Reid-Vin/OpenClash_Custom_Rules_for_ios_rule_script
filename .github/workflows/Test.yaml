@@ -23,3 +23,6 @@ jobs:
           echo "$ILLUSTRATE"
           echo "FILENAME:"
           echo "$FILENAME"
+
+          # 将上游分流 URL 字符串分割成数组
+          IFS=$'\n' read -d '' -r -a URLS <<< "$DIVERSION_RULES_LIST_URLS"
