@@ -34,7 +34,9 @@ def scrape_webpage():
                     # Get the name of the file
                     file_name = url.split('/')[-1]
                     # Add the file name and ".list" to the end of the URL
-                    url = url + "/" + file_name + "/" + file_name + ".list"
+                    url = url + "/" + file_name + ".list"
+                    # Remove the slashes and quotes from the URL
+                    url = url.replace("\\", "").replace("\"", "")
                     # Write the URL to the file
                     f.write(f'{url}\n')
 
