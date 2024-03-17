@@ -2,7 +2,7 @@ name: Merge International Games List
 
 on:
   schedule:
-    - cron: '0 2 * * *'
+    - cron: '0 4 * * *'
   workflow_dispatch:
 
 env:
