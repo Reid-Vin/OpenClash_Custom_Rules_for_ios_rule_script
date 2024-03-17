@@ -47,7 +47,7 @@ jobs:
             domain_rules=$(echo "$cleaned_rules" | grep -E '^[^#[:space:]]+\.[a-zA-Z]{2,}' | sort | uniq)
             ip_cidr_rules=$(echo "$cleaned_rules" | grep -E '^IP-CIDR' | sort | uniq)
             other_rules=$(echo "$cleaned_rules" | grep -v -E '^[^#[:space:]]+\.[a-zA-Z]{2,}|^IP-CIDR' | sort | uniq)
-            rules="$domain_rules"$'\n'"$ip_cidr_rules"$'\n'"$other_rules"
+            rules="$domain_rules"$'\n'"$other_rules"$'\n'"$ip_cidr_rules"
             merged_rules="$merged_rules"$'\n'"$rules"
             current_rules_count=$(echo "$rules" | grep -c '^[^#[:space:]]')
             rules_count=$((rules_count + current_rules_count))
@@ -63,7 +63,7 @@ jobs:
           echo "# 更新时间：$update_time" >> "./Clash/Ruleset/$FILENAME.list"
           echo "# 规则总数：$rules_count条" >> "./Clash/Ruleset/$FILENAME.list"
           echo "$AUTHOR" >> "./Clash/Ruleset/$FILENAME.list"
-          echo "$merged_rules" >> "./Clash/Ruleset/$FILENAME.list"
+          echo "$merged_rules" >> "./Clash/Ruleset/$FILENAME.list" | sed '/^[[:space:]]*$/d'
 
           echo "合并完成》》》"
       - name: Push changes
