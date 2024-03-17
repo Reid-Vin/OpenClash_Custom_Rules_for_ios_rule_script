@@ -10,6 +10,8 @@ def scrape_webpage_with_retry():
         try:
             # Send a GET request to the webpage
             response = requests.get('https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Clash')
+            # 控制台输出接收到的网页信息
+            print(response.text)
             # 如果 response 为空，则输出信息并进行重试
             if not response:
                 print("未获取到网页信息，进行重试...")
@@ -29,6 +31,7 @@ def scrape_webpage_with_retry():
                     # Find the table header and write it to the file
                     header = table.find('thead').find('tr').find('th').text
                     f.write(f'\n{header}\n')
+                    print(f'Writing to file: \n{header}\n')
 
                     # Find all rows in the table body
                     rows = table.find('tbody').find_all('tr')
@@ -42,6 +45,7 @@ def scrape_webpage_with_retry():
                             url = link["href"].replace("\\", "").replace("\"", "")
                             # Write the link text and URL to the file
                             f.write(f'{link.text}: {url}\n')
+                            print(f'Writing to file: {link.text}: {url}\n')
 
             # Open the output file
             with open('Urls/All_Urls_No_Name.list', 'w') as f:
@@ -50,6 +54,7 @@ def scrape_webpage_with_retry():
                     # Find the table header and write it to the file
                     header = table.find('thead').find('tr').find('th').text
                     f.write(f'\n{header}\n')
+                    print(f'Writing to file2: \n{header}\n')
 
                     # Find all rows in the table body
                     rows = table.find('tbody').find_all('tr')
