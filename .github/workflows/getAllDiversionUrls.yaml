@@ -35,14 +35,20 @@ jobs:
         run: |
           git status
 
-      - name: Push changes
-        uses: EndBug/add-and-commit@v9.1.4
-        with:
-          author_name: Reid_Vin
-          author_email: reid_vin@outlook.com
-          message: Automatic diversion rules update
-          add: |
-            "./Urls/All_Urls.list"
-            "./Urls/All_Urls_No_Name.list"
-        env:
-          GITHUB_TOKEN: ${{ secrets.COMMON_TOKEN }}
+      - name: Commit and push if changed
+        run: |
+          git add -A
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Automatic diversion rules update"; git push)
+
+      
+      # - name: Push changes
+      #   uses: EndBug/add-and-commit@v9.1.4
+      #   with:
+      #     author_name: Reid_Vin
+      #     author_email: reid_vin@outlook.com
+      #     message: Automatic diversion rules update
+      #     add: |
+      #       "./Urls/All_Urls.list"
+      #       "./Urls/All_Urls_No_Name.list"
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.COMMON_TOKEN }}
