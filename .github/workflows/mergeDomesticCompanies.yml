@@ -258,6 +258,17 @@ env:
     https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apifox/Apifox.list
     https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AmazonCN/AmazonCN.list
     https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Stripe/Stripe.list
+    https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/WeType/WeType.list
+    https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Cloud/CloudCN/CloudCN.list
+    https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Cloud/TencentCloud/TencentCloud.list
+    https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Cloud/NeteaseCloud/NeteaseCloud.list
+    https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Cloud/KingsoftCloud/KingsoftCloud.list
+    https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Cloud/JingDongCloud/JingDongCloud.list
+    https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Cloud/HuaweiCloud/HuaweiCloud.list
+    https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Cloud/HuaweiCloud/HuaweiCloud.list
+    https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Cloud/BaiduCloud/BaiduCloud.list
+    https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Cloud/360Cloud/360Cloud.list
+    https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Lan/Lan.list
   ILLUSTRATE: "# 分流规则基于ios_rule_script大佬的规则合并而来，感谢大佬和其他贡献者的无私奉献"
   RULES_SOURCE: "# 基于以下分流规则合并："
   AUTHOR: "# 作者：Reid_Vin_Action"
