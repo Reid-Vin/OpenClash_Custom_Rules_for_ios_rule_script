@@ -76,6 +76,7 @@ def scrape_webpage_with_retry():
                             url = url.replace("\\", "").replace("\"", "")
                             # Write the URL to the file
                             f.write(f'{url}\n')
+                            print(f'Writing to file2: {url}\n')
 
             # 如果成功获取到数据，直接退出循环
             break
