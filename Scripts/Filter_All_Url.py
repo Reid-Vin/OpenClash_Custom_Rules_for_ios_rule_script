@@ -1,6 +1,8 @@
 import requests
 import time
+import os
 from bs4 import BeautifulSoup
+
 
 def scrape_webpage_with_retry():
     max_retry = 3
@@ -90,5 +92,14 @@ def scrape_webpage_with_retry():
                 print("失败次数过多，请稍后再试。")
                 return
 
+
 if __name__ == "__main__":
     scrape_webpage_with_retry()
+    # 定义文件路径
+    file_paths = ["Urls/All_Urls.list", "Urls/All_Urls_No_Name.list"]
+    # 检查文件是否存在
+    for file_path in file_paths:
+        if os.path.exists(file_path):
+            print(f"文件 {file_path} 存在。")
+        else:
+            print(f"文件 {file_path} 不存在。")
