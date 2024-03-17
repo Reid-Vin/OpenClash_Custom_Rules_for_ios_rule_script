@@ -36,9 +36,12 @@ jobs:
           git status
 
       - name: Commit and push if changed
-        run: |
-          git add -A
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Automatic diversion rules update"; git push)
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Automatic diversion rules update
+          file_pattern: ./Urls/*.list
+          commit_options: '--no-verify --signoff'
+
 
       
       # - name: Push changes
