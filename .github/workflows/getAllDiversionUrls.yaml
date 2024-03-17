@@ -24,17 +24,6 @@ jobs:
       - name: Scrape webpage and generate data
         run: python ./Scripts/Filter_All_Url.py
 
-      - name: Check file contents
-        run: |
-          echo "Contents of Urls/All_Urls.list:"
-          cat Urls/All_Urls.list
-          echo "Contents of Urls/All_Urls_No_Name.list:"
-          cat Urls/All_Urls_No_Name.list
-
-      - name: Check git status
-        run: |
-          git status
-
       - name: Commit and push if changed
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
