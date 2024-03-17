@@ -2,7 +2,7 @@ name: Merge GlobalMedia List
 
 on:
   schedule:
-    - cron: '0 2 * * *'
+    - cron: '1 0 * * *'
   workflow_dispatch:
 
 env:
