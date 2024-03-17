@@ -31,6 +31,9 @@ jobs:
           echo "Contents of Urls/All_Urls_No_Name.list:"
           cat Urls/All_Urls_No_Name.list
 
+      - name: Check git status
+        run: |
+          git status
 
       - name: Push changes
         uses: EndBug/add-and-commit@v9.1.4
