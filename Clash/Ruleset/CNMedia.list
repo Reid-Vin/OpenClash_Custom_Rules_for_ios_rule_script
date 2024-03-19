@@ -7,7 +7,6 @@
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/iQIYI/iQIYI.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Douyu/Douyu.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Himalaya/Himalaya.list
-# https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Himalaya/Himalaya.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BaoFengYingYin/BaoFengYingYin.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AcFun/AcFun.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/6JianFang/6JianFang.list
@@ -18,8 +17,8 @@
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PPTV/PPTV.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YiZhiBo/YiZhiBo.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DouYin/DouYin.list
-# 更新时间：2024-03-19 15:15:09
-# 规则总数：1086条
+# 更新时间：2024-03-19 18:00:22
+# 规则总数：1069条
 # 作者：Reid_Vin_Action
 
 DOMAIN,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com
@@ -304,23 +303,6 @@ DOMAIN-SUFFIX,douyuscdn.com
 DOMAIN-SUFFIX,douyutv.com
 DOMAIN-SUFFIX,doyonoc.com
 DOMAIN-SUFFIX,oywtv.com
-DOMAIN-SUFFIX,9nali.com
-DOMAIN-SUFFIX,conchdate.com
-DOMAIN-SUFFIX,himalaya.com
-DOMAIN-SUFFIX,himalaya.cool
-DOMAIN-SUFFIX,qingxuetang.com
-DOMAIN-SUFFIX,soundconch.com
-DOMAIN-SUFFIX,tableauxmly.com
-DOMAIN-SUFFIX,xima.tv
-DOMAIN-SUFFIX,ximalaya.com
-DOMAIN-SUFFIX,ximalaya.fm
-DOMAIN-SUFFIX,ximalaya.tv
-DOMAIN-SUFFIX,ximalayadata.com
-DOMAIN-SUFFIX,xmcdn.com
-DOMAIN-SUFFIX,zhishif.com
-DOMAIN-SUFFIX,zhishinn.com
-DOMAIN-SUFFIX,zhishiu.com
-DOMAIN-SUFFIX,zhishiv.com
 DOMAIN-SUFFIX,9nali.com
 DOMAIN-SUFFIX,conchdate.com
 DOMAIN-SUFFIX,himalaya.com
