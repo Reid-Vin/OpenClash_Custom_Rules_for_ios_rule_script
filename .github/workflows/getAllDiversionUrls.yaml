@@ -1,8 +1,8 @@
 name: get-All-Diversion-Urls
 
 on:
-  schedule:
-    - cron: '0 1 * * 0' # 每周日凌晨1点钟执行
+  # schedule:
+  #   - cron: '0 1 * * 0' # 每周日凌晨1点钟执行
   workflow_dispatch:
 
 jobs:
