@@ -293,8 +293,8 @@
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TruthSocial/TruthSocial.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zoom/Zoom.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zalo/Zalo.list
-# 更新时间：2024-04-26 10:23:36
-# 规则总数：21572条
+# 更新时间：2024-04-27 10:23:01
+# 规则总数：21578条
 # 作者：Reid_Vin_Action
 
 
@@ -12696,6 +12696,11 @@ PROCESS-NAME,Telegram.exe
 PROCESS-NAME,nekox.messenger
 PROCESS-NAME,org.telegram.messenger
 PROCESS-NAME,telegram-desktop
+IP-ASN,211157,no-resolve
+IP-ASN,44907,no-resolve
+IP-ASN,59930,no-resolve
+IP-ASN,62014,no-resolve
+IP-ASN,62041,no-resolve
 IP-CIDR,13.251.24.0/24,no-resolve
 IP-CIDR,13.251.41.0/24,no-resolve
 IP-CIDR,17.252.156.0/23,no-resolve
@@ -13392,6 +13397,7 @@ IP-CIDR,54.162.243.80/32,no-resolve
 IP-CIDR,54.173.34.141/32,no-resolve
 IP-CIDR,54.235.23.242/32,no-resolve
 IP-CIDR,54.93.124.31/32,no-resolve
+IP-ASN,32934,no-resolve
 DOMAIN-SUFFIX,mediawiki.org
 DOMAIN-SUFFIX,wikibooks.org
 DOMAIN-SUFFIX,wikidata.org
