@@ -5,8 +5,8 @@
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingMiTV/AdvertisingMiTV.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ZhihuAds/ZhihuAds.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingLite/AdvertisingLite.list
-# 更新时间：2024-05-01 13:10:05
-# 规则总数：70200条
+# 更新时间：2024-05-02 13:11:12
+# 规则总数：70201条
 # 作者：Reid_Vin_Action
 
 DOMAIN,hm.baidu.com
@@ -46573,6 +46573,7 @@ DOMAIN,o12zs3u2n.com
 DOMAIN,o1mmijc4ki.com
 DOMAIN,o1o6tadz5p.com
 DOMAIN,o2live.com
+DOMAIN,o2o-ad-log-gateway.alibaba.com
 DOMAIN,o6ek91ag15.com
 DOMAIN,oabcufwk.com
 DOMAIN,oacautoh.net
