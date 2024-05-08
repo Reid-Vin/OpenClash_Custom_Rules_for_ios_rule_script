@@ -293,8 +293,8 @@
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TruthSocial/TruthSocial.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zoom/Zoom.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zalo/Zalo.list
-# 更新时间：2024-05-07 10:30:41
-# 规则总数：21588条
+# 更新时间：2024-05-08 10:15:56
+# 规则总数：21587条
 # 作者：Reid_Vin_Action
 
 
@@ -7457,7 +7457,6 @@ DOMAIN-SUFFIX,cdef.org
 DOMAIN-SUFFIX,cdig.info
 DOMAIN-SUFFIX,cdjp.org
 DOMAIN-SUFFIX,cdn.angruo.com
-DOMAIN-SUFFIX,cdn.jwplayer.com
 DOMAIN-SUFFIX,cdn.segment.com
 DOMAIN-SUFFIX,cdnews.com.tw
 DOMAIN-SUFFIX,cdnst.net
@@ -9063,7 +9062,6 @@ DOMAIN-SUFFIX,ibytedtos.com
 DOMAIN-SUFFIX,ibyteimg.com
 DOMAIN-SUFFIX,icams.com
 DOMAIN-SUFFIX,icedrive.net
-DOMAIN-SUFFIX,icerocket.com
 DOMAIN-SUFFIX,icij.org
 DOMAIN-SUFFIX,icl-fi.org
 DOMAIN-SUFFIX,icntv.xyz
@@ -9364,6 +9362,7 @@ DOMAIN-SUFFIX,justtristan.com
 DOMAIN-SUFFIX,juyuange.org
 DOMAIN-SUFFIX,juziyue.com
 DOMAIN-SUFFIX,jwmusic.org
+DOMAIN-SUFFIX,jwplayer.com
 DOMAIN-SUFFIX,jyxf.net
 DOMAIN-SUFFIX,k-doujin.net
 DOMAIN-SUFFIX,ka-wai.com
