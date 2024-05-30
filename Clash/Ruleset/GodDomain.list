@@ -293,8 +293,8 @@
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TruthSocial/TruthSocial.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zoom/Zoom.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zalo/Zalo.list
-# 更新时间：2024-05-29 10:31:04
-# 规则总数：21587条
+# 更新时间：2024-05-30 10:32:39
+# 规则总数：21603条
 # 作者：Reid_Vin_Action
 
 
@@ -6642,10 +6642,14 @@ DOMAIN,aqi.aqicn.org
 DOMAIN,assets-priconne-redive-us.akamaized.net
 DOMAIN,chat.openai.com.cdn.cloudflare.net
 DOMAIN,cloud.oracle.com
+DOMAIN,copilot.microsoft.com
 DOMAIN,cvws.icloud-content.com
 DOMAIN,developer.apple.com
+DOMAIN,location.microsoft.com
+DOMAIN,login.microsoftonline.com
 DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
 DOMAIN,openaicomproductionae4b.blob.core.windows.net
+DOMAIN,self.events.data.microsoft.com
 DOMAIN,testflight.apple.com
 DOMAIN,voice.telephony.goog
 DOMAIN-SUFFIX,000webhost.com
@@ -7201,6 +7205,7 @@ DOMAIN-SUFFIX,billypan.com
 DOMAIN-SUFFIX,binance.com
 DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,bing.net
+DOMAIN-SUFFIX,bingapis.com
 DOMAIN-SUFFIX,bintray.com
 DOMAIN-SUFFIX,binux.me
 DOMAIN-SUFFIX,binwang.me
@@ -9775,6 +9780,8 @@ DOMAIN-SUFFIX,mgstage.com
 DOMAIN-SUFFIX,mh4u.org
 DOMAIN-SUFFIX,michaelanti.com
 DOMAIN-SUFFIX,michaelmarketl.com
+DOMAIN-SUFFIX,microsoft-falcon.io
+DOMAIN-SUFFIX,microsoftapp.net
 DOMAIN-SUFFIX,microsofttranslator.com
 DOMAIN-SUFFIX,microvpn.com
 DOMAIN-SUFFIX,middle-way.net
@@ -12625,6 +12632,7 @@ IP-CIDR,180.163.151.162/32,no-resolve
 IP-CIDR,180.163.151.34/32,no-resolve
 IP-CIDR,184.173.128.0/17,no-resolve
 IP-CIDR,185.60.216.0/22,no-resolve
+IP-CIDR,185.76.151.0/24,no-resolve
 IP-CIDR,203.104.103.0/24,no-resolve
 IP-CIDR,203.104.128.0/19,no-resolve
 IP-CIDR,203.174.66.64/26,no-resolve
@@ -12666,10 +12674,12 @@ IP-CIDR,74.119.76.0/22,no-resolve
 IP-CIDR,74.125.0.0/16,no-resolve
 IP-CIDR,74.86.0.0/16,no-resolve
 IP-CIDR,75.126.0.0/16,no-resolve
+IP-CIDR,91.105.192.0/23,no-resolve
 IP-CIDR,91.108.0.0/16,no-resolve
 IP-CIDR6,2001:67c:4e8::/48,no-resolve
 IP-CIDR6,2001:b28:f23d::/48,no-resolve
 IP-CIDR6,2001:b28:f23f::/48,no-resolve
+IP-CIDR6,2a0a:f280::/32,no-resolve
 DOMAIN,api.imem.app
 DOMAIN,api.swiftgram.app
 DOMAIN-SUFFIX,cdn-telegram.org
@@ -18382,8 +18392,10 @@ DOMAIN-SUFFIX,pchomepay.com.tw
 DOMAIN-SUFFIX,pcloud.tw
 DOMAIN,addons.mozilla.org
 DOMAIN,amp-api.podcasts.apple.com
+DOMAIN,api.msn.com
 DOMAIN,api.waqi.info
 DOMAIN,aqi.aqicn.org
+DOMAIN,assets.msn.com
 DOMAIN,assets1.xboxlive.com
 DOMAIN,assets2.xboxlive.com
 DOMAIN,az416426.vo.msecnd.net
@@ -18393,14 +18405,18 @@ DOMAIN,books.apple.com
 DOMAIN,cdp.cloud.unity3d.com
 DOMAIN,chat.openai.com.cdn.cloudflare.net
 DOMAIN,clubhouse.pubnubapi.com
+DOMAIN,copilot.microsoft.com
 DOMAIN,disk.yandex.com
 DOMAIN,lab.skk.moe
+DOMAIN,location.microsoft.com
+DOMAIN,login.microsoftonline.com
 DOMAIN,ocsp.int-x3.letsencrypt.org
 DOMAIN,openaiapi-site.azureedge.net
 DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
 DOMAIN,openaicomproductionae4b.blob.core.windows.net
 DOMAIN,production-openaicom-storage.azureedge.net
 DOMAIN,search.yahoo.co.jp
+DOMAIN,self.events.data.microsoft.com
 DOMAIN,tv.apple.com
 DOMAIN,wego.here.com
 DOMAIN-SUFFIX,1password.com
