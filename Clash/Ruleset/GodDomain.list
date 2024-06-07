@@ -293,8 +293,8 @@
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TruthSocial/TruthSocial.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zoom/Zoom.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zalo/Zalo.list
-# 更新时间：2024-06-06 10:29:56
-# 规则总数：21610条
+# 更新时间：2024-06-07 10:32:10
+# 规则总数：21612条
 # 作者：Reid_Vin_Action
 
 
@@ -6989,6 +6989,7 @@ DOMAIN-SUFFIX,apkmirror.com
 DOMAIN-SUFFIX,apkmonk.com
 DOMAIN-SUFFIX,apkplz.com
 DOMAIN-SUFFIX,apkpure.com
+DOMAIN-SUFFIX,apkpure.net
 DOMAIN-SUFFIX,aplusvpn.com
 DOMAIN-SUFFIX,app-measurement.net
 DOMAIN-SUFFIX,appdownloader.net
@@ -7880,6 +7881,7 @@ DOMAIN-SUFFIX,deviantart.com
 DOMAIN-SUFFIX,deviantart.net
 DOMAIN-SUFFIX,devio.us
 DOMAIN-SUFFIX,devpn.com
+DOMAIN-SUFFIX,devv.ai
 DOMAIN-SUFFIX,dfas.mil
 DOMAIN-SUFFIX,dfn.org
 DOMAIN-SUFFIX,dharamsalanet.com
