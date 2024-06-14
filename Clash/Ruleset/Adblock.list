@@ -5,7 +5,7 @@
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingMiTV/AdvertisingMiTV.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ZhihuAds/ZhihuAds.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingLite/AdvertisingLite.list
-# 更新时间：2024-06-13 13:12:01
+# 更新时间：2024-06-14 13:10:45
 # 规则总数：75495条
 # 作者：Reid_Vin_Action
 
@@ -75099,7 +75099,6 @@ DOMAIN-SUFFIX,zzwflxs.com
 DOMAIN-SUFFIX,zzyonghao.com
 DOMAIN-SUFFIX,zzz7.52896368.com
 DOMAIN-SUFFIX,zzzzz4.52896368.com
-DOMAIN-KEYWORD,-tos.pstatp.com
 DOMAIN-KEYWORD,112wan
 DOMAIN-KEYWORD,789htbet
 DOMAIN-KEYWORD,a.9game.cn
@@ -75284,6 +75283,7 @@ DOMAIN-KEYWORD,stunninglover
 DOMAIN-KEYWORD,supersonicads
 DOMAIN-KEYWORD,talk.bz.getui.com
 DOMAIN-KEYWORD,toateeli
+DOMAIN-KEYWORD,tos.pstatp.com
 DOMAIN-KEYWORD,tosv.boe.byted.org
 DOMAIN-KEYWORD,tosv.byted.org
 DOMAIN-KEYWORD,track.uc.cn
