@@ -5,8 +5,8 @@
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingMiTV/AdvertisingMiTV.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ZhihuAds/ZhihuAds.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingLite/AdvertisingLite.list
-# 更新时间：2024-06-17 13:14:10
-# 规则总数：75496条
+# 更新时间：2024-06-18 13:11:38
+# 规则总数：75504条
 # 作者：Reid_Vin_Action
 
 DOMAIN,hm.baidu.com
@@ -38782,6 +38782,8 @@ DOMAIN,adcash.com
 DOMAIN,adcastplus.net
 DOMAIN,adcde.com
 DOMAIN,adcdn.hpplay.cn
+DOMAIN,adcdn.tencentmusic.com
+DOMAIN,adcdn6.tencentmusic.com
 DOMAIN,adcdnx.com
 DOMAIN,adcell.com
 DOMAIN,adcell.de
@@ -38797,6 +38799,7 @@ DOMAIN,adclear.net
 DOMAIN,adclerks.com
 DOMAIN,adclick.lv
 DOMAIN,adclick.pk
+DOMAIN,adclick.tencentmusic.com
 DOMAIN,adclickafrica.com
 DOMAIN,adclickmedia.com
 DOMAIN,adclicks.io
@@ -38854,6 +38857,7 @@ DOMAIN,adexchangemachine.com
 DOMAIN,adexchangeprediction.com
 DOMAIN,adexchangetracker.com
 DOMAIN,adexcite.com
+DOMAIN,adexpo.tencentmusic.com
 DOMAIN,adexprts.com
 DOMAIN,adextent.com
 DOMAIN,adezrvjcbyu.com
@@ -50818,6 +50822,7 @@ DOMAIN,moneytec.com
 DOMAIN,moneywhisper.com
 DOMAIN,mongoosemetrics.com
 DOMAIN,monitis.com
+DOMAIN,monitor.music.qq.com
 DOMAIN,monitoringservice.co
 DOMAIN,monitus.net
 DOMAIN,monkeybroker.net
@@ -56302,6 +56307,7 @@ DOMAIN,stat.ts.cn
 DOMAIN,stat.v.17173.com
 DOMAIN,stat.www.fi
 DOMAIN,stat.xywy.com
+DOMAIN,stat.y.qq.com
 DOMAIN,stat.yunfan.com
 DOMAIN,stat.zbii.com
 DOMAIN,stat.zdnet.com.cn
@@ -57190,6 +57196,7 @@ DOMAIN,tm1-001.com
 DOMAIN,tmblaeivephb.com
 DOMAIN,tmdn2015x9.com
 DOMAIN,tmead.y.qq.com
+DOMAIN,tmeadbak.y.qq.com
 DOMAIN,tmeadcomm.y.qq.com
 DOMAIN,tmearn.com
 DOMAIN,tmfkuesmlpto.com
@@ -67838,6 +67845,7 @@ DOMAIN-SUFFIX,impservice.youdao.com
 DOMAIN-SUFFIX,impservice2.youdao.com
 DOMAIN-SUFFIX,impservicetest.dictapp.youdao.com
 DOMAIN-SUFFIX,imrworldwide.com
+DOMAIN-SUFFIX,imtmp.net
 DOMAIN-SUFFIX,imx.comedycentral.com
 DOMAIN-SUFFIX,imykgs.com
 DOMAIN-SUFFIX,in.qqhpg.com
