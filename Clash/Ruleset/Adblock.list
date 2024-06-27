@@ -5,8 +5,8 @@
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingMiTV/AdvertisingMiTV.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ZhihuAds/ZhihuAds.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingLite/AdvertisingLite.list
-# 更新时间：2024-06-26 13:10:45
-# 规则总数：75504条
+# 更新时间：2024-06-27 13:11:26
+# 规则总数：75506条
 # 作者：Reid_Vin_Action
 
 DOMAIN,hm.baidu.com
@@ -65483,6 +65483,7 @@ DOMAIN-SUFFIX,debadu.com
 DOMAIN-SUFFIX,debug-vp.webmd.com
 DOMAIN-SUFFIX,decisionediv.site
 DOMAIN-SUFFIX,deepknow.egoid.me
+DOMAIN-SUFFIX,default.ixigua.com
 DOMAIN-SUFFIX,defeatureother.site
 DOMAIN-SUFFIX,definitedikdra.site
 DOMAIN-SUFFIX,dehua.ixinfan.com
@@ -70054,6 +70055,7 @@ DOMAIN-SUFFIX,notify.oupeng.com
 DOMAIN-SUFFIX,notify.wps.cn
 DOMAIN-SUFFIX,notifysrv.com
 DOMAIN-SUFFIX,noutstancerewe.info
+DOMAIN-SUFFIX,novelapp.ixigua.com
 DOMAIN-SUFFIX,novelsns.html5.qq.com
 DOMAIN-SUFFIX,nowskip.com
 DOMAIN-SUFFIX,nozem.tvmaze.com
