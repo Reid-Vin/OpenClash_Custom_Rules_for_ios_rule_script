@@ -40,8 +40,8 @@
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Acplay/Acplay.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/UKMedia/UKMedia.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/USMedia/USMedia.list
-# 更新时间：2024-07-02 18:11:38
-# 规则总数：3044条
+# 更新时间：2024-07-03 18:12:19
+# 规则总数：3045条
 # 作者：Reid_Vin_Action
 
 DOMAIN,aod-ssl.itunes.apple.com
@@ -67,7 +67,6 @@ DOMAIN,api.okzy.tv
 DOMAIN,apm-misaka.biliapi.net
 DOMAIN,apple.comscoreresearch.com
 DOMAIN,bcbolt446c5271-a.akamaihd.net
-DOMAIN,cache.video.iqiyi.com
 DOMAIN,chuangcachecdnoversea-tw.inter.ptqy.gitv.tv
 DOMAIN,cs428.wpc.edgecastcdn.net
 DOMAIN,dashasiafox.akamaized.netflix
@@ -2898,6 +2897,7 @@ DOMAIN-SUFFIX,emby.prprcloud.com
 DOMAIN-SUFFIX,emby.wtf
 DOMAIN-SUFFIX,emby.xeton.dev
 DOMAIN-SUFFIX,emby.ytoo.li
+DOMAIN-SUFFIX,embymv.tk
 DOMAIN-SUFFIX,embyplus.org
 DOMAIN-SUFFIX,embyserver.ga
 DOMAIN-SUFFIX,hinet.jmsooo.com
@@ -2924,6 +2924,7 @@ DOMAIN,d1koerlbtsmkf8.cloudfront.net
 DOMAIN,d31wl6mro6753i.cloudfront.net
 DOMAIN,static-mycake.pstatic.net
 DOMAIN,vstatic-mycake.pstatic.net
+DOMAIN-SUFFIX,cake.day
 DOMAIN-SUFFIX,cakeapp.me
 DOMAIN-SUFFIX,mycake.me
 DOMAIN,itvpnp.live.ott.irdeto.com
