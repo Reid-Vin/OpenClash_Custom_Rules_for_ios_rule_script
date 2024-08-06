@@ -5,8 +5,8 @@
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingMiTV/AdvertisingMiTV.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ZhihuAds/ZhihuAds.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingLite/AdvertisingLite.list
-# 更新时间：2024-08-05 13:12:46
-# 规则总数：75616条
+# 更新时间：2024-08-06 13:11:35
+# 规则总数：75614条
 # 作者：Reid_Vin_Action
 
 DOMAIN,hmma.baidu.com
@@ -46196,7 +46196,6 @@ DOMAIN,getstatistics.se
 DOMAIN,getsupernova.com
 DOMAIN,gettipsz.info
 DOMAIN,gettraff.com
-DOMAIN,getui.net
 DOMAIN,getxml.org
 DOMAIN,getzwnrgsrz.com
 DOMAIN,geusihivdqkwzf.com
@@ -55274,7 +55273,6 @@ DOMAIN,sdgvzdksjbl.com
 DOMAIN,sdillrnslaiyb.com
 DOMAIN,sdk.api.oaid.wocloud.cn
 DOMAIN,sdk.appadhoc.com.bsclink.cn
-DOMAIN,sdk.open.talk.getui.net
 DOMAIN,sdk.zsdfm.com
 DOMAIN,sdk2.youguoquan.com
 DOMAIN,sdkauth.hpplay.cn
@@ -66941,6 +66939,7 @@ DOMAIN-SUFFIX,getnormalizedurl.com
 DOMAIN-SUFFIX,getrockerbox.com
 DOMAIN-SUFFIX,gets.faz.net
 DOMAIN-SUFFIX,getui.com
+DOMAIN-SUFFIX,getui.net
 DOMAIN-SUFFIX,gewuwen.com
 DOMAIN-SUFFIX,gf108.com
 DOMAIN-SUFFIX,gf1352.com
@@ -75257,7 +75256,6 @@ DOMAIN-KEYWORD,a.9game.cn
 DOMAIN-KEYWORD,a.wkanx.com
 DOMAIN-KEYWORD,a3.bytecdn.cn
 DOMAIN-KEYWORD,a3.pstatp.com
-DOMAIN-KEYWORD,ad-sign.byteimg.com
 DOMAIN-KEYWORD,ad.api.moji.com
 DOMAIN-KEYWORD,ad.ihuman.com
 DOMAIN-KEYWORD,ad.toutiao.com
