@@ -293,8 +293,8 @@
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TruthSocial/TruthSocial.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zoom/Zoom.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zalo/Zalo.list
-# 更新时间：2024-08-07 10:36:23
-# 规则总数：22093条
+# 更新时间：2024-08-08 10:35:20
+# 规则总数：22094条
 # 作者：Reid_Vin_Action
 
 
@@ -14395,6 +14395,7 @@ DOMAIN-SUFFIX,mtvnservices.com
 DOMAIN-SUFFIX,paramount.com
 DOMAIN-SUFFIX,paramountplus.com
 DOMAIN-SUFFIX,pluto.tv
+DOMAIN-SUFFIX,plutotv.net
 DOMAIN-SUFFIX,pplusstatic.com
 DOMAIN-SUFFIX,showtime.com
 DOMAIN-SUFFIX,viacbs.com
