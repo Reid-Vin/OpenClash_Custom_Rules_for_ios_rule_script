@@ -5,8 +5,8 @@
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingMiTV/AdvertisingMiTV.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ZhihuAds/ZhihuAds.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingLite/AdvertisingLite.list
-# 更新时间：2024-08-15 13:11:55
-# 规则总数：75607条
+# 更新时间：2024-08-16 13:11:23
+# 规则总数：75609条
 # 作者：Reid_Vin_Action
 
 DOMAIN,hmma.baidu.com
@@ -56879,6 +56879,7 @@ DOMAIN,tagsrvcs.com
 DOMAIN,tagtool.de
 DOMAIN,tahbmbqhvvi.com
 DOMAIN,tahkezux.com
+DOMAIN,taichi.51y5.net
 DOMAIN,taihe2002.cn
 DOMAIN,tailorcave.com
 DOMAIN,tailsweep.com
@@ -75127,6 +75128,7 @@ DOMAIN-SUFFIX,zkwsdf.com
 DOMAIN-SUFFIX,zl588.com
 DOMAIN-SUFFIX,zlauk.cn
 DOMAIN-SUFFIX,zlongad.com
+DOMAIN-SUFFIX,zlsdk.1rtb.net
 DOMAIN-SUFFIX,zlsw.nnjxqd.com
 DOMAIN-SUFFIX,zm-bulu.cn
 DOMAIN-SUFFIX,zmgod.com
