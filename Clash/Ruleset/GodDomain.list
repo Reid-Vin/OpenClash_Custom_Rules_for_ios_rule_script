@@ -293,8 +293,8 @@
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TruthSocial/TruthSocial.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zoom/Zoom.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zalo/Zalo.list
-# 更新时间：2024-09-28 10:47:12
-# 规则总数：22133条
+# 更新时间：2024-09-29 10:54:10
+# 规则总数：22134条
 # 作者：Reid_Vin_Action
 
 
@@ -18975,6 +18975,7 @@ DOMAIN-SUFFIX,popo.tw
 DOMAIN-SUFFIX,potato.im
 DOMAIN-SUFFIX,prism-break.org
 DOMAIN-SUFFIX,privoxy.org
+DOMAIN-SUFFIX,proton.me
 DOMAIN-SUFFIX,proxfree.com
 DOMAIN-SUFFIX,proxifier.com
 DOMAIN-SUFFIX,pscp.tv
