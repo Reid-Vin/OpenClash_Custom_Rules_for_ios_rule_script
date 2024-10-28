@@ -5,8 +5,8 @@
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingMiTV/AdvertisingMiTV.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ZhihuAds/ZhihuAds.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingLite/AdvertisingLite.list
-# 更新时间：2024-10-27 13:12:13
-# 规则总数：77155条
+# 更新时间：2024-10-28 13:13:22
+# 规则总数：77156条
 # 作者：Reid_Vin_Action
 
 DOMAIN,hmma.baidu.com
@@ -69741,6 +69741,7 @@ DOMAIN-SUFFIX,jdb.jiudingcapital.cn
 DOMAIN-SUFFIX,jdb.jiudingcapital.com
 DOMAIN-SUFFIX,jdcbuy.com
 DOMAIN-SUFFIX,jddaw.com
+DOMAIN-SUFFIX,jddebug.com
 DOMAIN-SUFFIX,jdf494.cn
 DOMAIN-SUFFIX,jdflower.cn
 DOMAIN-SUFFIX,jdgsgl.com
