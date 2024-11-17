@@ -293,8 +293,8 @@
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TruthSocial/TruthSocial.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zoom/Zoom.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zalo/Zalo.list
-# 更新时间：2024-11-16 10:53:51
-# 规则总数：22136条
+# 更新时间：2024-11-17 10:59:42
+# 规则总数：22114条
 # 作者：Reid_Vin_Action
 
 
@@ -7403,7 +7403,6 @@ DOMAIN-SUFFIX,bybit.com
 DOMAIN-SUFFIX,bynet.co.il
 DOMAIN-SUFFIX,bypasscensorship.org
 DOMAIN-SUFFIX,byrut.org
-DOMAIN-SUFFIX,byteoversea.com
 DOMAIN-SUFFIX,c-est-simple.com
 DOMAIN-SUFFIX,c-span.org
 DOMAIN-SUFFIX,c-spanvideo.org
@@ -9099,8 +9098,6 @@ DOMAIN-SUFFIX,iblogserv-f.net
 DOMAIN-SUFFIX,ibros.org
 DOMAIN-SUFFIX,ibtimes.com
 DOMAIN-SUFFIX,ibvpn.com
-DOMAIN-SUFFIX,ibytedtos.com
-DOMAIN-SUFFIX,ibyteimg.com
 DOMAIN-SUFFIX,icams.com
 DOMAIN-SUFFIX,icedrive.net
 DOMAIN-SUFFIX,icij.org
@@ -9231,7 +9228,6 @@ DOMAIN-SUFFIX,ipoock.com
 DOMAIN-SUFFIX,iportal.me
 DOMAIN-SUFFIX,ippotv.com
 DOMAIN-SUFFIX,ipredator.se
-DOMAIN-SUFFIX,ipstatp.com
 DOMAIN-SUFFIX,iptv.com.tw
 DOMAIN-SUFFIX,iptvbin.com
 DOMAIN-SUFFIX,ipvanish.com
@@ -9957,7 +9953,6 @@ DOMAIN-SUFFIX,multiproxy.org
 DOMAIN-SUFFIX,multiupload.com
 DOMAIN-SUFFIX,mummysgold.com
 DOMAIN-SUFFIX,murmur.tw
-DOMAIN-SUFFIX,muscdn.com
 DOMAIN-SUFFIX,musicade.net
 DOMAIN-SUFFIX,muslimvideo.com
 DOMAIN-SUFFIX,muzi.com
@@ -10974,7 +10969,6 @@ DOMAIN-SUFFIX,sfshibao.com
 DOMAIN-SUFFIX,sftindia.org
 DOMAIN-SUFFIX,sftuk.org
 DOMAIN-SUFFIX,sfx.ms
-DOMAIN-SUFFIX,sgpstatp.com
 DOMAIN-SUFFIX,shadeyouvpn.com
 DOMAIN-SUFFIX,shadow.ma
 DOMAIN-SUFFIX,shadowsky.xyz
@@ -11595,7 +11589,8 @@ DOMAIN-SUFFIX,tibettruth.com
 DOMAIN-SUFFIX,tibetwrites.org
 DOMAIN-SUFFIX,ticket.com.tw
 DOMAIN-SUFFIX,tigervpn.com
-DOMAIN-SUFFIX,tik-tokapi.com
+DOMAIN-SUFFIX,tiktok.com
+DOMAIN-SUFFIX,tiktokv.com
 DOMAIN-SUFFIX,tiltbrush.com
 DOMAIN-SUFFIX,timdir.com
 DOMAIN-SUFFIX,time.com
@@ -12612,7 +12607,6 @@ DOMAIN-KEYWORD,fbcdn
 DOMAIN-KEYWORD,gmail
 DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,instagram
-DOMAIN-KEYWORD,musical.ly
 DOMAIN-KEYWORD,onedrive
 DOMAIN-KEYWORD,paypal
 DOMAIN-KEYWORD,porn
@@ -12620,15 +12614,12 @@ DOMAIN-KEYWORD,sci-hub
 DOMAIN-KEYWORD,skydrive
 DOMAIN-KEYWORD,spotify
 DOMAIN-KEYWORD,telegram
-DOMAIN-KEYWORD,tiktok
 DOMAIN-KEYWORD,ttvnw
 DOMAIN-KEYWORD,twitter
 DOMAIN-KEYWORD,uk-live
 DOMAIN-KEYWORD,whatsapp
 DOMAIN-KEYWORD,youtube
 IP-CIDR,1.201.0.0/24,no-resolve
-IP-CIDR,101.32.118.0/23,no-resolve
-IP-CIDR,101.32.96.0/20,no-resolve
 IP-CIDR,103.2.28.0/22,no-resolve
 IP-CIDR,103.246.56.0/22,no-resolve
 IP-CIDR,103.27.148.0/22,no-resolve
@@ -12651,7 +12642,6 @@ IP-CIDR,125.6.146.0/24,no-resolve
 IP-CIDR,125.6.149.0/24,no-resolve
 IP-CIDR,125.6.190.0/24,no-resolve
 IP-CIDR,129.134.0.0/17,no-resolve
-IP-CIDR,129.226.0.0/16,no-resolve
 IP-CIDR,13.32.0.0/15,no-resolve
 IP-CIDR,13.35.0.0/17,no-resolve
 IP-CIDR,14.102.250.18/31,no-resolve
@@ -18475,7 +18465,6 @@ DOMAIN,lab.skk.moe
 DOMAIN,location.microsoft.com
 DOMAIN,login.microsoftonline.com
 DOMAIN,ocsp.int-x3.letsencrypt.org
-DOMAIN,openaiapi-site.azureedge.net
 DOMAIN,search.yahoo.co.jp
 DOMAIN,self.events.data.microsoft.com
 DOMAIN,tv.apple.com
@@ -18522,6 +18511,7 @@ DOMAIN-SUFFIX,apache.org
 DOMAIN-SUFFIX,api.amplitude.com
 DOMAIN-SUFFIX,api.mixpanel.com
 DOMAIN-SUFFIX,api.termius.com
+DOMAIN-SUFFIX,api.tiktokv.com
 DOMAIN-SUFFIX,apk-dl.com
 DOMAIN-SUFFIX,apkmirror.com
 DOMAIN-SUFFIX,apkpure.com
@@ -18594,7 +18584,6 @@ DOMAIN-SUFFIX,btlibrary.me
 DOMAIN-SUFFIX,bullguard.com
 DOMAIN-SUFFIX,buzzsprout.com
 DOMAIN-SUFFIX,bybit.com
-DOMAIN-SUFFIX,byteoversea.com
 DOMAIN-SUFFIX,c-span.org
 DOMAIN-SUFFIX,cachefly.net
 DOMAIN-SUFFIX,castbox.fm
@@ -18774,8 +18763,6 @@ DOMAIN-SUFFIX,hulu.com
 DOMAIN-SUFFIX,humblebundle.com
 DOMAIN-SUFFIX,huobi.com
 DOMAIN-SUFFIX,i-cable.com
-DOMAIN-SUFFIX,ibytedtos.com
-DOMAIN-SUFFIX,ibyteimg.com
 DOMAIN-SUFFIX,icntv.xyz
 DOMAIN-SUFFIX,icoco.com
 DOMAIN-SUFFIX,icons8.com
@@ -18799,7 +18786,6 @@ DOMAIN-SUFFIX,io.io
 DOMAIN-SUFFIX,ip.sb
 DOMAIN-SUFFIX,ipaddress.com
 DOMAIN-SUFFIX,ipn.li
-DOMAIN-SUFFIX,ipstatp.com
 DOMAIN-SUFFIX,is.gd
 DOMAIN-SUFFIX,ishowsapp.com
 DOMAIN-SUFFIX,issuu.com
@@ -18879,7 +18865,6 @@ DOMAIN-SUFFIX,moon.fm
 DOMAIN-SUFFIX,moves-export.com
 DOMAIN-SUFFIX,mp3buscador.com
 DOMAIN-SUFFIX,mubi.com
-DOMAIN-SUFFIX,muscdn.com
 DOMAIN-SUFFIX,mvnrepository.com
 DOMAIN-SUFFIX,mycnnews.com
 DOMAIN-SUFFIX,myfontastic.com
@@ -19025,7 +19010,6 @@ DOMAIN-SUFFIX,scmp.com
 DOMAIN-SUFFIX,scribd.com
 DOMAIN-SUFFIX,search.com
 DOMAIN-SUFFIX,sexinsex.net
-DOMAIN-SUFFIX,sgpstatp.com
 DOMAIN-SUFFIX,shadowsocks.org
 DOMAIN-SUFFIX,shadowverse.jp
 DOMAIN-SUFFIX,shutterstock.com
@@ -19125,7 +19109,6 @@ DOMAIN-SUFFIX,thepiratebay.org
 DOMAIN-SUFFIX,thetvdb.com
 DOMAIN-SUFFIX,theverge.com
 DOMAIN-SUFFIX,thewgo.org
-DOMAIN-SUFFIX,tik-tokapi.com
 DOMAIN-SUFFIX,time.com
 DOMAIN-SUFFIX,timeinc.net
 DOMAIN-SUFFIX,tinder.com
@@ -19339,20 +19322,16 @@ DOMAIN-KEYWORD,dropbox
 DOMAIN-KEYWORD,facebook
 DOMAIN-KEYWORD,fbcdn
 DOMAIN-KEYWORD,instagram
-DOMAIN-KEYWORD,musical.ly
 DOMAIN-KEYWORD,paypal
 DOMAIN-KEYWORD,porn
 DOMAIN-KEYWORD,sci-hub
 DOMAIN-KEYWORD,spotify
 DOMAIN-KEYWORD,telegram
-DOMAIN-KEYWORD,tiktok
 DOMAIN-KEYWORD,ttvnw
 DOMAIN-KEYWORD,twitter
 DOMAIN-KEYWORD,uk-live
 DOMAIN-KEYWORD,whatsapp
 IP-CIDR,1.201.0.0/24,no-resolve
-IP-CIDR,101.32.118.0/23,no-resolve
-IP-CIDR,101.32.96.0/20,no-resolve
 IP-CIDR,103.2.28.0/22,no-resolve
 IP-CIDR,103.246.56.0/22,no-resolve
 IP-CIDR,103.27.148.0/22,no-resolve
@@ -19375,7 +19354,6 @@ IP-CIDR,125.6.146.0/24,no-resolve
 IP-CIDR,125.6.149.0/24,no-resolve
 IP-CIDR,125.6.190.0/24,no-resolve
 IP-CIDR,129.134.0.0/17,no-resolve
-IP-CIDR,129.226.0.0/16,no-resolve
 IP-CIDR,13.32.0.0/15,no-resolve
 IP-CIDR,13.35.0.0/17,no-resolve
 IP-CIDR,147.92.128.0/17,no-resolve
