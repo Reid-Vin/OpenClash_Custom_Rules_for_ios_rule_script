@@ -293,8 +293,8 @@
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TruthSocial/TruthSocial.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zoom/Zoom.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zalo/Zalo.list
-# 更新时间：2024-12-07 10:59:08
-# 规则总数：22116条
+# 更新时间：2024-12-08 11:07:28
+# 规则总数：22117条
 # 作者：Reid_Vin_Action
 
 
@@ -12754,6 +12754,7 @@ PROCESS-NAME,nekox.messenger
 PROCESS-NAME,org.telegram.messenger
 PROCESS-NAME,telegram-desktop
 PROCESS-NAME,tw.nekomimi.nekogram
+PROCESS-NAME,xyz.nextalone.nagram
 IP-ASN,211157,no-resolve
 IP-ASN,44907,no-resolve
 IP-ASN,59930,no-resolve
