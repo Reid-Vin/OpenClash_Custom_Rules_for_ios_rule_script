@@ -293,8 +293,8 @@
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TruthSocial/TruthSocial.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zoom/Zoom.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zalo/Zalo.list
-# 更新时间：2025-01-01 10:55:51
-# 规则总数：22123条
+# 更新时间：2025-01-02 10:46:37
+# 规则总数：22128条
 # 作者：Reid_Vin_Action
 
 
@@ -8769,6 +8769,7 @@ DOMAIN-SUFFIX,greenvpn.net
 DOMAIN-SUFFIX,greenvpn.org
 DOMAIN-SUFFIX,grindr.com
 DOMAIN-SUFFIX,grotty-monday.com
+DOMAIN-SUFFIX,ground.news
 DOMAIN-SUFFIX,gs-discuss.com
 DOMAIN-SUFFIX,gsearch.media
 DOMAIN-SUFFIX,gstatic.com
@@ -8868,6 +8869,7 @@ DOMAIN-SUFFIX,heqinglian.net
 DOMAIN-SUFFIX,here.com
 DOMAIN-SUFFIX,heritage.org
 DOMAIN-SUFFIX,heroku.com
+DOMAIN-SUFFIX,herokuapp.com
 DOMAIN-SUFFIX,heungkongdiscuss.com
 DOMAIN-SUFFIX,hexieshe.com
 DOMAIN-SUFFIX,hexieshe.xyz
@@ -9010,6 +9012,7 @@ DOMAIN-SUFFIX,howtoforge.com
 DOMAIN-SUFFIX,hoxx.com
 DOMAIN-SUFFIX,hoyolab.com
 DOMAIN-SUFFIX,hpa.gov.tw
+DOMAIN-SUFFIX,hpjav.com
 DOMAIN-SUFFIX,hqcdp.org
 DOMAIN-SUFFIX,hqjapanesesex.com
 DOMAIN-SUFFIX,hqmovies.com
@@ -9097,6 +9100,7 @@ DOMAIN-SUFFIX,iamtopone.com
 DOMAIN-SUFFIX,iask.bz
 DOMAIN-SUFFIX,iask.ca
 DOMAIN-SUFFIX,iav19.com
+DOMAIN-SUFFIX,iavian.net
 DOMAIN-SUFFIX,ibiblio.org
 DOMAIN-SUFFIX,ibit.am
 DOMAIN-SUFFIX,iblist.com
@@ -10446,6 +10450,7 @@ DOMAIN-SUFFIX,pbxes.org
 DOMAIN-SUFFIX,pcanywhere.net
 DOMAIN-SUFFIX,pcc.gov.tw
 DOMAIN-SUFFIX,pcdvd.com.tw
+DOMAIN-SUFFIX,pcgamestorrents.com
 DOMAIN-SUFFIX,pchome.com.tw
 DOMAIN-SUFFIX,pcij.org
 DOMAIN-SUFFIX,pcloud.com
