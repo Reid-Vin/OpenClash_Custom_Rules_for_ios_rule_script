@@ -293,8 +293,8 @@
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TruthSocial/TruthSocial.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zoom/Zoom.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zalo/Zalo.list
-# 更新时间：2025-02-19 10:47:57
-# 规则总数：22254条
+# 更新时间：2025-02-20 10:48:47
+# 规则总数：22257条
 # 作者：Reid_Vin_Action
 
 
@@ -6774,6 +6774,7 @@ DOMAIN-SUFFIX,5aimiku.com
 DOMAIN-SUFFIX,5i01.com
 DOMAIN-SUFFIX,5isotoi5.org
 DOMAIN-SUFFIX,5maodang.com
+DOMAIN-SUFFIX,611study.icu
 DOMAIN-SUFFIX,63i.com
 DOMAIN-SUFFIX,64museum.org
 DOMAIN-SUFFIX,64tianwang.com
@@ -10185,6 +10186,7 @@ DOMAIN-SUFFIX,newipnow.com
 DOMAIN-SUFFIX,newlandmagazine.com.au
 DOMAIN-SUFFIX,newmitbbs.com
 DOMAIN-SUFFIX,newnews.ca
+DOMAIN-SUFFIX,news1.kr
 DOMAIN-SUFFIX,news100.com.tw
 DOMAIN-SUFFIX,newsancai.com
 DOMAIN-SUFFIX,newsblur.com
@@ -10580,6 +10582,7 @@ DOMAIN-SUFFIX,picidae.net
 DOMAIN-SUFFIX,picjs.xyz
 DOMAIN-SUFFIX,picturedip.com
 DOMAIN-SUFFIX,picturesocial.com
+DOMAIN-SUFFIX,picuki.com
 DOMAIN-SUFFIX,pigav.com
 DOMAIN-SUFFIX,pimg.tw
 DOMAIN-SUFFIX,pin-cong.com
