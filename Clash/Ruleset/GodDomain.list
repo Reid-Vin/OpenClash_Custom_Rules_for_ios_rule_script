@@ -293,8 +293,8 @@
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TruthSocial/TruthSocial.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zoom/Zoom.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zalo/Zalo.list
-# 更新时间：2025-03-09 10:31:58
-# 规则总数：22451条
+# 更新时间：2025-03-10 10:32:48
+# 规则总数：22453条
 # 作者：Reid_Vin_Action
 
 
@@ -10147,6 +10147,7 @@ DOMAIN-SUFFIX,multiupload.com
 DOMAIN-SUFFIX,mummysgold.com
 DOMAIN-SUFFIX,murmur.tw
 DOMAIN-SUFFIX,musicade.net
+DOMAIN-SUFFIX,musixmatch.com
 DOMAIN-SUFFIX,muslimvideo.com
 DOMAIN-SUFFIX,muzi.com
 DOMAIN-SUFFIX,muzi.net
@@ -12110,6 +12111,7 @@ DOMAIN-SUFFIX,twitturly.com
 DOMAIN-SUFFIX,twitvid.com
 DOMAIN-SUFFIX,twitzap.com
 DOMAIN-SUFFIX,twiyia.com
+DOMAIN-SUFFIX,twkan.com
 DOMAIN-SUFFIX,twnorth.org.tw
 DOMAIN-SUFFIX,twreporter.org
 DOMAIN-SUFFIX,twskype.com
