@@ -293,8 +293,8 @@
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TruthSocial/TruthSocial.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zoom/Zoom.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zalo/Zalo.list
-# 更新时间：2025-03-24 11:02:39
-# 规则总数：22466条
+# 更新时间：2025-03-25 10:58:38
+# 规则总数：22470条
 # 作者：Reid_Vin_Action
 
 
@@ -6738,6 +6738,7 @@ DOMAIN-SUFFIX,24hrs.ca
 DOMAIN-SUFFIX,24smile.org
 DOMAIN-SUFFIX,25u.com
 DOMAIN-SUFFIX,2lipstube.com
+DOMAIN-SUFFIX,2mdn.net
 DOMAIN-SUFFIX,2shared.com
 DOMAIN-SUFFIX,2waky.com
 DOMAIN-SUFFIX,3-a.net
@@ -7787,6 +7788,7 @@ DOMAIN-SUFFIX,cofacts.tw
 DOMAIN-SUFFIX,coin2co.in
 DOMAIN-SUFFIX,coinbase.com
 DOMAIN-SUFFIX,coinbene.com
+DOMAIN-SUFFIX,coincarp.com
 DOMAIN-SUFFIX,coinegg.com
 DOMAIN-SUFFIX,coinex.com
 DOMAIN-SUFFIX,coingecko.com
@@ -8717,6 +8719,7 @@ DOMAIN-SUFFIX,geekerhome.com
 DOMAIN-SUFFIX,geekheart.info
 DOMAIN-SUFFIX,gekikame.com
 DOMAIN-SUFFIX,gelbooru.com
+DOMAIN-SUFFIX,gemini.com
 DOMAIN-SUFFIX,generated.photos
 DOMAIN-SUFFIX,geni.us
 DOMAIN-SUFFIX,genius.com
@@ -10524,6 +10527,7 @@ DOMAIN-SUFFIX,omy.sg
 DOMAIN-SUFFIX,on.cc
 DOMAIN-SUFFIX,on2.com
 DOMAIN-SUFFIX,onapp.com
+DOMAIN-SUFFIX,one.one.one.one
 DOMAIN-SUFFIX,onedumb.com
 DOMAIN-SUFFIX,onejav.com
 DOMAIN-SUFFIX,onenote.com
