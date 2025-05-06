@@ -293,8 +293,8 @@
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TruthSocial/TruthSocial.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zoom/Zoom.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zalo/Zalo.list
-# 更新时间：2025-05-05 11:12:42
-# 规则总数：23338条
+# 更新时间：2025-05-06 11:08:16
+# 规则总数：23344条
 # 作者：Reid_Vin_Action
 
 
@@ -9677,6 +9677,7 @@ DOMAIN-SUFFIX,hakkatv.org.tw
 DOMAIN-SUFFIX,halktv.com.tr
 DOMAIN-SUFFIX,handcraftedsoftware.org
 DOMAIN-SUFFIX,hanime.tv
+DOMAIN-SUFFIX,hanime1.me
 DOMAIN-SUFFIX,hanminzu.org
 DOMAIN-SUFFIX,hanunyi.com
 DOMAIN-SUFFIX,hao.news
@@ -10811,6 +10812,7 @@ DOMAIN-SUFFIX,mirrorbooks.com
 DOMAIN-SUFFIX,mirrormedia.com.tw
 DOMAIN-SUFFIX,mirrormedia.mg
 DOMAIN-SUFFIX,missav.com
+DOMAIN-SUFFIX,missav.ws
 DOMAIN-SUFFIX,mist.vip
 DOMAIN-SUFFIX,mit.edu
 DOMAIN-SUFFIX,mitao.com.tw
@@ -12093,6 +12095,7 @@ DOMAIN-SUFFIX,simplecd.org
 DOMAIN-SUFFIX,simplenote.com
 DOMAIN-SUFFIX,simpleproductivityblog.com
 DOMAIN-SUFFIX,simpleswap.io
+DOMAIN-SUFFIX,simplex.chat
 DOMAIN-SUFFIX,sina.com.hk
 DOMAIN-SUFFIX,sina.com.tw
 DOMAIN-SUFFIX,sinchew.com.my
@@ -12522,6 +12525,7 @@ DOMAIN-SUFFIX,teensinasia.com
 DOMAIN-SUFFIX,teepr.com
 DOMAIN-SUFFIX,tehrantimes.com
 DOMAIN-SUFFIX,telecomspace.com
+DOMAIN-SUFFIX,telega.one
 DOMAIN-SUFFIX,telegra.ph
 DOMAIN-SUFFIX,telegraph.co.uk
 DOMAIN-SUFFIX,telesco.pe
@@ -12539,6 +12543,7 @@ DOMAIN-SUFFIX,tfc-taiwan.org.tw
 DOMAIN-SUFFIX,tfhub.dev
 DOMAIN-SUFFIX,tfiflve.com
 DOMAIN-SUFFIX,tg-me.com
+DOMAIN-SUFFIX,tg.dev
 DOMAIN-SUFFIX,tgfcer.com
 DOMAIN-SUFFIX,tgstat.com
 DOMAIN-SUFFIX,th.hao123.com
@@ -13781,6 +13786,7 @@ DOMAIN-SUFFIX,zlibcdn.com
 DOMAIN-SUFFIX,zlibcdn2.com
 DOMAIN-SUFFIX,zmedia.com.tw
 DOMAIN-SUFFIX,zodgame.us
+DOMAIN-SUFFIX,zodgame.xyz
 DOMAIN-SUFFIX,zoho.com
 DOMAIN-SUFFIX,zomobo.net
 DOMAIN-SUFFIX,zonaeuropa.com
