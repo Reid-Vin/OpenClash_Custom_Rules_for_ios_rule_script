@@ -293,8 +293,8 @@
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TruthSocial/TruthSocial.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zoom/Zoom.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zalo/Zalo.list
-# 更新时间：2025-05-11 11:13:55
-# 规则总数：23344条
+# 更新时间：2025-05-12 11:13:56
+# 规则总数：23353条
 # 作者：Reid_Vin_Action
 
 
@@ -9522,6 +9522,7 @@ DOMAIN-SUFFIX,gmiddle.net
 DOMAIN-SUFFIX,gmll.org
 DOMAIN-SUFFIX,gmocloud.com
 DOMAIN-SUFFIX,gmodules.com
+DOMAIN-SUFFIX,gmp4.com
 DOMAIN-SUFFIX,gmx.net
 DOMAIN-SUFFIX,gnci.org.hk
 DOMAIN-SUFFIX,gnews.org
@@ -9959,6 +9960,7 @@ DOMAIN-SUFFIX,hysteria.network
 DOMAIN-SUFFIX,i-cable.com
 DOMAIN-SUFFIX,i-part.com.tw
 DOMAIN-SUFFIX,i-scmp.com
+DOMAIN-SUFFIX,i.111666.best
 DOMAIN-SUFFIX,i1.hk
 DOMAIN-SUFFIX,i2p2.de
 DOMAIN-SUFFIX,i2runner.com
@@ -11675,6 +11677,7 @@ DOMAIN-SUFFIX,punyu.com
 DOMAIN-SUFFIX,pure18.com
 DOMAIN-SUFFIX,pureapk.com
 DOMAIN-SUFFIX,pureconcepts.net
+DOMAIN-SUFFIX,puredns.org
 DOMAIN-SUFFIX,pureinsight.org
 DOMAIN-SUFFIX,purepdf.com
 DOMAIN-SUFFIX,purevpn.com
@@ -11711,6 +11714,7 @@ DOMAIN-SUFFIX,qidian.ca
 DOMAIN-SUFFIX,qienkuen.org
 DOMAIN-SUFFIX,qiwen.lu
 DOMAIN-SUFFIX,qkshare.com
+DOMAIN-SUFFIX,qmp4.com
 DOMAIN-SUFFIX,qmzdd.com
 DOMAIN-SUFFIX,qoos.com
 DOMAIN-SUFFIX,qpoe.com
@@ -11889,10 +11893,12 @@ DOMAIN-SUFFIX,rthk.hk
 DOMAIN-SUFFIX,rthk.org.hk
 DOMAIN-SUFFIX,rti.org.tw
 DOMAIN-SUFFIX,rti.tw
+DOMAIN-SUFFIX,rtm.tnt-ea.com
 DOMAIN-SUFFIX,rtycminnesota.org
 DOMAIN-SUFFIX,ruanyifeng.com
 DOMAIN-SUFFIX,rukor.org
 DOMAIN-SUFFIX,rule34.xxx
+DOMAIN-SUFFIX,rule34video.com
 DOMAIN-SUFFIX,rumble.com
 DOMAIN-SUFFIX,runbtx.com
 DOMAIN-SUFFIX,rushbee.com
@@ -13724,7 +13730,10 @@ DOMAIN-SUFFIX,yyii.org
 DOMAIN-SUFFIX,yyjlymb.xyz
 DOMAIN-SUFFIX,yysub.net
 DOMAIN-SUFFIX,yzzk.com
+DOMAIN-SUFFIX,z-lib.fm
+DOMAIN-SUFFIX,z-lib.fo
 DOMAIN-SUFFIX,z-lib.gd
+DOMAIN-SUFFIX,z-lib.gl
 DOMAIN-SUFFIX,z-lib.gs
 DOMAIN-SUFFIX,z-lib.io
 DOMAIN-SUFFIX,z-lib.org
