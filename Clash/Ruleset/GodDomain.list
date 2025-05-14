@@ -293,8 +293,8 @@
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TruthSocial/TruthSocial.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zoom/Zoom.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zalo/Zalo.list
-# 更新时间：2025-05-13 11:12:04
-# 规则总数：23353条
+# 更新时间：2025-05-14 11:09:40
+# 规则总数：23357条
 # 作者：Reid_Vin_Action
 
 
@@ -11131,6 +11131,10 @@ DOMAIN-SUFFIX,nightlife141.com
 DOMAIN-SUFFIX,nightswatch.top
 DOMAIN-SUFFIX,nih.gov
 DOMAIN-SUFFIX,nike.com
+DOMAIN-SUFFIX,nikke-en.com
+DOMAIN-SUFFIX,nikke-jp.com
+DOMAIN-SUFFIX,nikke-kr.com
+DOMAIN-SUFFIX,nikke.hotcool.tw
 DOMAIN-SUFFIX,nikkei.com
 DOMAIN-SUFFIX,nikonpc.com
 DOMAIN-SUFFIX,nimg.jp
