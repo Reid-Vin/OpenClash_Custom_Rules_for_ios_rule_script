@@ -5,8 +5,8 @@
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingMiTV/AdvertisingMiTV.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ZhihuAds/ZhihuAds.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingLite/AdvertisingLite.list
-# 更新时间：2025-05-27 13:14:12
-# 规则总数：77831条
+# 更新时间：2025-05-28 13:14:38
+# 规则总数：77836条
 # 作者：Reid_Vin_Action
 
 DOMAIN,hmma.baidu.com
@@ -46160,6 +46160,7 @@ DOMAIN,dnn506yrbagrg.cloudfront.net
 DOMAIN,dnpehliwdvjkp.com
 DOMAIN,dnrywryy.com
 DOMAIN,dns.jd.com
+DOMAIN,dns.m.sm.cn
 DOMAIN,dns.ximalaya.com
 DOMAIN,dnset.com
 DOMAIN,dntrax.com
@@ -48970,6 +48971,7 @@ DOMAIN,hbnqcbfgsjfa.com
 DOMAIN,hbsimg.com
 DOMAIN,hbtzzlcxfijk.com
 DOMAIN,hbyinzhibao.cn
+DOMAIN,hc-ssp.sm.cn
 DOMAIN,hcatboilyxs.com
 DOMAIN,hccwwz.cn
 DOMAIN,hceykfajyioqkz.com
@@ -54547,6 +54549,7 @@ DOMAIN,orbitfour47.com
 DOMAIN,orbowlada.strefa.pl
 DOMAIN,orcapia.com
 DOMAIN,ordbtltlcmqv.com
+DOMAIN,order.sm.cn
 DOMAIN,ordermc.com
 DOMAIN,ordingly.com
 DOMAIN,ordssuspicuousc.info
@@ -60855,6 +60858,7 @@ DOMAIN,victor.connectcloud.ch
 DOMAIN,vid123.net
 DOMAIN,vidcoin.com
 DOMAIN,vidcpm.com
+DOMAIN,video-ad.sm.cn
 DOMAIN,video-loader.com
 DOMAIN,video-people.com
 DOMAIN,video-stats.video.google.com
@@ -61719,6 +61723,7 @@ DOMAIN,woeqspvhjs.com
 DOMAIN,wofan.net
 DOMAIN,woghqyjpiwddme.com
 DOMAIN,wojiacanting.info
+DOMAIN,wolong-dsp.sm.cn
 DOMAIN,wolopcqjzajiht.com
 DOMAIN,wolqstldvfkuhp.com
 DOMAIN,womanear.com
@@ -70019,6 +70024,7 @@ DOMAIN-SUFFIX,image.hh010.com
 DOMAIN-SUFFIX,image.hj217.com
 DOMAIN-SUFFIX,image.p4p.sogou.com
 DOMAIN-SUFFIX,image.qj175.com
+DOMAIN-SUFFIX,image.zzd.sm.cn
 DOMAIN-SUFFIX,imagelx.yidianzixun.com
 DOMAIN-SUFFIX,imageplus.baidu.cn
 DOMAIN-SUFFIX,imageplus.baidu.com
@@ -74248,7 +74254,6 @@ DOMAIN-SUFFIX,slvtx.com
 DOMAIN-SUFFIX,slygzsc.cn
 DOMAIN-SUFFIX,slzs.52xiyou.com
 DOMAIN-SUFFIX,sm.0.0.0.0.cn
-DOMAIN-SUFFIX,sm.cn
 DOMAIN-SUFFIX,sm.toutiao.com
 DOMAIN-SUFFIX,sm077.com
 DOMAIN-SUFFIX,sm1.todgo.com
