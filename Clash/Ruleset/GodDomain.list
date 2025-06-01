@@ -293,8 +293,8 @@
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TruthSocial/TruthSocial.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zoom/Zoom.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zalo/Zalo.list
-# 更新时间：2025-05-31 11:10:42
-# 规则总数：23275条
+# 更新时间：2025-06-01 11:40:29
+# 规则总数：23274条
 # 作者：Reid_Vin_Action
 
 
@@ -7852,7 +7852,6 @@ DOMAIN-SUFFIX,bestvpnservice.com
 DOMAIN-SUFFIX,bestvpnusa.com
 DOMAIN-SUFFIX,bet365.com
 DOMAIN-SUFFIX,betaclouds.net
-DOMAIN-SUFFIX,betfair.com
 DOMAIN-SUFFIX,betternet.co
 DOMAIN-SUFFIX,bettervpn.com
 DOMAIN-SUFFIX,bettween.com
@@ -8659,7 +8658,6 @@ DOMAIN-SUFFIX,discordstatus.com
 DOMAIN-SUFFIX,discuss.com.hk
 DOMAIN-SUFFIX,discuss4u.com
 DOMAIN-SUFFIX,dish.com
-DOMAIN-SUFFIX,disk.yandex.com
 DOMAIN-SUFFIX,disney-plus.net
 DOMAIN-SUFFIX,disneyplus.com
 DOMAIN-SUFFIX,disneyplus.com.ssl.sc.omtrdc.net
@@ -13574,6 +13572,7 @@ DOMAIN-SUFFIX,yakbutterblues.com
 DOMAIN-SUFFIX,yam.com
 DOMAIN-SUFFIX,yam.org.tw
 DOMAIN-SUFFIX,yande.re
+DOMAIN-SUFFIX,yandex.com
 DOMAIN-SUFFIX,yandex.net
 DOMAIN-SUFFIX,yandex.ru
 DOMAIN-SUFFIX,yanghengjun.com
@@ -19620,7 +19619,6 @@ DOMAIN,books.apple.com
 DOMAIN,cdp.cloud.unity3d.com
 DOMAIN,clubhouse.pubnubapi.com
 DOMAIN,copilot.microsoft.com
-DOMAIN,disk.yandex.com
 DOMAIN,lab.skk.moe
 DOMAIN,location.microsoft.com
 DOMAIN,login.microsoftonline.com
@@ -20441,6 +20439,7 @@ DOMAIN-SUFFIX,xvideos.com
 DOMAIN-SUFFIX,yadi.sk
 DOMAIN-SUFFIX,yahoo.com
 DOMAIN-SUFFIX,yahooapis.com
+DOMAIN-SUFFIX,yandex.com
 DOMAIN-SUFFIX,yandex.ru
 DOMAIN-SUFFIX,yasni.co.uk
 DOMAIN-SUFFIX,yastatic.net
