@@ -20,8 +20,8 @@
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleMedia/AppleMedia.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Beats/Beats.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleID/AppleID.list
-# 更新时间：2025-06-05 11:43:02
-# 规则总数：2933条
+# 更新时间：2025-06-06 11:42:27
+# 规则总数：2938条
 # 作者：Reid_Vin_Action
 
 DOMAIN,apps.apple.com
@@ -1762,6 +1762,7 @@ DOMAIN-SUFFIX,carekit.org
 DOMAIN-SUFFIX,courier-push-apple.com.akadns.net
 DOMAIN-SUFFIX,cups.org
 DOMAIN-SUFFIX,developer.apple.com
+DOMAIN-SUFFIX,developerservices2.apple.com
 DOMAIN-SUFFIX,devimages-cdn.apple.com
 DOMAIN-SUFFIX,devstreaming-cdn.apple.com
 DOMAIN-SUFFIX,foundationdb.org
@@ -1769,6 +1770,8 @@ DOMAIN-SUFFIX,macosforge.org
 DOMAIN-SUFFIX,macruby.com
 DOMAIN-SUFFIX,macruby.net
 DOMAIN-SUFFIX,macruby.org
+DOMAIN-SUFFIX,notary-submissions-prod.s3-accelerate.amazonaws.com
+DOMAIN-SUFFIX,notary-submissions-prod.s3.us-west-2.amazonaws.com
 DOMAIN-SUFFIX,p-events-delivery.akamaized.net
 DOMAIN-SUFFIX,playgrounds-cdn.apple.com
 DOMAIN-SUFFIX,push-apple.com.akadns.net
@@ -1783,6 +1786,7 @@ DOMAIN-SUFFIX,servicetalk.io
 DOMAIN-SUFFIX,swift.org
 DOMAIN-SUFFIX,swiftui.cn
 DOMAIN-SUFFIX,swiftui.com.cn
+DOMAIN-SUFFIX,timestamp.apple.com
 DOMAIN-SUFFIX,webkit.org
 DOMAIN-SUFFIX,webkitgtk.org
 DOMAIN-SUFFIX,webobjects.com
@@ -1878,6 +1882,7 @@ DOMAIN-SUFFIX,darwinsourcecode.com
 DOMAIN-SUFFIX,icloud-apple.cn
 DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,icloud-isupport.com
+DOMAIN-SUFFIX,icloud-sandbox.com
 DOMAIN-SUFFIX,icloud.ch
 DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,icloud.com.akadns.net
