@@ -7,8 +7,8 @@
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GoogleSearch/GoogleSearch.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Chromecast/Chromecast.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GoogleFCM/GoogleFCM.list
-# 更新时间：2025-06-05 19:15:47
-# 规则总数：751条
+# 更新时间：2025-06-06 19:15:33
+# 规则总数：757条
 # 作者：Reid_Vin_Action
 
 DOMAIN,voice.telephony.goog
@@ -735,7 +735,13 @@ DOMAIN,alt5-mtalk.google.com
 DOMAIN,alt6-mtalk.google.com
 DOMAIN,alt7-mtalk.google.com
 DOMAIN,alt8-mtalk.google.com
+DOMAIN,android.apis.google.com
+DOMAIN,device-provisioning.googleapis.com
+DOMAIN,firebaseinstallations.googleapis.com
+DOMAIN,mtalk-dev.google.com
+DOMAIN,mtalk-staging.google.com
 DOMAIN,mtalk.google.com
+DOMAIN,mtalk4.google.com
 IP-CIDR,108.177.125.188/32,no-resolve
 IP-CIDR,142.250.10.188/32,no-resolve
 IP-CIDR,142.250.31.188/32,no-resolve
