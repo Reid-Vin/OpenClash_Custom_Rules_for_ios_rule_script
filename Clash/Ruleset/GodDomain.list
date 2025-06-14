@@ -293,8 +293,8 @@
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TruthSocial/TruthSocial.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zoom/Zoom.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zalo/Zalo.list
-# 更新时间：2025-06-13 11:17:39
-# 规则总数：23021条
+# 更新时间：2025-06-14 11:11:30
+# 规则总数：23022条
 # 作者：Reid_Vin_Action
 
 
@@ -8469,6 +8469,7 @@ DOMAIN-SUFFIX,counter.social
 DOMAIN-SUFFIX,coursehero.com
 DOMAIN-SUFFIX,coze.com
 DOMAIN-SUFFIX,cpj.org
+DOMAIN-SUFFIX,cpu-monkey.com
 DOMAIN-SUFFIX,cq99.us
 DOMAIN-SUFFIX,crackle.com
 DOMAIN-SUFFIX,crazypool.org
