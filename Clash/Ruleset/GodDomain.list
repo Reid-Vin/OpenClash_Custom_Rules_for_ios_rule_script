@@ -293,8 +293,8 @@
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TruthSocial/TruthSocial.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zoom/Zoom.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zalo/Zalo.list
-# 更新时间：2025-06-23 11:26:15
-# 规则总数：23033条
+# 更新时间：2025-06-24 11:18:08
+# 规则总数：23038条
 # 作者：Reid_Vin_Action
 
 
@@ -7687,6 +7687,7 @@ DOMAIN-SUFFIX,artofpeacefoundation.org
 DOMAIN-SUFFIX,artstation.com
 DOMAIN-SUFFIX,artsy.net
 DOMAIN-SUFFIX,arunachalforests.gov.in
+DOMAIN-SUFFIX,arvanstorage.ir
 DOMAIN-SUFFIX,asacp.org
 DOMAIN-SUFFIX,asdfg.jp
 DOMAIN-SUFFIX,asg.to
@@ -9536,6 +9537,7 @@ DOMAIN-SUFFIX,gotgeeks.com
 DOMAIN-SUFFIX,gotquestions.org
 DOMAIN-SUFFIX,gotrusted.com
 DOMAIN-SUFFIX,gotw.ca
+DOMAIN-SUFFIX,gov.ir
 DOMAIN-SUFFIX,gov.taipei
 DOMAIN-SUFFIX,gov.tw
 DOMAIN-SUFFIX,gr8domain.biz
@@ -10075,8 +10077,10 @@ DOMAIN-SUFFIX,ipredator.se
 DOMAIN-SUFFIX,iptv.com.tw
 DOMAIN-SUFFIX,iptvbin.com
 DOMAIN-SUFFIX,ipvanish.com
+DOMAIN-SUFFIX,irangov.ir
 DOMAIN-SUFFIX,iredmail.org
 DOMAIN-SUFFIX,irib.ir
+DOMAIN-SUFFIX,irna.ir
 DOMAIN-SUFFIX,ironpython.net
 DOMAIN-SUFFIX,ironsocket.com
 DOMAIN-SUFFIX,is-a-hunter.com
@@ -11566,6 +11570,7 @@ DOMAIN-SUFFIX,premeforwindows7.com
 DOMAIN-SUFFIX,premproxy.com
 DOMAIN-SUFFIX,presentation.new
 DOMAIN-SUFFIX,presentationzen.com
+DOMAIN-SUFFIX,president.ir
 DOMAIN-SUFFIX,presidentlee.tw
 DOMAIN-SUFFIX,prestige-av.com
 DOMAIN-SUFFIX,primevideo.com
