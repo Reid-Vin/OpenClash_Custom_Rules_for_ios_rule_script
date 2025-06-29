@@ -7,16 +7,16 @@ on:
 
 env:
   # 输出文件配置
-  FILENAME: "GFW-Merged.list" # 新的合并文件名
+  FILENAME: "GFW-Ultimate.list" # 更新文件名以反映其更强的能力
   OUTPUT_DIR: "./Clash/Ruleset"
 
   # 规则源 URL
   SOURCE_URL_GFWLIST: "https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt"
   SOURCE_URL_ACL4SSR: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list"
 
-  # --- 复用你原来的文件头信息，并更新描述 ---
-  DESCRIPTION: "# 终极 GFW 规则合并流程"
-  ILLUSTRATE: "# 该规则集由 GFWList 和 ACL4SSR 合并而来，强强联合，确保覆盖面"
+  # --- 复用你原来的文件头信息 ---
+  DESCRIPTION: "# 终极 GFW 规则合并流程 (域名+IP)"
+  ILLUSTRATE: "# 该规则集由 GFWList 和 ACL4SSR 合并而来，包含域名与IP，强强联合，确保覆盖面"
   RULES_SOURCE_HEADER: "# 基于以下源项目合并："
   AUTHOR: "# 作者：Reid_Vin_Action"
 
@@ -32,46 +32,52 @@ jobs:
           # 确保脚本在任何命令失败时立即退出
           set -e
 
-          # --- 步骤 1: 下载并转换 GFWList (复用之前的逻辑) ---
-          echo "Processing source 1: GFWList..."
+          # --- 步骤 1: 下载并处理 GFWList (包含域名和IP) ---
+          echo "Processing source 1: GFWList (Domains and IPs)..."
           curl -sL "${{ env.SOURCE_URL_GFWLIST }}" -o gfwlist_raw.txt
-          
-          cat gfwlist_raw.txt | \
-          grep -vE '^!|^\[|^@@|^\s*$' | \
-          sed -E 's#^\|\|##; s#^\|https?://##; s#^https?://##; s#^\.##' | \
-          sed -E '/\*/d' | \
-          sed -E 's|/.*||' | \
-          sed '/^$/d' \
-          > gfwlist_cleaned.tmp
-          
-          echo "GFWList processed. Found $(wc -l < gfwlist_cleaned.tmp) potential rules."
 
-          # --- 步骤 2: 下载并清理 ACL4SSR 列表 ---
-          echo "Processing source 2: ACL4SSR..."
+          # 1a. 初步清理：移除注释、头部和白名单
+          grep -vE '^!|^\[|^@@|^\s*$' gfwlist_raw.txt > gfwlist_cleaned.tmp
+
+          # 1b. 分离IP和域名
+          # 简单地用'是否包含点.'来区分IP和域名规则的初始形态
+          grep -E '^[0-9]{1,3}\.' gfwlist_cleaned.tmp > gfwlist_ips.tmp
+          grep -vE '^[0-9]{1,3}\.' gfwlist_cleaned.tmp > gfwlist_domains.tmp
+
+          # 1c. 格式化IP规则 (使用awk判断IPv4/v6)
+          awk '{ if ($0 ~ /:/) { print "IP-CIDR6,"$0",no-resolve" } else { print "IP-CIDR,"$0",no-resolve" } }' gfwlist_ips.tmp > gfwlist_ips_clash.tmp
+
+          # 1d. 格式化域名规则 (复用之前的逻辑)
+          cat gfwlist_domains.tmp | \
+            sed -E 's#^\|\|##; s#^\|https?://##; s#^https?://##; s#^\.##' | \
+            sed -E '/\*/d' | \
+            sed -E 's|/.*||' | \
+            sed '/^$/d' | \
+            sed 's/^/DOMAIN-SUFFIX,/' > gfwlist_domains_clash.tmp
+
+          echo "GFWList processed."
+
+          # --- 步骤 2: 下载并处理 ACL4SSR (包含域名和IP) ---
+          echo "Processing source 2: ACL4SSR (Domains and IPs)..."
           curl -sL "${{ env.SOURCE_URL_ACL4SSR }}" -o acl4ssr_raw.txt
           
-          # ACL4SSR 已经是 Clash 格式，但我们只取域名部分，并移除注释和空行
-          # paylod: 这部分我们不需要，只取DOMAIN开头的
-          grep -E '^DOMAIN' acl4ssr_raw.txt > acl4ssr_cleaned.tmp
+          # 关键修正：现在我们提取所有DOMAIN和IP-CIDR开头的行
+          grep -E '^DOMAIN|^IP-CIDR' acl4ssr_raw.txt > acl4ssr_clash.tmp
 
-          echo "ACL4SSR processed. Found $(wc -l < acl4ssr_cleaned.tmp) rules."
+          echo "ACL4SSR processed."
 
-          # --- 步骤 3: 合并、格式化并去重 ---
-          echo "Merging, formatting and deduplicating..."
-
-          # 将 gfwlist 的裸域名和 acl4ssr 的 clash 规则合并
-          # 注意：gfwlist 的处理结果是不带 "DOMAIN-SUFFIX," 前缀的裸域名
-          # acl4ssr 的处理结果是带 "DOMAIN-..." 前缀的完整规则
-          # 我们将 gfwlist 的裸域名也加上 DOMAIN-SUFFIX 前缀再合并
+          # --- 步骤 3: 合并所有规则并去重 ---
+          echo "Merging all rules and deduplicating..."
           
-          # 合并两个列表，然后排序去重
+          # 将 GFWList 的域名、IP 和 ACL4SSR 的所有规则全部合并
           {
-            sed 's/^/DOMAIN-SUFFIX,/' < gfwlist_cleaned.tmp
-            cat acl4ssr_cleaned.tmp
+            cat gfwlist_domains_clash.tmp
+            cat gfwlist_ips_clash.tmp
+            cat acl4ssr_clash.tmp
           } | sort -u > final_rules.txt
 
           RULES_COUNT=$(wc -l < final_rules.txt)
-          echo "Merge complete. Total unique rules: $RULES_COUNT"
+          echo "Merge complete. Total unique rules (domains and IPs): $RULES_COUNT"
           
           # --- 准备文件头和元数据 ---
           UPDATE_TIME=$(TZ='Asia/Shanghai' date +"%Y-%m-%d %H:%M:%S")
@@ -94,7 +100,7 @@ jobs:
           } > "$FINAL_FILE_PATH"
 
           # --- 清理临时文件 ---
-          rm gfwlist_raw.txt gfwlist_cleaned.tmp acl4ssr_raw.txt acl4ssr_cleaned.tmp final_rules.txt
+          rm *_raw.txt *_cleaned.tmp *_ips.tmp *_domains.tmp *_clash.tmp final_rules.txt
           echo "Process complete! Final file is at $FINAL_FILE_PATH"
 
       - name: Push changes
@@ -102,7 +108,7 @@ jobs:
         with:
           author_name: Reid_Vin
           author_email: reid_vin@outlook.com
-          message: "feat: Create merged GFW ruleset from GFWList and ACL4SSR"
+          message: "feat: Create comprehensive GFW ruleset (domains and IPs)"
           add: "${{ env.OUTPUT_DIR }}/${{ env.FILENAME }}"
         env:
           GITHUB_TOKEN: ${{ secrets.COMMON_TOKEN }}
