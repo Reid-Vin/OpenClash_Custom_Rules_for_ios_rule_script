@@ -7,7 +7,7 @@ on:
 
 env:
   # 输出文件配置
-  FILENAME: "GFW-Ultimate.list" # 更新文件名以反映其更强的能力
+  FILENAME: "GFW-Ultimate.list"
   OUTPUT_DIR: "./Clash/Ruleset"
 
   # 规则源 URL
@@ -32,54 +32,49 @@ jobs:
           # 确保脚本在任何命令失败时立即退出
           set -e
 
-          # --- 步骤 1: 下载并处理 GFWList (包含域名和IP) ---
+          # --- 步骤 1: 下载并处理 GFWList ---
           echo "Processing source 1: GFWList (Domains and IPs)..."
           curl -sL "${{ env.SOURCE_URL_GFWLIST }}" -o gfwlist_raw.txt
 
           # 1a. 初步清理：移除注释、头部和白名单
           grep -vE '^!|^\[|^@@|^\s*$' gfwlist_raw.txt > gfwlist_cleaned.tmp
 
-          # 1b. 分离IP和域名
-          # 简单地用'是否包含点.'来区分IP和域名规则的初始形态
-          grep -E '^[0-9]{1,3}\.' gfwlist_cleaned.tmp > gfwlist_ips.tmp
-          grep -vE '^[0-9]{1,3}\.' gfwlist_cleaned.tmp > gfwlist_domains.tmp
+          # 1b. 精确分离 IP-CIDR 和 其他（域名/纯IP）
+          # 匹配严格的 CIDR 格式 (IPv4/v6)
+          grep -E '^[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}/[0-9]{1,2}$|^[0-9a-fA-F:]+/[0-9]{1,3}$' gfwlist_cleaned.tmp > gfwlist_cidrs.tmp
+          grep -vE '^[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}/[0-9]{1,2}$|^[0-9a-fA-F:]+/[0-9]{1,3}$' gfwlist_cleaned.tmp > gfwlist_domains_and_ips.tmp
+          
+          # 1c. 格式化真正的 IP-CIDR 规则
+          awk '{ if ($0 ~ /:/) { print "IP-CIDR6,"$0",no-resolve" } else { print "IP-CIDR,"$0",no-resolve" } }' gfwlist_cidrs.tmp > gfwlist_cidrs_clash.tmp
 
-          # 1c. 格式化IP规则 (使用awk判断IPv4/v6)
-          awk '{ if ($0 ~ /:/) { print "IP-CIDR6,"$0",no-resolve" } else { print "IP-CIDR,"$0",no-resolve" } }' gfwlist_ips.tmp > gfwlist_ips_clash.tmp
-
-          # 1d. 格式化域名规则 (复用之前的逻辑)
-          cat gfwlist_domains.tmp | \
+          # 1d. 格式化域名和纯IP规则
+          cat gfwlist_domains_and_ips.tmp | \
             sed -E 's#^\|\|##; s#^\|https?://##; s#^https?://##; s#^\.##' | \
             sed -E '/\*/d' | \
-            sed -E 's|/.*||' | \
+            sed -E 's|[:/].*||' | \
             sed '/^$/d' | \
-            sed 's/^/DOMAIN-SUFFIX,/' > gfwlist_domains_clash.tmp
-
+            awk '{ if ($0 ~ /^[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}$/) { print "DOMAIN," $0 } else { print "DOMAIN-SUFFIX," $0 } }' > gfwlist_domains_clash.tmp
+            
           echo "GFWList processed."
 
-          # --- 步骤 2: 下载并处理 ACL4SSR (包含域名和IP) ---
+          # --- 步骤 2: 下载并处理 ACL4SSR ---
           echo "Processing source 2: ACL4SSR (Domains and IPs)..."
           curl -sL "${{ env.SOURCE_URL_ACL4SSR }}" -o acl4ssr_raw.txt
-          
-          # 关键修正：现在我们提取所有DOMAIN和IP-CIDR开头的行
           grep -E '^DOMAIN|^IP-CIDR' acl4ssr_raw.txt > acl4ssr_clash.tmp
-
           echo "ACL4SSR processed."
 
           # --- 步骤 3: 合并所有规则并去重 ---
           echo "Merging all rules and deduplicating..."
-          
-          # 将 GFWList 的域名、IP 和 ACL4SSR 的所有规则全部合并
           {
+            cat gfwlist_cidrs_clash.tmp
             cat gfwlist_domains_clash.tmp
-            cat gfwlist_ips_clash.tmp
             cat acl4ssr_clash.tmp
           } | sort -u > final_rules.txt
 
           RULES_COUNT=$(wc -l < final_rules.txt)
-          echo "Merge complete. Total unique rules (domains and IPs): $RULES_COUNT"
+          echo "Merge complete. Total unique rules: $RULES_COUNT"
           
-          # --- 准备文件头和元数据 ---
+          # --- 准备文件头 ---
           UPDATE_TIME=$(TZ='Asia/Shanghai' date +"%Y-%m-%d %H:%M:%S")
           
           # --- 生成最终文件 ---
@@ -100,7 +95,7 @@ jobs:
           } > "$FINAL_FILE_PATH"
 
           # --- 清理临时文件 ---
-          rm *_raw.txt *_cleaned.tmp *_ips.tmp *_domains.tmp *_clash.tmp final_rules.txt
+          rm *_raw.txt *_cleaned.tmp *_cidrs.tmp *_domains*.tmp *_clash.tmp final_rules.txt
           echo "Process complete! Final file is at $FINAL_FILE_PATH"
 
       - name: Push changes
