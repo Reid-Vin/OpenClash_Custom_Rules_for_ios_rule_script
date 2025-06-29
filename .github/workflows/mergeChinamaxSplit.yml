@@ -1,0 +1,123 @@
+name: Merge ChinaMedia List
+
+on:
+  schedule:
+    - cron: '0 7 * * *'
+  workflow_dispatch:
+
+env:
+  # 输出文件名
+  IP_FILENAME: "ChinaMax-IP.list"
+  DOMAIN_FILENAME: "ChinaMax-Domain.list"
+  OUTPUT_DIR: "./Clash/Ruleset"
+
+  # 规则源 URL (已更新为新需求)
+  SOURCE_URLS: |
+    https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax.list
+    https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMaxNoIP/ChinaMaxNoIP.list
+
+  # --- 复用你原来的文件头信息 ---
+  ILLUSTRATE: "# 分流规则基于ios_rule_script大佬的规则合并而来，感谢大佬和其他贡献者的无私奉献"
+  RULES_SOURCE_HEADER: "# 基于以下分流规则合并：" # 这是你原来的 RULES_SOURCE 变量
+  AUTHOR: "# 作者：Reid_Vin_Action"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download, process, and split rules
+        run: |
+          # 确保脚本在任何命令失败时立即退出
+          set -e
+
+          # --- 1. 下载和初步合并 ---
+          echo "Downloading and merging source files..."
+          # 创建一个临时文件来存储所有下载的规则
+          > merged_raw.txt
+          for url in $SOURCE_URLS; do
+            curl -sL "$url" >> merged_raw.txt
+          done
+          
+          # --- 2. 清洗和去重 ---
+          echo "Cleaning and deduplicating rules..."
+          # 移除注释行、空行，然后排序去重
+          grep -v -E '^#|^\s*$' merged_raw.txt | sort -u > unique_rules.txt
+          echo "Total unique rules found: $(wc -l < unique_rules.txt)"
+
+          # --- 3. 根据前缀分离 IP 和域名规则 ---
+          echo "Separating rules by type (IP/Domain)..."
+          # 使用 grep 和前缀精确匹配，将不同类型的规则存入临时文件
+          grep '^IP-CIDR,' unique_rules.txt > ipv4_rules.tmp
+          grep '^IP-CIDR6,' unique_rules.txt > ipv6_rules.tmp
+          # 将非 IP 规则（域名、关键字、进程名等）存入另一个文件
+          grep -v -E '^IP-CIDR,|^IP-CIDR6,' unique_rules.txt > domain_rules.tmp
+
+          # --- 4. 准备文件头和元数据 ---
+          echo "Preparing file headers..."
+          UPDATE_TIME=$(TZ='Asia/Shanghai' date +"%Y-%m-%d %H:%M:%S")
+          
+          # 动态生成源 URL 列表，用于写入文件头
+          SOURCE_URL_LIST=""
+          for url in $SOURCE_URLS; do
+            SOURCE_URL_LIST="${SOURCE_URL_LIST}# $url"$'\n'
+          done
+          # 移除最后一个换行符
+          SOURCE_URL_LIST=$(echo "$SOURCE_URL_LIST" | sed '$ d')
+
+          # --- 5. 生成最终文件 ---
+          echo "Generating final output files..."
+          mkdir -p ${{ env.OUTPUT_DIR }}
+
+          # A. 生成 IP 规则文件 (ChinaMax-IP.list)
+          IP_V4_COUNT=$(wc -l < ipv4_rules.tmp)
+          IP_V6_COUNT=$(wc -l < ipv6_rules.tmp)
+          IP_TOTAL_COUNT=$((IP_V4_COUNT + IP_V6_COUNT))
+          IP_FILE_PATH="${{ env.OUTPUT_DIR }}/${{ env.IP_FILENAME }}"
+
+          echo "Generating ${IP_FILE_PATH} with ${IP_TOTAL_COUNT} rules..."
+          {
+            echo "${{ env.ILLUSTRATE }}"
+            echo "# 国内媒体IP分流规则 (IPv4 & IPv6)" # 使用更具体的描述
+            echo "${{ env.RULES_SOURCE_HEADER }}"
+            echo "$SOURCE_URL_LIST"
+            echo "# 更新时间：$UPDATE_TIME"
+            echo "# 规则总数：${IP_TOTAL_COUNT}条 (IPv4: ${IP_V4_COUNT}, IPv6: ${IP_V6_COUNT})"
+            echo "${{ env.AUTHOR }}"
+            # 先写入 IPv4，再写入 IPv6，实现排序
+            cat ipv4_rules.tmp
+            cat ipv6_rules.tmp
+          } > "$IP_FILE_PATH"
+
+          # B. 生成域名规则文件 (ChinaMax-Domain.list)
+          DOMAIN_COUNT=$(wc -l < domain_rules.tmp)
+          DOMAIN_FILE_PATH="${{ env.OUTPUT_DIR }}/${{ env.DOMAIN_FILENAME }}"
+
+          echo "Generating ${DOMAIN_FILE_PATH} with ${DOMAIN_COUNT} rules..."
+          {
+            echo "${{ env.ILLUSTRATE }}"
+            echo "# 国内媒体域名分流规则" # 使用更具体的描述
+            echo "${{ env.RULES_SOURCE_HEADER }}"
+            echo "$SOURCE_URL_LIST"
+            echo "# 更新时间：$UPDATE_TIME"
+            echo "# 规则总数：${DOMAIN_COUNT}条"
+            echo "${{ env.AUTHOR }}"
+            cat domain_rules.tmp
+          } > "$DOMAIN_FILE_PATH"
+
+          # --- 6. 清理临时文件 ---
+          rm merged_raw.txt unique_rules.txt ipv4_rules.tmp ipv6_rules.tmp domain_rules.tmp
+          echo "Process complete!"
+
+      - name: Push changes
+        uses: EndBug/add-and-commit@v9.1.4
+        with:
+          author_name: Reid_Vin
+          author_email: reid_vin@outlook.com
+          message: "chore: Auto update ChinaMax IP and Domain rules"
+          # 使用 glob 模式来添加两个新文件
+          add: "${{ env.OUTPUT_DIR }}/${{ env.IP_FILENAME }} ${{ env.OUTPUT_DIR }}/${{ env.DOMAIN_FILENAME }}"
+        env:
+          GITHUB_TOKEN: ${{ secrets.COMMON_TOKEN }}
