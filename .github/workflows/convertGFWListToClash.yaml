@@ -1,4 +1,4 @@
-name: Convert GFWList to Clash Rules
+name: Create Ultimate GFW Merged List
 
 on:
   schedule:
@@ -7,16 +7,17 @@ on:
 
 env:
   # 输出文件配置
-  FILENAME: "GFWList.list"
+  FILENAME: "GFW-Merged.list" # 新的合并文件名
   OUTPUT_DIR: "./Clash/Ruleset"
 
-  # 规则源 URL (已更新为 gfwlist 的未编码版本)
-  SOURCE_URL: "https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt"
+  # 规则源 URL
+  SOURCE_URL_GFWLIST: "https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt"
+  SOURCE_URL_ACL4SSR: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list"
 
-  # --- 复用你原来的文件头信息，并做微调 ---
-  DESCRIPTION: "# GFWList 转换流程"
-  ILLUSTRATE: "# 该规则集由 gfwlist 转换而来，并适配 Clash 使用"
-  RULES_SOURCE_HEADER: "# 基于以下源项目转换："
+  # --- 复用你原来的文件头信息，并更新描述 ---
+  DESCRIPTION: "# 终极 GFW 规则合并流程"
+  ILLUSTRATE: "# 该规则集由 GFWList 和 ACL4SSR 合并而来，强强联合，确保覆盖面"
+  RULES_SOURCE_HEADER: "# 基于以下源项目合并："
   AUTHOR: "# 作者：Reid_Vin_Action"
 
 jobs:
@@ -26,42 +27,51 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Download, convert, and generate ruleset
+      - name: Download, process, merge, and generate ruleset
         run: |
           # 确保脚本在任何命令失败时立即退出
           set -e
 
-          echo "Downloading GFWList source from ${{ env.SOURCE_URL }}..."
-          curl -sL "${{ env.SOURCE_URL }}" -o gfwlist_raw.txt
-
-          echo "Processing and converting rules..."
-          # 核心转换步骤：
-          # 1. grep -vE: 过滤掉以下行：
-          #    - ^!        (注释)
-          #    - ^\[       ([AutoProxy] 头部)
-          #    - ^@@       (白名单规则)
-          #    - ^\s*$     (空行)
-          # 2. sed -E: 使用扩展正则表达式进行替换
-          #    - s#^\|\|##: 移除行首的 ||
-          #    - s#^\|https?://##: 移除行首的 |http:// 或 |https://
-          #    - s#^https?://##: 移除行首的 http:// 或 https://
-          #    - s#^\.##: 移除行首的 . (处理 .google.com 这类规则)
-          # 3. sed -E '/\*/d': 删除所有包含通配符 '*' 的行，因为它们难以直接转换为Clash规则
-          # 4. sed -E 's|/.*||': 删除域名后可能存在的路径部分 (例如 www.google.com/search?q=...)
-          # 5. sed '/^$/d': 删除处理后可能产生的空行
-          # 6. sed 's/^/DOMAIN-SUFFIX,/' : 为每一行添加 DOMAIN-SUFFIX, 前缀
-          # 7. sort -u: 排序并去除重复项
+          # --- 步骤 1: 下载并转换 GFWList (复用之前的逻辑) ---
+          echo "Processing source 1: GFWList..."
+          curl -sL "${{ env.SOURCE_URL_GFWLIST }}" -o gfwlist_raw.txt
+          
           cat gfwlist_raw.txt | \
           grep -vE '^!|^\[|^@@|^\s*$' | \
           sed -E 's#^\|\|##; s#^\|https?://##; s#^https?://##; s#^\.##' | \
           sed -E '/\*/d' | \
           sed -E 's|/.*||' | \
-          sed '/^$/d' | \
-          sed 's/^/DOMAIN-SUFFIX,/' | \
-          sort -u > converted_rules.txt
+          sed '/^$/d' \
+          > gfwlist_cleaned.tmp
           
-          RULES_COUNT=$(wc -l < converted_rules.txt)
-          echo "Conversion complete. Total rules generated: $RULES_COUNT"
+          echo "GFWList processed. Found $(wc -l < gfwlist_cleaned.tmp) potential rules."
+
+          # --- 步骤 2: 下载并清理 ACL4SSR 列表 ---
+          echo "Processing source 2: ACL4SSR..."
+          curl -sL "${{ env.SOURCE_URL_ACL4SSR }}" -o acl4ssr_raw.txt
+          
+          # ACL4SSR 已经是 Clash 格式，但我们只取域名部分，并移除注释和空行
+          # paylod: 这部分我们不需要，只取DOMAIN开头的
+          grep -E '^DOMAIN' acl4ssr_raw.txt > acl4ssr_cleaned.tmp
+
+          echo "ACL4SSR processed. Found $(wc -l < acl4ssr_cleaned.tmp) rules."
+
+          # --- 步骤 3: 合并、格式化并去重 ---
+          echo "Merging, formatting and deduplicating..."
+
+          # 将 gfwlist 的裸域名和 acl4ssr 的 clash 规则合并
+          # 注意：gfwlist 的处理结果是不带 "DOMAIN-SUFFIX," 前缀的裸域名
+          # acl4ssr 的处理结果是带 "DOMAIN-..." 前缀的完整规则
+          # 我们将 gfwlist 的裸域名也加上 DOMAIN-SUFFIX 前缀再合并
+          
+          # 合并两个列表，然后排序去重
+          {
+            sed 's/^/DOMAIN-SUFFIX,/' < gfwlist_cleaned.tmp
+            cat acl4ssr_cleaned.tmp
+          } | sort -u > final_rules.txt
+
+          RULES_COUNT=$(wc -l < final_rules.txt)
+          echo "Merge complete. Total unique rules: $RULES_COUNT"
           
           # --- 准备文件头和元数据 ---
           UPDATE_TIME=$(TZ='Asia/Shanghai' date +"%Y-%m-%d %H:%M:%S")
@@ -75,15 +85,16 @@ jobs:
             echo "${{ env.ILLUSTRATE }}"
             echo "${{ env.DESCRIPTION }}"
             echo "${{ env.RULES_SOURCE_HEADER }}"
-            echo "# ${{ env.SOURCE_URL }}"
+            echo "# 1. GFWList: ${{ env.SOURCE_URL_GFWLIST }}"
+            echo "# 2. ACL4SSR: ${{ env.SOURCE_URL_ACL4SSR }}"
             echo "# 更新时间：$UPDATE_TIME"
             echo "# 规则总数：${RULES_COUNT}条"
             echo "${{ env.AUTHOR }}"
-            cat converted_rules.txt
+            cat final_rules.txt
           } > "$FINAL_FILE_PATH"
 
           # --- 清理临时文件 ---
-          rm gfwlist_raw.txt converted_rules.txt
+          rm gfwlist_raw.txt gfwlist_cleaned.tmp acl4ssr_raw.txt acl4ssr_cleaned.tmp final_rules.txt
           echo "Process complete! Final file is at $FINAL_FILE_PATH"
 
       - name: Push changes
@@ -91,7 +102,7 @@ jobs:
         with:
           author_name: Reid_Vin
           author_email: reid_vin@outlook.com
-          message: "feat: Auto update GFWList and convert to Clash rules"
+          message: "feat: Create merged GFW ruleset from GFWList and ACL4SSR"
           add: "${{ env.OUTPUT_DIR }}/${{ env.FILENAME }}"
         env:
           GITHUB_TOKEN: ${{ secrets.COMMON_TOKEN }}
