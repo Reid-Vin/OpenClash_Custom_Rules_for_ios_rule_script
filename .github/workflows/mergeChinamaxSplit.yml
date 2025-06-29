@@ -1,4 +1,4 @@
-name: Merge ChinaMedia List
+name: Merge and Split ChinaMax Rules
 
 on:
   schedule:
