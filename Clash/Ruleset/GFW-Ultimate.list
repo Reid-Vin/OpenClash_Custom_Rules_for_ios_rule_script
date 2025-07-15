@@ -3,8 +3,8 @@
 # 基于以下源项目合并：
 # 1. GFWList: https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt
 # 2. ACL4SSR: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
-# 更新时间：2025-07-14 16:36:56
-# 规则总数：7272条
+# 更新时间：2025-07-15 16:34:43
+# 规则总数：7273条
 # 作者：Reid_Vin_Action
 DOMAIN,14.102.250.18
 DOMAIN,14.102.250.19
@@ -6871,6 +6871,7 @@ DOMAIN-SUFFIX,www.taiwanonline.cc
 DOMAIN-SUFFIX,www.thechinastory.org
 DOMAIN-SUFFIX,www.wan-press.org
 DOMAIN-SUFFIX,www.websnapr.com
+DOMAIN-SUFFIX,www.xicons.org
 DOMAIN-SUFFIX,www.zensur.freerk.com
 DOMAIN-SUFFIX,www1.american.edu
 DOMAIN-SUFFIX,www1.biz
