@@ -3,7 +3,7 @@
 # 基于以下分流规则合并：
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMaxNoIP/ChinaMaxNoIP.list
-# 更新时间：2025-07-16 15:20:10
+# 更新时间：2025-07-17 15:20:09
 # 规则总数：19966条 (IPv4: 8113, IPv6: 11853)
 # 作者：Reid_Vin_Action
 IP-CIDR,0.0.0.0/32,no-resolve
