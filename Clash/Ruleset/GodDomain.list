@@ -293,8 +293,8 @@
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TruthSocial/TruthSocial.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zoom/Zoom.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zalo/Zalo.list
-# 更新时间：2025-07-19 11:22:22
-# 规则总数：23045条
+# 更新时间：2025-07-20 11:46:09
+# 规则总数：23043条
 # 作者：Reid_Vin_Action
 
 
@@ -7661,7 +7661,6 @@ DOMAIN-SUFFIX,appspot-preview.com
 DOMAIN-SUFFIX,appspot.com
 DOMAIN-SUFFIX,appsto.re
 DOMAIN-SUFFIX,aptoide.com
-DOMAIN-SUFFIX,ar.hao123.com
 DOMAIN-SUFFIX,arcgis.com
 DOMAIN-SUFFIX,archive.fo
 DOMAIN-SUFFIX,archive.is
@@ -11275,7 +11274,6 @@ DOMAIN-SUFFIX,onmoon.com
 DOMAIN-SUFFIX,onmoon.net
 DOMAIN-SUFFIX,onmypc.biz
 DOMAIN-SUFFIX,onmypc.info
-DOMAIN-SUFFIX,onmypc.net
 DOMAIN-SUFFIX,onmypc.org
 DOMAIN-SUFFIX,onmypc.us
 DOMAIN-SUFFIX,onthehunt.com
