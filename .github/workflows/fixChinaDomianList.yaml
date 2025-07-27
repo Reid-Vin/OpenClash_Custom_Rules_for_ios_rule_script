@@ -37,43 +37,44 @@ jobs:
           echo "Downloading source file from ${{ env.SOURCE_URL }}..."
           curl -sL "${{ env.SOURCE_URL }}" -o source_raw.sorl
 
-          # --- 3. 处理规则文件 ---
-          # 使用 awk 处理文件：
-          # 1. 保留空行。
-          # 2. 将 '!' 和 '[' 开头的行转为注释。
-          # 3. 删除 IPv4 和 IPv6 地址行。
-          # 4. 将域名规则转换为 'DOMAIN-SUFFIX,domain' 格式。
+          # --- 3. 使用修正后的 awk 脚本处理规则文件 ---
           echo "Processing rules to generate Clash compatible format..."
           awk '
           {
-              # 修剪前后空格
+              # 第一步：修剪行首和行尾的空白字符
               gsub(/^[ \t]+|[ \t]+$/, "", $0)
-              
-              # 保留空行
+
+              # 第二步：保留源文件中的空行，以维持结构
               if ($0 == "") {
                   print ""
                   next
               }
-              
-              # 将 SwitchyOmega 注释符转换为 #
-              if (match($0, /^[![]/)) {
-                  print "#" $0
+
+              # 第三步：正确处理注释
+              # 如果一行以分号(;)或方括号([)开头，则将其视为注释，在前面加上 # 并输出
+              if (match($0, /^[;[]/)) {
+                  print "# " $0
                   next
               }
-              
-              # 跳过 IPv4 和 IPv6 地址 (包含CIDR)
-              if ($0 ~ /^([0-9]{1,3}\.){3}[0-9]{1,3}(\/[0-9]{1,2})?$/ || $0 ~ /:/) {
+
+              # 第四步：精确过滤所有类型的IP地址和IP段
+              # 此正则表达式可以匹配 1.2.3.4, 1.2.3.*, 10.*.*.* 以及IPv6地址(:)
+              if ($0 ~ /:/ || $0 ~ /^([0-9*]{1,3}\.){3}[0-9*]{1,3}/) {
                   next
               }
-              
-              # 处理域名，移除前缀 *. 和 .
+
+              # 第五步：处理有效的域名规则
+              # 移除域名开头的 *. 和 .
               sub(/^\*\./, "", $0)
               sub(/^\./, "", $0)
 
-              # 只有非空行才输出，防止生成无效规则
-              if ($0 != "") {
-                  print "DOMAIN-SUFFIX," $0
+              # 第六步：过滤掉处理后仍包含*的无效规则(如 edu.*)或空行
+              if ($0 == "" || $0 ~ /\*/) {
+                  next
               }
+              
+              # 第七步：输出为 Clash 接受的格式
+              print "DOMAIN-SUFFIX," $0
           }
           ' source_raw.sorl > processed_domains.list
 
@@ -81,7 +82,8 @@ jobs:
           echo "Generating final output file: ${DOMAIN_FILE_PATH}"
           mkdir -p ${{ env.OUTPUT_DIR }}
           UPDATE_TIME=$(TZ='Asia/Shanghai' date +"%Y-%m-%d %H:%M:%S")
-          DOMAIN_COUNT=$(grep -c . < processed_domains.list) # 统计有效规则行数
+          # 统计有效规则行数 (不包括空行和纯注释)
+          DOMAIN_COUNT=$(grep -c "DOMAIN-SUFFIX" < processed_domains.list)
 
           {
             echo "${{ env.ILLUSTRATE }}"
@@ -90,7 +92,6 @@ jobs:
             echo "# 更新时间：$UPDATE_TIME"
             echo "# 规则总数：${DOMAIN_COUNT}条"
             echo "${{ env.AUTHOR }}"
-            echo ""
             cat processed_domains.list
           } > "$DOMAIN_FILE_PATH"
 
@@ -103,8 +104,7 @@ jobs:
         with:
           author_name: Reid_Vin
           author_email: reid_vin@outlook.com
-          message: "chore: Auto update Whitelist-Domain rule"
-          # 只添加新的域名文件
+          message: "chore: Auto update China-Domain rule"
           add: "${{ env.OUTPUT_DIR }}/${{ env.DOMAIN_FILENAME }}"
         env:
           GITHUB_TOKEN: ${{ secrets.COMMON_TOKEN }}
