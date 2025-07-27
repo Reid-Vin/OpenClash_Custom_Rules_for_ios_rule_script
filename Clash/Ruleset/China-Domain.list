@@ -1,43 +1,24 @@
 # 规则基于 entr0pia/SwitchyOmega-Whitelist 项目生成，适配 Clash
 # 源项目地址：
 # https://raw.githubusercontent.com/entr0pia/SwitchyOmega-Whitelist/refs/heads/master/white-list.sorl
-# 更新时间：2025-07-28 01:59:29
-# 规则总数：118989条
+# 更新时间：2025-07-28 02:10:49
+# 规则总数：118964条
 # 作者：Reid_Vin_Action
+# [SwitchyOmega Conditions]
+# ; Require: https://github.com/zero-peak/ZeroOmega
+# ; Update @ Sun Jul 27 10:33:32 2025
 
-#[SwitchyOmega Conditions]
-
-DOMAIN-SUFFIX,; cn域名都不走代理
+# ; cn域名都不走代理
 DOMAIN-SUFFIX,cn
 DOMAIN-SUFFIX,wang
 
-DOMAIN-SUFFIX,; 局域网IP不走代理
-DOMAIN-SUFFIX,10.*.*.*
-DOMAIN-SUFFIX,172.16.*.*
-DOMAIN-SUFFIX,172.17.*.*
-DOMAIN-SUFFIX,172.18.*.*
-DOMAIN-SUFFIX,172.19.*.*
-DOMAIN-SUFFIX,172.20.*.*
-DOMAIN-SUFFIX,172.21.*.*
-DOMAIN-SUFFIX,172.22.*.*
-DOMAIN-SUFFIX,172.23.*.*
-DOMAIN-SUFFIX,172.24.*.*
-DOMAIN-SUFFIX,172.25.*.*
-DOMAIN-SUFFIX,172.26.*.*
-DOMAIN-SUFFIX,172.27.*.*
-DOMAIN-SUFFIX,172.28.*.*
-DOMAIN-SUFFIX,172.29.*.*
-DOMAIN-SUFFIX,172.30.*.*
-DOMAIN-SUFFIX,172.31.*.*
-DOMAIN-SUFFIX,169.254.*.*
-DOMAIN-SUFFIX,192.168.*.*
+# ; 局域网IP不走代理
 
-DOMAIN-SUFFIX,; 教育网
+# ; 教育网
 DOMAIN-SUFFIX,acm.org
 DOMAIN-SUFFIX,dblp.org
 DOMAIN-SUFFIX,ebscohost.com
 DOMAIN-SUFFIX,edu
-DOMAIN-SUFFIX,edu.*
 DOMAIN-SUFFIX,engineeringvillage.com
 DOMAIN-SUFFIX,ieee.org
 DOMAIN-SUFFIX,jstor.org
@@ -55,7 +36,7 @@ DOMAIN-SUFFIX,uni-trier.de
 DOMAIN-SUFFIX,webofknowledge.com
 DOMAIN-SUFFIX,wiley.com
 
-DOMAIN-SUFFIX,; 常规列表
+# ; 常规列表
 DOMAIN-SUFFIX,0.zone
 DOMAIN-SUFFIX,00.net
 DOMAIN-SUFFIX,000.link
