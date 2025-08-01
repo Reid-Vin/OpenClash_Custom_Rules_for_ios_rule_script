@@ -293,8 +293,8 @@
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TruthSocial/TruthSocial.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zoom/Zoom.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zalo/Zalo.list
-# 更新时间：2025-07-31 11:41:36
-# 规则总数：23045条
+# 更新时间：2025-08-01 11:55:50
+# 规则总数：23059条
 # 作者：Reid_Vin_Action
 
 
@@ -13258,6 +13258,7 @@ DOMAIN-SUFFIX,waikeung.org
 DOMAIN-SUFFIX,wailaike.net
 DOMAIN-SUFFIX,wainao.me
 DOMAIN-SUFFIX,waiwaier.com
+DOMAIN-SUFFIX,walletconnect.com
 DOMAIN-SUFFIX,wallmama.com
 DOMAIN-SUFFIX,wallornot.org
 DOMAIN-SUFFIX,wallpapercasa.com
@@ -16158,8 +16159,21 @@ DOMAIN,rthktv31-live.akamaized.net
 DOMAIN,rthktv32-live.akamaized.net
 DOMAIN-SUFFIX,rthk.hk
 DOMAIN-SUFFIX,rthk.org.hk
+DOMAIN,7d1732c7c34624df5f1270e29cf8d1ea78695fd5.cws.conviva.com
+DOMAIN,clientstream.launchdarkly.com
+DOMAIN,sky.com.ssl.d1.sc.omtrdc.net
+DOMAIN-SUFFIX,2cnt.net
+DOMAIN-SUFFIX,epgsky.com
+DOMAIN-SUFFIX,eu-1.xcal.tv
 DOMAIN-SUFFIX,sky.com
+DOMAIN-SUFFIX,skyanywhere.com
+DOMAIN-SUFFIX,skycdp.com
 DOMAIN-SUFFIX,skygo.co.nz
+DOMAIN-SUFFIX,skysports.com
+DOMAIN-SUFFIX,xmidt-eu.comcast.net
+DOMAIN-KEYWORD,bskyb
+DOMAIN-KEYWORD,skygo
+DOMAIN-KEYWORD,skyliveuk
 DOMAIN-SUFFIX,p-cdn.us
 DOMAIN-SUFFIX,sndcdn.com
 DOMAIN-SUFFIX,soundcloud.com
