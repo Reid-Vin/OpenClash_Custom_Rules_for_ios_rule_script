@@ -3,8 +3,8 @@
 # 基于以下源项目合并：
 # 1. GFWList: https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt
 # 2. ACL4SSR: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
-# 更新时间：2025-08-08 16:36:01
-# 规则总数：7278条
+# 更新时间：2025-08-09 16:30:51
+# 规则总数：7280条
 # 作者：Reid_Vin_Action
 DOMAIN,14.102.250.18
 DOMAIN,14.102.250.19
@@ -711,6 +711,7 @@ DOMAIN-SUFFIX,bitchute.com
 DOMAIN-SUFFIX,bitcointalk.org
 DOMAIN-SUFFIX,bitcoinworld.com
 DOMAIN-SUFFIX,bitfinex.com
+DOMAIN-SUFFIX,bitget.com
 DOMAIN-SUFFIX,bithumb.com
 DOMAIN-SUFFIX,bitinka.com.ar
 DOMAIN-SUFFIX,bitmex.com
@@ -6360,6 +6361,7 @@ DOMAIN-SUFFIX,unstable.icu
 DOMAIN-SUFFIX,untraceable.us
 DOMAIN-SUFFIX,unwire.hk
 DOMAIN-SUFFIX,uocn.org
+DOMAIN-SUFFIX,upbit.com
 DOMAIN-SUFFIX,updates.tdesktop.com
 DOMAIN-SUFFIX,updatestar.com
 DOMAIN-SUFFIX,upghsbc.com
