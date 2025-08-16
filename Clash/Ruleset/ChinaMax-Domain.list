@@ -3,8 +3,8 @@
 # 基于以下分流规则合并：
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMaxNoIP/ChinaMaxNoIP.list
-# 更新时间：2025-08-15 15:17:58
-# 规则总数：118600条
+# 更新时间：2025-08-16 15:16:09
+# 规则总数：118606条
 # 作者：Reid_Vin_Action
 DOMAIN,1-fss24-s0.streamhoster.com
 DOMAIN,14033.live.streamtheworld.com
@@ -32205,6 +32205,7 @@ DOMAIN-SUFFIX,dzlaa.com
 DOMAIN-SUFFIX,dzlems.net
 DOMAIN-SUFFIX,dzljy.com
 DOMAIN-SUFFIX,dzllzg.com
+DOMAIN-SUFFIX,dzlndygh.com
 DOMAIN-SUFFIX,dzmachines.com
 DOMAIN-SUFFIX,dzmhospital.com
 DOMAIN-SUFFIX,dzng.com
@@ -46367,6 +46368,7 @@ DOMAIN-SUFFIX,hcc11.com
 DOMAIN-SUFFIX,hcccia.com
 DOMAIN-SUFFIX,hcciot.com
 DOMAIN-SUFFIX,hcclhealthcare.com
+DOMAIN-SUFFIX,hccoeutg.com
 DOMAIN-SUFFIX,hccpcba.com
 DOMAIN-SUFFIX,hcdamai.com
 DOMAIN-SUFFIX,hcdiy.com
@@ -93171,6 +93173,7 @@ DOMAIN-SUFFIX,tecochina.net
 DOMAIN-SUFFIX,tecolighting.com
 DOMAIN-SUFFIX,tecompharma.com
 DOMAIN-SUFFIX,tecreal.com
+DOMAIN-SUFFIX,tecunonline.com
 DOMAIN-SUFFIX,tecyle.com
 DOMAIN-SUFFIX,teda-veolia.com
 DOMAIN-SUFFIX,tedagas.com
@@ -103659,6 +103662,7 @@ DOMAIN-SUFFIX,xcsyy.com
 DOMAIN-SUFFIX,xct168.com
 DOMAIN-SUFFIX,xctmr.com
 DOMAIN-SUFFIX,xcukezmr.com
+DOMAIN-SUFFIX,xcultur.com
 DOMAIN-SUFFIX,xcurrency.com
 DOMAIN-SUFFIX,xcvec.com
 DOMAIN-SUFFIX,xcvmbyte.com
@@ -107552,7 +107556,9 @@ DOMAIN-SUFFIX,xxxedu.net
 DOMAIN-SUFFIX,xxxhhh.com
 DOMAIN-SUFFIX,xxxinwen.com
 DOMAIN-SUFFIX,xxxoooxxxooo.net
+DOMAIN-SUFFIX,xxxx88xxxx.com
 DOMAIN-SUFFIX,xxxx92xxxx.com
+DOMAIN-SUFFIX,xxxx96xxxx.com
 DOMAIN-SUFFIX,xxxxxx6.com
 DOMAIN-SUFFIX,xxxzzlm.org
 DOMAIN-SUFFIX,xxycw.com
