@@ -3,8 +3,8 @@
 # 基于以下分流规则合并：
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMaxNoIP/ChinaMaxNoIP.list
-# 更新时间：2025-08-23 15:15:11
-# 规则总数：118604条
+# 更新时间：2025-08-24 15:15:46
+# 规则总数：118599条
 # 作者：Reid_Vin_Action
 DOMAIN,1-fss24-s0.streamhoster.com
 DOMAIN,14033.live.streamtheworld.com
@@ -36378,7 +36378,6 @@ DOMAIN-SUFFIX,fogcloud.io
 DOMAIN-SUFFIX,foguanghui.org
 DOMAIN-SUFFIX,fohohr.com
 DOMAIN-SUFFIX,foidn.com
-DOMAIN-SUFFIX,foisonad.com
 DOMAIN-SUFFIX,foisongroup.com
 DOMAIN-SUFFIX,fojiaonet.com
 DOMAIN-SUFFIX,fojiaoyongpin.com
@@ -54708,7 +54707,6 @@ DOMAIN-SUFFIX,itiankong.com
 DOMAIN-SUFFIX,itiankong.net
 DOMAIN-SUFFIX,itianliao.com
 DOMAIN-SUFFIX,itiexue.net
-DOMAIN-SUFFIX,itiger.com
 DOMAIN-SUFFIX,itigergrowth.com
 DOMAIN-SUFFIX,itigergrowtha.com
 DOMAIN-SUFFIX,itigerup.com
@@ -61821,7 +61819,6 @@ DOMAIN-SUFFIX,kovemoto.com
 DOMAIN-SUFFIX,kowa-dental.com
 DOMAIN-SUFFIX,kowa103.com
 DOMAIN-SUFFIX,kowloonhospital.com
-DOMAIN-SUFFIX,kox.moe
 DOMAIN-SUFFIX,koyuki.cc
 DOMAIN-SUFFIX,kpblw.com
 DOMAIN-SUFFIX,kpbyd.com
@@ -70595,7 +70592,6 @@ DOMAIN-SUFFIX,mowan123.com
 DOMAIN-SUFFIX,moweather.com
 DOMAIN-SUFFIX,mowgz.com
 DOMAIN-SUFFIX,mowowo.com
-DOMAIN-SUFFIX,mox.moe
 DOMAIN-SUFFIX,moxfive.xyz
 DOMAIN-SUFFIX,moxiai.com
 DOMAIN-SUFFIX,moxian.com
@@ -98405,7 +98401,6 @@ DOMAIN-SUFFIX,voidking.com
 DOMAIN-SUFFIX,voip366.com
 DOMAIN-SUFFIX,vojs.tv
 DOMAIN-SUFFIX,vokop.com
-DOMAIN-SUFFIX,vol.moe
 DOMAIN-SUFFIX,volc-dns.com
 DOMAIN-SUFFIX,volc-dns.net
 DOMAIN-SUFFIX,volc-dns.pub
