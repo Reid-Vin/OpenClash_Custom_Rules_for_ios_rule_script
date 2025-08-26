@@ -293,8 +293,8 @@
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TruthSocial/TruthSocial.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zoom/Zoom.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zalo/Zalo.list
-# 更新时间：2025-08-25 11:14:43
-# 规则总数：23049条
+# 更新时间：2025-08-26 11:08:40
+# 规则总数：23051条
 # 作者：Reid_Vin_Action
 
 
@@ -9305,6 +9305,8 @@ DOMAIN-SUFFIX,ftx.com
 DOMAIN-SUFFIX,fubo.tv
 DOMAIN-SUFFIX,fucd.com
 DOMAIN-SUFFIX,fuchsia.dev
+DOMAIN-SUFFIX,fuckccp.com
+DOMAIN-SUFFIX,fuckccp.xyz
 DOMAIN-SUFFIX,fuckcnnic.net
 DOMAIN-SUFFIX,fuckgfw.org
 DOMAIN-SUFFIX,fuckgfw233.org
