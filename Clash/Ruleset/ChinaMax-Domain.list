@@ -3,8 +3,8 @@
 # 基于以下分流规则合并：
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMaxNoIP/ChinaMaxNoIP.list
-# 更新时间：2025-08-27 15:16:23
-# 规则总数：118599条
+# 更新时间：2025-08-28 15:16:54
+# 规则总数：118620条
 # 作者：Reid_Vin_Action
 DOMAIN,1-fss24-s0.streamhoster.com
 DOMAIN,14033.live.streamtheworld.com
@@ -21,6 +21,7 @@ DOMAIN,6.mms.vlog.xuite.net
 DOMAIN,a.xttv.top
 DOMAIN,abclive2-lh.akamaihd.net
 DOMAIN,admob-cn.com
+DOMAIN,afcs.dell.com
 DOMAIN,aka-amd-njpwworld-hls-enlive.akamaized.net
 DOMAIN,alibaba.cdn.steampipe.steamcontent.com
 DOMAIN,aljazeera-eng-hd-live.hls.adaptive.level3.net
@@ -60,29 +61,43 @@ DOMAIN,cgntv-glive.ofsdelivery.net
 DOMAIN,channellive.leshantv.net
 DOMAIN,clickserve.cc-dt.com
 DOMAIN,client.amplifi.com
+DOMAIN,clientperipherals.dell.com
 DOMAIN,cn.download.nvidia.com
 DOMAIN,cn.widevine.com
 DOMAIN,cpro.baidustatic.com
 DOMAIN,crl.pki.goog
 DOMAIN,crls.pki.goog
+DOMAIN,customization-cdn.dell.com
 DOMAIN,d9af5a60.edmonst.net
 DOMAIN,dartsearch-cn.net
+DOMAIN,dds.dell.com
+DOMAIN,dl.dell.com
 DOMAIN,doubleclick-cn.net
 DOMAIN,doubleclick.net
 DOMAIN,download.jetbrains.com
 DOMAIN,download.qatp1.net
 DOMAIN,e1.vdowowza.vip.hk1.tvb.com
+DOMAIN,ea2cn-dev-outlet.dell.com
+DOMAIN,ea2cn-prod-outlet.dell.com
+DOMAIN,ea2cn-staging-outlet.dell.com
 DOMAIN,edge.music-choice-play-chaina1.top.comcast.net
 DOMAIN,emoi-cncdn.bing.com
 DOMAIN,f24hls-i.akamaihd.net
 DOMAIN,fash1043.cloudycdn.services
+DOMAIN,fcs.dell.com
 DOMAIN,file.mb.leshantv.net
 DOMAIN,flv.drs.tv.yatv.tv
 DOMAIN,fm901.cityfm.tw
 DOMAIN,fm929.cityfm.tw
 DOMAIN,fm971.cityfm.tw
 DOMAIN,fm983.cityfm.tw
+DOMAIN,fta.dell.com
+DOMAIN,ftaapj.dell.com
+DOMAIN,ftaemea.dell.com
+DOMAIN,ftasitapj.dell.com
 DOMAIN,gayotv.net
+DOMAIN,gbxgateway-dev.dell.com
+DOMAIN,gbxgateway.dell.com
 DOMAIN,gog-cdn-fastly.gog.com
 DOMAIN,gog-cdn.akamaized.net
 DOMAIN,gogalaxy.gog-statics.com
@@ -192,13 +207,18 @@ DOMAIN,rthklive1-lh.akamaihd.net
 DOMAIN,rthklive2-lh.akamaihd.net
 DOMAIN,rtvcdn.com.au
 DOMAIN,scanservice1.qcpp1.net
+DOMAIN,scene7-cdn.dell.com
 DOMAIN,sdn-global-live-streaming-packager-cache-3qsdn.akamaized.net
 DOMAIN,seb.sason.top
 DOMAIN,service.urchin.com
+DOMAIN,si.cdn.dell.com
 DOMAIN,silverlight.dlservice.microsoft.com
 DOMAIN,slive.ytn.co.kr
 DOMAIN,slupdate.dlservice.microsoft.com
+DOMAIN,sm.dell.com
 DOMAIN,sms.imagetasks.com
+DOMAIN,snp.cdn.dell.com
+DOMAIN,snpi.dell.com
 DOMAIN,sohucao.duapp.com
 DOMAIN,staging-controlbe.floonet.goog
 DOMAIN,staging-databe.floonet.goog
@@ -220,6 +240,7 @@ DOMAIN,stream01.dqtv123.com
 DOMAIN,stream1.shopch.jp
 DOMAIN,stream2.cprnetwork.org
 DOMAIN,streamipcf.akamaized.net
+DOMAIN,supportassist.dell.com
 DOMAIN,surface.downloads.prss.microsoft.com
 DOMAIN,test.gbugs-qa.chromium.org
 DOMAIN,time.xtracloud.net
@@ -244,6 +265,7 @@ DOMAIN,wowza.montevideo.com.uy
 DOMAIN,wowza.ner.gov.tw
 DOMAIN,wpc.124ce.sigmacdn.net
 DOMAIN,wuwm.streamguys1.com
+DOMAIN,www-csb.dell.com
 DOMAIN,www.cbsnews.com
 DOMAIN,www.destinationurl.com
 DOMAIN,www.filmon.com
@@ -25630,7 +25652,6 @@ DOMAIN-SUFFIX,copcsc.org
 DOMAIN-SUFFIX,copl.com.hk
 DOMAIN-SUFFIX,copperalliance.asia
 DOMAIN-SUFFIX,copperhome.net
-DOMAIN-SUFFIX,copy-manga.com
 DOMAIN-SUFFIX,copyedu.com
 DOMAIN-SUFFIX,copyfuture.com
 DOMAIN-SUFFIX,copyswisswatches.com
@@ -29128,6 +29149,7 @@ DOMAIN-SUFFIX,delixi.com
 DOMAIN-SUFFIX,delixidrive.com
 DOMAIN-SUFFIX,deliyun.com
 DOMAIN-SUFFIX,dell-alw.com
+DOMAIN-SUFFIX,dell-brand.com
 DOMAIN-SUFFIX,dell027.com
 DOMAIN-SUFFIX,dellecs.com
 DOMAIN-SUFFIX,dellemc-solution.com
@@ -37096,6 +37118,7 @@ DOMAIN-SUFFIX,funcrea.com
 DOMAIN-SUFFIX,functionads.com
 DOMAIN-SUFFIX,functionaltextilesshanghai.com
 DOMAIN-SUFFIX,functioncool.com
+DOMAIN-SUFFIX,functiongraph.run
 DOMAIN-SUFFIX,fund001.com
 DOMAIN-SUFFIX,fundebug.com
 DOMAIN-SUFFIX,fundebug.net
@@ -67822,9 +67845,7 @@ DOMAIN-SUFFIX,manfen.net
 DOMAIN-SUFFIX,manfen5.com
 DOMAIN-SUFFIX,manfred-auto.com
 DOMAIN-SUFFIX,manfrottoclub.com
-DOMAIN-SUFFIX,mangacopy.com
 DOMAIN-SUFFIX,mangafuna.xyz
-DOMAIN-SUFFIX,mangafunb.fun
 DOMAIN-SUFFIX,manganesenanhai.com
 DOMAIN-SUFFIX,mangg.com
 DOMAIN-SUFFIX,mangguo.com
@@ -77254,6 +77275,7 @@ DOMAIN-SUFFIX,plateno.cc
 DOMAIN-SUFFIX,plateno.com
 DOMAIN-SUFFIX,platenogroup.com
 DOMAIN-SUFFIX,platform-cn.com
+DOMAIN-SUFFIX,platform.dell.com
 DOMAIN-SUFFIX,platinum-traveller.com
 DOMAIN-SUFFIX,platinumchina.com
 DOMAIN-SUFFIX,play-analytics.com
@@ -82163,6 +82185,7 @@ DOMAIN-SUFFIX,roaing.com
 DOMAIN-SUFFIX,robam.com
 DOMAIN-SUFFIX,robei.com
 DOMAIN-SUFFIX,roboeyeai.com
+DOMAIN-SUFFIX,robomaster.com
 DOMAIN-SUFFIX,roboo.com
 DOMAIN-SUFFIX,robook.com
 DOMAIN-SUFFIX,robopeak.net
@@ -102786,7 +102809,6 @@ DOMAIN-SUFFIX,www-76244.com
 DOMAIN-SUFFIX,www.adobe.com
 DOMAIN-SUFFIX,www.cg
 DOMAIN-SUFFIX,www.com.my
-DOMAIN-SUFFIX,www.dell-brand.com
 DOMAIN-SUFFIX,www.dell.com
 DOMAIN-SUFFIX,www.djivideos.com
 DOMAIN-SUFFIX,www.gov.mo
@@ -110501,7 +110523,6 @@ DOMAIN-SUFFIX,ymlt.net
 DOMAIN-SUFFIX,ymlt.vip
 DOMAIN-SUFFIX,ymm56.com
 DOMAIN-SUFFIX,ymmfa.com
-DOMAIN-SUFFIX,ymmobi.com
 DOMAIN-SUFFIX,ymnsdk.com
 DOMAIN-SUFFIX,ymoxuan.com
 DOMAIN-SUFFIX,ympc88.com
