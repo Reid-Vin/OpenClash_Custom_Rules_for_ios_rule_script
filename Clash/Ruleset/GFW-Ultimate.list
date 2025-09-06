@@ -3,8 +3,8 @@
 # 基于以下源项目合并：
 # 1. GFWList: https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt
 # 2. ACL4SSR: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
-# 更新时间：2025-09-05 16:29:44
-# 规则总数：7263条
+# 更新时间：2025-09-06 16:25:30
+# 规则总数：7267条
 # 作者：Reid_Vin_Action
 DOMAIN,14.102.250.18
 DOMAIN,14.102.250.19
@@ -869,6 +869,8 @@ DOMAIN-SUFFIX,bsky.app
 DOMAIN-SUFFIX,bsky.network
 DOMAIN-SUFFIX,bsky.social
 DOMAIN-SUFFIX,bt2mag.com
+DOMAIN-SUFFIX,bt4g.org
+DOMAIN-SUFFIX,bt4gprx.com
 DOMAIN-SUFFIX,bt95.com
 DOMAIN-SUFFIX,btaia.com
 DOMAIN-SUFFIX,btbit.net
@@ -3283,6 +3285,7 @@ DOMAIN-SUFFIX,iphonehacks.com
 DOMAIN-SUFFIX,iphonetaiwan.org
 DOMAIN-SUFFIX,iphonix.fr
 DOMAIN-SUFFIX,ipicture.ru
+DOMAIN-SUFFIX,ipify.org
 DOMAIN-SUFFIX,ipinfo.io
 DOMAIN-SUFFIX,ipjetable.net
 DOMAIN-SUFFIX,ipobar.com
@@ -5728,6 +5731,7 @@ DOMAIN-SUFFIX,tamiaode.tk
 DOMAIN-SUFFIX,tanc.org
 DOMAIN-SUFFIX,tangben.com
 DOMAIN-SUFFIX,tangren.us
+DOMAIN-SUFFIX,tanks.gg
 DOMAIN-SUFFIX,taoism.net
 DOMAIN-SUFFIX,taolun.info
 DOMAIN-SUFFIX,tap.io
