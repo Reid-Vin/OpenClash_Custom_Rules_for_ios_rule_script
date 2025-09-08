@@ -293,8 +293,8 @@
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TruthSocial/TruthSocial.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zoom/Zoom.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zalo/Zalo.list
-# 更新时间：2025-09-07 11:02:13
-# 规则总数：23052条
+# 更新时间：2025-09-08 11:05:33
+# 规则总数：23056条
 # 作者：Reid_Vin_Action
 
 
@@ -8041,6 +8041,8 @@ DOMAIN-SUFFIX,bsky.app
 DOMAIN-SUFFIX,bsky.network
 DOMAIN-SUFFIX,bsky.social
 DOMAIN-SUFFIX,bt2mag.com
+DOMAIN-SUFFIX,bt4g.org
+DOMAIN-SUFFIX,bt4gprx.com
 DOMAIN-SUFFIX,bt95.com
 DOMAIN-SUFFIX,btaia.com
 DOMAIN-SUFFIX,btbit.net
@@ -10083,6 +10085,7 @@ DOMAIN-SUFFIX,iphonehacks.com
 DOMAIN-SUFFIX,iphonetaiwan.org
 DOMAIN-SUFFIX,iphonix.fr
 DOMAIN-SUFFIX,ipicture.ru
+DOMAIN-SUFFIX,ipify.org
 DOMAIN-SUFFIX,ipinfo.io
 DOMAIN-SUFFIX,ipjetable.net
 DOMAIN-SUFFIX,ipn.li
@@ -12421,6 +12424,7 @@ DOMAIN-SUFFIX,tamiaode.tk
 DOMAIN-SUFFIX,tanc.org
 DOMAIN-SUFFIX,tangben.com
 DOMAIN-SUFFIX,tangren.us
+DOMAIN-SUFFIX,tanks.gg
 DOMAIN-SUFFIX,taoism.net
 DOMAIN-SUFFIX,taolun.info
 DOMAIN-SUFFIX,tap.io
