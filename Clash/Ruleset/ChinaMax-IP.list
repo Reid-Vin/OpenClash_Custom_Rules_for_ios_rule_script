@@ -3,8 +3,8 @@
 # 基于以下分流规则合并：
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMaxNoIP/ChinaMaxNoIP.list
-# 更新时间：2025-09-11 15:16:44
-# 规则总数：20257条 (IPv4: 8084, IPv6: 12173)
+# 更新时间：2025-09-12 15:15:49
+# 规则总数：20259条 (IPv4: 8084, IPv6: 12175)
 # 作者：Reid_Vin_Action
 IP-CIDR,0.0.0.0/32,no-resolve
 IP-CIDR,1.0.1.0/24,no-resolve
@@ -16922,7 +16922,6 @@ IP-CIDR6,2403:aa40::/32,no-resolve
 IP-CIDR6,2403:aa80::/32,no-resolve
 IP-CIDR6,2403:ab80::/32,no-resolve
 IP-CIDR6,2403:ac00::/32,no-resolve
-IP-CIDR6,2403:ad80:101c::/48,no-resolve
 IP-CIDR6,2403:ad80:8008::/48,no-resolve
 IP-CIDR6,2403:af80::/32,no-resolve
 IP-CIDR6,2403:b080::/32,no-resolve
@@ -19959,11 +19958,10 @@ IP-CIDR6,2a0e:aa07:e052::/48,no-resolve
 IP-CIDR6,2a0e:aa07:e0e0::/44,no-resolve
 IP-CIDR6,2a0e:aa07:e151::/48,no-resolve
 IP-CIDR6,2a0e:aa07:e155::/48,no-resolve
-IP-CIDR6,2a0e:aa07:e160::/47,no-resolve
-IP-CIDR6,2a0e:aa07:e162::/48,no-resolve
 IP-CIDR6,2a0e:aa07:e16a::/48,no-resolve
 IP-CIDR6,2a0e:aa07:e192::/48,no-resolve
 IP-CIDR6,2a0e:aa07:e1a0::/44,no-resolve
+IP-CIDR6,2a0e:aa07:e1e1::/48,no-resolve
 IP-CIDR6,2a0e:aa07:e1e2::/47,no-resolve
 IP-CIDR6,2a0e:aa07:e1e4::/47,no-resolve
 IP-CIDR6,2a0e:aa07:e1e6::/48,no-resolve
@@ -20010,6 +20008,9 @@ IP-CIDR6,2a0f:7803:f6a0::/44,no-resolve
 IP-CIDR6,2a0f:7803:f7c0::/42,no-resolve
 IP-CIDR6,2a0f:7803:f800::/43,no-resolve
 IP-CIDR6,2a0f:7803:f840::/44,no-resolve
+IP-CIDR6,2a0f:7803:fa21::/48,no-resolve
+IP-CIDR6,2a0f:7803:fa22::/47,no-resolve
+IP-CIDR6,2a0f:7803:fa24::/46,no-resolve
 IP-CIDR6,2a0f:7803:faf3::/48,no-resolve
 IP-CIDR6,2a0f:7803:fd00::/44,no-resolve
 IP-CIDR6,2a0f:7803:fd20::/43,no-resolve
@@ -20219,6 +20220,7 @@ IP-CIDR6,2a14:7583:f4fe::/48,no-resolve
 IP-CIDR6,2a14:7583:f500::/48,no-resolve
 IP-CIDR6,2a14:7583:f701::/48,no-resolve
 IP-CIDR6,2a14:7583:f702::/47,no-resolve
+IP-CIDR6,2a14:7583:f704::/47,no-resolve
 IP-CIDR6,2a14:7583:f743::/48,no-resolve
 IP-CIDR6,2a14:7584::/36,no-resolve
 IP-CIDR6,2a14:7c0:4a01::/48,no-resolve
