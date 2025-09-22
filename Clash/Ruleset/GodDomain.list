@@ -293,8 +293,8 @@
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TruthSocial/TruthSocial.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zoom/Zoom.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zalo/Zalo.list
-# 更新时间：2025-09-21 11:06:49
-# 规则总数：23060条
+# 更新时间：2025-09-22 11:06:24
+# 规则总数：23063条
 # 作者：Reid_Vin_Action
 
 
@@ -9374,6 +9374,7 @@ DOMAIN-SUFFIX,gardennetworks.com
 DOMAIN-SUFFIX,gardennetworks.org
 DOMAIN-SUFFIX,garena.com
 DOMAIN-SUFFIX,gartlive.com
+DOMAIN-SUFFIX,garudalinux.org
 DOMAIN-SUFFIX,gate-project.com
 DOMAIN-SUFFIX,gate.io
 DOMAIN-SUFFIX,gatecoin.com
@@ -11115,6 +11116,7 @@ DOMAIN-SUFFIX,nintendium.com
 DOMAIN-SUFFIX,nintendo.com
 DOMAIN-SUFFIX,nintendo.net
 DOMAIN-SUFFIX,ninth.biz
+DOMAIN-SUFFIX,nirsoft.net
 DOMAIN-SUFFIX,nitter.cc
 DOMAIN-SUFFIX,nitter.net
 DOMAIN-SUFFIX,niu.moe
@@ -13232,6 +13234,7 @@ DOMAIN-SUFFIX,vpnunlimitedapp.com
 DOMAIN-SUFFIX,vpnvip.com
 DOMAIN-SUFFIX,vpnworldwide.com
 DOMAIN-SUFFIX,vpser.net
+DOMAIN-SUFFIX,vpsxb.net
 DOMAIN-SUFFIX,vraiesagesse.net
 DOMAIN-SUFFIX,vrchat.com
 DOMAIN-SUFFIX,vrmtr.com
