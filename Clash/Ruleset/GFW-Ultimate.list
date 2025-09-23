@@ -3,8 +3,8 @@
 # 基于以下源项目合并：
 # 1. GFWList: https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt
 # 2. ACL4SSR: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
-# 更新时间：2025-09-22 16:32:33
-# 规则总数：7273条
+# 更新时间：2025-09-23 16:30:44
+# 规则总数：7275条
 # 作者：Reid_Vin_Action
 DOMAIN,14.102.250.18
 DOMAIN,14.102.250.19
@@ -421,6 +421,7 @@ DOMAIN-SUFFIX,apetube.com
 DOMAIN-SUFFIX,api-secure.recaptcha.net
 DOMAIN-SUFFIX,api-verify.recaptcha.net
 DOMAIN-SUFFIX,api.ai
+DOMAIN-SUFFIX,api.palworldgame.com
 DOMAIN-SUFFIX,api.proxlet.com
 DOMAIN-SUFFIX,api.pureapk.com
 DOMAIN-SUFFIX,api.recaptcha.net
@@ -4459,6 +4460,7 @@ DOMAIN-SUFFIX,ocreampies.com
 DOMAIN-SUFFIX,ocry.com
 DOMAIN-SUFFIX,ocsp.int-x3.letsencrypt.org
 DOMAIN-SUFFIX,october-review.org
+DOMAIN-SUFFIX,octocaptcha.com
 DOMAIN-SUFFIX,oculus.com
 DOMAIN-SUFFIX,oculuscdn.com
 DOMAIN-SUFFIX,odysee.com
