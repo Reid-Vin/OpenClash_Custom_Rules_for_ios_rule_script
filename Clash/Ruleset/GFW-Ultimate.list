@@ -3,8 +3,8 @@
 # 基于以下源项目合并：
 # 1. GFWList: https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt
 # 2. ACL4SSR: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
-# 更新时间：2025-09-23 16:30:44
-# 规则总数：7275条
+# 更新时间：2025-09-24 16:31:25
+# 规则总数：7277条
 # 作者：Reid_Vin_Action
 DOMAIN,14.102.250.18
 DOMAIN,14.102.250.19
@@ -1382,6 +1382,7 @@ DOMAIN-SUFFIX,csw.org.uk
 DOMAIN-SUFFIX,ct.org.tw
 DOMAIN-SUFFIX,ctao.org
 DOMAIN-SUFFIX,ctfriend.net
+DOMAIN-SUFFIX,ctinets.com
 DOMAIN-SUFFIX,ctinews.com
 DOMAIN-SUFFIX,ctitv.com.tw
 DOMAIN-SUFFIX,ctowc.org
@@ -3271,6 +3272,7 @@ DOMAIN-SUFFIX,internet.org
 DOMAIN-SUFFIX,internetdefenseleague.org
 DOMAIN-SUFFIX,internetfreedom.org
 DOMAIN-SUFFIX,internetpopculture.com
+DOMAIN-SUFFIX,interseclab.org
 DOMAIN-SUFFIX,inthenameofconfuciusmovie.com
 DOMAIN-SUFFIX,investigating.wordpress.com
 DOMAIN-SUFFIX,invidio.us
