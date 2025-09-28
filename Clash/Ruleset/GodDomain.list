@@ -293,8 +293,8 @@
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TruthSocial/TruthSocial.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zoom/Zoom.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zalo/Zalo.list
-# 更新时间：2025-09-27 10:53:57
-# 规则总数：23067条
+# 更新时间：2025-09-28 11:07:08
+# 规则总数：23068条
 # 作者：Reid_Vin_Action
 
 
@@ -14002,6 +14002,7 @@ DOMAIN-SUFFIX,dubox.com
 DOMAIN-SUFFIX,duboxcdn.com
 DOMAIN-SUFFIX,ads-twitter.com
 DOMAIN-SUFFIX,cms-twdigitalassets.com
+DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,periscope.tv
 DOMAIN-SUFFIX,pscp.tv
 DOMAIN-SUFFIX,t.co
