@@ -3,8 +3,8 @@
 # 基于以下源项目合并：
 # 1. GFWList: https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt
 # 2. ACL4SSR: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
-# 更新时间：2025-10-01 16:31:14
-# 规则总数：7278条
+# 更新时间：2025-10-02 16:30:01
+# 规则总数：7279条
 # 作者：Reid_Vin_Action
 DOMAIN,14.102.250.18
 DOMAIN,14.102.250.19
@@ -5746,6 +5746,7 @@ DOMAIN-SUFFIX,taolun.info
 DOMAIN-SUFFIX,tap.io
 DOMAIN-SUFFIX,tapanwap.com
 DOMAIN-SUFFIX,tapatalk.com
+DOMAIN-SUFFIX,taptap.io
 DOMAIN-SUFFIX,taptap.tw
 DOMAIN-SUFFIX,taragana.com
 DOMAIN-SUFFIX,tardigrade.io
