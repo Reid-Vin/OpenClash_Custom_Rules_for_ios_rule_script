@@ -3,8 +3,8 @@
 # 基于以下源项目合并：
 # 1. GFWList: https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt
 # 2. ACL4SSR: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
-# 更新时间：2025-10-06 16:31:16
-# 规则总数：7280条
+# 更新时间：2025-10-07 16:31:05
+# 规则总数：7281条
 # 作者：Reid_Vin_Action
 DOMAIN,14.102.250.18
 DOMAIN,14.102.250.19
@@ -5466,6 +5466,7 @@ DOMAIN-SUFFIX,solana.com
 DOMAIN-SUFFIX,solarsystem.nasa.gov
 DOMAIN-SUFFIX,solidaritetibet.org
 DOMAIN-SUFFIX,solidfiles.com
+DOMAIN-SUFFIX,solscan.io
 DOMAIN-SUFFIX,solv.finance
 DOMAIN-SUFFIX,somee.com
 DOMAIN-SUFFIX,sonatype.org
