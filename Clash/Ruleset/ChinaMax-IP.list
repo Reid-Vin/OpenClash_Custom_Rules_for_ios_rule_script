@@ -3,8 +3,8 @@
 # 基于以下分流规则合并：
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMaxNoIP/ChinaMaxNoIP.list
-# 更新时间：2025-11-01 15:15:17
-# 规则总数：19540条 (IPv4: 8076, IPv6: 11464)
+# 更新时间：2025-11-02 15:15:45
+# 规则总数：19547条 (IPv4: 8077, IPv6: 11470)
 # 作者：Reid_Vin_Action
 IP-CIDR,0.0.0.0/32,no-resolve
 IP-CIDR,1.0.1.0/24,no-resolve
@@ -7513,6 +7513,7 @@ IP-CIDR,44.30.15.0/24,no-resolve
 IP-CIDR,44.30.28.0/24,no-resolve
 IP-CIDR,44.31.216.0/24,no-resolve
 IP-CIDR,44.31.28.0/24,no-resolve
+IP-CIDR,44.31.42.0/24,no-resolve
 IP-CIDR,44.31.81.0/24,no-resolve
 IP-CIDR,44.31.96.0/24,no-resolve
 IP-CIDR,44.32.143.0/24,no-resolve
@@ -17528,6 +17529,7 @@ IP-CIDR6,2602:814:f006::/48,no-resolve
 IP-CIDR6,2602:f70d::/36,no-resolve
 IP-CIDR6,2602:f7b8:4::/47,no-resolve
 IP-CIDR6,2602:f7ee:ee::/48,no-resolve
+IP-CIDR6,2602:f92a:1314::/48,no-resolve
 IP-CIDR6,2602:f92a:a471::/48,no-resolve
 IP-CIDR6,2602:f92a:a473::/48,no-resolve
 IP-CIDR6,2602:f92a:a478::/48,no-resolve
@@ -18079,6 +18081,7 @@ IP-CIDR6,2a09:7c45:8000::/33,no-resolve
 IP-CIDR6,2a09:7c45:800::/37,no-resolve
 IP-CIDR6,2a09:7c45:80::/41,no-resolve
 IP-CIDR6,2a09:7c45:8::/45,no-resolve
+IP-CIDR6,2a09:b280:ff81::/48,no-resolve
 IP-CIDR6,2a09:b280:ff83::/48,no-resolve
 IP-CIDR6,2a09:b280:ff84::/47,no-resolve
 IP-CIDR6,2a09:bac0:1000:3b0::/64,no-resolve
@@ -19160,6 +19163,7 @@ IP-CIDR6,2a0b:b582::/48,no-resolve
 IP-CIDR6,2a0b:b583::/48,no-resolve
 IP-CIDR6,2a0c:3b80:434e::/48,no-resolve
 IP-CIDR6,2a0c:3b80:636e::/48,no-resolve
+IP-CIDR6,2a0c:9a40:84e0::/48,no-resolve
 IP-CIDR6,2a0c:9a40:8fc1::/48,no-resolve
 IP-CIDR6,2a0c:9a40:8fc2::/47,no-resolve
 IP-CIDR6,2a0c:9a40:8fc4::/48,no-resolve
@@ -19275,8 +19279,7 @@ IP-CIDR6,2a0e:ec05:79c0::/42,no-resolve
 IP-CIDR6,2a0e:ec05:7a00::/40,no-resolve
 IP-CIDR6,2a0e:ec05:7b00::/42,no-resolve
 IP-CIDR6,2a0f:1cc5:20::/44,no-resolve
-IP-CIDR6,2a0f:1cc5:f00::/47,no-resolve
-IP-CIDR6,2a0f:1cc5:f02::/48,no-resolve
+IP-CIDR6,2a0f:1cc5:f00::/46,no-resolve
 IP-CIDR6,2a0f:1cc5:f05::/48,no-resolve
 IP-CIDR6,2a0f:5707:ac00::/47,no-resolve
 IP-CIDR6,2a0f:6284:4b00::/40,no-resolve
@@ -19409,6 +19412,8 @@ IP-CIDR6,2a14:67c1:704::/48,no-resolve
 IP-CIDR6,2a14:67c1:70::/48,no-resolve
 IP-CIDR6,2a14:67c1:73::/48,no-resolve
 IP-CIDR6,2a14:67c1:74::/48,no-resolve
+IP-CIDR6,2a14:67c1:802::/47,no-resolve
+IP-CIDR6,2a14:67c1:804::/47,no-resolve
 IP-CIDR6,2a14:67c1:a010::/44,no-resolve
 IP-CIDR6,2a14:67c1:a020::/47,no-resolve
 IP-CIDR6,2a14:67c1:a023::/48,no-resolve
@@ -19439,6 +19444,7 @@ IP-CIDR6,2a14:67c1:b4aa::/48,no-resolve
 IP-CIDR6,2a14:67c1:b4c0::/45,no-resolve
 IP-CIDR6,2a14:67c1:b4e0::/43,no-resolve
 IP-CIDR6,2a14:67c1:b500::/47,no-resolve
+IP-CIDR6,2a14:67c1:b549::/48,no-resolve
 IP-CIDR6,2a14:67c1:b561::/48,no-resolve
 IP-CIDR6,2a14:67c1:b563::/48,no-resolve
 IP-CIDR6,2a14:67c1:b566::/48,no-resolve
@@ -19446,7 +19452,7 @@ IP-CIDR6,2a14:67c1:b578::/48,no-resolve
 IP-CIDR6,2a14:67c1:b582::/48,no-resolve
 IP-CIDR6,2a14:67c1:b586::/48,no-resolve
 IP-CIDR6,2a14:67c1:b588::/47,no-resolve
-IP-CIDR6,2a14:67c1:b590::/48,no-resolve
+IP-CIDR6,2a14:67c1:b590::/47,no-resolve
 IP-CIDR6,2a14:67c1:b599::/48,no-resolve
 IP-CIDR6,2a14:67c1:b5a1::/48,no-resolve
 IP-CIDR6,2a14:67c1:c300::/40,no-resolve
@@ -19489,6 +19495,7 @@ IP-CIDR6,2a14:7581:bff::/48,no-resolve
 IP-CIDR6,2a14:7581:ffb::/48,no-resolve
 IP-CIDR6,2a14:7583:f201::/48,no-resolve
 IP-CIDR6,2a14:7583:f203::/48,no-resolve
+IP-CIDR6,2a14:7583:f204::/48,no-resolve
 IP-CIDR6,2a14:7583:f300::/46,no-resolve
 IP-CIDR6,2a14:7583:f304::/47,no-resolve
 IP-CIDR6,2a14:7583:f460::/44,no-resolve
