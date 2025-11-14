@@ -3,8 +3,8 @@
 # 基于以下分流规则合并：
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMaxNoIP/ChinaMaxNoIP.list
-# 更新时间：2025-11-13 15:17:54
-# 规则总数：117495条
+# 更新时间：2025-11-14 15:17:56
+# 规则总数：117510条
 # 作者：Reid_Vin_Action
 DOMAIN,1-fss24-s0.streamhoster.com
 DOMAIN,14033.live.streamtheworld.com
@@ -20,6 +20,7 @@ DOMAIN,5c3639aa99149.streamlock.net
 DOMAIN,6.mms.vlog.xuite.net
 DOMAIN,a.xttv.top
 DOMAIN,abclive2-lh.akamaihd.net
+DOMAIN,activate.activation-v2.kaspersky.com
 DOMAIN,activation-v2.kaspersky.com
 DOMAIN,admob-cn.com
 DOMAIN,afcs.dell.com
@@ -126,6 +127,18 @@ DOMAIN,jpts.sinovision.net
 DOMAIN,kcrw.streamguys1.com
 DOMAIN,kjzz.streamguys1.com
 DOMAIN,kpbs-wowza.streamguys1.com
+DOMAIN,ksn-cinfo.geoksn.kaspersky.com
+DOMAIN,ksn-crypto-wifiplus.geoksn.kaspersky.com
+DOMAIN,ksn-dc1-cert.geoksn.kaspersky.com
+DOMAIN,ksn-dc1-file.geoksn.kaspersky.com
+DOMAIN,ksn-dc1.geoksn.kaspersky.com
+DOMAIN,ksn-file.geoksn.kaspersky.com
+DOMAIN,ksn-info.geoksn.kaspersky.com
+DOMAIN,ksn-kas.geoksn.kaspersky.com
+DOMAIN,ksn-mdr.geoksn.kaspersky.com
+DOMAIN,ksn-tcert.geoksn.kaspersky.com
+DOMAIN,ksn-url.geoksn.kaspersky.com
+DOMAIN,ksn-verdict.geoksn.kaspersky.com
 DOMAIN,kut-hls.streamguys1.com
 DOMAIN,kwmu-flash.streamguys1.com
 DOMAIN,lb.streaming.sk
@@ -200,6 +213,7 @@ DOMAIN,redirector.gvt1.com
 DOMAIN,redirector.offline-maps.gvt1.com
 DOMAIN,redirector.snap.gvt1.com
 DOMAIN,redirector.xn--ngstr-lra8j.com
+DOMAIN,refresh-bkg.activation-v2.kaspersky.com
 DOMAIN,rfcmedia.streamguys1.com
 DOMAIN,rfimonde-lh.akamaihd.net
 DOMAIN,rmtv24hweblive-lh.akamaihd.net
@@ -27307,6 +27321,7 @@ DOMAIN-SUFFIX,cztrjs.com
 DOMAIN-SUFFIX,cztv.cc
 DOMAIN-SUFFIX,cztv.com
 DOMAIN-SUFFIX,cztv.tv
+DOMAIN-SUFFIX,cztvcdn.com
 DOMAIN-SUFFIX,cztvcloud.com
 DOMAIN-SUFFIX,cztzkg.com
 DOMAIN-SUFFIX,czur.com
