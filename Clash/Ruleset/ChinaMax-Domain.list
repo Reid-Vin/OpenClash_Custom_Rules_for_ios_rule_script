@@ -3,8 +3,8 @@
 # 基于以下分流规则合并：
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMaxNoIP/ChinaMaxNoIP.list
-# 更新时间：2025-11-21 15:18:16
-# 规则总数：117511条
+# 更新时间：2025-11-22 15:16:14
+# 规则总数：117516条
 # 作者：Reid_Vin_Action
 DOMAIN,1-fss24-s0.streamhoster.com
 DOMAIN,14033.live.streamtheworld.com
@@ -6767,6 +6767,7 @@ DOMAIN-SUFFIX,5zhr.com
 DOMAIN-SUFFIX,5zls.com
 DOMAIN-SUFFIX,5zw.com
 DOMAIN-SUFFIX,6-china.com
+DOMAIN-SUFFIX,6-u.com
 DOMAIN-SUFFIX,600064.com
 DOMAIN-SUFFIX,600083.com
 DOMAIN-SUFFIX,600086.com
@@ -52923,6 +52924,7 @@ DOMAIN-SUFFIX,imsilkroad.com
 DOMAIN-SUFFIX,imsinoexpo.com
 DOMAIN-SUFFIX,imsle.com
 DOMAIN-SUFFIX,imsun.net
+DOMAIN-SUFFIX,imsyy.com
 DOMAIN-SUFFIX,imtaweb.net
 DOMAIN-SUFFIX,imtics.com
 DOMAIN-SUFFIX,imtuan.com
@@ -60021,6 +60023,7 @@ DOMAIN-SUFFIX,kekebaby.com
 DOMAIN-SUFFIX,kekedj.com
 DOMAIN-SUFFIX,kekegold.com
 DOMAIN-SUFFIX,kekenet.com
+DOMAIN-SUFFIX,kekeniu.com
 DOMAIN-SUFFIX,kekeshici.com
 DOMAIN-SUFFIX,kekexueba.com
 DOMAIN-SUFFIX,kekeyuyin.com
@@ -79975,6 +79978,7 @@ DOMAIN-SUFFIX,qzhospital.com
 DOMAIN-SUFFIX,qzhrkj.com
 DOMAIN-SUFFIX,qzhsjc.com
 DOMAIN-SUFFIX,qzhslw.com
+DOMAIN-SUFFIX,qzhuye.com
 DOMAIN-SUFFIX,qzhxshipping.com
 DOMAIN-SUFFIX,qzimg.com
 DOMAIN-SUFFIX,qzj2.com
@@ -97195,6 +97199,7 @@ DOMAIN-SUFFIX,viablife.com
 DOMAIN-SUFFIX,viaeda.com
 DOMAIN-SUFFIX,vial.cc
 DOMAIN-SUFFIX,viarmour.com
+DOMAIN-SUFFIX,viayoo.com
 DOMAIN-SUFFIX,viberom.com
 DOMAIN-SUFFIX,vibit.cc
 DOMAIN-SUFFIX,vibrou.com
