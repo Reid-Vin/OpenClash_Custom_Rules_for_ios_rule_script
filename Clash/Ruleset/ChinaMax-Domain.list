@@ -3,8 +3,8 @@
 # 基于以下分流规则合并：
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMaxNoIP/ChinaMaxNoIP.list
-# 更新时间：2025-11-27 15:18:59
-# 规则总数：117664条
+# 更新时间：2025-11-28 15:18:21
+# 规则总数：117668条
 # 作者：Reid_Vin_Action
 DOMAIN,1-fss24-s0.streamhoster.com
 DOMAIN,14033.live.streamtheworld.com
@@ -25879,6 +25879,7 @@ DOMAIN-SUFFIX,cqshulan.com
 DOMAIN-SUFFIX,cqshyzx.com
 DOMAIN-SUFFIX,cqsifang.com
 DOMAIN-SUFFIX,cqsj365.com
+DOMAIN-SUFFIX,cqsjb.com
 DOMAIN-SUFFIX,cqsjbc.com
 DOMAIN-SUFFIX,cqsjky.com
 DOMAIN-SUFFIX,cqsjnzx.com
@@ -103329,6 +103330,7 @@ DOMAIN-SUFFIX,xhjt.com
 DOMAIN-SUFFIX,xhkt.tv
 DOMAIN-SUFFIX,xhlaowu.com
 DOMAIN-SUFFIX,xhlcsl.com
+DOMAIN-SUFFIX,xhlsgs.com
 DOMAIN-SUFFIX,xhma.com
 DOMAIN-SUFFIX,xhmedia.com
 DOMAIN-SUFFIX,xhmwxy.com
@@ -104853,6 +104855,7 @@ DOMAIN-SUFFIX,xinwengood.com
 DOMAIN-SUFFIX,xinwenku.com
 DOMAIN-SUFFIX,xinwenlianbo.tv
 DOMAIN-SUFFIX,xinwo.com
+DOMAIN-SUFFIX,xinwuji.com
 DOMAIN-SUFFIX,xinwulan.com
 DOMAIN-SUFFIX,xinxe.com
 DOMAIN-SUFFIX,xinxi28.com
@@ -109929,6 +109932,7 @@ DOMAIN-SUFFIX,yoka.com
 DOMAIN-SUFFIX,yokacdn.com
 DOMAIN-SUFFIX,yokagames.com
 DOMAIN-SUFFIX,yokaimg.com
+DOMAIN-SUFFIX,yokaverse.com
 DOMAIN-SUFFIX,yokechina.com
 DOMAIN-SUFFIX,yokmob.com
 DOMAIN-SUFFIX,yokong.com
