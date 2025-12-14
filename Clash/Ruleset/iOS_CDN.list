@@ -20,7 +20,7 @@
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleMedia/AppleMedia.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Beats/Beats.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleID/AppleID.list
-# 更新时间：2025-12-13 11:44:44
+# 更新时间：2025-12-14 11:56:11
 # 规则总数：2938条
 # 作者：Reid_Vin_Action
 
@@ -1631,7 +1631,6 @@ DOMAIN-SUFFIX,ukipad.com
 DOMAIN-SUFFIX,wwwipodlounge.com
 DOMAIN-SUFFIX,wwwmacbookair.com
 DOMAIN-SUFFIX,apple.comscoreresearch.com
-DOMAIN-SUFFIX,apple.news
 DOMAIN-SUFFIX,appleenews.com
 DOMAIN-SUFFIX,applemusic.berlin
 DOMAIN-SUFFIX,applemusic.co
@@ -1669,6 +1668,7 @@ DOMAIN-SUFFIX,musickit.net
 DOMAIN-SUFFIX,wwwapplemusic.com
 DOMAIN-SUFFIX,applemusic.com
 DOMAIN-SUFFIX,apple-dns.net
+DOMAIN-SUFFIX,apple.news
 DOMAIN-SUFFIX,appsto.re
 DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,digicert.com
