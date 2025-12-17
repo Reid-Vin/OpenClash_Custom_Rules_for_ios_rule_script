@@ -3,8 +3,9 @@
 # 基于以下分流规则合并：
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Download/Download.list
 # https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Download.list
-# 更新时间：2025-12-17 21:54:36
-# 规则总数：56条
+# https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Xunlei/Xunlei.list
+# 更新时间：2025-12-17 23:24:30
+# 规则总数：89条
 # 作者：Reid_Vin_Action
 
 DOMAIN-SUFFIX,qbittorrent.org
@@ -63,3 +64,36 @@ URL-REGEX,(.+\.|^)(360|so)\.(cn|com)
 PROCESS-NAME,Weiyun.exe
 PROCESS-NAME,baidunetdisk.exe
 URL-REGEX,assets\d+\.xboxlive\.(com|cn)
+DOMAIN-SUFFIX,00cdn.com
+DOMAIN-SUFFIX,155.com
+DOMAIN-SUFFIX,2sonar.com
+DOMAIN-SUFFIX,88cdn.com
+DOMAIN-SUFFIX,8uri.cn
+DOMAIN-SUFFIX,falconalliance.cn
+DOMAIN-SUFFIX,fontong.com
+DOMAIN-SUFFIX,geilijiasu.com
+DOMAIN-SUFFIX,geilijiasu.net
+DOMAIN-SUFFIX,gigaget.com
+DOMAIN-SUFFIX,kanimg.com
+DOMAIN-SUFFIX,kankan.com
+DOMAIN-SUFFIX,kuaipan.cn
+DOMAIN-SUFFIX,n0808.com
+DOMAIN-SUFFIX,neoimaging.cn
+DOMAIN-SUFFIX,newvr.com
+DOMAIN-SUFFIX,p2cdn.com
+DOMAIN-SUFFIX,sandai.net
+DOMAIN-SUFFIX,sjzhushou.com
+DOMAIN-SUFFIX,szxlxzb.com
+DOMAIN-SUFFIX,thundercdn.com
+DOMAIN-SUFFIX,thunderurl.com
+DOMAIN-SUFFIX,xbase.cloud
+DOMAIN-SUFFIX,xbase.xyz
+DOMAIN-SUFFIX,xcloudbase.com
+DOMAIN-SUFFIX,xlisp.net
+DOMAIN-SUFFIX,xlpan.com
+DOMAIN-SUFFIX,xlyouxi.net
+DOMAIN-SUFFIX,xunlei.cn
+DOMAIN-SUFFIX,xunlei.com
+DOMAIN-SUFFIX,xunlei.net
+PROCESS-NAME,Thunder
+PROCESS-NAME,Thunder.exe
