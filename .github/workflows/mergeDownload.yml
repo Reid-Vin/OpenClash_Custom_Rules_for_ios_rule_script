@@ -1,0 +1,65 @@
+name: Merge Download Process List
+
+on:
+  schedule:
+    - cron: '45 6 * * *'
+  workflow_dispatch:
+
+env:
+  FILENAME: "DownloadProcess"
+  DESCRIPTION: "# 已知的下载进程列表"
+  DIVERSION_RULES_LIST_URLS: |
+    https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Download/Download.list
+    https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Download.list
+  ILLUSTRATE: "# 分流规则基于ios_rule_script大佬与ACL4SSR大佬的规则合并而来，感谢大佬和其他贡献者的无私奉献"
+  RULES_SOURCE: "# 基于以下分流规则合并："
+  AUTHOR: "# 作者：Reid_Vin_Action"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download and process diversion rules
+        run: |
+          merged_rules=""
+          rules_count=0
+          temp_url=""
+          for url in $DIVERSION_RULES_LIST_URLS; do
+            if [ -z "$temp_url" ]; then
+              temp_url="# $url"
+            else
+              temp_url="$temp_url"$'\n'"# $url"
+            fi
+            echo "Downloading diversion rules from $url..."
+            curl -s $url -o list.txt
+
+            echo "Processing diversion rules..."
+            rules=$(grep -v '^#' list.txt)
+            merged_rules="$merged_rules"$'\n'"$rules"
+            current_rules_count=$(grep -c '^[^#[:space:]]' list.txt)
+            rules_count=$((rules_count + current_rules_count))
+
+            rm list.txt
+          done
+
+          update_time=$(TZ='Asia/Shanghai' date +"%Y-%m-%d %H:%M:%S")
+          echo "$ILLUSTRATE" > "./Clash/Ruleset/$FILENAME.list"
+          echo "$DESCRIPTION" >> "./Clash/Ruleset/$FILENAME.list"
+          echo "$RULES_SOURCE" >> "./Clash/Ruleset/$FILENAME.list"
+          echo "$temp_url" >> "./Clash/Ruleset/$FILENAME.list"
+          echo "# 更新时间：$update_time" >> "./Clash/Ruleset/$FILENAME.list"
+          echo "# 规则总数：$rules_count条" >> "./Clash/Ruleset/$FILENAME.list"
+          echo "$AUTHOR" >> "./Clash/Ruleset/$FILENAME.list"
+          echo "$merged_rules" >> "./Clash/Ruleset/$FILENAME.list"
+
+          echo "合并完成》》》"
+      - name: Push changes
+        uses: EndBug/add-and-commit@v9.1.4
+        with:
+          author_name: Reid_Vin
+          author_email: reid_vin@outlook.com
+          message: Automatic diversion rules update
+          add: "./Clash/Ruleset/${{ env.FILENAME }}.list"
+        env:
+          GITHUB_TOKEN: ${{ secrets.COMMON_TOKEN }}
