@@ -1,14 +1,19 @@
 # 分流规则基于ios_rule_script大佬与ACL4SSR大佬的规则合并而来，感谢大佬和其他贡献者的无私奉献
 # 已知的下载进程列表
 # 基于以下分流规则合并：
-# https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Download/Download.list
-# https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Download.list
-# https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Xunlei/Xunlei.list
 # https://raw.githubusercontent.com/Reid-Vin/ACL4SSR/refs/heads/main/Customer-Download-Process.list
-# 更新时间：2025-12-18 09:38:19
+# https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Download/Download.list
+# https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Xunlei/Xunlei.list
+# https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Download.list
+# 更新时间：2025-12-18 09:43:28
 # 规则总数：94条
 # 作者：Reid_Vin_Action
 
+PROCESS-NAME,gopeed
+PROCESS-NAME,gopeed.exe
+PROCESS-NAME,gopeed_x64.exe
+PROCESS-NAME,Gopeed
+PROCESS-NAME,Gopeed.exe
 DOMAIN-SUFFIX,qbittorrent.org
 DOMAIN-KEYWORD,aria2
 DOMAIN-KEYWORD,thunder
@@ -43,28 +48,6 @@ PROCESS-NAME,qbittorrent
 PROCESS-NAME,qbittorrent.exe
 PROCESS-NAME,uTorrent
 PROCESS-NAME,uTorrent.exe
-PROCESS-NAME,aria2c.exe
-PROCESS-NAME,fdm.exe
-PROCESS-NAME,Folx.exe
-PROCESS-NAME,NetTransport.exe
-PROCESS-NAME,Thunder.exe
-PROCESS-NAME,Transmission.exe
-PROCESS-NAME,uTorrent.exe
-PROCESS-NAME,WebTorrent.exe
-PROCESS-NAME,WebTorrent Helper.exe
-PROCESS-NAME,qbittorrent.exe
-DOMAIN-SUFFIX,smtp
-DOMAIN-KEYWORD,aria2
-URL-REGEX,(Subject|HELO|SMTP)
-URL-REGEX,(api|ps|sv|offnavi|newvector|ulog.imap|newloc)(.map|).(baidu|n.shifen).com
-URL-REGEX,(.+.|^)(360|so|qihoo|360safe|qhimg|360totalsecurity|yunpan).(cn|com)
-URL-REGEX,(.+.)?(torrent|announce.php?passkey=|tracker|BitTorrent|bt_key|ed2k|find_node|get_peers|info_hash|magnet:|peer_id=|xunlei)(..+)?
-URL-REGEX,(.?)(xunlei|sandai|Thunder|XLLiveUD)(.)
-PROCESS-NAME,DownloadService.exe
-URL-REGEX,(.+\.|^)(360|so)\.(cn|com)
-PROCESS-NAME,Weiyun.exe
-PROCESS-NAME,baidunetdisk.exe
-URL-REGEX,assets\d+\.xboxlive\.(com|cn)
 DOMAIN-SUFFIX,00cdn.com
 DOMAIN-SUFFIX,155.com
 DOMAIN-SUFFIX,2sonar.com
@@ -98,8 +81,25 @@ DOMAIN-SUFFIX,xunlei.com
 DOMAIN-SUFFIX,xunlei.net
 PROCESS-NAME,Thunder
 PROCESS-NAME,Thunder.exe
-PROCESS-NAME,gopeed
-PROCESS-NAME,gopeed.exe
-PROCESS-NAME,gopeed_x64.exe
-PROCESS-NAME,Gopeed
-PROCESS-NAME,Gopeed.exe
+PROCESS-NAME,aria2c.exe
+PROCESS-NAME,fdm.exe
+PROCESS-NAME,Folx.exe
+PROCESS-NAME,NetTransport.exe
+PROCESS-NAME,Thunder.exe
+PROCESS-NAME,Transmission.exe
+PROCESS-NAME,uTorrent.exe
+PROCESS-NAME,WebTorrent.exe
+PROCESS-NAME,WebTorrent Helper.exe
+PROCESS-NAME,qbittorrent.exe
+DOMAIN-SUFFIX,smtp
+DOMAIN-KEYWORD,aria2
+URL-REGEX,(Subject|HELO|SMTP)
+URL-REGEX,(api|ps|sv|offnavi|newvector|ulog.imap|newloc)(.map|).(baidu|n.shifen).com
+URL-REGEX,(.+.|^)(360|so|qihoo|360safe|qhimg|360totalsecurity|yunpan).(cn|com)
+URL-REGEX,(.+.)?(torrent|announce.php?passkey=|tracker|BitTorrent|bt_key|ed2k|find_node|get_peers|info_hash|magnet:|peer_id=|xunlei)(..+)?
+URL-REGEX,(.?)(xunlei|sandai|Thunder|XLLiveUD)(.)
+PROCESS-NAME,DownloadService.exe
+URL-REGEX,(.+\.|^)(360|so)\.(cn|com)
+PROCESS-NAME,Weiyun.exe
+PROCESS-NAME,baidunetdisk.exe
+URL-REGEX,assets\d+\.xboxlive\.(com|cn)
