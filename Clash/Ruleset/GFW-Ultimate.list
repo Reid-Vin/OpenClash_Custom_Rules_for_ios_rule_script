@@ -3,8 +3,8 @@
 # 基于以下源项目合并：
 # 1. GFWList: https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt
 # 2. ACL4SSR: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
-# 更新时间：2025-12-25 16:34:49
-# 规则总数：7340条
+# 更新时间：2025-12-26 16:34:37
+# 规则总数：7341条
 # 作者：Reid_Vin_Action
 DOMAIN,14.102.250.18
 DOMAIN,14.102.250.19
@@ -3792,6 +3792,7 @@ DOMAIN-SUFFIX,lorenzetti.com.br
 DOMAIN-SUFFIX,lotsawahouse.org
 DOMAIN-SUFFIX,lotuslight.org.hk
 DOMAIN-SUFFIX,lotuslight.org.tw
+DOMAIN-SUFFIX,lovart.ai
 DOMAIN-SUFFIX,loved.hk
 DOMAIN-SUFFIX,lovetvshow.com
 DOMAIN-SUFFIX,lpsg.com
