@@ -1,0 +1,32 @@
+name: Fetch Private Node List
+
+on:
+  schedule:
+    - cron: '0 0 * * *'   # 每日 0 点
+  workflow_dispatch:
+
+env:
+  TARGET_URL: "https://sub-store.racknerd.1998411.xyz/4W3o2jCfi4u5tVz2qEBp/download/RackNerd2026-SUI-Stash%E4%B8%93%E7%94%A8-Clash"   # ← 你要填的链接
+  OUTPUT_FILE: "./Clash/Ruleset/static-private-node.list"
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch base64 node data
+        run: |
+          echo "Fetching data from $TARGET_URL ..."
+          curl -s "$TARGET_URL" -o "$OUTPUT_FILE"
+          echo "Data saved to $OUTPUT_FILE"
+
+      - name: Commit & Push
+        uses: EndBug/add-and-commit@v9.1.4
+        with:
+          author_name: GitHub Action
+          author_email: action@github.com
+          message: "Auto update static-private-node.list"
+          add: ${{ env.OUTPUT_FILE }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.COMMON_TOKEN }}
