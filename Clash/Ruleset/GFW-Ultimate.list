@@ -3,8 +3,8 @@
 # 基于以下源项目合并：
 # 1. GFWList: https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt
 # 2. ACL4SSR: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
-# 更新时间：2026-01-05 16:40:41
-# 规则总数：7359条
+# 更新时间：2026-01-06 16:38:23
+# 规则总数：7360条
 # 作者：Reid_Vin_Action
 DOMAIN,14.102.250.18
 DOMAIN,14.102.250.19
@@ -277,6 +277,7 @@ DOMAIN-SUFFIX,ai-wen.net
 DOMAIN-SUFFIX,ai.binwang.me
 DOMAIN-SUFFIX,ai.dev
 DOMAIN-SUFFIX,ai.google
+DOMAIN-SUFFIX,ai.studio
 DOMAIN-SUFFIX,aiosearch.com
 DOMAIN-SUFFIX,aiph.net
 DOMAIN-SUFFIX,airasia.com
@@ -1202,6 +1203,7 @@ DOMAIN-SUFFIX,chromeexperiments.com
 DOMAIN-SUFFIX,chromercise.com
 DOMAIN-SUFFIX,chromestatus.com
 DOMAIN-SUFFIX,chromium.org
+DOMAIN-SUFFIX,chromium.org 
 DOMAIN-SUFFIX,chuang-yen.org
 DOMAIN-SUFFIX,chubold.com
 DOMAIN-SUFFIX,chubun.com
@@ -3358,7 +3360,6 @@ DOMAIN-SUFFIX,ismalltits.com
 DOMAIN-SUFFIX,ismprofessional.net
 DOMAIN-SUFFIX,isohunt.com
 DOMAIN-SUFFIX,israbox.com
-DOMAIN-SUFFIX,issues.chromium.org 
 DOMAIN-SUFFIX,issuu.com
 DOMAIN-SUFFIX,istars.co.nz
 DOMAIN-SUFFIX,istarshine.com
