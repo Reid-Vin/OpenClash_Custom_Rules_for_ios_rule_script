@@ -293,8 +293,8 @@
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TruthSocial/TruthSocial.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zoom/Zoom.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zalo/Zalo.list
-# 更新时间：2026-01-07 11:38:35
-# 规则总数：23220条
+# 更新时间：2026-01-08 11:38:49
+# 规则总数：23225条
 # 作者：Reid_Vin_Action
 
 
@@ -7576,6 +7576,7 @@ DOMAIN-SUFFIX,ahcdn.com
 DOMAIN-SUFFIX,ai-kan.net
 DOMAIN-SUFFIX,ai-wen.net
 DOMAIN-SUFFIX,ai.dev
+DOMAIN-SUFFIX,ai.studio
 DOMAIN-SUFFIX,aiosearch.com
 DOMAIN-SUFFIX,aiph.net
 DOMAIN-SUFFIX,airasia.com
@@ -8710,6 +8711,7 @@ DOMAIN-SUFFIX,dawangidc.com
 DOMAIN-SUFFIX,dayabook.com
 DOMAIN-SUFFIX,daylife.com
 DOMAIN-SUFFIX,dayone.me
+DOMAIN-SUFFIX,dazn.com
 DOMAIN-SUFFIX,db.tt
 DOMAIN-SUFFIX,dbc.hk
 DOMAIN-SUFFIX,dbgjd.com
@@ -11416,6 +11418,8 @@ DOMAIN-SUFFIX,onmypc.us
 DOMAIN-SUFFIX,onthehunt.com
 DOMAIN-SUFFIX,ontrac.com
 DOMAIN-SUFFIX,oojj.de
+DOMAIN-SUFFIX,ooni.io
+DOMAIN-SUFFIX,ooni.org
 DOMAIN-SUFFIX,oopsforum.com
 DOMAIN-SUFFIX,ooyala.com
 DOMAIN-SUFFIX,open.com.hk
@@ -13655,6 +13659,7 @@ DOMAIN-SUFFIX,xbabe.com
 DOMAIN-SUFFIX,xbookcn.com
 DOMAIN-SUFFIX,xbtce.com
 DOMAIN-SUFFIX,xcafe.in
+DOMAIN-SUFFIX,xcancel.com
 DOMAIN-SUFFIX,xcity.jp
 DOMAIN-SUFFIX,xclient.info
 DOMAIN-SUFFIX,xcritic.com
