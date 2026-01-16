@@ -3,8 +3,8 @@
 # 基于以下源项目合并：
 # 1. GFWList: https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt
 # 2. ACL4SSR: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
-# 更新时间：2026-01-15 16:38:01
-# 规则总数：7358条
+# 更新时间：2026-01-16 16:36:59
+# 规则总数：7359条
 # 作者：Reid_Vin_Action
 DOMAIN,14.102.250.18
 DOMAIN,14.102.250.19
@@ -219,6 +219,7 @@ DOMAIN-SUFFIX,abematv.akamaized.net
 DOMAIN-SUFFIX,abitno.linpie.com
 DOMAIN-SUFFIX,ablwang.com
 DOMAIN-SUFFIX,aboluowang.com
+DOMAIN-SUFFIX,about.gitlab.com
 DOMAIN-SUFFIX,about.google
 DOMAIN-SUFFIX,about.me
 DOMAIN-SUFFIX,abplive.com
