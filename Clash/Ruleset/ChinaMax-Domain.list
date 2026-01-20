@@ -3,8 +3,8 @@
 # 基于以下分流规则合并：
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMaxNoIP/ChinaMaxNoIP.list
-# 更新时间：2026-01-19 15:27:36
-# 规则总数：115551条
+# 更新时间：2026-01-20 15:25:59
+# 规则总数：115559条
 # 作者：Reid_Vin_Action
 DOMAIN,1-fss24-s0.streamhoster.com
 DOMAIN,14033.live.streamtheworld.com
@@ -7973,6 +7973,7 @@ DOMAIN-SUFFIX,880you.com
 DOMAIN-SUFFIX,88106.com
 DOMAIN-SUFFIX,88116008.com
 DOMAIN-SUFFIX,8811777.com
+DOMAIN-SUFFIX,881812c.com
 DOMAIN-SUFFIX,8821.com
 DOMAIN-SUFFIX,8825.com
 DOMAIN-SUFFIX,88303887.com
@@ -8718,6 +8719,7 @@ DOMAIN-SUFFIX,96225.com
 DOMAIN-SUFFIX,962360.com
 DOMAIN-SUFFIX,962518.com
 DOMAIN-SUFFIX,962600.com
+DOMAIN-SUFFIX,96262.com
 DOMAIN-SUFFIX,96335.com
 DOMAIN-SUFFIX,96355.com
 DOMAIN-SUFFIX,96369.net
@@ -35872,6 +35874,7 @@ DOMAIN-SUFFIX,fubonplastic.com
 DOMAIN-SUFFIX,fuca-china.com
 DOMAIN-SUFFIX,fucantec.com
 DOMAIN-SUFFIX,fuchaipower.com
+DOMAIN-SUFFIX,fuchaoqun.com
 DOMAIN-SUFFIX,fuchen33.com
 DOMAIN-SUFFIX,fuchengshicai.com
 DOMAIN-SUFFIX,fuchuangyu.com
@@ -46647,6 +46650,7 @@ DOMAIN-SUFFIX,hlbcks.com
 DOMAIN-SUFFIX,hlbe365.com
 DOMAIN-SUFFIX,hlbeixiu.com
 DOMAIN-SUFFIX,hlbeixiu.net
+DOMAIN-SUFFIX,hlbf.net
 DOMAIN-SUFFIX,hlblz.com
 DOMAIN-SUFFIX,hlbn.cc
 DOMAIN-SUFFIX,hlbryy.com
@@ -67345,6 +67349,7 @@ DOMAIN-SUFFIX,miit-icdc.org
 DOMAIN-SUFFIX,miit-kjcg.com
 DOMAIN-SUFFIX,mij.cc
 DOMAIN-SUFFIX,mijewelries.com
+DOMAIN-SUFFIX,miji8.com
 DOMAIN-SUFFIX,mijia.tech
 DOMAIN-SUFFIX,mijian360.com
 DOMAIN-SUFFIX,mijiannet.com
@@ -70401,7 +70406,6 @@ DOMAIN-SUFFIX,nfdx.net
 DOMAIN-SUFFIX,nffq.net
 DOMAIN-SUFFIX,nffund.com
 DOMAIN-SUFFIX,nfgjhr.com
-DOMAIN-SUFFIX,nfksjkfs.com
 DOMAIN-SUFFIX,nflchina.com
 DOMAIN-SUFFIX,nflsxl.com
 DOMAIN-SUFFIX,nfmedia.com
@@ -72155,6 +72159,7 @@ DOMAIN-SUFFIX,nuomicikoi.com
 DOMAIN-SUFFIX,nuomili.com
 DOMAIN-SUFFIX,nuomiphp.com
 DOMAIN-SUFFIX,nuomisi.com
+DOMAIN-SUFFIX,nuona.com
 DOMAIN-SUFFIX,nuonuo.com
 DOMAIN-SUFFIX,nuoshell.com
 DOMAIN-SUFFIX,nuoshou2023.com
@@ -82999,6 +83004,7 @@ DOMAIN-SUFFIX,shanheyule.com
 DOMAIN-SUFFIX,shanhs.com
 DOMAIN-SUFFIX,shanhu188.com
 DOMAIN-SUFFIX,shanhu99.com
+DOMAIN-SUFFIX,shanhuijiangtang.com
 DOMAIN-SUFFIX,shanhuu.com
 DOMAIN-SUFFIX,shanjianzhan.com
 DOMAIN-SUFFIX,shanjinqh.com
@@ -87182,6 +87188,7 @@ DOMAIN-SUFFIX,starbaysoft.com
 DOMAIN-SUFFIX,starcharge.com
 DOMAIN-SUFFIX,stardata360.com
 DOMAIN-SUFFIX,starde.net
+DOMAIN-SUFFIX,stardict.net
 DOMAIN-SUFFIX,stardict.org
 DOMAIN-SUFFIX,stardoctor.com
 DOMAIN-SUFFIX,stards.com
@@ -97907,6 +97914,7 @@ DOMAIN-SUFFIX,wenfenggroup.com
 DOMAIN-SUFFIX,wengbi.com
 DOMAIN-SUFFIX,wengegroup.com
 DOMAIN-SUFFIX,wengem.com
+DOMAIN-SUFFIX,wengkui.com
 DOMAIN-SUFFIX,wengmeiling.com
 DOMAIN-SUFFIX,wenguang.com
 DOMAIN-SUFFIX,wenguangta.com
