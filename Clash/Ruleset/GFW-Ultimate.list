@@ -3,8 +3,8 @@
 # 基于以下源项目合并：
 # 1. GFWList: https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt
 # 2. ACL4SSR: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
-# 更新时间：2026-01-27 16:39:53
-# 规则总数：7366条
+# 更新时间：2026-01-28 16:39:58
+# 规则总数：7367条
 # 作者：Reid_Vin_Action
 DOMAIN,14.102.250.18
 DOMAIN,14.102.250.19
@@ -567,6 +567,7 @@ DOMAIN-SUFFIX,baby-kingdom.com
 DOMAIN-SUFFIX,babylonbee.com
 DOMAIN-SUFFIX,babynet.com.hk
 DOMAIN-SUFFIX,backchina.com
+DOMAIN-SUFFIX,backend-v2.crixet.com
 DOMAIN-SUFFIX,backpackers.com.tw
 DOMAIN-SUFFIX,backtotiananmen.com
 DOMAIN-SUFFIX,bad.news
