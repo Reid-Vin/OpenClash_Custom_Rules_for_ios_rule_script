@@ -293,8 +293,8 @@
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TruthSocial/TruthSocial.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zoom/Zoom.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zalo/Zalo.list
-# 更新时间：2026-02-07 12:08:17
-# 规则总数：23239条
+# 更新时间：2026-02-08 12:32:05
+# 规则总数：23243条
 # 作者：Reid_Vin_Action
 
 
@@ -8022,6 +8022,7 @@ DOMAIN-SUFFIX,bitmex.com
 DOMAIN-SUFFIX,bitshare.com
 DOMAIN-SUFFIX,bitsnoop.com
 DOMAIN-SUFFIX,bitterwinter.org
+DOMAIN-SUFFIX,bittorrent.com
 DOMAIN-SUFFIX,bitvise.com
 DOMAIN-SUFFIX,bitz.ai
 DOMAIN-SUFFIX,bizhat.com
@@ -9709,6 +9710,7 @@ DOMAIN-SUFFIX,greenvpn.net
 DOMAIN-SUFFIX,greenvpn.org
 DOMAIN-SUFFIX,grindr.com
 DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,grokipedia.com
 DOMAIN-SUFFIX,grotty-monday.com
 DOMAIN-SUFFIX,ground.news
 DOMAIN-SUFFIX,gs-discuss.com
@@ -9810,6 +9812,7 @@ DOMAIN-SUFFIX,helplinfen.com
 DOMAIN-SUFFIX,helpshift.com
 DOMAIN-SUFFIX,helpster.de
 DOMAIN-SUFFIX,helpzhuling.org
+DOMAIN-SUFFIX,hembed.com
 DOMAIN-SUFFIX,hentai.to
 DOMAIN-SUFFIX,hentaitube.tv
 DOMAIN-SUFFIX,hentaivideoworld.com
@@ -13258,6 +13261,7 @@ DOMAIN-SUFFIX,uymaarip.com
 DOMAIN-SUFFIX,v.gd
 DOMAIN-SUFFIX,v.roucdn
 DOMAIN-SUFFIX,v2.help
+DOMAIN-SUFFIX,v2.hysteria.network
 DOMAIN-SUFFIX,v2ex.co
 DOMAIN-SUFFIX,v2ex.com
 DOMAIN-SUFFIX,v2fly.org
