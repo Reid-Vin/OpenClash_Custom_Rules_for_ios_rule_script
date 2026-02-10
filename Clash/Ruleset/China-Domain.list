@@ -1,12 +1,12 @@
 # 规则基于 entr0pia/SwitchyOmega-Whitelist 项目生成，适配 Clash
 # 源项目地址：
 # https://raw.githubusercontent.com/entr0pia/SwitchyOmega-Whitelist/refs/heads/master/white-list.sorl
-# 更新时间：2026-02-09 15:59:06
+# 更新时间：2026-02-10 16:00:01
 # 规则总数：115961条
 # 作者：Reid_Vin_Action
 # [SwitchyOmega Conditions]
 # ; Require: https://github.com/zero-peak/ZeroOmega
-# ; Update @ Sat Feb  7 10:40:51 2026
+# ; Update @ Mon Feb  9 11:07:09 2026
 
 # ; cn域名都不走代理
 DOMAIN-SUFFIX,cn
