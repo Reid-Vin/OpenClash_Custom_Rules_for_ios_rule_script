@@ -3,8 +3,8 @@
 # 基于以下源项目合并：
 # 1. GFWList: https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt
 # 2. ACL4SSR: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
-# 更新时间：2026-02-09 17:00:32
-# 规则总数：7340条
+# 更新时间：2026-02-10 17:02:14
+# 规则总数：7341条
 # 作者：Reid_Vin_Action
 DOMAIN,67.220.91.15
 DOMAIN,67.220.91.18
@@ -4907,6 +4907,7 @@ DOMAIN-SUFFIX,privatevpn.com
 DOMAIN-SUFFIX,privoxy.org
 DOMAIN-SUFFIX,procopytips.com
 DOMAIN-SUFFIX,project-syndicate.org
+DOMAIN-SUFFIX,prompthero.com
 DOMAIN-SUFFIX,prosciana.com
 DOMAIN-SUFFIX,prosiben.de
 DOMAIN-SUFFIX,proton.me
