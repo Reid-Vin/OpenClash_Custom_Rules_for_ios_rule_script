@@ -293,8 +293,8 @@
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TruthSocial/TruthSocial.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zoom/Zoom.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zalo/Zalo.list
-# 更新时间：2026-02-15 12:22:08
-# 规则总数：23237条
+# 更新时间：2026-02-16 12:26:01
+# 规则总数：23238条
 # 作者：Reid_Vin_Action
 
 
@@ -13427,6 +13427,7 @@ DOMAIN-SUFFIX,wallornot.org
 DOMAIN-SUFFIX,wallpapercasa.com
 DOMAIN-SUFFIX,wallproxy.com
 DOMAIN-SUFFIX,wallsttv.com
+DOMAIN-SUFFIX,wallzhihu.com
 DOMAIN-SUFFIX,waltermartin.com
 DOMAIN-SUFFIX,waltermartin.org
 DOMAIN-SUFFIX,wan-press.org
