@@ -3,7 +3,7 @@
 # 基于以下源项目合并：
 # 1. GFWList: https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt
 # 2. ACL4SSR: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
-# 更新时间：2026-03-16 17:04:00
+# 更新时间：2026-03-17 16:58:57
 # 规则总数：7236条
 # 作者：Reid_Vin_Action
 DOMAIN,85.17.73.31
