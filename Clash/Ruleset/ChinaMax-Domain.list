@@ -3,8 +3,8 @@
 # 基于以下分流规则合并：
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMaxNoIP/ChinaMaxNoIP.list
-# 更新时间：2026-03-21 15:31:37
-# 规则总数：118502条
+# 更新时间：2026-03-22 15:36:54
+# 规则总数：118499条
 # 作者：Reid_Vin_Action
 DOMAIN,1-fss24-s0.streamhoster.com
 DOMAIN,14033.live.streamtheworld.com
@@ -34892,13 +34892,11 @@ DOMAIN-SUFFIX,esou.biz
 DOMAIN-SUFFIX,esoua.com
 DOMAIN-SUFFIX,esound.vip
 DOMAIN-SUFFIX,esouou.com
-DOMAIN-SUFFIX,esp8266.com
 DOMAIN-SUFFIX,espeedpost.com
 DOMAIN-SUFFIX,esplus.club
 DOMAIN-SUFFIX,espnlol.com
 DOMAIN-SUFFIX,esports-console.com
 DOMAIN-SUFFIX,esportsreg.com
-DOMAIN-SUFFIX,espressif.com
 DOMAIN-SUFFIX,esr.com
 DOMAIN-SUFFIX,essaystar.com
 DOMAIN-SUFFIX,essca.com
@@ -75132,7 +75130,6 @@ DOMAIN-SUFFIX,okk123.com
 DOMAIN-SUFFIX,okki.com
 DOMAIN-SUFFIX,okktee.com
 DOMAIN-SUFFIX,oklaapp.com
-DOMAIN-SUFFIX,oklink.com
 DOMAIN-SUFFIX,oklinklink.com
 DOMAIN-SUFFIX,oklpoi.com
 DOMAIN-SUFFIX,okmao.com
