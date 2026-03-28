@@ -3,8 +3,8 @@
 # 基于以下源项目合并：
 # 1. GFWList: https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt
 # 2. ACL4SSR: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
-# 更新时间：2026-03-27 17:00:23
-# 规则总数：7243条
+# 更新时间：2026-03-28 16:49:04
+# 规则总数：7242条
 # 作者：Reid_Vin_Action
 DOMAIN,85.17.73.31
 DOMAIN,cloud.oracle.com
@@ -5125,7 +5125,6 @@ DOMAIN-SUFFIX,rxhj.net
 DOMAIN-SUFFIX,s-cute.com
 DOMAIN-SUFFIX,s-dragon.org
 DOMAIN-SUFFIX,s-nbcnews.com
-DOMAIN-SUFFIX,s.rmimg.com
 DOMAIN-SUFFIX,s.yimg.com
 DOMAIN-SUFFIX,s1heng.com
 DOMAIN-SUFFIX,s1s1s1.com
