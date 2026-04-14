@@ -3,8 +3,8 @@
 # 基于以下源项目合并：
 # 1. GFWList: https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt
 # 2. ACL4SSR: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
-# 更新时间：2026-04-13 18:00:25
-# 规则总数：7250条
+# 更新时间：2026-04-14 17:25:05
+# 规则总数：7242条
 # 作者：Reid_Vin_Action
 DOMAIN,85.17.73.31
 DOMAIN,cloud.oracle.com
@@ -1625,7 +1625,6 @@ DOMAIN-SUFFIX,douhokanko.net
 DOMAIN-SUFFIX,doujincafe.com
 DOMAIN-SUFFIX,dowei.org
 DOMAIN-SUFFIX,dowjones.com
-DOMAIN-SUFFIX,download.aircrack-ng.org
 DOMAIN-SUFFIX,download.dappcdn.com
 DOMAIN-SUFFIX,dphk.org
 DOMAIN-SUFFIX,dpool.top
@@ -5136,13 +5135,6 @@ DOMAIN-SUFFIX,s.yimg.com
 DOMAIN-SUFFIX,s1heng.com
 DOMAIN-SUFFIX,s1s1s1.com
 DOMAIN-SUFFIX,s3-ap-northeast-1.amazonaws.com
-DOMAIN-SUFFIX,s3-ap-northeast-2.amazonaws.com
-DOMAIN-SUFFIX,s3-ap-southeast-1.amazonaws.com
-DOMAIN-SUFFIX,s3-ap-southeast-2.amazonaws.com
-DOMAIN-SUFFIX,s3-eu-central-1.amazonaws.com
-DOMAIN-SUFFIX,s3.ap-northeast-2.amazonaws.com
-DOMAIN-SUFFIX,s3.eu-central-1.amazonaws.com
-DOMAIN-SUFFIX,s3.us-east-1.amazonaws.com
 DOMAIN-SUFFIX,s4miniarchive.com
 DOMAIN-SUFFIX,s8forum.com
 DOMAIN-SUFFIX,saboom.com
