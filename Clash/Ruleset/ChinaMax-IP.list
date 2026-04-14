@@ -3,8 +3,8 @@
 # 基于以下分流规则合并：
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMaxNoIP/ChinaMaxNoIP.list
-# 更新时间：2026-04-13 16:59:43
-# 规则总数：12240条 (IPv4: 8182, IPv6: 4058)
+# 更新时间：2026-04-14 16:24:24
+# 规则总数：12238条 (IPv4: 8182, IPv6: 4056)
 # 作者：Reid_Vin_Action
 IP-CIDR,0.0.0.0/32,no-resolve
 IP-CIDR,1.0.1.0/24,no-resolve
@@ -9567,7 +9567,6 @@ IP-CIDR6,2404:74c0::/32,no-resolve
 IP-CIDR6,2404:7600::/32,no-resolve
 IP-CIDR6,2404:7740::/32,no-resolve
 IP-CIDR6,2404:7940::/32,no-resolve
-IP-CIDR6,2404:7cc0:7f04::/47,no-resolve
 IP-CIDR6,2404:7d00::/32,no-resolve
 IP-CIDR6,2404:8040::/32,no-resolve
 IP-CIDR6,2404:80c0::/32,no-resolve
@@ -12200,8 +12199,7 @@ IP-CIDR6,2a14:7583:f70c::/48,no-resolve
 IP-CIDR6,2a14:7583:f743::/48,no-resolve
 IP-CIDR6,2a14:7583:f744::/48,no-resolve
 IP-CIDR6,2a14:7583:f764::/48,no-resolve
-IP-CIDR6,2a14:7586:6101::/48,no-resolve
-IP-CIDR6,2a14:7586:6102::/47,no-resolve
+IP-CIDR6,2a14:7586:6100::/46,no-resolve
 IP-CIDR6,2a14:7586:6104::/48,no-resolve
 IP-CIDR6,2a14:7586:6107::/48,no-resolve
 IP-CIDR6,2a14:7586:6110::/48,no-resolve
