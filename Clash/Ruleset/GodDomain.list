@@ -293,8 +293,8 @@
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TruthSocial/TruthSocial.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zoom/Zoom.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zalo/Zalo.list
-# 更新时间：2026-04-15 12:45:38
-# 规则总数：23238条
+# 更新时间：2026-04-16 12:51:02
+# 规则总数：23239条
 # 作者：Reid_Vin_Action
 
 
@@ -11425,6 +11425,7 @@ DOMAIN-SUFFIX,oopsforum.com
 DOMAIN-SUFFIX,ooyala.com
 DOMAIN-SUFFIX,open.com.hk
 DOMAIN-SUFFIX,openallweb.com
+DOMAIN-SUFFIX,openart.ai
 DOMAIN-SUFFIX,openbase.com
 DOMAIN-SUFFIX,opencritic.com
 DOMAIN-SUFFIX,opendemocracy.net
