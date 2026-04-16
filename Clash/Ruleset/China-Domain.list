@@ -1,12 +1,12 @@
 # 规则基于 entr0pia/SwitchyOmega-Whitelist 项目生成，适配 Clash
 # 源项目地址：
 # https://raw.githubusercontent.com/entr0pia/SwitchyOmega-Whitelist/refs/heads/master/white-list.sorl
-# 更新时间：2026-04-15 16:46:11
-# 规则总数：117995条
+# 更新时间：2026-04-16 16:47:02
+# 规则总数：118003条
 # 作者：Reid_Vin_Action
 # [SwitchyOmega Conditions]
 # ; Require: https://github.com/zero-peak/ZeroOmega
-# ; Update @ Mon Apr 13 11:36:16 2026
+# ; Update @ Wed Apr 15 11:12:54 2026
 
 # ; cn域名都不走代理
 DOMAIN-SUFFIX,cn
@@ -11801,6 +11801,7 @@ DOMAIN-SUFFIX,ailuntan.com
 DOMAIN-SUFFIX,ailvxing.com
 DOMAIN-SUFFIX,aim-ec.com
 DOMAIN-SUFFIX,aimaker.space
+DOMAIN-SUFFIX,aimap.com
 DOMAIN-SUFFIX,aimatech.com
 DOMAIN-SUFFIX,aimatrix.ai
 DOMAIN-SUFFIX,aimcx.com
@@ -17460,6 +17461,7 @@ DOMAIN-SUFFIX,bjfpw.com
 DOMAIN-SUFFIX,bjfqy.com
 DOMAIN-SUFFIX,bjfriendshiphotel.com
 DOMAIN-SUFFIX,bjfsali.com
+DOMAIN-SUFFIX,bjftfy.com
 DOMAIN-SUFFIX,bjfzst.com
 DOMAIN-SUFFIX,bjgas.com
 DOMAIN-SUFFIX,bjgasgh.com
@@ -21359,6 +21361,7 @@ DOMAIN-SUFFIX,cetcssi.com
 DOMAIN-SUFFIX,cetgps.com
 DOMAIN-SUFFIX,cethik.com
 DOMAIN-SUFFIX,cetkmh.com
+DOMAIN-SUFFIX,cetsteam.com
 DOMAIN-SUFFIX,cetzig.com
 DOMAIN-SUFFIX,ceultimate.com
 DOMAIN-SUFFIX,ceve-market.org
@@ -35031,6 +35034,7 @@ DOMAIN-SUFFIX,evotrue.com
 DOMAIN-SUFFIX,evpartner.com
 DOMAIN-SUFFIX,evpowergroup.com
 DOMAIN-SUFFIX,evtcn.com
+DOMAIN-SUFFIX,evtrust.com
 DOMAIN-SUFFIX,evyy.net
 DOMAIN-SUFFIX,evzhidao.com
 DOMAIN-SUFFIX,evznl.org
@@ -36983,6 +36987,7 @@ DOMAIN-SUFFIX,fjzzct.com
 DOMAIN-SUFFIX,fk100.com
 DOMAIN-SUFFIX,fkask.net
 DOMAIN-SUFFIX,fkblog.org
+DOMAIN-SUFFIX,fkbuff.com
 DOMAIN-SUFFIX,fkcaijing.com
 DOMAIN-SUFFIX,fkdex.com
 DOMAIN-SUFFIX,fkdmg.com
@@ -48069,6 +48074,7 @@ DOMAIN-SUFFIX,hivi.com
 DOMAIN-SUFFIX,hivictor.net
 DOMAIN-SUFFIX,hiwafer.com
 DOMAIN-SUFFIX,hiwaysemi.com
+DOMAIN-SUFFIX,hiwayslaw.com
 DOMAIN-SUFFIX,hiwbb.com
 DOMAIN-SUFFIX,hiwechats.com
 DOMAIN-SUFFIX,hiweixiu.com
@@ -59790,6 +59796,7 @@ DOMAIN-SUFFIX,jxxdf.com
 DOMAIN-SUFFIX,jxxdxy.com
 DOMAIN-SUFFIX,jxxhdn.com
 DOMAIN-SUFFIX,jxxhsd.com
+DOMAIN-SUFFIX,jxxinzhe.com
 DOMAIN-SUFFIX,jxxnyqc.com
 DOMAIN-SUFFIX,jxxs.net
 DOMAIN-SUFFIX,jxycqy.com
@@ -92882,6 +92889,7 @@ DOMAIN-SUFFIX,tencentcloudbase.net
 DOMAIN-SUFFIX,tencentcloudclub.com
 DOMAIN-SUFFIX,tencentcloudcore.com
 DOMAIN-SUFFIX,tencentcloudcr.com
+DOMAIN-SUFFIX,tencentcloudcs.com
 DOMAIN-SUFFIX,tencentcloudga.com
 DOMAIN-SUFFIX,tencentcloudga001.com
 DOMAIN-SUFFIX,tencentcloudga001.net
