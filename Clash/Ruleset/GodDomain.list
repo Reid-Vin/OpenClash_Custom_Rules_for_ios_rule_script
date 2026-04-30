@@ -293,8 +293,8 @@
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TruthSocial/TruthSocial.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zoom/Zoom.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Zalo/Zalo.list
-# 更新时间：2026-04-29 13:26:35
-# 规则总数：23249条
+# 更新时间：2026-04-30 13:30:38
+# 规则总数：23250条
 # 作者：Reid_Vin_Action
 
 
@@ -13205,6 +13205,7 @@ DOMAIN-SUFFIX,uploader.jp
 DOMAIN-SUFFIX,uploadstation.com
 DOMAIN-SUFFIX,upmedia.mg
 DOMAIN-SUFFIX,uproxy.org
+DOMAIN-SUFFIX,upsangel.com
 DOMAIN-SUFFIX,uptodown.com
 DOMAIN-SUFFIX,upwill.org
 DOMAIN-SUFFIX,upwork.com
