@@ -3,8 +3,8 @@
 # 基于以下源项目合并：
 # 1. GFWList: https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt
 # 2. ACL4SSR: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
-# 更新时间：2026-05-10 17:42:00
-# 规则总数：7276条
+# 更新时间：2026-05-11 19:29:46
+# 规则总数：7278条
 # 作者：Reid_Vin_Action
 DOMAIN,85.17.73.31
 DOMAIN,cloud.oracle.com
@@ -1461,6 +1461,7 @@ DOMAIN-SUFFIX,darrenliuwei.com
 DOMAIN-SUFFIX,dashlane.com
 DOMAIN-SUFFIX,dastrassi.org
 DOMAIN-SUFFIX,data-vocabulary.org
+DOMAIN-SUFFIX,data18.com
 DOMAIN-SUFFIX,datalabour.com
 DOMAIN-SUFFIX,daum.net
 DOMAIN-SUFFIX,david-kilgour.com
@@ -1656,6 +1657,7 @@ DOMAIN-SUFFIX,dscn.info
 DOMAIN-SUFFIX,dsmtp.com
 DOMAIN-SUFFIX,dssott.com
 DOMAIN-SUFFIX,dstk.dk
+DOMAIN-SUFFIX,dt18.com
 DOMAIN-SUFFIX,dtdns.net
 DOMAIN-SUFFIX,dtiblog.com
 DOMAIN-SUFFIX,dtic.mil
