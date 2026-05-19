@@ -16,6 +16,11 @@ jobs:
         with:
           python-version: '3.x'
 
+      - name: Install dependencies
+        run: |
+          python3 -m pip install --upgrade pip
+          python3 -m pip install pyyaml
+
       - name: Build all configured rulesets
         shell: bash
         run: |
