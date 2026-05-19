@@ -1,0 +1,87 @@
+name: Build Rulesets
+
+on:
+  schedule:
+    - cron: '0 9 * * *'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Build all configured rulesets
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          python3 - <<'PY'
+          from pathlib import Path
+          import subprocess
+          import sys
+          import yaml
+
+          manifest = Path('Scripts/rulesets.yaml')
+          governance = Path('Scripts/rule_governance.yaml')
+          data = yaml.safe_load(manifest.read_text(encoding='utf-8')) or {}
+          rulesets = data.get('RULESETS') or []
+          if not isinstance(rulesets, list) or not rulesets:
+              raise SystemExit('Scripts/rulesets.yaml 中没有可构建的 RULESETS')
+
+          for item in rulesets:
+              if not isinstance(item, dict):
+                  continue
+              name = str(item.get('NAME') or '').strip()
+              group = str(item.get('GROUP') or '').strip()
+              output = str(item.get('OUTPUT') or '').strip()
+              title = str(item.get('TITLE') or '# Clash merged rules').strip()
+              description = str(item.get('DESCRIPTION') or '').strip()
+              processor = str(item.get('PROCESSOR') or 'merge').strip()
+              urls = item.get('URLS') or []
+              low_memory = bool(item.get('LOW_MEMORY') or False)
+              if not name or not output or not urls:
+                  raise SystemExit(f'Ruleset 配置不完整: {item}')
+
+              cmd = [
+                  sys.executable,
+                  'Scripts/merge_clash_rules.py',
+                  '--output', output,
+                  '--title', title,
+                  '--description', description,
+                  '--author', '# 作者：Reid_Vin_Action',
+                  '--analysis-dir', f'./analysis/{name}',
+                  '--governance-file', str(governance),
+                  '--processor', processor,
+                  '--fail-on-empty',
+              ]
+              if group:
+                  cmd += ['--group', group]
+              if low_memory:
+                  cmd += ['--low-memory']
+              for url in urls:
+                  cmd += ['--source', str(url)]
+
+              print(f'=== Building {name} ({processor}) ===')
+              subprocess.run(cmd, check=True)
+          PY
+
+      - name: Commit generated rulesets
+        uses: EndBug/add-and-commit@v9.1.4
+        with:
+          author_name: Reid_Vin
+          author_email: reid_vin@outlook.com
+          message: Automatic diversion rules update
+          add: |
+            ./Clash/Ruleset/*.list
+            ./Scripts/rulesets.yaml
+            ./Scripts/rule_governance.yaml
+            ./Scripts/merge_clash_rules.py
+            ./analysis/**
+        env:
+          GITHUB_TOKEN: ${{ secrets.COMMON_TOKEN }}
