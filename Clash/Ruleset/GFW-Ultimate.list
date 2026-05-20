@@ -5,10 +5,10 @@
 # https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
 # 治理配置：Scripts/rule_governance.yaml::GFW-Ultimate
 # 处理模式：gfw_ultimate
-# 更新时间：2026-05-20 10:52:47
-# 原始规则数：11156条
-# 去重后规则数：7281条
-# 输出规则数：7281条
+# 更新时间：2026-05-20 20:13:32
+# 原始规则数：11162条
+# 去重后规则数：7287条
+# 输出规则数：7287条
 # 重复规则数：3875条
 # 丢弃规则数：0条
 # 遮蔽规则数：336条
@@ -2029,6 +2029,8 @@ DOMAIN-SUFFIX,furinkan.com
 DOMAIN-SUFFIX,futuremessage.org
 DOMAIN-SUFFIX,fw.cm
 DOMAIN-SUFFIX,fxcm-chinese.com
+DOMAIN-SUFFIX,f95zone.to
+DOMAIN-SUFFIX,g.ai
 DOMAIN-SUFFIX,gmgn.ai
 DOMAIN-SUFFIX,grokipedia.com
 DOMAIN-SUFFIX,gfwbao.com
@@ -2597,6 +2599,7 @@ DOMAIN-SUFFIX,lvv2.com
 DOMAIN-SUFFIX,lyfhk.net
 DOMAIN-SUFFIX,lzjscript.com
 DOMAIN-SUFFIX,lzmtnews.org
+DOMAIN-SUFFIX,leonardo.ai
 DOMAIN-SUFFIX,mjj.today
 DOMAIN-SUFFIX,mediamatters.org
 DOMAIN-SUFFIX,mistral.ai
@@ -3229,6 +3232,8 @@ DOMAIN-SUFFIX,ruten.com.tw
 DOMAIN-SUFFIX,rutracker.net
 DOMAIN-SUFFIX,rutracker.org
 DOMAIN-SUFFIX,rxhj.net
+DOMAIN-SUFFIX,raphael.app
+DOMAIN-SUFFIX,rule34.us
 DOMAIN-SUFFIX,sider.ai
 DOMAIN-SUFFIX,sinchew.com.my
 DOMAIN-SUFFIX,softether.co.jp
@@ -3464,6 +3469,7 @@ DOMAIN-SUFFIX,switchvpn.net
 DOMAIN-SUFFIX,sydneytoday.com
 DOMAIN-SUFFIX,sylfoundation.org
 DOMAIN-SUFFIX,syncback.com
+DOMAIN-SUFFIX,sotwe.com
 DOMAIN-SUFFIX,tvdy1.com
 DOMAIN-SUFFIX,tgstat.com
 DOMAIN-SUFFIX,the-sun.com
