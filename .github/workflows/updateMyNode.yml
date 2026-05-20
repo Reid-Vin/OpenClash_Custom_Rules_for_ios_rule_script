@@ -1,8 +1,6 @@
 name: Fetch Private Node List
 
 on:
-  schedule:
-    - cron: '0 0 * * *'   # 每日 0 点
   workflow_dispatch:
 
 env:

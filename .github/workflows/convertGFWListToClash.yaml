@@ -1,8 +1,6 @@
 name: Create Ultimate GFW Merged List
 
 on:
-  schedule:
-    - cron: '0 8 * * *' # 每天北京时间下午4点运行 (UTC 8点)
   workflow_dispatch:
 
 env:
