@@ -5,15 +5,20 @@
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Download/Download.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Xunlei/Xunlei.list
 # https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Download.list
-# 更新时间：2026-05-19 18:26:26
-# 规则总数：94条
+# 治理配置：Scripts/rule_governance.yaml::DownloadProcess
+# 处理模式：merge
+# 更新时间：2026-05-20 09:10:50
+# 原始规则数：87条
+# 去重后规则数：70条
+# 输出规则数：70条
+# 重复规则数：17条
+# 丢弃规则数：0条
+# 遮蔽规则数：0条
 # 作者：Reid_Vin_Action
 
 PROCESS-NAME,gopeed
 PROCESS-NAME,gopeed.exe
 PROCESS-NAME,gopeed_x64.exe
-PROCESS-NAME,Gopeed
-PROCESS-NAME,Gopeed.exe
 DOMAIN-SUFFIX,qbittorrent.org
 DOMAIN-KEYWORD,aria2
 DOMAIN-KEYWORD,thunder
@@ -79,27 +84,5 @@ DOMAIN-SUFFIX,xlyouxi.net
 DOMAIN-SUFFIX,xunlei.cn
 DOMAIN-SUFFIX,xunlei.com
 DOMAIN-SUFFIX,xunlei.net
-PROCESS-NAME,Thunder
-PROCESS-NAME,Thunder.exe
-PROCESS-NAME,aria2c.exe
-PROCESS-NAME,fdm.exe
-PROCESS-NAME,Folx.exe
-PROCESS-NAME,NetTransport.exe
-PROCESS-NAME,Thunder.exe
-PROCESS-NAME,Transmission.exe
-PROCESS-NAME,uTorrent.exe
-PROCESS-NAME,WebTorrent.exe
 PROCESS-NAME,WebTorrent Helper.exe
-PROCESS-NAME,qbittorrent.exe
 DOMAIN-SUFFIX,smtp
-DOMAIN-KEYWORD,aria2
-URL-REGEX,(Subject|HELO|SMTP)
-URL-REGEX,(api|ps|sv|offnavi|newvector|ulog.imap|newloc)(.map|).(baidu|n.shifen).com
-URL-REGEX,(.+.|^)(360|so|qihoo|360safe|qhimg|360totalsecurity|yunpan).(cn|com)
-URL-REGEX,(.+.)?(torrent|announce.php?passkey=|tracker|BitTorrent|bt_key|ed2k|find_node|get_peers|info_hash|magnet:|peer_id=|xunlei)(..+)?
-URL-REGEX,(.?)(xunlei|sandai|Thunder|XLLiveUD)(.)
-PROCESS-NAME,DownloadService.exe
-URL-REGEX,(.+\.|^)(360|so)\.(cn|com)
-PROCESS-NAME,Weiyun.exe
-PROCESS-NAME,baidunetdisk.exe
-URL-REGEX,assets\d+\.xboxlive\.(com|cn)

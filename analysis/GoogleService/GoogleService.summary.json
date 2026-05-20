@@ -1,0 +1,50 @@
+{
+  "output": "Clash/Ruleset/GoogleService.list",
+  "group": "GoogleService",
+  "processor": "merge",
+  "sources": [
+    {
+      "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Google/Google.list",
+      "rules": 701,
+      "ok": true
+    },
+    {
+      "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GoogleDrive/GoogleDrive.list",
+      "rules": 6,
+      "ok": true
+    },
+    {
+      "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTubeMusic/YouTubeMusic.list",
+      "rules": 1,
+      "ok": true
+    },
+    {
+      "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GoogleSearch/GoogleSearch.list",
+      "rules": 1,
+      "ok": true
+    },
+    {
+      "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Chromecast/Chromecast.list",
+      "rules": 1,
+      "ok": true
+    },
+    {
+      "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GoogleFCM/GoogleFCM.list",
+      "rules": 41,
+      "ok": true
+    }
+  ],
+  "raw_rules": 751,
+  "deduped_rules": 748,
+  "output_rules": 748,
+  "duplicates": 3,
+  "dropped": 0,
+  "shadowed": 18,
+  "low_memory": false,
+  "governance_file": "Scripts/rule_governance.yaml",
+  "routed_prepend_rules": 0,
+  "routed_drop_rules": 15,
+  "explicit_prepend_rules": 0,
+  "explicit_append_rules": 0,
+  "explicit_drop_rules": 0
+}

@@ -1,0 +1,25 @@
+{
+  "output": "Clash/Ruleset/China-Domain.list",
+  "group": "China-Domain",
+  "processor": "switchyomega_domain",
+  "sources": [
+    {
+      "source": "https://raw.githubusercontent.com/entr0pia/SwitchyOmega-Whitelist/refs/heads/master/white-list.sorl",
+      "rules": 113219,
+      "ok": true
+    }
+  ],
+  "raw_rules": 113219,
+  "deduped_rules": 113211,
+  "output_rules": 113211,
+  "duplicates": 7,
+  "dropped": 8,
+  "shadowed": 26,
+  "low_memory": false,
+  "governance_file": "Scripts/rule_governance.yaml",
+  "routed_prepend_rules": 7,
+  "routed_drop_rules": 8,
+  "explicit_prepend_rules": 0,
+  "explicit_append_rules": 0,
+  "explicit_drop_rules": 0
+}

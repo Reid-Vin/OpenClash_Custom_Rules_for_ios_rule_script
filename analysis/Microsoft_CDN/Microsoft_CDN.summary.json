@@ -1,0 +1,40 @@
+{
+  "output": "Clash/Ruleset/Microsoft_CDN.list",
+  "group": "Microsoft_CDN",
+  "processor": "merge",
+  "sources": [
+    {
+      "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/MicrosoftEdge/MicrosoftEdge.list",
+      "rules": 4,
+      "ok": true
+    },
+    {
+      "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Teams/Teams.list",
+      "rules": 4,
+      "ok": true
+    },
+    {
+      "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Microsoft/Microsoft.list",
+      "rules": 670,
+      "ok": true
+    },
+    {
+      "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OneDrive/OneDrive.list",
+      "rules": 18,
+      "ok": true
+    }
+  ],
+  "raw_rules": 696,
+  "deduped_rules": 684,
+  "output_rules": 684,
+  "duplicates": 12,
+  "dropped": 0,
+  "shadowed": 6,
+  "low_memory": false,
+  "governance_file": "Scripts/rule_governance.yaml",
+  "routed_prepend_rules": 0,
+  "routed_drop_rules": 15,
+  "explicit_prepend_rules": 0,
+  "explicit_append_rules": 0,
+  "explicit_drop_rules": 0
+}

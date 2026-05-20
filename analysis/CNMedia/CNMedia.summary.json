@@ -1,0 +1,100 @@
+{
+  "output": "Clash/Ruleset/CNMedia.list",
+  "group": "CNMedia",
+  "processor": "merge",
+  "sources": [
+    {
+      "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BiliBili/BiliBili.list",
+      "rules": 129,
+      "ok": true
+    },
+    {
+      "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Youku/Youku.list",
+      "rules": 35,
+      "ok": true
+    },
+    {
+      "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TencentVideo/TencentVideo.list",
+      "rules": 51,
+      "ok": true
+    },
+    {
+      "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/iQIYI/iQIYI.list",
+      "rules": 57,
+      "ok": true
+    },
+    {
+      "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Douyu/Douyu.list",
+      "rules": 13,
+      "ok": true
+    },
+    {
+      "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Himalaya/Himalaya.list",
+      "rules": 17,
+      "ok": true
+    },
+    {
+      "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BaoFengYingYin/BaoFengYingYin.list",
+      "rules": 8,
+      "ok": true
+    },
+    {
+      "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AcFun/AcFun.list",
+      "rules": 4,
+      "ok": true
+    },
+    {
+      "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/6JianFang/6JianFang.list",
+      "rules": 19,
+      "ok": true
+    },
+    {
+      "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Ku6/Ku6.list",
+      "rules": 11,
+      "ok": true
+    },
+    {
+      "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/KuaiShou/KuaiShou.list",
+      "rules": 678,
+      "ok": true
+    },
+    {
+      "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/LeTV/LeTV.list",
+      "rules": 13,
+      "ok": true
+    },
+    {
+      "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Migu/Migu.list",
+      "rules": 3,
+      "ok": true
+    },
+    {
+      "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PPTV/PPTV.list",
+      "rules": 19,
+      "ok": true
+    },
+    {
+      "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YiZhiBo/YiZhiBo.list",
+      "rules": 5,
+      "ok": true
+    },
+    {
+      "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DouYin/DouYin.list",
+      "rules": 13,
+      "ok": true
+    }
+  ],
+  "raw_rules": 1075,
+  "deduped_rules": 1071,
+  "output_rules": 1071,
+  "duplicates": 12,
+  "dropped": 0,
+  "shadowed": 0,
+  "low_memory": false,
+  "governance_file": "Scripts/rule_governance.yaml",
+  "routed_prepend_rules": 8,
+  "routed_drop_rules": 7,
+  "explicit_prepend_rules": 0,
+  "explicit_append_rules": 0,
+  "explicit_drop_rules": 0
+}

@@ -1,0 +1,40 @@
+{
+  "output": "Clash/Ruleset/DownloadProcess.list",
+  "group": "DownloadProcess",
+  "processor": "merge",
+  "sources": [
+    {
+      "source": "https://raw.githubusercontent.com/Reid-Vin/ACL4SSR/refs/heads/main/Customer-Download-Process.list",
+      "rules": 5,
+      "ok": true
+    },
+    {
+      "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Download/Download.list",
+      "rules": 34,
+      "ok": true
+    },
+    {
+      "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Xunlei/Xunlei.list",
+      "rules": 33,
+      "ok": true
+    },
+    {
+      "source": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Download.list",
+      "rules": 15,
+      "ok": true
+    }
+  ],
+  "raw_rules": 87,
+  "deduped_rules": 70,
+  "output_rules": 70,
+  "duplicates": 17,
+  "dropped": 0,
+  "shadowed": 0,
+  "low_memory": false,
+  "governance_file": "Scripts/rule_governance.yaml",
+  "routed_prepend_rules": 0,
+  "routed_drop_rules": 15,
+  "explicit_prepend_rules": 0,
+  "explicit_append_rules": 0,
+  "explicit_drop_rules": 0
+}

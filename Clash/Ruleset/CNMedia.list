@@ -17,10 +17,25 @@
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/PPTV/PPTV.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YiZhiBo/YiZhiBo.list
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DouYin/DouYin.list
-# 更新时间：2026-05-19 18:37:55
-# 规则总数：1075条
+# 治理配置：Scripts/rule_governance.yaml::CNMedia
+# 处理模式：merge
+# 更新时间：2026-05-20 09:10:51
+# 原始规则数：1075条
+# 去重后规则数：1071条
+# 输出规则数：1071条
+# 重复规则数：12条
+# 丢弃规则数：0条
+# 遮蔽规则数：0条
 # 作者：Reid_Vin_Action
 
+DOMAIN-SUFFIX,snssdk.com
+DOMAIN-SUFFIX,pstatp.com
+DOMAIN-SUFFIX,amemv.com
+DOMAIN-SUFFIX,douyincdn.com
+DOMAIN-SUFFIX,douyinpic.com
+DOMAIN-SUFFIX,douyinstatic.com
+DOMAIN-SUFFIX,douyinvod.com
+DOMAIN-SUFFIX,idouyinvod.com
 DOMAIN,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com
 DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com
 DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3z.ourdvsss.com
@@ -480,9 +495,6 @@ DOMAIN-SUFFIX,9qd0wul789.com
 DOMAIN-SUFFIX,a1t2w1lzfr.com
 DOMAIN-SUFFIX,aarkpbkc.com
 DOMAIN-SUFFIX,aatcmdvi.com
-DOMAIN-SUFFIX,acfun.cn
-DOMAIN-SUFFIX,acfun.com
-DOMAIN-SUFFIX,acfun.tv
 DOMAIN-SUFFIX,acfunchina.cn
 DOMAIN-SUFFIX,acfunchina.com
 DOMAIN-SUFFIX,acfunchina.net
@@ -492,7 +504,6 @@ DOMAIN-SUFFIX,adukwai.com
 DOMAIN-SUFFIX,aievsge.com
 DOMAIN-SUFFIX,aikgmgre.com
 DOMAIN-SUFFIX,aiwvegax.com
-DOMAIN-SUFFIX,aixifan.com
 DOMAIN-SUFFIX,amzqazc.com
 DOMAIN-SUFFIX,ao3yiqag7zc8za.com
 DOMAIN-SUFFIX,ap4r.com
@@ -1085,14 +1096,6 @@ DOMAIN-SUFFIX,yizhibo.com
 DOMAIN-SUFFIX,yzbo.tv
 DOMAIN,lf3-static.bytednsdoc.com
 DOMAIN,v5-dy-o-abtest.zjcdn.com
-DOMAIN-SUFFIX,amemv.com
-DOMAIN-SUFFIX,douyincdn.com
-DOMAIN-SUFFIX,douyinpic.com
-DOMAIN-SUFFIX,douyinstatic.com
-DOMAIN-SUFFIX,douyinvod.com
-DOMAIN-SUFFIX,idouyinvod.com
 DOMAIN-SUFFIX,ixigua.com
 DOMAIN-SUFFIX,ixiguavideo.com
-DOMAIN-SUFFIX,pstatp.com
-DOMAIN-SUFFIX,snssdk.com
 DOMAIN-SUFFIX,toutiao.com

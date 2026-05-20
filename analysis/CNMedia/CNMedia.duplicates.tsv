@@ -1,0 +1,13 @@
+rule	source	line	first_source	first_line
+DOMAIN-SUFFIX,acfun.cn	https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/KuaiShou/KuaiShou.list	122	https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AcFun/AcFun.list	7
+DOMAIN-SUFFIX,acfun.com	https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/KuaiShou/KuaiShou.list	123	https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AcFun/AcFun.list	8
+DOMAIN-SUFFIX,acfun.tv	https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/KuaiShou/KuaiShou.list	124	https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AcFun/AcFun.list	9
+DOMAIN-SUFFIX,aixifan.com	https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/KuaiShou/KuaiShou.list	134	https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AcFun/AcFun.list	10
+DOMAIN-SUFFIX,amemv.com	https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DouYin/DouYin.list	10	governance:CNMedia:prepend	3
+DOMAIN-SUFFIX,douyincdn.com	https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DouYin/DouYin.list	11	governance:CNMedia:prepend	4
+DOMAIN-SUFFIX,douyinpic.com	https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DouYin/DouYin.list	12	governance:CNMedia:prepend	5
+DOMAIN-SUFFIX,douyinstatic.com	https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DouYin/DouYin.list	13	governance:CNMedia:prepend	6
+DOMAIN-SUFFIX,douyinvod.com	https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DouYin/DouYin.list	14	governance:CNMedia:prepend	7
+DOMAIN-SUFFIX,idouyinvod.com	https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DouYin/DouYin.list	15	governance:CNMedia:prepend	8
+DOMAIN-SUFFIX,pstatp.com	https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DouYin/DouYin.list	18	governance:CNMedia:prepend	2
+DOMAIN-SUFFIX,snssdk.com	https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DouYin/DouYin.list	19	governance:CNMedia:prepend	1

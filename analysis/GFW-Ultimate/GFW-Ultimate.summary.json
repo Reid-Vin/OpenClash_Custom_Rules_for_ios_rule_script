@@ -1,0 +1,30 @@
+{
+  "output": "Clash/Ruleset/GFW-Ultimate.list",
+  "group": "GFW-Ultimate",
+  "processor": "gfw_ultimate",
+  "sources": [
+    {
+      "source": "https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt",
+      "rules": 4170,
+      "ok": true
+    },
+    {
+      "source": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list",
+      "rules": 6986,
+      "ok": true
+    }
+  ],
+  "raw_rules": 11156,
+  "deduped_rules": 7281,
+  "output_rules": 7281,
+  "duplicates": 3875,
+  "dropped": 0,
+  "shadowed": 336,
+  "low_memory": false,
+  "governance_file": "Scripts/rule_governance.yaml",
+  "routed_prepend_rules": 0,
+  "routed_drop_rules": 15,
+  "explicit_prepend_rules": 0,
+  "explicit_append_rules": 0,
+  "explicit_drop_rules": 0
+}

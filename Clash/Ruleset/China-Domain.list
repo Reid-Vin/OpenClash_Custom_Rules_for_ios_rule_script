@@ -1,20 +1,27 @@
 # 规则基于 entr0pia/SwitchyOmega-Whitelist 项目生成，适配 Clash
-# 源项目地址：
+# 国内服务域名规则生成流程
+# 基于以下分流规则合并：
 # https://raw.githubusercontent.com/entr0pia/SwitchyOmega-Whitelist/refs/heads/master/white-list.sorl
-# 更新时间：2026-05-19 18:38:11
-# 规则总数：113225条
+# 治理配置：Scripts/rule_governance.yaml::China-Domain
+# 处理模式：switchyomega_domain
+# 更新时间：2026-05-20 09:41:24
+# 原始规则数：113219条
+# 去重后规则数：113211条
+# 输出规则数：113211条
+# 重复规则数：7条
+# 丢弃规则数：8条
+# 遮蔽规则数：26条
 # 作者：Reid_Vin_Action
-# [SwitchyOmega Conditions]
-# ; Require: https://github.com/zero-peak/ZeroOmega
-# ; Update @ Sun May 17 11:21:50 2026
 
-# ; cn域名都不走代理
+DOMAIN-SUFFIX,bytedance.com
+DOMAIN-SUFFIX,bytedance.net
+DOMAIN-SUFFIX,bytedanceapi.com
+DOMAIN-SUFFIX,bytedancevod.com
+DOMAIN-SUFFIX,byteimg.com
+DOMAIN-SUFFIX,zijieapi.com
+DOMAIN-SUFFIX,zijieapi.net
 DOMAIN-SUFFIX,cn
 DOMAIN-SUFFIX,wang
-
-# ; 局域网IP不走代理
-
-# ; 教育网
 DOMAIN-SUFFIX,acm.org
 DOMAIN-SUFFIX,dblp.org
 DOMAIN-SUFFIX,ebscohost.com
@@ -35,8 +42,6 @@ DOMAIN-SUFFIX,tandfonline.com
 DOMAIN-SUFFIX,uni-trier.de
 DOMAIN-SUFFIX,webofknowledge.com
 DOMAIN-SUFFIX,wiley.com
-
-# ; 常规列表
 DOMAIN-SUFFIX,0.xn--czrs0t
 DOMAIN-SUFFIX,0.xn--unup4y
 DOMAIN-SUFFIX,0.zone
@@ -12299,7 +12304,6 @@ DOMAIN-SUFFIX,amdotibet.com
 DOMAIN-SUFFIX,amec-inc.com
 DOMAIN-SUFFIX,amegroups.org
 DOMAIN-SUFFIX,ameisx.com
-DOMAIN-SUFFIX,amemv.com
 DOMAIN-SUFFIX,amemv.net
 DOMAIN-SUFFIX,ameow.xyz
 DOMAIN-SUFFIX,americachineselife.com
@@ -18586,13 +18590,9 @@ DOMAIN-SUFFIX,byted-static.com
 DOMAIN-SUFFIX,byted-ug.com
 DOMAIN-SUFFIX,byted.org
 DOMAIN-SUFFIX,bytedance-boe.net
-DOMAIN-SUFFIX,bytedance.com
-DOMAIN-SUFFIX,bytedance.net
 DOMAIN-SUFFIX,bytedance.org
-DOMAIN-SUFFIX,bytedanceapi.com
 DOMAIN-SUFFIX,bytedancehermestest.com
 DOMAIN-SUFFIX,bytedanceoss.net
-DOMAIN-SUFFIX,bytedancevod.com
 DOMAIN-SUFFIX,bytedcdn.com
 DOMAIN-SUFFIX,bytedeliver.com
 DOMAIN-SUFFIX,bytedgames.com
@@ -18623,7 +18623,6 @@ DOMAIN-SUFFIX,bytegslb.com
 DOMAIN-SUFFIX,bytehwm.com
 DOMAIN-SUFFIX,byteics.com
 DOMAIN-SUFFIX,byteics.net
-DOMAIN-SUFFIX,byteimg.com
 DOMAIN-SUFFIX,byteimgc.com
 DOMAIN-SUFFIX,byteinspire.com
 DOMAIN-SUFFIX,byteisland.com
@@ -23040,7 +23039,6 @@ DOMAIN-SUFFIX,chuangyehai.com
 DOMAIN-SUFFIX,chuangyejia.com
 DOMAIN-SUFFIX,chuangyetv.com
 DOMAIN-SUFFIX,chuangyijisu.com
-DOMAIN-SUFFIX,chuangyimao.com
 DOMAIN-SUFFIX,chuangyiqifu.com
 DOMAIN-SUFFIX,chuangyisai.com
 DOMAIN-SUFFIX,chuangyiwh.com
@@ -24332,7 +24330,6 @@ DOMAIN-SUFFIX,cncrypt.com
 DOMAIN-SUFFIX,cncsen.com
 DOMAIN-SUFFIX,cncsj.net
 DOMAIN-SUFFIX,cncsparetools.com
-DOMAIN-SUFFIX,cnctg.net
 DOMAIN-SUFFIX,cnction.com
 DOMAIN-SUFFIX,cnctrip.com
 DOMAIN-SUFFIX,cncwkj.com
@@ -30802,7 +30799,6 @@ DOMAIN-SUFFIX,douyin.com
 DOMAIN-SUFFIX,douyin766.com
 DOMAIN-SUFFIX,douyinact.com
 DOMAIN-SUFFIX,douyinact.net
-DOMAIN-SUFFIX,douyincdn.com
 DOMAIN-SUFFIX,douyinclips.com
 DOMAIN-SUFFIX,douyincloud.net
 DOMAIN-SUFFIX,douyincloud.run
@@ -30814,12 +30810,9 @@ DOMAIN-SUFFIX,douyinmusicclips.com
 DOMAIN-SUFFIX,douyinmusicpromotion.com
 DOMAIN-SUFFIX,douyinmusicvideo.com
 DOMAIN-SUFFIX,douyinpay.com
-DOMAIN-SUFFIX,douyinpic.com
 DOMAIN-SUFFIX,douyinshortvideo.com
-DOMAIN-SUFFIX,douyinstatic.com
 DOMAIN-SUFFIX,douyinvideo.net
 DOMAIN-SUFFIX,douyinvod.click
-DOMAIN-SUFFIX,douyinvod.com
 DOMAIN-SUFFIX,douyinxs.com
 DOMAIN-SUFFIX,douyongtuan.com
 DOMAIN-SUFFIX,douyou100.com
@@ -34051,7 +34044,6 @@ DOMAIN-SUFFIX,eyou.com
 DOMAIN-SUFFIX,eyou.net
 DOMAIN-SUFFIX,eyoubaidu.com
 DOMAIN-SUFFIX,eyoucms.com
-DOMAIN-SUFFIX,eyouct.com
 DOMAIN-SUFFIX,eyoungindustry.com
 DOMAIN-SUFFIX,eyourbusiness.com
 DOMAIN-SUFFIX,eyouwx.com
@@ -50994,7 +50986,6 @@ DOMAIN-SUFFIX,idourl.com
 DOMAIN-SUFFIX,idouyinliving.com
 DOMAIN-SUFFIX,idouyinpic.com
 DOMAIN-SUFFIX,idouyinstatic.com
-DOMAIN-SUFFIX,idouyinvod.com
 DOMAIN-SUFFIX,idouzi.com
 DOMAIN-SUFFIX,idoyun.com
 DOMAIN-SUFFIX,idqqimg.com
@@ -53152,7 +53143,6 @@ DOMAIN-SUFFIX,iyouxin.com
 DOMAIN-SUFFIX,iyouxun.com
 DOMAIN-SUFFIX,iyruan.com
 DOMAIN-SUFFIX,iysj.com
-DOMAIN-SUFFIX,iytc.net
 DOMAIN-SUFFIX,iytcdn.com
 DOMAIN-SUFFIX,iyuan.ltd
 DOMAIN-SUFFIX,iyuanpei.cc
@@ -69432,7 +69422,6 @@ DOMAIN-SUFFIX,newcentury-edu.com
 DOMAIN-SUFFIX,newcger.com
 DOMAIN-SUFFIX,newchainbase.com
 DOMAIN-SUFFIX,newchieve.com
-DOMAIN-SUFFIX,newchinabeach.org
 DOMAIN-SUFFIX,newchinalife.com
 DOMAIN-SUFFIX,newcitygz.com
 DOMAIN-SUFFIX,newclasses.org
@@ -74595,7 +74584,6 @@ DOMAIN-SUFFIX,psp99.com
 DOMAIN-SUFFIX,psr-china.com
 DOMAIN-SUFFIX,psrar.com
 DOMAIN-SUFFIX,psrss.com
-DOMAIN-SUFFIX,pstatp.com
 DOMAIN-SUFFIX,pstips.net
 DOMAIN-SUFFIX,pstxg.com
 DOMAIN-SUFFIX,psvalve.com
@@ -76434,7 +76422,6 @@ DOMAIN-SUFFIX,qmwyy.com
 DOMAIN-SUFFIX,qmxphoto.com
 DOMAIN-SUFFIX,qmxrmt.com
 DOMAIN-SUFFIX,qmxyc.com
-DOMAIN-SUFFIX,qmyc.ltd
 DOMAIN-SUFFIX,qmyq.com
 DOMAIN-SUFFIX,qmyyl.com
 DOMAIN-SUFFIX,qmz5.com
@@ -78520,7 +78507,6 @@ DOMAIN-SUFFIX,ritaojiang.com
 DOMAIN-SUFFIX,ritaomeng.com
 DOMAIN-SUFFIX,ritarpower.com
 DOMAIN-SUFFIX,rivalsa.net
-DOMAIN-SUFFIX,riveralydia.shop
 DOMAIN-SUFFIX,rivergame.net
 DOMAIN-SUFFIX,riverinepm.com
 DOMAIN-SUFFIX,riverlimittech.net
@@ -84871,7 +84857,6 @@ DOMAIN-SUFFIX,snsfun.com
 DOMAIN-SUFFIX,snsii.com
 DOMAIN-SUFFIX,snsnb.com
 DOMAIN-SUFFIX,snsqw.com
-DOMAIN-SUFFIX,snssdk.com
 DOMAIN-SUFFIX,snsyhg.com
 DOMAIN-SUFFIX,snsyx.com
 DOMAIN-SUFFIX,sntba.com
@@ -96458,6 +96443,7 @@ DOMAIN-SUFFIX,wetest.org
 DOMAIN-SUFFIX,wetestlab.net
 DOMAIN-SUFFIX,wetherm.com
 DOMAIN-SUFFIX,weti.me
+DOMAIN-SUFFIX,wetimetech.com
 DOMAIN-SUFFIX,weton.net
 DOMAIN-SUFFIX,wetools.com
 DOMAIN-SUFFIX,wetools.pro
@@ -110910,8 +110896,6 @@ DOMAIN-SUFFIX,ziji.work
 DOMAIN-SUFFIX,zijiang.com
 DOMAIN-SUFFIX,zijiangqy.com
 DOMAIN-SUFFIX,zijiantty.com
-DOMAIN-SUFFIX,zijieapi.com
-DOMAIN-SUFFIX,zijieapi.net
 DOMAIN-SUFFIX,zijiecdn.com
 DOMAIN-SUFFIX,zijiecdn.net
 DOMAIN-SUFFIX,zijieimg.com
