@@ -7,15 +7,20 @@
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OneDrive/OneDrive.list
 # 治理配置：Scripts/rule_governance.yaml::Microsoft_CDN
 # 处理模式：merge
-# 更新时间：2026-05-20 09:10:53
+# 更新时间：2026-05-20 10:22:44
 # 原始规则数：696条
-# 去重后规则数：684条
-# 输出规则数：684条
+# 去重后规则数：689条
+# 输出规则数：689条
 # 重复规则数：12条
 # 丢弃规则数：0条
 # 遮蔽规则数：6条
 # 作者：Reid_Vin_Action
 
+DOMAIN-SUFFIX,clarity.ms
+DOMAIN-SUFFIX,studiostaticassetsprod.azureedge.net
+DOMAIN-SUFFIX,officeclient.microsoft.com
+DOMAIN-SUFFIX,g.live.com
+DOMAIN-SUFFIX,wns.windows.com
 DOMAIN,edge.activity.windows.com
 DOMAIN,edge.microsoft.com
 DOMAIN,iecvlist.microsoft.com

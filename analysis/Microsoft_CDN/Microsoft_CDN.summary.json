@@ -25,8 +25,8 @@
     }
   ],
   "raw_rules": 696,
-  "deduped_rules": 684,
-  "output_rules": 684,
+  "deduped_rules": 689,
+  "output_rules": 689,
   "duplicates": 12,
   "dropped": 0,
   "shadowed": 6,
@@ -34,7 +34,7 @@
   "governance_file": "Scripts/rule_governance.yaml",
   "routed_prepend_rules": 0,
   "routed_drop_rules": 15,
-  "explicit_prepend_rules": 0,
+  "explicit_prepend_rules": 5,
   "explicit_append_rules": 0,
   "explicit_drop_rules": 0
 }

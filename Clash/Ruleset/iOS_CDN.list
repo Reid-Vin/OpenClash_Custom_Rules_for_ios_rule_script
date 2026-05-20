@@ -22,15 +22,17 @@
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleID/AppleID.list
 # 治理配置：Scripts/rule_governance.yaml::iOS_CDN
 # 处理模式：merge
-# 更新时间：2026-05-20 09:10:53
+# 更新时间：2026-05-20 10:22:42
 # 原始规则数：2943条
-# 去重后规则数：1685条
-# 输出规则数：1685条
+# 去重后规则数：1687条
+# 输出规则数：1687条
 # 重复规则数：1258条
 # 丢弃规则数：0条
 # 遮蔽规则数：59条
 # 作者：Reid_Vin_Action
 
+DOMAIN,account.apple.com
+DOMAIN-SUFFIX,push.apple.com
 DOMAIN,apps.apple.com
 DOMAIN,itunes.apple.com
 DOMAIN-SUFFIX,apple-cloudkit.com

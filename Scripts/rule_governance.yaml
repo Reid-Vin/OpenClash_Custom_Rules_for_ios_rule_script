@@ -19,6 +19,26 @@ ROUTES:
       - DOMAIN-SUFFIX,zijieapi.com
       - DOMAIN-SUFFIX,zijieapi.net
 
+groups:
+  CNMedia:
+    prepend_rules:
+      - DOMAIN,vv.video.qq.com
+      - DOMAIN,disp-qryapi.3g.qq.com
+      - DOMAIN,s1.hdslb.com.w.kunlunar.com
+      - DOMAIN,bsg.w.bilicdn1.com
+      - DOMAIN,data.bilicdn2.com
+  iOS_CDN:
+    prepend_rules:
+      - DOMAIN,account.apple.com
+      - DOMAIN-SUFFIX,push.apple.com
+  Microsoft_CDN:
+    prepend_rules:
+      - DOMAIN-SUFFIX,clarity.ms
+      - DOMAIN-SUFFIX,studiostaticassetsprod.azureedge.net
+      - DOMAIN-SUFFIX,officeclient.microsoft.com
+      - DOMAIN-SUFFIX,g.live.com
+      - DOMAIN-SUFFIX,wns.windows.com
+
 # 低频高级用法：仅在 ROUTES 不够表达时才用
 # groups:
 #   CNMedia:

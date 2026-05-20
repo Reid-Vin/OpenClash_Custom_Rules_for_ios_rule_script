@@ -19,10 +19,10 @@
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DouYin/DouYin.list
 # 治理配置：Scripts/rule_governance.yaml::CNMedia
 # 处理模式：merge
-# 更新时间：2026-05-20 09:10:51
+# 更新时间：2026-05-20 10:22:32
 # 原始规则数：1075条
-# 去重后规则数：1071条
-# 输出规则数：1071条
+# 去重后规则数：1076条
+# 输出规则数：1076条
 # 重复规则数：12条
 # 丢弃规则数：0条
 # 遮蔽规则数：0条
@@ -36,6 +36,11 @@ DOMAIN-SUFFIX,douyinpic.com
 DOMAIN-SUFFIX,douyinstatic.com
 DOMAIN-SUFFIX,douyinvod.com
 DOMAIN-SUFFIX,idouyinvod.com
+DOMAIN,vv.video.qq.com
+DOMAIN,disp-qryapi.3g.qq.com
+DOMAIN,s1.hdslb.com.w.kunlunar.com
+DOMAIN,bsg.w.bilicdn1.com
+DOMAIN,data.bilicdn2.com
 DOMAIN,0gr4uqmtt8y41hcjsgrzdrc31.ourdvsss.com
 DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3s.ourdvsss.com
 DOMAIN,0gr4uqmtt8y41hcjsgrzdrc3z.ourdvsss.com
