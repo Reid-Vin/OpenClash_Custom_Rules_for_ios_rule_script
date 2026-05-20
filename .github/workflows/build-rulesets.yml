@@ -1,5 +1,8 @@
 name: Build Rulesets
 
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: '0 9 * * *'
