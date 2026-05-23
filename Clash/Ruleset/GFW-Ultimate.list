@@ -5,10 +5,10 @@
 # https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
 # 治理配置：Scripts/rule_governance.yaml::GFW-Ultimate
 # 处理模式：gfw_ultimate
-# 更新时间：2026-05-22 20:10:27
-# 原始规则数：11162条
-# 去重后规则数：7287条
-# 输出规则数：7287条
+# 更新时间：2026-05-23 18:54:16
+# 原始规则数：11165条
+# 去重后规则数：7290条
+# 输出规则数：7290条
 # 重复规则数：3875条
 # 丢弃规则数：0条
 # 遮蔽规则数：336条
@@ -1047,6 +1047,7 @@ DOMAIN-SUFFIX,search.yahoo.co.jp
 DOMAIN-SUFFIX,yahoo.com.tw
 DOMAIN-SUFFIX,yahoo.com.hk
 DOMAIN-SUFFIX,yahoo.com
+DOMAIN-SUFFIX,24hbook.com
 DOMAIN-SUFFIX,996.icu
 DOMAIN-SUFFIX,ipfs.4everland.io
 DOMAIN-SUFFIX,91dasai.com
@@ -2600,6 +2601,7 @@ DOMAIN-SUFFIX,lyfhk.net
 DOMAIN-SUFFIX,lzjscript.com
 DOMAIN-SUFFIX,lzmtnews.org
 DOMAIN-SUFFIX,leonardo.ai
+DOMAIN-SUFFIX,mas.to
 DOMAIN-SUFFIX,mjj.today
 DOMAIN-SUFFIX,mediamatters.org
 DOMAIN-SUFFIX,mistral.ai
@@ -2760,6 +2762,7 @@ DOMAIN-SUFFIX,mymoe.moe
 DOMAIN-SUFFIX,myparagliding.com
 DOMAIN-SUFFIX,mypopescu.com
 DOMAIN-SUFFIX,myspacecdn.com
+DOMAIN-SUFFIX,neodb.social
 DOMAIN-SUFFIX,nfscofficial.com
 DOMAIN-SUFFIX,nfsc.press
 DOMAIN-SUFFIX,newstimes.com
