@@ -5,10 +5,10 @@
 # https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
 # 治理配置：Scripts/rule_governance.yaml::GFW-Ultimate
 # 处理模式：gfw_ultimate
-# 更新时间：2026-05-24 18:57:54
-# 原始规则数：11165条
-# 去重后规则数：7290条
-# 输出规则数：7290条
+# 更新时间：2026-05-25 20:52:22
+# 原始规则数：11166条
+# 去重后规则数：7291条
+# 输出规则数：7291条
 # 重复规则数：3875条
 # 丢弃规则数：0条
 # 遮蔽规则数：336条
@@ -2738,6 +2738,7 @@ DOMAIN-SUFFIX,morningsun.org
 DOMAIN-SUFFIX,motherless.com
 DOMAIN-SUFFIX,movements.org
 DOMAIN-SUFFIX,moviefap.com
+DOMAIN-SUFFIX,mozilla.ai
 DOMAIN-SUFFIX,www.moztw.org
 DOMAIN-SUFFIX,mpettis.com
 DOMAIN-SUFFIX,mpfinance.com
