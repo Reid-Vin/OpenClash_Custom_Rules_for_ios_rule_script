@@ -15,9 +15,9 @@
     }
   ],
   "raw_rules": 11167,
-  "deduped_rules": 7292,
-  "output_rules": 7292,
-  "duplicates": 3875,
+  "deduped_rules": 7295,
+  "output_rules": 7295,
+  "duplicates": 3872,
   "dropped": 0,
   "shadowed": 336,
   "low_memory": false,

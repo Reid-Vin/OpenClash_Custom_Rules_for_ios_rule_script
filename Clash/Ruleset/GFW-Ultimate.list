@@ -5,11 +5,11 @@
 # https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
 # 治理配置：Scripts/rule_governance.yaml::GFW-Ultimate
 # 处理模式：gfw_ultimate
-# 更新时间：2026-05-28 20:52:41
+# 更新时间：2026-05-29 20:40:36
 # 原始规则数：11167条
-# 去重后规则数：7292条
-# 输出规则数：7292条
-# 重复规则数：3875条
+# 去重后规则数：7295条
+# 输出规则数：7295条
+# 重复规则数：3872条
 # 丢弃规则数：0条
 # 遮蔽规则数：336条
 # 作者：Reid_Vin_Action
@@ -1446,7 +1446,6 @@ DOMAIN-SUFFIX,bwh1.net
 DOMAIN-SUFFIX,bypasscensorship.org
 DOMAIN-SUFFIX,chonglangtv.org
 DOMAIN-SUFFIX,ctinsider.com
-DOMAIN-SUFFIX,cnbc.com
 DOMAIN-SUFFIX,cia.gov
 DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,www.clashverge.dev
@@ -3381,7 +3380,6 @@ DOMAIN-SUFFIX,socks-proxy.net
 DOMAIN-SUFFIX,sockslist.net
 DOMAIN-SUFFIX,socrec.org
 DOMAIN-SUFFIX,softether.org
-DOMAIN-SUFFIX,softether-download.com
 DOMAIN-SUFFIX,cdn.softlayer.net
 DOMAIN-SUFFIX,sogclub.com
 DOMAIN-SUFFIX,sohcradio.com
@@ -4116,7 +4114,6 @@ DOMAIN-SUFFIX,yespornplease.com
 DOMAIN-SUFFIX,yeyeclub.com
 DOMAIN-SUFFIX,yhcw.net
 DOMAIN-SUFFIX,yibaochina.com
-DOMAIN-SUFFIX,yidio.com
 DOMAIN-SUFFIX,s.yimg.com
 DOMAIN-SUFFIX,yipub.com
 DOMAIN-SUFFIX,yizhihongxing.com
@@ -4189,6 +4186,10 @@ DOMAIN-SUFFIX,zuobiao.me
 DOMAIN-SUFFIX,zuola.com
 DOMAIN-SUFFIX,zvereff.com
 DOMAIN-SUFFIX,zyxel.com
+DOMAIN-SUFFIX,veed.io
+DOMAIN-SUFFIX,gencraft.com
+DOMAIN-SUFFIX,hiddify.com
+DOMAIN-SUFFIX,as.mr
 DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,adguard.org
 DOMAIN-SUFFIX,bit.no.com
@@ -6463,6 +6464,7 @@ DOMAIN-SUFFIX,sntp.uk
 DOMAIN-SUFFIX,socialwhale.com
 DOMAIN-SUFFIX,sockscap64.com
 DOMAIN-SUFFIX,sod.co.jp
+DOMAIN-SUFFIX,softether-download.com
 DOMAIN-SUFFIX,softlayer.net
 DOMAIN-SUFFIX,softsmirror.cf
 DOMAIN-SUFFIX,sogoo.org
@@ -7078,6 +7080,7 @@ DOMAIN-SUFFIX,ydy.com
 DOMAIN-SUFFIX,yes.xxx
 DOMAIN-SUFFIX,ygto.com
 DOMAIN-SUFFIX,yibada.com
+DOMAIN-SUFFIX,yidio.com
 DOMAIN-SUFFIX,yilubbs.com
 DOMAIN-SUFFIX,yimg.com
 DOMAIN-SUFFIX,yingsuoss.com
