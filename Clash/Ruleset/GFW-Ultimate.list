@@ -5,7 +5,7 @@
 # https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
 # 治理配置：Scripts/rule_governance.yaml::GFW-Ultimate
 # 处理模式：gfw_ultimate
-# 更新时间：2026-05-30 19:07:52
+# 更新时间：2026-05-31 19:22:23
 # 原始规则数：11170条
 # 去重后规则数：7298条
 # 输出规则数：7298条
