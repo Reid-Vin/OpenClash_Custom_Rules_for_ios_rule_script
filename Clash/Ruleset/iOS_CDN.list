@@ -22,7 +22,7 @@
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleID/AppleID.list
 # 治理配置：Scripts/rule_governance.yaml::iOS_CDN
 # 处理模式：merge
-# 更新时间：2026-06-07 19:02:52
+# 更新时间：2026-06-08 21:00:40
 # 原始规则数：2943条
 # 去重后规则数：1687条
 # 输出规则数：1687条
@@ -1591,7 +1591,6 @@ DOMAIN-SUFFIX,ukipad.com
 DOMAIN-SUFFIX,wwwipodlounge.com
 DOMAIN-SUFFIX,wwwmacbookair.com
 DOMAIN-SUFFIX,apple.comscoreresearch.com
-DOMAIN-SUFFIX,apple.news
 DOMAIN-SUFFIX,appleenews.com
 DOMAIN-SUFFIX,applemusic.berlin
 DOMAIN-SUFFIX,applemusic.co
@@ -1628,6 +1627,7 @@ DOMAIN-SUFFIX,iphoto.wang
 DOMAIN-SUFFIX,musickit.net
 DOMAIN-SUFFIX,wwwapplemusic.com
 DOMAIN-SUFFIX,apple-dns.net
+DOMAIN-SUFFIX,apple.news
 DOMAIN-SUFFIX,appsto.re
 DOMAIN-SUFFIX,digicert.com
 DOMAIN-KEYWORD,apple-support.akadns.net
