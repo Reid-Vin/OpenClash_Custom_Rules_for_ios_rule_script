@@ -5,13 +5,13 @@
 # https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
 # 治理配置：Scripts/rule_governance.yaml::GFW-Ultimate
 # 处理模式：gfw_ultimate
-# 更新时间：2026-06-18 20:47:48
-# 原始规则数：11172条
-# 去重后规则数：7301条
-# 输出规则数：7301条
+# 更新时间：2026-06-19 21:11:05
+# 原始规则数：11258条
+# 去重后规则数：7387条
+# 输出规则数：7387条
 # 重复规则数：3871条
 # 丢弃规则数：0条
-# 遮蔽规则数：336条
+# 遮蔽规则数：352条
 # 作者：Reid_Vin_Action
 
 DOMAIN-SUFFIX,blogjav.net
@@ -299,6 +299,7 @@ DOMAIN-SUFFIX,xn--oiq.cc
 DOMAIN-SUFFIX,xn--p8j9a0d9c9a.xn--q9jyb4c
 DOMAIN-SUFFIX,xn--9pr62r24a.com
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+DOMAIN-SUFFIX,xn--vuqv2cf7wzyig79c.com
 DOMAIN-SUFFIX,music.amazon.com
 DOMAIN-SUFFIX,cdn-images.mailchimp.com
 DOMAIN-SUFFIX,abebooks.com
@@ -522,6 +523,91 @@ DOMAIN-SUFFIX,tronscan.org
 DOMAIN-SUFFIX,xbtce.com
 DOMAIN-SUFFIX,yobit.net
 DOMAIN-SUFFIX,zb.com
+DOMAIN-SUFFIX,futuhk.com
+DOMAIN-SUFFIX,futu.link
+DOMAIN-SUFFIX,futunn.com
+DOMAIN-SUFFIX,futuhn.com
+DOMAIN-SUFFIX,futu.com
+DOMAIN-SUFFIX,futu0.com
+DOMAIN-SUFFIX,futu1.com
+DOMAIN-SUFFIX,futu2.com
+DOMAIN-SUFFIX,futu3.com
+DOMAIN-SUFFIX,futu4.com
+DOMAIN-SUFFIX,futu5.com
+DOMAIN-SUFFIX,futu6.com
+DOMAIN-SUFFIX,futu7.com
+DOMAIN-SUFFIX,futu8.com
+DOMAIN-SUFFIX,futu9.com
+DOMAIN-SUFFIX,futuinc.com
+DOMAIN-SUFFIX,futuniuniu.com
+DOMAIN-SUFFIX,futu.cn
+DOMAIN-SUFFIX,futufin.com
+DOMAIN-SUFFIX,futuhk2.com
+DOMAIN-SUFFIX,futuholdings.com
+DOMAIN-SUFFIX,futuesop.com
+DOMAIN-SUFFIX,futubull.cn
+DOMAIN-SUFFIX,futuchain.com
+DOMAIN-SUFFIX,moomoo.com
+DOMAIN-SUFFIX,lbctrl.com
+DOMAIN-SUFFIX,lbkrs.com
+DOMAIN-SUFFIX,wbrks.com
+DOMAIN-SUFFIX,longportapp.cn
+DOMAIN-SUFFIX,longportapp.com
+DOMAIN-SUFFIX,longbridgeapp.com
+DOMAIN-SUFFIX,longbridge.hk
+DOMAIN-SUFFIX,longbridgehk.com
+DOMAIN-SUFFIX,longbridge.com
+DOMAIN-SUFFIX,longbridge.global
+DOMAIN-SUFFIX,itiger.com
+DOMAIN-SUFFIX,itigerup.com
+DOMAIN-SUFFIX,laohu8.com
+DOMAIN-SUFFIX,tigerbbs.cn
+DOMAIN-SUFFIX,tigerbbs.com
+DOMAIN-SUFFIX,tigerfintech.com
+DOMAIN-SUFFIX,tradeup.com
+DOMAIN-SUFFIX,xiaohu8.com
+DOMAIN-SUFFIX,zhijianfengyi.cn
+DOMAIN-SUFFIX,zhijianfengyi.com
+DOMAIN-SUFFIX,schwab.com
+DOMAIN-SUFFIX,schwab.com.cn
+DOMAIN-SUFFIX,schwab.com.hk
+DOMAIN-SUFFIX,schwab.co.uk
+DOMAIN-SUFFIX,futustatic.com
+DOMAIN-SUFFIX,futuau.com
+DOMAIN-SUFFIX,futuhkapp.com
+DOMAIN-SUFFIX,fututrade.com
+DOMAIN-SUFFIX,fututrustee.com
+DOMAIN-SUFFIX,cdn.futustatic.com
+DOMAIN-SUFFIX,api.moomoobull.com
+DOMAIN-SUFFIX,moomooequity.com
+DOMAIN-SUFFIX,moomootrustee.com
+DOMAIN-SUFFIX,9oju31.launches.appsflyersdk.com
+DOMAIN-SUFFIX,sgqt0j.launches.appsflyersdk.com
+DOMAIN-SUFFIX,shortconn.im.qcloud.com
+DOMAIN-SUFFIX,api.lbkrs.com
+DOMAIN-SUFFIX,api-gl.lbkrs.com
+DOMAIN-SUFFIX,longbridge.cloud
+DOMAIN-SUFFIX,longbridge.sg
+DOMAIN-SUFFIX,tigerbrokers.com
+DOMAIN-SUFFIX,tigerbrokers.net
+DOMAIN-SUFFIX,tigerbrokers.nz
+DOMAIN-SUFFIX,quote.longbridge.global
+DOMAIN-SUFFIX,trade.longportapp.com
+DOMAIN-SUFFIX,openapi.longbridge.com
+DOMAIN-SUFFIX,openapi-quote.longbridge.com
+DOMAIN-SUFFIX,openapi-trade.longbridge.com
+DOMAIN-SUFFIX,openapi.longbridge.cn
+DOMAIN-SUFFIX,openapi-quote.longbridge.cn
+DOMAIN-SUFFIX,openapi-trade.longbridge.cn
+DOMAIN-SUFFIX,cg.play-analytics.com
+DOMAIN-SUFFIX,qtcard.futunn.com
+DOMAIN-SUFFIX,qtcardfthk.futufin.com
+DOMAIN-SUFFIX,openapi.futunn.com
+DOMAIN-SUFFIX,api.futunn.com
+DOMAIN-SUFFIX,api5.futunn.com
+DOMAIN-SUFFIX,trade.futunn.com
+DOMAIN-SUFFIX,support.futunn.com
+DOMAIN-SUFFIX,download.futunn.com
 DOMAIN-SUFFIX,read01.com
 DOMAIN-SUFFIX,kknews.cc
 DOMAIN-SUFFIX,china-mmm.net
@@ -1116,6 +1202,7 @@ DOMAIN-SUFFIX,99cn.info
 DOMAIN-SUFFIX,9bis.com
 DOMAIN-SUFFIX,9bis.net
 DOMAIN-SUFFIX,9news.com.au
+DOMAIN-SUFFIX,accountboy.com
 DOMAIN-SUFFIX,acg.mn
 DOMAIN-SUFFIX,asiasociety.org
 DOMAIN-SUFFIX,avistaz.to
@@ -2304,7 +2391,6 @@ DOMAIN-SUFFIX,investing.com
 DOMAIN-SUFFIX,idcflare.com
 DOMAIN-SUFFIX,interseclab.org
 DOMAIN-SUFFIX,ipify.org
-DOMAIN-SUFFIX,itiger.com
 DOMAIN-SUFFIX,itch.io
 DOMAIN-SUFFIX,infura.io
 DOMAIN-SUFFIX,president.ir
