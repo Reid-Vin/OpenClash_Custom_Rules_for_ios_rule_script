@@ -5,10 +5,10 @@
 # https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
 # 治理配置：Scripts/rule_governance.yaml::GFW-Ultimate
 # 处理模式：gfw_ultimate
-# 更新时间：2026-06-25 20:03:02
-# 原始规则数：11261条
-# 去重后规则数：7390条
-# 输出规则数：7390条
+# 更新时间：2026-06-26 20:08:45
+# 原始规则数：11262条
+# 去重后规则数：7391条
+# 输出规则数：7391条
 # 重复规则数：3871条
 # 丢弃规则数：0条
 # 遮蔽规则数：352条
@@ -1739,6 +1739,7 @@ DOMAIN-SUFFIX,cq99.us
 DOMAIN-SUFFIX,crackle.com
 DOMAIN-SUFFIX,crazyshit.com
 DOMAIN-SUFFIX,crchina.org
+DOMAIN-SUFFIX,creader.com
 DOMAIN-SUFFIX,creaders.net
 DOMAIN-SUFFIX,cristyli.com
 DOMAIN-SUFFIX,croxyproxy.com
