@@ -5,11 +5,11 @@
 # https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
 # 治理配置：Scripts/rule_governance.yaml::GFW-Ultimate
 # 处理模式：gfw_ultimate
-# 更新时间：2026-06-26 20:08:45
-# 原始规则数：11262条
-# 去重后规则数：7391条
-# 输出规则数：7391条
-# 重复规则数：3871条
+# 更新时间：2026-06-27 19:23:42
+# 原始规则数：11277条
+# 去重后规则数：7405条
+# 输出规则数：7405条
+# 重复规则数：3872条
 # 丢弃规则数：0条
 # 遮蔽规则数：352条
 # 作者：Reid_Vin_Action
@@ -1092,6 +1092,9 @@ DOMAIN-SUFFIX,li.taipei
 DOMAIN-SUFFIX,teco-hk.org
 DOMAIN-SUFFIX,teco-mo.org
 DOMAIN-SUFFIX,kinmen.org.tw
+DOMAIN-SUFFIX,spaceforce.mil
+DOMAIN-SUFFIX,airuniversity.af.edu
+DOMAIN-SUFFIX,supremecourt.gov
 DOMAIN-SUFFIX,americorps.gov
 DOMAIN-SUFFIX,dma.mil
 DOMAIN-SUFFIX,jpl.nasa.gov
@@ -2125,6 +2128,8 @@ DOMAIN-SUFFIX,futuremessage.org
 DOMAIN-SUFFIX,fw.cm
 DOMAIN-SUFFIX,fxcm-chinese.com
 DOMAIN-SUFFIX,f95zone.to
+DOMAIN-SUFFIX,gate.com
+DOMAIN-SUFFIX,guangming.com.my
 DOMAIN-SUFFIX,g.ai
 DOMAIN-SUFFIX,gmgn.ai
 DOMAIN-SUFFIX,grokipedia.com
@@ -2260,6 +2265,7 @@ DOMAIN-SUFFIX,guishan.org
 DOMAIN-SUFFIX,gumroad.com
 DOMAIN-SUFFIX,gunsamerica.com
 DOMAIN-SUFFIX,gvlib.com
+DOMAIN-SUFFIX,hkong.hk
 DOMAIN-SUFFIX,hive.blog
 DOMAIN-SUFFIX,v2.hysteria.network
 DOMAIN-SUFFIX,hembed.com
@@ -2557,6 +2563,7 @@ DOMAIN-SUFFIX,justhost.ru
 DOMAIN-SUFFIX,justmysocks1.net
 DOMAIN-SUFFIX,juziyue.com
 DOMAIN-SUFFIX,cdn.jwplayer.com
+DOMAIN-SUFFIX,kfor.com
 DOMAIN-SUFFIX,kathmandupost.com
 DOMAIN-SUFFIX,kingkong.com.tw
 DOMAIN-SUFFIX,kanald.com.tr
@@ -3036,6 +3043,8 @@ DOMAIN-SUFFIX,oxfordscholarship.com
 DOMAIN-SUFFIX,www.oxid.it
 DOMAIN-SUFFIX,ow.ly
 DOMAIN-SUFFIX,ozvoice.org
+DOMAIN-SUFFIX,perma.cc
+DOMAIN-SUFFIX,pcgamesn.com
 DOMAIN-SUFFIX,penguin.com.au
 DOMAIN-SUFFIX,prompthero.com
 DOMAIN-SUFFIX,pdst.fm
@@ -3239,6 +3248,7 @@ DOMAIN-SUFFIX,qstatus.com
 DOMAIN-SUFFIX,qtrac.eu
 DOMAIN-SUFFIX,quitccp.org
 DOMAIN-SUFFIX,quran.com
+DOMAIN-SUFFIX,restofworld.org
 DOMAIN-SUFFIX,rts.ch
 DOMAIN-SUFFIX,rawstory.com
 DOMAIN-SUFFIX,recordedfuture.com
@@ -3570,6 +3580,9 @@ DOMAIN-SUFFIX,sydneytoday.com
 DOMAIN-SUFFIX,sylfoundation.org
 DOMAIN-SUFFIX,syncback.com
 DOMAIN-SUFFIX,sotwe.com
+DOMAIN-SUFFIX,theintercept.com
+DOMAIN-SUFFIX,trtworld.com
+DOMAIN-SUFFIX,twstalker.com
 DOMAIN-SUFFIX,tvdy1.com
 DOMAIN-SUFFIX,tgstat.com
 DOMAIN-SUFFIX,the-sun.com
@@ -4007,6 +4020,7 @@ DOMAIN-SUFFIX,vporn.com
 DOMAIN-SUFFIX,vrchat.com
 DOMAIN-SUFFIX,vrporn.com
 DOMAIN-SUFFIX,vtunnel.com
+DOMAIN-SUFFIX,washingtontimes.com
 DOMAIN-SUFFIX,worldjournal.com
 DOMAIN-SUFFIX,wispbyte.com
 DOMAIN-SUFFIX,walletconnect.org
@@ -4142,6 +4156,7 @@ DOMAIN-SUFFIX,wufi.org.tw
 DOMAIN-SUFFIX,wujieliulan.com
 DOMAIN-SUFFIX,wuw.red
 DOMAIN-SUFFIX,wwitv.com
+DOMAIN-SUFFIX,xuan.com.my
 DOMAIN-SUFFIX,xdaforums.com
 DOMAIN-SUFFIX,xcancel.com
 DOMAIN-SUFFIX,www.xicons.org
@@ -5389,7 +5404,6 @@ DOMAIN-SUFFIX,gts-vpn.com
 DOMAIN-SUFFIX,guaguass.org
 DOMAIN-SUFFIX,guancha.org
 DOMAIN-SUFFIX,guaneryu.com
-DOMAIN-SUFFIX,guangming.com.my
 DOMAIN-SUFFIX,guangnianvpn.com
 DOMAIN-SUFFIX,guardster.com
 DOMAIN-SUFFIX,gun-world.net
