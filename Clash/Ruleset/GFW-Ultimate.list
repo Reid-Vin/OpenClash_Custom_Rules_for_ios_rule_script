@@ -5,10 +5,10 @@
 # https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
 # 治理配置：Scripts/rule_governance.yaml::GFW-Ultimate
 # 处理模式：gfw_ultimate
-# 更新时间：2026-06-27 19:23:42
-# 原始规则数：11277条
-# 去重后规则数：7405条
-# 输出规则数：7405条
+# 更新时间：2026-06-28 19:24:14
+# 原始规则数：11278条
+# 去重后规则数：7406条
+# 输出规则数：7406条
 # 重复规则数：3872条
 # 丢弃规则数：0条
 # 遮蔽规则数：352条
@@ -2703,6 +2703,7 @@ DOMAIN-SUFFIX,lyfhk.net
 DOMAIN-SUFFIX,lzjscript.com
 DOMAIN-SUFFIX,lzmtnews.org
 DOMAIN-SUFFIX,leonardo.ai
+DOMAIN-SUFFIX,mhwindow.org
 DOMAIN-SUFFIX,mas.to
 DOMAIN-SUFFIX,mjj.today
 DOMAIN-SUFFIX,mediamatters.org
