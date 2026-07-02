@@ -5,7 +5,7 @@
   "sources": [
     {
       "source": "https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt",
-      "rules": 4293,
+      "rules": 4294,
       "ok": true
     },
     {
@@ -14,9 +14,9 @@
       "ok": true
     }
   ],
-  "raw_rules": 11279,
-  "deduped_rules": 7407,
-  "output_rules": 7407,
+  "raw_rules": 11280,
+  "deduped_rules": 7408,
+  "output_rules": 7408,
   "duplicates": 3872,
   "dropped": 0,
   "shadowed": 352,
