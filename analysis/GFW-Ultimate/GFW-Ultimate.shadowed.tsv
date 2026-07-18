@@ -19,8 +19,8 @@ DOMAIN-SUFFIX,download.futunn.com	https://raw.githubusercontent.com/gfwlist/gfwl
 DOMAIN-SUFFIX,pki.goog	https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt	979	DOMAIN-SUFFIX,goog	https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt
 DOMAIN-SUFFIX,translate.goog	https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt	999	DOMAIN-SUFFIX,goog	https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt
 DOMAIN-SUFFIX,usercontent.goog	https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt	1002	DOMAIN-SUFFIX,goog	https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt
-DOMAIN-SUFFIX,m.hkgalden.com	https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt	2324	DOMAIN-SUFFIX,hkgalden.com	https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt
-DOMAIN-SUFFIX,www.kindleren.com	https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt	2578	DOMAIN-SUFFIX,kindleren.com	https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt
+DOMAIN-SUFFIX,m.hkgalden.com	https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt	2325	DOMAIN-SUFFIX,hkgalden.com	https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt
+DOMAIN-SUFFIX,www.kindleren.com	https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt	2579	DOMAIN-SUFFIX,kindleren.com	https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt
 DOMAIN-SUFFIX,chat.openai.com	https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list	9	DOMAIN-SUFFIX,openai.com	https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt
 DOMAIN-SUFFIX,1989report.hkja.org.hk	https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list	98	DOMAIN-SUFFIX,hk	https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
 DOMAIN-SUFFIX,1mobile.tw	https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list	107	DOMAIN-SUFFIX,tw	https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list

@@ -4,5 +4,5 @@ DOMAIN-SUFFIX,bytedance.net	https://raw.githubusercontent.com/entr0pia/SwitchyOm
 DOMAIN-SUFFIX,bytedanceapi.com	https://raw.githubusercontent.com/entr0pia/SwitchyOmega-Whitelist/refs/heads/master/white-list.sorl	18185	governance:China-Domain:prepend	3
 DOMAIN-SUFFIX,bytedancevod.com	https://raw.githubusercontent.com/entr0pia/SwitchyOmega-Whitelist/refs/heads/master/white-list.sorl	18188	governance:China-Domain:prepend	4
 DOMAIN-SUFFIX,byteimg.com	https://raw.githubusercontent.com/entr0pia/SwitchyOmega-Whitelist/refs/heads/master/white-list.sorl	18221	governance:China-Domain:prepend	5
-DOMAIN-SUFFIX,zijieapi.com	https://raw.githubusercontent.com/entr0pia/SwitchyOmega-Whitelist/refs/heads/master/white-list.sorl	109115	governance:China-Domain:prepend	6
-DOMAIN-SUFFIX,zijieapi.net	https://raw.githubusercontent.com/entr0pia/SwitchyOmega-Whitelist/refs/heads/master/white-list.sorl	109116	governance:China-Domain:prepend	7
+DOMAIN-SUFFIX,zijieapi.com	https://raw.githubusercontent.com/entr0pia/SwitchyOmega-Whitelist/refs/heads/master/white-list.sorl	109123	governance:China-Domain:prepend	6
+DOMAIN-SUFFIX,zijieapi.net	https://raw.githubusercontent.com/entr0pia/SwitchyOmega-Whitelist/refs/heads/master/white-list.sorl	109124	governance:China-Domain:prepend	7
