@@ -1,8 +1,8 @@
 rule	source	line	first_source	first_line
-DOMAIN-SUFFIX,bytedance.com	https://raw.githubusercontent.com/entr0pia/SwitchyOmega-Whitelist/refs/heads/master/white-list.sorl	18182	governance:China-Domain:prepend	1
-DOMAIN-SUFFIX,bytedance.net	https://raw.githubusercontent.com/entr0pia/SwitchyOmega-Whitelist/refs/heads/master/white-list.sorl	18183	governance:China-Domain:prepend	2
-DOMAIN-SUFFIX,bytedanceapi.com	https://raw.githubusercontent.com/entr0pia/SwitchyOmega-Whitelist/refs/heads/master/white-list.sorl	18185	governance:China-Domain:prepend	3
-DOMAIN-SUFFIX,bytedancevod.com	https://raw.githubusercontent.com/entr0pia/SwitchyOmega-Whitelist/refs/heads/master/white-list.sorl	18188	governance:China-Domain:prepend	4
-DOMAIN-SUFFIX,byteimg.com	https://raw.githubusercontent.com/entr0pia/SwitchyOmega-Whitelist/refs/heads/master/white-list.sorl	18221	governance:China-Domain:prepend	5
-DOMAIN-SUFFIX,zijieapi.com	https://raw.githubusercontent.com/entr0pia/SwitchyOmega-Whitelist/refs/heads/master/white-list.sorl	109123	governance:China-Domain:prepend	6
-DOMAIN-SUFFIX,zijieapi.net	https://raw.githubusercontent.com/entr0pia/SwitchyOmega-Whitelist/refs/heads/master/white-list.sorl	109124	governance:China-Domain:prepend	7
+DOMAIN-SUFFIX,bytedance.com	https://raw.githubusercontent.com/entr0pia/SwitchyOmega-Whitelist/refs/heads/master/white-list.sorl	18192	governance:China-Domain:prepend	1
+DOMAIN-SUFFIX,bytedance.net	https://raw.githubusercontent.com/entr0pia/SwitchyOmega-Whitelist/refs/heads/master/white-list.sorl	18193	governance:China-Domain:prepend	2
+DOMAIN-SUFFIX,bytedanceapi.com	https://raw.githubusercontent.com/entr0pia/SwitchyOmega-Whitelist/refs/heads/master/white-list.sorl	18195	governance:China-Domain:prepend	3
+DOMAIN-SUFFIX,bytedancevod.com	https://raw.githubusercontent.com/entr0pia/SwitchyOmega-Whitelist/refs/heads/master/white-list.sorl	18198	governance:China-Domain:prepend	4
+DOMAIN-SUFFIX,byteimg.com	https://raw.githubusercontent.com/entr0pia/SwitchyOmega-Whitelist/refs/heads/master/white-list.sorl	18231	governance:China-Domain:prepend	5
+DOMAIN-SUFFIX,zijieapi.com	https://raw.githubusercontent.com/entr0pia/SwitchyOmega-Whitelist/refs/heads/master/white-list.sorl	109180	governance:China-Domain:prepend	6
+DOMAIN-SUFFIX,zijieapi.net	https://raw.githubusercontent.com/entr0pia/SwitchyOmega-Whitelist/refs/heads/master/white-list.sorl	109181	governance:China-Domain:prepend	7

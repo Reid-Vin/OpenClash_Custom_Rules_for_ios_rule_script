@@ -5,10 +5,10 @@
 # https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
 # 治理配置：Scripts/rule_governance.yaml::GFW-Ultimate
 # 处理模式：gfw_ultimate
-# 更新时间：2026-07-21 19:29:24
-# 原始规则数：11283条
-# 去重后规则数：7411条
-# 输出规则数：7411条
+# 更新时间：2026-07-22 19:28:53
+# 原始规则数：11285条
+# 去重后规则数：7413条
+# 输出规则数：7413条
 # 重复规则数：3872条
 # 丢弃规则数：0条
 # 遮蔽规则数：352条
@@ -3616,6 +3616,7 @@ DOMAIN-SUFFIX,tinyurl.com
 DOMAIN-SUFFIX,textnow.com
 DOMAIN-SUFFIX,token.im
 DOMAIN-SUFFIX,tokenlon.im
+DOMAIN-SUFFIX,tokenplus.app
 DOMAIN-SUFFIX,tardigrade.io
 DOMAIN-SUFFIX,torrentgalaxy.to
 DOMAIN-SUFFIX,tomp3.cc
@@ -4259,6 +4260,7 @@ DOMAIN-SUFFIX,yyii.org
 DOMAIN-SUFFIX,yyjlymb.xyz
 DOMAIN-SUFFIX,yysub.net
 DOMAIN-SUFFIX,yzzk.com
+DOMAIN-SUFFIX,zenmux.ai
 DOMAIN-SUFFIX,zhangzhehan.net
 DOMAIN-SUFFIX,zaochenbao.com
 DOMAIN-SUFFIX,z-library.ec

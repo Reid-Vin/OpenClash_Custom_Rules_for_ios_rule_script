@@ -5,10 +5,10 @@
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMaxNoIP/ChinaMaxNoIP.list
 # 治理配置：Scripts/rule_governance.yaml::ChinaMax-IP
 # 处理模式：china_max_ip
-# 更新时间：2026-07-21 19:29:26
-# 原始规则数：12436条
-# 去重后规则数：12436条
-# 输出规则数：12436条
+# 更新时间：2026-07-22 19:28:55
+# 原始规则数：12434条
+# 去重后规则数：12434条
+# 输出规则数：12434条
 # 重复规则数：0条
 # 丢弃规则数：0条
 # 遮蔽规则数：0条
@@ -3509,7 +3509,6 @@ IP-CIDR,140.250.0.0/16,no-resolve
 IP-CIDR,140.255.0.0/16,no-resolve
 IP-CIDR,140.75.0.0/16,no-resolve
 IP-CIDR,141.11.219.0/24,no-resolve
-IP-CIDR,141.11.51.0/24,no-resolve
 IP-CIDR,142.70.0.0/16,no-resolve
 IP-CIDR,142.86.0.0/16,no-resolve
 IP-CIDR,143.191.188.0/22,no-resolve
@@ -3658,6 +3657,7 @@ IP-CIDR,150.242.96.0/22,no-resolve
 IP-CIDR,150.248.0.0/16,no-resolve
 IP-CIDR,150.255.0.0/16,no-resolve
 IP-CIDR,151.243.189.0/24,no-resolve
+IP-CIDR,151.244.135.0/24,no-resolve
 IP-CIDR,151.246.184.0/24,no-resolve
 IP-CIDR,151.247.148.0/23,no-resolve
 IP-CIDR,151.249.90.0/23,no-resolve
@@ -7667,6 +7667,7 @@ IP-CIDR,43.92.0.0/17,no-resolve
 IP-CIDR,43.93.0.0/16,no-resolve
 IP-CIDR,43.94.0.0/15,no-resolve
 IP-CIDR,43.96.0.0/11,no-resolve
+IP-CIDR,44.30.131.0/24,no-resolve
 IP-CIDR,44.30.164.0/24,no-resolve
 IP-CIDR,44.30.169.0/24,no-resolve
 IP-CIDR,44.30.171.0/24,no-resolve
@@ -7950,7 +7951,6 @@ IP-CIDR,45.82.241.0/24,no-resolve
 IP-CIDR,45.87.53.0/24,no-resolve
 IP-CIDR,45.87.54.0/24,no-resolve
 IP-CIDR,45.9.11.0/24,no-resolve
-IP-CIDR,45.91.139.0/24,no-resolve
 IP-CIDR,46.102.251.0/25,no-resolve
 IP-CIDR,46.151.180.0/23,no-resolve
 IP-CIDR,46.151.182.0/24,no-resolve
@@ -8107,7 +8107,6 @@ IP-CIDR,61.128.0.0/10,no-resolve
 IP-CIDR,61.14.212.0/22,no-resolve
 IP-CIDR,61.14.216.0/21,no-resolve
 IP-CIDR,61.14.240.0/21,no-resolve
-IP-CIDR,61.18.64.0/20,no-resolve
 IP-CIDR,61.216.177.73/32,no-resolve
 IP-CIDR,61.232.0.0/14,no-resolve
 IP-CIDR,61.236.0.0/15,no-resolve
@@ -12190,9 +12189,8 @@ IP-CIDR6,2a0f:1cc5:1041::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:110::/44,no-resolve
 IP-CIDR6,2a0f:1cc5:130::/44,no-resolve
 IP-CIDR6,2a0f:1cc5:1310::/44,no-resolve
-IP-CIDR6,2a0f:1cc5:140::/43,no-resolve
+IP-CIDR6,2a0f:1cc5:140::/42,no-resolve
 IP-CIDR6,2a0f:1cc5:14::/46,no-resolve
-IP-CIDR6,2a0f:1cc5:160::/44,no-resolve
 IP-CIDR6,2a0f:1cc5:1901::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:1902::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:1c00::/47,no-resolve
