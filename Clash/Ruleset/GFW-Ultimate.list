@@ -5,10 +5,10 @@
 # https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
 # 治理配置：Scripts/rule_governance.yaml::GFW-Ultimate
 # 处理模式：gfw_ultimate
-# 更新时间：2026-07-31 19:52:32
-# 原始规则数：11290条
-# 去重后规则数：7418条
-# 输出规则数：7418条
+# 更新时间：2026-08-01 18:56:20
+# 原始规则数：11291条
+# 去重后规则数：7419条
+# 输出规则数：7419条
 # 重复规则数：3872条
 # 丢弃规则数：0条
 # 遮蔽规则数：352条
@@ -2872,6 +2872,7 @@ DOMAIN-SUFFIX,mymoe.moe
 DOMAIN-SUFFIX,myparagliding.com
 DOMAIN-SUFFIX,mypopescu.com
 DOMAIN-SUFFIX,myspacecdn.com
+DOMAIN-SUFFIX,nthlink.com
 DOMAIN-SUFFIX,neodb.social
 DOMAIN-SUFFIX,nfscofficial.com
 DOMAIN-SUFFIX,nfsc.press
