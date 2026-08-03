@@ -5,11 +5,11 @@
 # https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
 # 治理配置：Scripts/rule_governance.yaml::GFW-Ultimate
 # 处理模式：gfw_ultimate
-# 更新时间：2026-08-02 18:55:20
-# 原始规则数：11292条
-# 去重后规则数：7420条
-# 输出规则数：7420条
-# 重复规则数：3872条
+# 更新时间：2026-08-03 20:42:15
+# 原始规则数：11288条
+# 去重后规则数：7418条
+# 输出规则数：7418条
+# 重复规则数：3870条
 # 丢弃规则数：0条
 # 遮蔽规则数：352条
 # 作者：Reid_Vin_Action
@@ -1541,6 +1541,7 @@ DOMAIN-SUFFIX,buzzsprout.com
 DOMAIN-SUFFIX,bvpn.com
 DOMAIN-SUFFIX,bwh1.net
 DOMAIN-SUFFIX,bypasscensorship.org
+DOMAIN-SUFFIX,cht.com.tw
 DOMAIN-SUFFIX,cerebras.ai
 DOMAIN-SUFFIX,circle19.org
 DOMAIN-SUFFIX,clashyun.com
@@ -1548,7 +1549,6 @@ DOMAIN-SUFFIX,chonglangtv.org
 DOMAIN-SUFFIX,ctinsider.com
 DOMAIN-SUFFIX,cia.gov
 DOMAIN-SUFFIX,claude.com
-DOMAIN-SUFFIX,www.clashverge.dev
 DOMAIN-SUFFIX,clementine-player.org
 DOMAIN-SUFFIX,backend-v2.crixet.com
 DOMAIN-SUFFIX,cchostvps.xyz
@@ -2848,7 +2848,6 @@ DOMAIN-SUFFIX,morningsun.org
 DOMAIN-SUFFIX,motherless.com
 DOMAIN-SUFFIX,movements.org
 DOMAIN-SUFFIX,moviefap.com
-DOMAIN-SUFFIX,mozilla.ai
 DOMAIN-SUFFIX,www.moztw.org
 DOMAIN-SUFFIX,mpettis.com
 DOMAIN-SUFFIX,mpfinance.com
@@ -3068,7 +3067,6 @@ DOMAIN-SUFFIX,privacyguides.org
 DOMAIN-SUFFIX,pancakeswap.finance
 DOMAIN-SUFFIX,img.picgo.net
 DOMAIN-SUFFIX,pornmate.com
-DOMAIN-SUFFIX,puredns.org
 DOMAIN-SUFFIX,polymarket.com
 DOMAIN-SUFFIX,pandafan.pub
 DOMAIN-SUFFIX,proxz.com
@@ -3262,7 +3260,6 @@ DOMAIN-SUFFIX,rts.ch
 DOMAIN-SUFFIX,rawstory.com
 DOMAIN-SUFFIX,recordedfuture.com
 DOMAIN-SUFFIX,roblox.com
-DOMAIN-SUFFIX,radiojar.com
 DOMAIN-SUFFIX,radio.co
 DOMAIN-SUFFIX,rustdesk.com
 DOMAIN-SUFFIX,rentry.co
@@ -3368,7 +3365,6 @@ DOMAIN-SUFFIX,sina.com.hk
 DOMAIN-SUFFIX,swapspace.co
 DOMAIN-SUFFIX,storry.tv
 DOMAIN-SUFFIX,standard.co.uk
-DOMAIN-SUFFIX,sagernet.org
 DOMAIN-SUFFIX,simplex.chat
 DOMAIN-SUFFIX,soundon.fm
 DOMAIN-SUFFIX,ssrtool.com
@@ -6346,6 +6342,7 @@ DOMAIN-SUFFIX,pugpig.com
 DOMAIN-SUFFIX,pullfolio.com
 DOMAIN-SUFFIX,punyu.com
 DOMAIN-SUFFIX,pureapk.com
+DOMAIN-SUFFIX,puredns.org
 DOMAIN-SUFFIX,purplelotus.org
 DOMAIN-SUFFIX,pushchinawall.com
 DOMAIN-SUFFIX,pussyspace.com
@@ -6449,6 +6446,7 @@ DOMAIN-SUFFIX,s4miniarchive.com
 DOMAIN-SUFFIX,s8forum.com
 DOMAIN-SUFFIX,saboom.com
 DOMAIN-SUFFIX,safety.google
+DOMAIN-SUFFIX,sagernet.org
 DOMAIN-SUFFIX,saiq.me
 DOMAIN-SUFFIX,sakya.org
 DOMAIN-SUFFIX,samair.ru
