@@ -5,13 +5,13 @@
   "sources": [
     {
       "source": "https://raw.githubusercontent.com/entr0pia/SwitchyOmega-Whitelist/refs/heads/master/white-list.sorl",
-      "rules": 111215,
+      "rules": 110788,
       "ok": true
     }
   ],
-  "raw_rules": 111215,
-  "deduped_rules": 111207,
-  "output_rules": 111207,
+  "raw_rules": 110788,
+  "deduped_rules": 110780,
+  "output_rules": 110780,
   "duplicates": 7,
   "dropped": 8,
   "shadowed": 26,
