@@ -5,11 +5,11 @@
 # https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
 # 治理配置：Scripts/rule_governance.yaml::GFW-Ultimate
 # 处理模式：gfw_ultimate
-# 更新时间：2026-08-05 19:40:55
-# 原始规则数：11288条
-# 去重后规则数：7418条
-# 输出规则数：7418条
-# 重复规则数：3870条
+# 更新时间：2026-08-06 19:33:32
+# 原始规则数：11287条
+# 去重后规则数：7416条
+# 输出规则数：7416条
+# 重复规则数：3871条
 # 丢弃规则数：0条
 # 遮蔽规则数：352条
 # 作者：Reid_Vin_Action
@@ -677,8 +677,7 @@ DOMAIN-SUFFIX,thefacebook.com
 DOMAIN-SUFFIX,threads.net
 DOMAIN-SUFFIX,whatsapp.com
 DOMAIN-SUFFIX,whatsapp.net
-DOMAIN-SUFFIX,auntology.fandom.com
-DOMAIN-SUFFIX,hongkong.fandom.com
+DOMAIN-SUFFIX,fandom.com
 DOMAIN-SUFFIX,ftchinese.com
 DOMAIN-SUFFIX,google.dev
 DOMAIN-SUFFIX,ai.studio
@@ -5123,7 +5122,6 @@ DOMAIN-SUFFIX,falunpilipinas.net
 DOMAIN-SUFFIX,falunworld.net
 DOMAIN-SUFFIX,familyfed.org
 DOMAIN-SUFFIX,fan-qiang.com
-DOMAIN-SUFFIX,fandom.com
 DOMAIN-SUFFIX,fangbinxing.com
 DOMAIN-SUFFIX,fangeming.com
 DOMAIN-SUFFIX,fangmincn.org

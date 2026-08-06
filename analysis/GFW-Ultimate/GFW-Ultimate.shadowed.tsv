@@ -16,11 +16,11 @@ DOMAIN-SUFFIX,api5.futunn.com	https://raw.githubusercontent.com/gfwlist/gfwlist/
 DOMAIN-SUFFIX,trade.futunn.com	https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt	595	DOMAIN-SUFFIX,futunn.com	https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt
 DOMAIN-SUFFIX,support.futunn.com	https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt	596	DOMAIN-SUFFIX,futunn.com	https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt
 DOMAIN-SUFFIX,download.futunn.com	https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt	597	DOMAIN-SUFFIX,futunn.com	https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt
-DOMAIN-SUFFIX,pki.goog	https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt	979	DOMAIN-SUFFIX,goog	https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt
-DOMAIN-SUFFIX,translate.goog	https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt	999	DOMAIN-SUFFIX,goog	https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt
-DOMAIN-SUFFIX,usercontent.goog	https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt	1002	DOMAIN-SUFFIX,goog	https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt
-DOMAIN-SUFFIX,m.hkgalden.com	https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt	2328	DOMAIN-SUFFIX,hkgalden.com	https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt
-DOMAIN-SUFFIX,www.kindleren.com	https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt	2583	DOMAIN-SUFFIX,kindleren.com	https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt
+DOMAIN-SUFFIX,pki.goog	https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt	978	DOMAIN-SUFFIX,goog	https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt
+DOMAIN-SUFFIX,translate.goog	https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt	998	DOMAIN-SUFFIX,goog	https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt
+DOMAIN-SUFFIX,usercontent.goog	https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt	1001	DOMAIN-SUFFIX,goog	https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt
+DOMAIN-SUFFIX,m.hkgalden.com	https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt	2327	DOMAIN-SUFFIX,hkgalden.com	https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt
+DOMAIN-SUFFIX,www.kindleren.com	https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt	2582	DOMAIN-SUFFIX,kindleren.com	https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt
 DOMAIN-SUFFIX,chat.openai.com	https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list	9	DOMAIN-SUFFIX,openai.com	https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt
 DOMAIN-SUFFIX,1989report.hkja.org.hk	https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list	98	DOMAIN-SUFFIX,hk	https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
 DOMAIN-SUFFIX,1mobile.tw	https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list	107	DOMAIN-SUFFIX,tw	https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
