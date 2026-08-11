@@ -5,10 +5,10 @@
 # https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
 # 治理配置：Scripts/rule_governance.yaml::GFW-Ultimate
 # 处理模式：gfw_ultimate
-# 更新时间：2026-08-10 18:38:52
-# 原始规则数：11291条
-# 去重后规则数：7420条
-# 输出规则数：7420条
+# 更新时间：2026-08-11 18:14:09
+# 原始规则数：11292条
+# 去重后规则数：7421条
+# 输出规则数：7421条
 # 重复规则数：3871条
 # 丢弃规则数：0条
 # 遮蔽规则数：352条
@@ -1782,6 +1782,7 @@ DOMAIN-SUFFIX,cynscribe.com
 DOMAIN-SUFFIX,ifan.cz.cc
 DOMAIN-SUFFIX,mike.cz.cc
 DOMAIN-SUFFIX,nic.cz.cc
+DOMAIN-SUFFIX,divdyn.com
 DOMAIN-SUFFIX,data18.com
 DOMAIN-SUFFIX,dt18.com
 DOMAIN-SUFFIX,dns.sb
