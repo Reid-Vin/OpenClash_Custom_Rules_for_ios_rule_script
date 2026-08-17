@@ -5,10 +5,10 @@
 # https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
 # 治理配置：Scripts/rule_governance.yaml::GFW-Ultimate
 # 处理模式：gfw_ultimate
-# 更新时间：2026-08-16 17:40:09
-# 原始规则数：11292条
-# 去重后规则数：7421条
-# 输出规则数：7421条
+# 更新时间：2026-08-17 18:01:25
+# 原始规则数：11293条
+# 去重后规则数：7422条
+# 输出规则数：7422条
 # 重复规则数：3871条
 # 丢弃规则数：0条
 # 遮蔽规则数：352条
@@ -1208,6 +1208,7 @@ DOMAIN-SUFFIX,99cn.info
 DOMAIN-SUFFIX,9bis.com
 DOMAIN-SUFFIX,9bis.net
 DOMAIN-SUFFIX,9news.com.au
+DOMAIN-SUFFIX,livingatlas.arcgis.com
 DOMAIN-SUFFIX,basemaps.arcgis.com
 DOMAIN-SUFFIX,experience.arcgis.com
 DOMAIN-SUFFIX,aihub.top
