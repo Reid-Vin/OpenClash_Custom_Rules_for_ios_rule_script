@@ -5,13 +5,13 @@
 # https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
 # 治理配置：Scripts/rule_governance.yaml::GFW-Ultimate
 # 处理模式：gfw_ultimate
-# 更新时间：2026-08-18 17:53:03
-# 原始规则数：11294条
-# 去重后规则数：7423条
-# 输出规则数：7423条
+# 更新时间：2026-08-19 17:55:35
+# 原始规则数：11296条
+# 去重后规则数：7425条
+# 输出规则数：7425条
 # 重复规则数：3871条
 # 丢弃规则数：0条
-# 遮蔽规则数：352条
+# 遮蔽规则数：353条
 # 作者：Reid_Vin_Action
 
 DOMAIN-SUFFIX,blogjav.net
@@ -2986,6 +2986,7 @@ DOMAIN-SUFFIX,nyaa.eu
 DOMAIN-SUFFIX,nyaa.si
 DOMAIN-SUFFIX,nybooks.com
 DOMAIN-SUFFIX,nypost.com
+DOMAIN-SUFFIX,oldmapsonline.org
 DOMAIN-SUFFIX,umap.openstreetmap.fr
 DOMAIN-SUFFIX,overdrive.com
 DOMAIN-SUFFIX,openart.ai
@@ -4035,6 +4036,7 @@ DOMAIN-SUFFIX,vporn.com
 DOMAIN-SUFFIX,vrchat.com
 DOMAIN-SUFFIX,vrporn.com
 DOMAIN-SUFFIX,vtunnel.com
+DOMAIN-SUFFIX,windy.com
 DOMAIN-SUFFIX,washingtontimes.com
 DOMAIN-SUFFIX,worldjournal.com
 DOMAIN-SUFFIX,wispbyte.com
