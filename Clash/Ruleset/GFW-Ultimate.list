@@ -5,10 +5,10 @@
 # https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
 # 治理配置：Scripts/rule_governance.yaml::GFW-Ultimate
 # 处理模式：gfw_ultimate
-# 更新时间：2026-08-20 17:46:53
-# 原始规则数：11296条
-# 去重后规则数：7425条
-# 输出规则数：7425条
+# 更新时间：2026-08-21 17:55:29
+# 原始规则数：11298条
+# 去重后规则数：7427条
+# 输出规则数：7427条
 # 重复规则数：3871条
 # 丢弃规则数：0条
 # 遮蔽规则数：353条
@@ -1381,6 +1381,7 @@ DOMAIN-SUFFIX,avoision.com
 DOMAIN-SUFFIX,axios.com
 DOMAIN-SUFFIX,axureformac.com
 DOMAIN-SUFFIX,azirevpn.com
+DOMAIN-SUFFIX,briarproject.org
 DOMAIN-SUFFIX,bilinovel.com
 DOMAIN-SUFFIX,boomplay.com
 DOMAIN-SUFFIX,bleepingcomputer.com
@@ -1545,6 +1546,7 @@ DOMAIN-SUFFIX,buzzsprout.com
 DOMAIN-SUFFIX,bvpn.com
 DOMAIN-SUFFIX,bwh1.net
 DOMAIN-SUFFIX,bypasscensorship.org
+DOMAIN-SUFFIX,chatgpt.site
 DOMAIN-SUFFIX,cht.com.tw
 DOMAIN-SUFFIX,cerebras.ai
 DOMAIN-SUFFIX,circle19.org
