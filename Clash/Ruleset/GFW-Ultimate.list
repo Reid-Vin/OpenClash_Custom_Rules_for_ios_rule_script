@@ -5,10 +5,10 @@
 # https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
 # 治理配置：Scripts/rule_governance.yaml::GFW-Ultimate
 # 处理模式：gfw_ultimate
-# 更新时间：2026-08-22 17:47:59
-# 原始规则数：11302条
-# 去重后规则数：7431条
-# 输出规则数：7431条
+# 更新时间：2026-08-23 17:48:48
+# 原始规则数：11304条
+# 去重后规则数：7433条
+# 输出规则数：7433条
 # 重复规则数：3871条
 # 丢弃规则数：0条
 # 遮蔽规则数：353条
@@ -3361,6 +3361,7 @@ DOMAIN-SUFFIX,rutracker.org
 DOMAIN-SUFFIX,rxhj.net
 DOMAIN-SUFFIX,raphael.app
 DOMAIN-SUFFIX,rule34.us
+DOMAIN-SUFFIX,api.shuaiapi.com
 DOMAIN-SUFFIX,sb.sb
 DOMAIN-SUFFIX,sysub.com
 DOMAIN-SUFFIX,sider.ai
@@ -4180,6 +4181,7 @@ DOMAIN-SUFFIX,wufi.org.tw
 DOMAIN-SUFFIX,wujieliulan.com
 DOMAIN-SUFFIX,wuw.red
 DOMAIN-SUFFIX,wwitv.com
+DOMAIN-SUFFIX,x86.fr
 DOMAIN-SUFFIX,xuan.com.my
 DOMAIN-SUFFIX,xdaforums.com
 DOMAIN-SUFFIX,xcancel.com
