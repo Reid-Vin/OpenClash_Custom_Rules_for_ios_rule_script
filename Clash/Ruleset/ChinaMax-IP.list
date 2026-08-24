@@ -5,7 +5,7 @@
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMaxNoIP/ChinaMaxNoIP.list
 # 治理配置：Scripts/rule_governance.yaml::ChinaMax-IP
 # 处理模式：china_max_ip
-# 更新时间：2026-08-23 17:48:50
+# 更新时间：2026-08-24 17:59:13
 # 原始规则数：12166条
 # 去重后规则数：12166条
 # 输出规则数：12166条
@@ -3513,7 +3513,7 @@ IP-CIDR,140.249.0.0/16,no-resolve
 IP-CIDR,140.250.0.0/16,no-resolve
 IP-CIDR,140.255.0.0/16,no-resolve
 IP-CIDR,140.75.0.0/16,no-resolve
-IP-CIDR,141.11.50.0/23,no-resolve
+IP-CIDR,141.11.51.0/24,no-resolve
 IP-CIDR,142.70.0.0/16,no-resolve
 IP-CIDR,142.86.0.0/16,no-resolve
 IP-CIDR,143.191.188.0/22,no-resolve
@@ -4376,7 +4376,7 @@ IP-CIDR,192.197.113.0/24,no-resolve
 IP-CIDR,192.23.191.0/24,no-resolve
 IP-CIDR,192.232.97.0/24,no-resolve
 IP-CIDR,192.240.127.34/32,no-resolve
-IP-CIDR,192.51.173.0/24,no-resolve
+IP-CIDR,192.51.172.0/23,no-resolve
 IP-CIDR,192.51.188.0/24,no-resolve
 IP-CIDR,192.55.10.0/23,no-resolve
 IP-CIDR,192.55.40.0/24,no-resolve
