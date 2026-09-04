@@ -5,11 +5,11 @@
 # https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
 # 治理配置：Scripts/rule_governance.yaml::GFW-Ultimate
 # 处理模式：gfw_ultimate
-# 更新时间：2026-09-03 21:26:16
-# 原始规则数：11307条
-# 去重后规则数：7436条
-# 输出规则数：7436条
-# 重复规则数：3871条
+# 更新时间：2026-09-04 21:24:24
+# 原始规则数：11310条
+# 去重后规则数：7438条
+# 输出规则数：7438条
+# 重复规则数：3872条
 # 丢弃规则数：0条
 # 遮蔽规则数：353条
 # 作者：Reid_Vin_Action
@@ -1546,6 +1546,7 @@ DOMAIN-SUFFIX,buzzsprout.com
 DOMAIN-SUFFIX,bvpn.com
 DOMAIN-SUFFIX,bwh1.net
 DOMAIN-SUFFIX,bypasscensorship.org
+DOMAIN-SUFFIX,ctee.com.tw
 DOMAIN-SUFFIX,chatgpt.site
 DOMAIN-SUFFIX,cht.com.tw
 DOMAIN-SUFFIX,cerebras.ai
@@ -2278,6 +2279,7 @@ DOMAIN-SUFFIX,guishan.org
 DOMAIN-SUFFIX,gumroad.com
 DOMAIN-SUFFIX,gunsamerica.com
 DOMAIN-SUFFIX,gvlib.com
+DOMAIN-SUFFIX,hkej.com
 DOMAIN-SUFFIX,hkong.hk
 DOMAIN-SUFFIX,hive.blog
 DOMAIN-SUFFIX,v2.hysteria.network
@@ -2629,6 +2631,7 @@ DOMAIN-SUFFIX,kwongwah.com.my
 DOMAIN-SUFFIX,kxsw.life
 DOMAIN-SUFFIX,kzaobao.com
 DOMAIN-SUFFIX,kzeng.info
+DOMAIN-SUFFIX,linux.sb
 DOMAIN-SUFFIX,level-plus.net
 DOMAIN-SUFFIX,libgen.is
 DOMAIN-SUFFIX,lemonde.fr
@@ -5518,7 +5521,6 @@ DOMAIN-SUFFIX,hkcmi.edu
 DOMAIN-SUFFIX,hkdailynews.com.hk
 DOMAIN-SUFFIX,hkday.net
 DOMAIN-SUFFIX,hkdf.org
-DOMAIN-SUFFIX,hkej.com
 DOMAIN-SUFFIX,hkepc.com
 DOMAIN-SUFFIX,hkfreezone.com
 DOMAIN-SUFFIX,hkfront.org

@@ -5,10 +5,10 @@
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMaxNoIP/ChinaMaxNoIP.list
 # 治理配置：Scripts/rule_governance.yaml::ChinaMax-IP
 # 处理模式：china_max_ip
-# 更新时间：2026-09-03 21:26:18
-# 原始规则数：12454条
-# 去重后规则数：12454条
-# 输出规则数：12454条
+# 更新时间：2026-09-04 21:24:25
+# 原始规则数：12457条
+# 去重后规则数：12457条
+# 输出规则数：12457条
 # 重复规则数：0条
 # 丢弃规则数：0条
 # 遮蔽规则数：0条
@@ -10479,7 +10479,7 @@ IP-CIDR6,2406:840:808::/45,no-resolve
 IP-CIDR6,2406:840:80::/41,no-resolve
 IP-CIDR6,2406:840:810::/44,no-resolve
 IP-CIDR6,2406:840:820::/43,no-resolve
-IP-CIDR6,2406:840:840::/47,no-resolve
+IP-CIDR6,2406:840:840::/48,no-resolve
 IP-CIDR6,2406:840:843::/48,no-resolve
 IP-CIDR6,2406:840:844::/46,no-resolve
 IP-CIDR6,2406:840:848::/45,no-resolve
@@ -10497,7 +10497,10 @@ IP-CIDR6,2406:840:8a0::/43,no-resolve
 IP-CIDR6,2406:840:8c0::/42,no-resolve
 IP-CIDR6,2406:840:9000::/37,no-resolve
 IP-CIDR6,2406:840:900::/40,no-resolve
-IP-CIDR6,2406:840:9800::/40,no-resolve
+IP-CIDR6,2406:840:9800::/42,no-resolve
+IP-CIDR6,2406:840:9850::/44,no-resolve
+IP-CIDR6,2406:840:9860::/43,no-resolve
+IP-CIDR6,2406:840:9880::/41,no-resolve
 IP-CIDR6,2406:840:9900::/41,no-resolve
 IP-CIDR6,2406:840:9981::/48,no-resolve
 IP-CIDR6,2406:840:9982::/47,no-resolve
