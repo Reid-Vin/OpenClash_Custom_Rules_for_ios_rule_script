@@ -5,13 +5,13 @@
 # https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
 # 治理配置：Scripts/rule_governance.yaml::GFW-Ultimate
 # 处理模式：gfw_ultimate
-# 更新时间：2026-09-10 21:43:38
-# 原始规则数：11319条
-# 去重后规则数：7447条
-# 输出规则数：7447条
+# 更新时间：2026-09-11 21:36:57
+# 原始规则数：11303条
+# 去重后规则数：7431条
+# 输出规则数：7431条
 # 重复规则数：3872条
 # 丢弃规则数：0条
-# 遮蔽规则数：353条
+# 遮蔽规则数：337条
 # 作者：Reid_Vin_Action
 
 DOMAIN-SUFFIX,blogjav.net
@@ -423,7 +423,6 @@ DOMAIN-SUFFIX,top10vpn.com
 DOMAIN-SUFFIX,tubepornclassic.com
 DOMAIN-SUFFIX,uku.im
 DOMAIN-SUFFIX,unseen.is
-DOMAIN-SUFFIX,cn.uptodown.com
 DOMAIN-SUFFIX,uraban.me
 DOMAIN-SUFFIX,vrsmash.com
 DOMAIN-SUFFIX,vultryhw.com
@@ -580,37 +579,22 @@ DOMAIN-SUFFIX,futuau.com
 DOMAIN-SUFFIX,futuhkapp.com
 DOMAIN-SUFFIX,fututrade.com
 DOMAIN-SUFFIX,fututrustee.com
-DOMAIN-SUFFIX,cdn.futustatic.com
 DOMAIN-SUFFIX,api.moomoobull.com
 DOMAIN-SUFFIX,moomooequity.com
 DOMAIN-SUFFIX,moomootrustee.com
 DOMAIN-SUFFIX,9oju31.launches.appsflyersdk.com
 DOMAIN-SUFFIX,sgqt0j.launches.appsflyersdk.com
 DOMAIN-SUFFIX,shortconn.im.qcloud.com
-DOMAIN-SUFFIX,api.lbkrs.com
-DOMAIN-SUFFIX,api-gl.lbkrs.com
 DOMAIN-SUFFIX,longbridge.cloud
 DOMAIN-SUFFIX,longbridge.sg
 DOMAIN-SUFFIX,tigerbrokers.com
 DOMAIN-SUFFIX,tigerbrokers.net
 DOMAIN-SUFFIX,tigerbrokers.nz
 DOMAIN-SUFFIX,quote.longbridge.global
-DOMAIN-SUFFIX,trade.longportapp.com
-DOMAIN-SUFFIX,openapi.longbridge.com
-DOMAIN-SUFFIX,openapi-quote.longbridge.com
-DOMAIN-SUFFIX,openapi-trade.longbridge.com
 DOMAIN-SUFFIX,openapi.longbridge.cn
 DOMAIN-SUFFIX,openapi-quote.longbridge.cn
 DOMAIN-SUFFIX,openapi-trade.longbridge.cn
 DOMAIN-SUFFIX,cg.play-analytics.com
-DOMAIN-SUFFIX,qtcard.futunn.com
-DOMAIN-SUFFIX,qtcardfthk.futufin.com
-DOMAIN-SUFFIX,openapi.futunn.com
-DOMAIN-SUFFIX,api.futunn.com
-DOMAIN-SUFFIX,api5.futunn.com
-DOMAIN-SUFFIX,trade.futunn.com
-DOMAIN-SUFFIX,support.futunn.com
-DOMAIN-SUFFIX,download.futunn.com
 DOMAIN-SUFFIX,read01.com
 DOMAIN-SUFFIX,kknews.cc
 DOMAIN-SUFFIX,china-mmm.net
@@ -2355,7 +2339,6 @@ DOMAIN-SUFFIX,hkcoc.com
 DOMAIN-SUFFIX,hkdc.us
 DOMAIN-SUFFIX,hket.com
 DOMAIN-SUFFIX,hkfaa.com
-DOMAIN-SUFFIX,m.hkgalden.com
 DOMAIN-SUFFIX,hkgpao.com
 DOMAIN-SUFFIX,hklts.org.hk
 DOMAIN-SUFFIX,hkmap.live
@@ -3259,6 +3242,7 @@ DOMAIN-SUFFIX,purevpn.com
 DOMAIN-SUFFIX,pursuestar.com
 DOMAIN-SUFFIX,pximg.net
 DOMAIN-SUFFIX,python.com.tw
+DOMAIN-SUFFIX,quakemachinex.com
 DOMAIN-SUFFIX,qmp4.com
 DOMAIN-SUFFIX,qianmo.tw
 DOMAIN-SUFFIX,qbittorrent.org
