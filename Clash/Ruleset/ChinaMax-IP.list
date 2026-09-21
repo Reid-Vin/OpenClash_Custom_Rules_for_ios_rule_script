@@ -5,7 +5,7 @@
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMaxNoIP/ChinaMaxNoIP.list
 # 治理配置：Scripts/rule_governance.yaml::ChinaMax-IP
 # 处理模式：china_max_ip
-# 更新时间：2026-09-20 21:40:09
+# 更新时间：2026-09-21 23:59:22
 # 原始规则数：12468条
 # 去重后规则数：12468条
 # 输出规则数：12468条
