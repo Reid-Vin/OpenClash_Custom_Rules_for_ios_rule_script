@@ -4,7 +4,7 @@ DOMAIN-SUFFIX,quote.longbridge.global	https://raw.githubusercontent.com/gfwlist/
 DOMAIN-SUFFIX,pki.goog	https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt	963	DOMAIN-SUFFIX,goog	https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt
 DOMAIN-SUFFIX,translate.goog	https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt	983	DOMAIN-SUFFIX,goog	https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt
 DOMAIN-SUFFIX,usercontent.goog	https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt	986	DOMAIN-SUFFIX,goog	https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt
-DOMAIN-SUFFIX,www.kindleren.com	https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt	2584	DOMAIN-SUFFIX,kindleren.com	https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt
+DOMAIN-SUFFIX,www.kindleren.com	https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt	2612	DOMAIN-SUFFIX,kindleren.com	https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt
 DOMAIN-SUFFIX,chat.openai.com	https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list	9	DOMAIN-SUFFIX,openai.com	https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt
 DOMAIN-SUFFIX,1989report.hkja.org.hk	https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list	98	DOMAIN-SUFFIX,hk	https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
 DOMAIN-SUFFIX,1mobile.tw	https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list	107	DOMAIN-SUFFIX,tw	https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
@@ -158,7 +158,6 @@ DOMAIN-SUFFIX,i1.hk	https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Cla
 DOMAIN-SUFFIX,idv.tw	https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list	2996	DOMAIN-SUFFIX,tw	https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
 DOMAIN-SUFFIX,igotmail.com.tw	https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list	3012	DOMAIN-SUFFIX,tw	https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
 DOMAIN-SUFFIX,immoral.jp	https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list	3046	DOMAIN-SUFFIX,jp	https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
-DOMAIN-SUFFIX,indsr.org.tw	https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list	3064	DOMAIN-SUFFIX,tw	https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
 DOMAIN-SUFFIX,iptv.com.tw	https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list	3111	DOMAIN-SUFFIX,tw	https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
 DOMAIN-SUFFIX,ithome.com.tw	https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list	3154	DOMAIN-SUFFIX,tw	https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
 DOMAIN-SUFFIX,izaobao.us	https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list	3172	DOMAIN-SUFFIX,us	https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
