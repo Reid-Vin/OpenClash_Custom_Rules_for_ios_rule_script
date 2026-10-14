@@ -5,7 +5,7 @@
   "sources": [
     {
       "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax.list",
-      "rules": 12555,
+      "rules": 12561,
       "ok": true
     },
     {
@@ -14,9 +14,9 @@
       "ok": true
     }
   ],
-  "raw_rules": 12555,
-  "deduped_rules": 12555,
-  "output_rules": 12555,
+  "raw_rules": 12561,
+  "deduped_rules": 12561,
+  "output_rules": 12561,
   "duplicates": 0,
   "dropped": 0,
   "shadowed": 0,
