@@ -5,10 +5,10 @@
 # https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
 # 治理配置：Scripts/rule_governance.yaml::GFW-Ultimate
 # 处理模式：gfw_ultimate
-# 更新时间：2026-10-15 22:17:45
-# 原始规则数：11348条
-# 去重后规则数：7472条
-# 输出规则数：7472条
+# 更新时间：2026-10-16 21:56:33
+# 原始规则数：11351条
+# 去重后规则数：7475条
+# 输出规则数：7475条
 # 重复规则数：3876条
 # 丢弃规则数：0条
 # 遮蔽规则数：336条
@@ -631,6 +631,8 @@ DOMAIN-SUFFIX,one.one.one.one
 DOMAIN-SUFFIX,cloudflare-dns.com
 DOMAIN-SUFFIX,dns.cloudflare.com
 DOMAIN-SUFFIX,dynu.com
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,metaaivm.com
 DOMAIN-SUFFIX,accountkit.com
 DOMAIN-SUFFIX,cdninstagram.com
 DOMAIN-SUFFIX,f8.com
@@ -1140,6 +1142,7 @@ DOMAIN-SUFFIX,search.yahoo.co.jp
 DOMAIN-SUFFIX,yahoo.com.tw
 DOMAIN-SUFFIX,yahoo.com.hk
 DOMAIN-SUFFIX,yahoo.com
+DOMAIN-SUFFIX,7x24hrs.com
 DOMAIN-SUFFIX,123av.me
 DOMAIN-SUFFIX,123av.com
 DOMAIN-SUFFIX,18comic.vip

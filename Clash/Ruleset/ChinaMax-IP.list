@@ -5,10 +5,10 @@
 # https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMaxNoIP/ChinaMaxNoIP.list
 # 治理配置：Scripts/rule_governance.yaml::ChinaMax-IP
 # 处理模式：china_max_ip
-# 更新时间：2026-10-15 22:17:47
-# 原始规则数：12561条
-# 去重后规则数：12561条
-# 输出规则数：12561条
+# 更新时间：2026-10-16 21:56:34
+# 原始规则数：12559条
+# 去重后规则数：12559条
+# 输出规则数：12559条
 # 重复规则数：0条
 # 丢弃规则数：0条
 # 遮蔽规则数：0条
@@ -2329,7 +2329,6 @@ IP-CIDR,104.212.68.57/32,no-resolve
 IP-CIDR,104.212.68.58/32,no-resolve
 IP-CIDR,104.227.65.96/28,no-resolve
 IP-CIDR,104.237.80.0/21,no-resolve
-IP-CIDR,104.251.176.0/22,no-resolve
 IP-CIDR,104.27.168.0/24,no-resolve
 IP-CIDR,104.28.101.0/27,no-resolve
 IP-CIDR,104.28.101.32/29,no-resolve
@@ -2658,7 +2657,6 @@ IP-CIDR,107.158.37.0/24,no-resolve
 IP-CIDR,107.168.4.0/23,no-resolve
 IP-CIDR,107.176.0.0/15,no-resolve
 IP-CIDR,107.190.229.0/24,no-resolve
-IP-CIDR,108.186.72.0/24,no-resolve
 IP-CIDR,109.118.6.20/32,no-resolve
 IP-CIDR,109.118.6.23/32,no-resolve
 IP-CIDR,109.134.14.71/32,no-resolve
@@ -10973,7 +10971,7 @@ IP-CIDR6,240b:4002::/36,no-resolve
 IP-CIDR6,240b:4004::/31,no-resolve
 IP-CIDR6,240b:4006:1000::/43,no-resolve
 IP-CIDR6,240b:4006:1020::/44,no-resolve
-IP-CIDR6,240b:4006:1104::/46,no-resolve
+IP-CIDR6,240b:4006:1100::/45,no-resolve
 IP-CIDR6,240b:4006:110c::/46,no-resolve
 IP-CIDR6,240b:4006:1110::/45,no-resolve
 IP-CIDR6,240b:4006:1118::/46,no-resolve
