@@ -5,10 +5,10 @@
 # https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
 # 治理配置：Scripts/rule_governance.yaml::GFW-Ultimate
 # 处理模式：gfw_ultimate
-# 更新时间：2026-10-24 21:29:30
-# 原始规则数：11353条
-# 去重后规则数：7477条
-# 输出规则数：7477条
+# 更新时间：2026-10-25 21:57:23
+# 原始规则数：11362条
+# 去重后规则数：7486条
+# 输出规则数：7486条
 # 重复规则数：3876条
 # 丢弃规则数：0条
 # 遮蔽规则数：336条
@@ -1142,6 +1142,7 @@ DOMAIN-SUFFIX,search.yahoo.co.jp
 DOMAIN-SUFFIX,yahoo.com.tw
 DOMAIN-SUFFIX,yahoo.com.hk
 DOMAIN-SUFFIX,yahoo.com
+DOMAIN-SUFFIX,123av.org
 DOMAIN-SUFFIX,7x24hrs.com
 DOMAIN-SUFFIX,123av.me
 DOMAIN-SUFFIX,123av.com
@@ -1923,6 +1924,7 @@ DOMAIN-SUFFIX,dwnews.com
 DOMAIN-SUFFIX,dwnews.net
 DOMAIN-SUFFIX,dynawebinc.com
 DOMAIN-SUFFIX,dysfz.cc
+DOMAIN-SUFFIX,movie.eroterest.net
 DOMAIN-SUFFIX,edigest.hk
 DOMAIN-SUFFIX,app.element.io
 DOMAIN-SUFFIX,economist.com
@@ -2602,6 +2604,7 @@ DOMAIN-SUFFIX,justhost.ru
 DOMAIN-SUFFIX,justmysocks1.net
 DOMAIN-SUFFIX,juziyue.com
 DOMAIN-SUFFIX,cdn.jwplayer.com
+DOMAIN-SUFFIX,kimootoko.net
 DOMAIN-SUFFIX,kards.com
 DOMAIN-SUFFIX,kfor.com
 DOMAIN-SUFFIX,kathmandupost.com
@@ -2745,6 +2748,7 @@ DOMAIN-SUFFIX,lyfhk.net
 DOMAIN-SUFFIX,lzjscript.com
 DOMAIN-SUFFIX,lzmtnews.org
 DOMAIN-SUFFIX,leonardo.ai
+DOMAIN-SUFFIX,minkch.com
 DOMAIN-SUFFIX,matichon.co.th
 DOMAIN-SUFFIX,moeli-desu.com
 DOMAIN-SUFFIX,muse.ai
@@ -2915,6 +2919,9 @@ DOMAIN-SUFFIX,mymoe.moe
 DOMAIN-SUFFIX,myparagliding.com
 DOMAIN-SUFFIX,mypopescu.com
 DOMAIN-SUFFIX,myspacecdn.com
+DOMAIN-SUFFIX,njavtv.com
+DOMAIN-SUFFIX,njav.tv
+DOMAIN-SUFFIX,njav.com
 DOMAIN-SUFFIX,nationthailand.com
 DOMAIN-SUFFIX,note.com
 DOMAIN-SUFFIX,nthlink.com
@@ -3098,6 +3105,7 @@ DOMAIN-SUFFIX,oxfordscholarship.com
 DOMAIN-SUFFIX,www.oxid.it
 DOMAIN-SUFFIX,ow.ly
 DOMAIN-SUFFIX,ozvoice.org
+DOMAIN-SUFFIX,po-kaki-to.com
 DOMAIN-SUFFIX,perma.cc
 DOMAIN-SUFFIX,pcgamesn.com
 DOMAIN-SUFFIX,penguin.com.au
@@ -4328,6 +4336,7 @@ DOMAIN-SUFFIX,yyii.org
 DOMAIN-SUFFIX,yyjlymb.xyz
 DOMAIN-SUFFIX,yysub.net
 DOMAIN-SUFFIX,yzzk.com
+DOMAIN-SUFFIX,zozovideo.com
 DOMAIN-SUFFIX,zenmux.ai
 DOMAIN-SUFFIX,zhangzhehan.net
 DOMAIN-SUFFIX,zaochenbao.com
