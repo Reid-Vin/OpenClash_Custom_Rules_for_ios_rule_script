@@ -55,7 +55,7 @@
     },
     {
       "source": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple.list",
-      "rules": 1593,
+      "rules": 1592,
       "ok": true
     },
     {
@@ -99,10 +99,10 @@
       "ok": true
     }
   ],
-  "raw_rules": 2944,
+  "raw_rules": 2943,
   "deduped_rules": 1687,
   "output_rules": 1687,
-  "duplicates": 1259,
+  "duplicates": 1258,
   "dropped": 0,
   "shadowed": 59,
   "low_memory": false,
