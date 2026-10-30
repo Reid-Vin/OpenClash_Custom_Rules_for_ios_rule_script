@@ -5,10 +5,10 @@
 # https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
 # 治理配置：Scripts/rule_governance.yaml::GFW-Ultimate
 # 处理模式：gfw_ultimate
-# 更新时间：2026-10-30 00:14:02
-# 原始规则数：11362条
-# 去重后规则数：7486条
-# 输出规则数：7486条
+# 更新时间：2026-10-30 23:56:52
+# 原始规则数：11367条
+# 去重后规则数：7491条
+# 输出规则数：7491条
 # 重复规则数：3876条
 # 丢弃规则数：0条
 # 遮蔽规则数：336条
@@ -35,6 +35,7 @@ DOMAIN-SUFFIX,amazonvideo.com
 DOMAIN-SUFFIX,angela-merkel.de
 DOMAIN-SUFFIX,angola.org
 DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,anthropic.auth0.com
 DOMAIN-SUFFIX,apartmentratings.com
 DOMAIN-SUFFIX,apartments.com
 DOMAIN-SUFFIX,arena.taipei
@@ -56,6 +57,9 @@ DOMAIN-SUFFIX,chobit.cc
 DOMAIN-SUFFIX,ciciai.com
 DOMAIN-SUFFIX,cici.com
 DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.app
+DOMAIN-SUFFIX,claudeusercontent.com
+DOMAIN-SUFFIX,claudemcpcontent.com
 DOMAIN-SUFFIX,clearsurance.com
 DOMAIN-SUFFIX,cnbeta.com.tw
 DOMAIN-SUFFIX,counter.social
@@ -1534,6 +1538,7 @@ DOMAIN-SUFFIX,broadpressinc.com
 DOMAIN-SUFFIX,brookings.edu
 DOMAIN-SUFFIX,brutaltgp.com
 DOMAIN-SUFFIX,bsky.app
+DOMAIN-SUFFIX,bsky.chat
 DOMAIN-SUFFIX,bsky.network
 DOMAIN-SUFFIX,bsky.social
 DOMAIN-SUFFIX,bt95.com
