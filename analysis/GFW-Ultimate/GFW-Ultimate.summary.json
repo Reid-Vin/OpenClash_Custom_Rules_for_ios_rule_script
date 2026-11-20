@@ -5,7 +5,7 @@
   "sources": [
     {
       "source": "https://raw.githubusercontent.com/gfwlist/gfwlist/master/list.txt",
-      "rules": 4386,
+      "rules": 4414,
       "ok": true
     },
     {
@@ -14,12 +14,12 @@
       "ok": true
     }
   ],
-  "raw_rules": 11372,
-  "deduped_rules": 7495,
-  "output_rules": 7495,
-  "duplicates": 3877,
+  "raw_rules": 11400,
+  "deduped_rules": 7520,
+  "output_rules": 7520,
+  "duplicates": 3880,
   "dropped": 0,
-  "shadowed": 336,
+  "shadowed": 333,
   "low_memory": false,
   "governance_file": "Scripts/rule_governance.yaml",
   "routed_prepend_rules": 0,

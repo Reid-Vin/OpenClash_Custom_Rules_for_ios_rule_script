@@ -5,13 +5,13 @@
 # https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
 # 治理配置：Scripts/rule_governance.yaml::GFW-Ultimate
 # 处理模式：gfw_ultimate
-# 更新时间：2026-11-20 02:07:14
-# 原始规则数：11372条
-# 去重后规则数：7495条
-# 输出规则数：7495条
-# 重复规则数：3877条
+# 更新时间：2026-11-21 01:51:41
+# 原始规则数：11400条
+# 去重后规则数：7520条
+# 输出规则数：7520条
+# 重复规则数：3880条
 # 丢弃规则数：0条
-# 遮蔽规则数：336条
+# 遮蔽规则数：333条
 # 作者：Reid_Vin_Action
 
 DOMAIN-SUFFIX,blogjav.net
@@ -1564,6 +1564,9 @@ DOMAIN-SUFFIX,buzzsprout.com
 DOMAIN-SUFFIX,bvpn.com
 DOMAIN-SUFFIX,bwh1.net
 DOMAIN-SUFFIX,bypasscensorship.org
+DOMAIN-SUFFIX,cnyes.com
+DOMAIN-SUFFIX,cmoney.tw
+DOMAIN-SUFFIX,cmmedia.com.tw
 DOMAIN-SUFFIX,console.typesafe.ai
 DOMAIN-SUFFIX,cangku.moe
 DOMAIN-SUFFIX,chineseposters.net
@@ -1808,6 +1811,7 @@ DOMAIN-SUFFIX,cynscribe.com
 DOMAIN-SUFFIX,ifan.cz.cc
 DOMAIN-SUFFIX,mike.cz.cc
 DOMAIN-SUFFIX,nic.cz.cc
+DOMAIN-SUFFIX,duck.ai
 DOMAIN-SUFFIX,dh.net
 DOMAIN-SUFFIX,divdyn.com
 DOMAIN-SUFFIX,data18.com
@@ -1931,6 +1935,7 @@ DOMAIN-SUFFIX,dwnews.com
 DOMAIN-SUFFIX,dwnews.net
 DOMAIN-SUFFIX,dynawebinc.com
 DOMAIN-SUFFIX,dysfz.cc
+DOMAIN-SUFFIX,e-info.org.tw
 DOMAIN-SUFFIX,movie.eroterest.net
 DOMAIN-SUFFIX,edigest.hk
 DOMAIN-SUFFIX,app.element.io
@@ -2165,6 +2170,8 @@ DOMAIN-SUFFIX,futuremessage.org
 DOMAIN-SUFFIX,fw.cm
 DOMAIN-SUFFIX,fxcm-chinese.com
 DOMAIN-SUFFIX,f95zone.to
+DOMAIN-SUFFIX,greenbean.media
+DOMAIN-SUFFIX,gamma.app
 DOMAIN-SUFFIX,c.go-mpulse.net
 DOMAIN-SUFFIX,getmonero.org
 DOMAIN-SUFFIX,gate.com
@@ -2189,7 +2196,6 @@ DOMAIN-SUFFIX,gab.com
 DOMAIN-SUFFIX,gabocorp.com
 DOMAIN-SUFFIX,gagaoolala.com
 DOMAIN-SUFFIX,galenwu.com
-DOMAIN-SUFFIX,game735.com
 DOMAIN-SUFFIX,wiki.gamerp.jp
 DOMAIN-SUFFIX,gamer.com.tw
 DOMAIN-SUFFIX,gamez.com.tw
@@ -2304,6 +2310,9 @@ DOMAIN-SUFFIX,guishan.org
 DOMAIN-SUFFIX,gumroad.com
 DOMAIN-SUFFIX,gunsamerica.com
 DOMAIN-SUFFIX,gvlib.com
+DOMAIN-SUFFIX,hkfeature.com
+DOMAIN-SUFFIX,hkcourtnews.com
+DOMAIN-SUFFIX,hkcitycreation.com
 DOMAIN-SUFFIX,hentaiclub.net
 DOMAIN-SUFFIX,hanimeone.me
 DOMAIN-SUFFIX,hanime1.com
@@ -2665,6 +2674,8 @@ DOMAIN-SUFFIX,kwongwah.com.my
 DOMAIN-SUFFIX,kxsw.life
 DOMAIN-SUFFIX,kzaobao.com
 DOMAIN-SUFFIX,kzeng.info
+DOMAIN-SUFFIX,limedia.tw
+DOMAIN-SUFFIX,lifesitenews.com
 DOMAIN-SUFFIX,linux.sb
 DOMAIN-SUFFIX,level-plus.net
 DOMAIN-SUFFIX,libgen.is
@@ -2755,6 +2766,9 @@ DOMAIN-SUFFIX,lyfhk.net
 DOMAIN-SUFFIX,lzjscript.com
 DOMAIN-SUFFIX,lzmtnews.org
 DOMAIN-SUFFIX,leonardo.ai
+DOMAIN-SUFFIX,my-formosa.com.tw
+DOMAIN-SUFFIX,moneynet.com.tw
+DOMAIN-SUFFIX,master-insight.com
 DOMAIN-SUFFIX,minkch.com
 DOMAIN-SUFFIX,matichon.co.th
 DOMAIN-SUFFIX,moeli-desu.com
@@ -2926,6 +2940,7 @@ DOMAIN-SUFFIX,mymoe.moe
 DOMAIN-SUFFIX,myparagliding.com
 DOMAIN-SUFFIX,mypopescu.com
 DOMAIN-SUFFIX,myspacecdn.com
+DOMAIN-SUFFIX,nextapple.com
 DOMAIN-SUFFIX,njavtv.com
 DOMAIN-SUFFIX,njav.tv
 DOMAIN-SUFFIX,njav.com
@@ -3112,6 +3127,8 @@ DOMAIN-SUFFIX,oxfordscholarship.com
 DOMAIN-SUFFIX,www.oxid.it
 DOMAIN-SUFFIX,ow.ly
 DOMAIN-SUFFIX,ozvoice.org
+DOMAIN-SUFFIX,pulsehknews.com
+DOMAIN-SUFFIX,passiontimes.hk
 DOMAIN-SUFFIX,po-kaki-to.com
 DOMAIN-SUFFIX,perma.cc
 DOMAIN-SUFFIX,pcgamesn.com
@@ -3417,6 +3434,9 @@ DOMAIN-SUFFIX,rutracker.org
 DOMAIN-SUFFIX,rxhj.net
 DOMAIN-SUFFIX,raphael.app
 DOMAIN-SUFFIX,rule34.us
+DOMAIN-SUFFIX,singpao.com.hk
+DOMAIN-SUFFIX,shanghainationalparty.com
+DOMAIN-SUFFIX,soulogic.com
 DOMAIN-SUFFIX,sing-box.sagernet.org
 DOMAIN-SUFFIX,supjav.com
 DOMAIN-SUFFIX,api.shuaiapi.com
@@ -3658,6 +3678,12 @@ DOMAIN-SUFFIX,sydneytoday.com
 DOMAIN-SUFFIX,sylfoundation.org
 DOMAIN-SUFFIX,syncback.com
 DOMAIN-SUFFIX,sotwe.com
+DOMAIN-SUFFIX,thewitnesshk.com
+DOMAIN-SUFFIX,thestar.com
+DOMAIN-SUFFIX,thestandard.com.hk
+DOMAIN-SUFFIX,theonlinecitizen.com
+DOMAIN-SUFFIX,thecollectivehk.com
+DOMAIN-SUFFIX,taiwantoday.tw
 DOMAIN-SUFFIX,api.themoviedb.org
 DOMAIN-SUFFIX,torrentleech.org
 DOMAIN-SUFFIX,taiav.com
@@ -4105,6 +4131,7 @@ DOMAIN-SUFFIX,vporn.com
 DOMAIN-SUFFIX,vrchat.com
 DOMAIN-SUFFIX,vrporn.com
 DOMAIN-SUFFIX,vtunnel.com
+DOMAIN-SUFFIX,womany.net
 DOMAIN-SUFFIX,wallhaven.cc
 DOMAIN-SUFFIX,wtfpass.com
 DOMAIN-SUFFIX,write.as
@@ -4293,6 +4320,7 @@ DOMAIN-SUFFIX,xxx.com
 DOMAIN-SUFFIX,xxx.xxx
 DOMAIN-SUFFIX,xxxx.com.au
 DOMAIN-SUFFIX,xxxymovies.com
+DOMAIN-SUFFIX,mc.yandex.ru
 DOMAIN-SUFFIX,youversionapi.com
 DOMAIN-SUFFIX,yfsp.tv
 DOMAIN-SUFFIX,youmind.com
@@ -4926,7 +4954,6 @@ DOMAIN-SUFFIX,cnex.org.cn
 DOMAIN-SUFFIX,cnineu.com
 DOMAIN-SUFFIX,cnn.com
 DOMAIN-SUFFIX,cnproxy.com
-DOMAIN-SUFFIX,cnyes.com
 DOMAIN-SUFFIX,cochina.co
 DOMAIN-SUFFIX,code1984.com
 DOMAIN-SUFFIX,coin2co.in
@@ -5101,7 +5128,6 @@ DOMAIN-SUFFIX,dyndns.pro
 DOMAIN-SUFFIX,dynssl.com
 DOMAIN-SUFFIX,dynu.net
 DOMAIN-SUFFIX,dzze.com
-DOMAIN-SUFFIX,e-info.org.tw
 DOMAIN-SUFFIX,e-traderland.net
 DOMAIN-SUFFIX,earthcam.com
 DOMAIN-SUFFIX,eastern-ark.com
@@ -5358,6 +5384,7 @@ DOMAIN-SUFFIX,gaeproxy.com
 DOMAIN-SUFFIX,gaforum.org
 DOMAIN-SUFFIX,galaxymacau.com
 DOMAIN-SUFFIX,galstars.net
+DOMAIN-SUFFIX,game735.com
 DOMAIN-SUFFIX,gamebase.com.tw
 DOMAIN-SUFFIX,gamejolt.com
 DOMAIN-SUFFIX,gamerp.jp
@@ -6310,7 +6337,6 @@ DOMAIN-SUFFIX,paradisehill.cc
 DOMAIN-SUFFIX,paradisepoker.com
 DOMAIN-SUFFIX,partycasino.com
 DOMAIN-SUFFIX,partypoker.com
-DOMAIN-SUFFIX,passiontimes.hk
 DOMAIN-SUFFIX,pastebin.com
 DOMAIN-SUFFIX,pathtosharepoint.com
 DOMAIN-SUFFIX,pbwiki.com
@@ -6618,7 +6644,6 @@ DOMAIN-SUFFIX,sijihuisuo.com
 DOMAIN-SUFFIX,silkbook.com
 DOMAIN-SUFFIX,simpleproductivityblog.com
 DOMAIN-SUFFIX,singfortibet.com
-DOMAIN-SUFFIX,singpao.com.hk
 DOMAIN-SUFFIX,singtao.ca
 DOMAIN-SUFFIX,sino-monthly.com
 DOMAIN-SUFFIX,sinocism.com
