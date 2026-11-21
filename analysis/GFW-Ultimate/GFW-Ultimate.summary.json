@@ -10,16 +10,16 @@
     },
     {
       "source": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list",
-      "rules": 6986,
+      "rules": 7378,
       "ok": true
     }
   ],
-  "raw_rules": 11400,
-  "deduped_rules": 7520,
-  "output_rules": 7520,
-  "duplicates": 3880,
+  "raw_rules": 11792,
+  "deduped_rules": 7536,
+  "output_rules": 7536,
+  "duplicates": 4256,
   "dropped": 0,
-  "shadowed": 333,
+  "shadowed": 330,
   "low_memory": false,
   "governance_file": "Scripts/rule_governance.yaml",
   "routed_prepend_rules": 0,
